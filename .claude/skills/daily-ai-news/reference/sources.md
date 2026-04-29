@@ -1,41 +1,62 @@
-# Sources — 2026-04-27
+# Sources — 2026-04-29
 
-Generated: 2026-04-27 (Asia/Bangkok)
+Generated: 2026-04-29 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
+Freshness window: rolling 24h (Asia/Bangkok)
+Dedup against: articles/2026-04-28-brief.md (5 URLs loaded)
 
-1. **OpenAI releases GPT-5.5, bringing company one step closer to an AI 'super app'**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/
-   - Published: 2026-04-23 (per URL slug + search snippet)
+1. **Amazon launches AI productivity software for office workers; OpenAI products come to AWS**
+   - Publisher: Bloomberg / TechCrunch
+   - URL: https://www.bloomberg.com/news/articles/2026-04-28/amazon-launches-ai-productivity-software-for-office-workers
+   - URL2: https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/
+   - Published: April 28, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (neither path matches any of the 5 April 27 URLs in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI released GPT-5.5, which the company calls its "smartest and most intuitive to use model" yet, positioned for agentic coding, knowledge work, mathematics and scientific research. The article reports that GPT-5.5 consistently scores higher than OpenAI's earlier models and current offerings from Google and Anthropic.
+   - Summary: AWS announced Amazon Connect Decisions and Amazon Connect Talent — AI-powered productivity tools for logistics workers and recruiters — marking Amazon's push into enterprise business software. AWS Bedrock also began hosting OpenAI's latest models, Codex, and Managed Agents following the OpenAI-Amazon partnership.
 
-2. **DeepSeek previews new AI model that 'closes the gap' with frontier models**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/
-   - Published: 2026-04-24 (per URL slug + search snippet)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: DeepSeek rolled out preview versions of its V4 Flash and V4 Pro flagship models, claiming top-tier coding-benchmark performance and major advances in reasoning and agentic tasks. The piece highlights a new "Hybrid Attention Architecture" technique and a 1-million-token context window enabling whole-codebase prompts.
-
-3. **Google Plans to Invest Up to $40 Billion in Anthropic**
+2. **OpenAI misses sales and user targets; stocks drop; company pushes back**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic
-   - Published: 2026-04-24 (per URL slug + search snippet)
+   - URL: https://www.bloomberg.com/news/articles/2026-04-28/openai-linked-stocks-slump-on-report-of-startup-missing-targets
+   - URL2: https://www.bloomberg.com/news/articles/2026-04-28/openai-hits-back-at-growth-fears-says-firing-on-all-cylinders
+   - Published: April 28, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday covered Microsoft exclusivity ending; these are separate articles about targets and growth)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google will invest $10 billion in Anthropic PBC, with another $30 billion potentially to follow, deepening the relationship between two firms that are simultaneously partners and rivals in the race to build advanced AI.
+   - Summary: OpenAI reportedly failed to meet several monthly sales and user targets in 2026, losing ground to Anthropic in coding and enterprise markets. SoftBank and Oracle shares fell ~1%, Nasdaq 100 dropped 1%. OpenAI responded saying "the mood internally is incredibly positive."
 
-4. **Exclusive: Google deepens Thinking Machines Lab ties with new multibillion-dollar deal**
+3. **Chinese tech billionaire overhauls AI startup after Manus warning**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-04-28/chinese-billionaire-overhauls-ai-startup-after-warning-on-manus
+   - Published: April 28, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Manus story: techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/ and blognone.com/node/150361 — both different paths and different angle)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Following China's order to Meta to unwind the Manus acquisition, a Chinese tech billionaire is creating strict walls between his AI startup's Chinese and US operations to avoid similar regulatory risk.
+
+4. **YouTube testing AI-powered search with guided step-by-step answers**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/
-   - Published: 2026-04-22 (per URL slug + search snippet)
+   - URL: https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/
+   - Published: April 28, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Mira Murati's Thinking Machines Lab has signed a multibillion-dollar deal with Google Cloud for AI infrastructure powered by NVIDIA's latest GB300 chips, a notable cross-vendor pairing that combines a Google Cloud commitment with NVIDIA silicon.
+   - Summary: YouTube is testing a search feature that uses AI to generate guided step-by-step answers combining text and video results, extending Google's broader AI Mode expansion.
 
-5. **ส่วนแบ่งตลาด AI องค์กร: OpenAI ยังเป็นแชมป์ แต่ Anthropic ทิ้งขาดในกลุ่มลูกค้าใหม่ปี 2026**
-   - Publisher: Blognone
-   - URL: https://www.blognone.com/node/150072
-   - Published: per search snippet (อ้างอิงข้อมูล Ramp ประจำเดือนกุมภาพันธ์ 2026)
+5. **Poland warns of rising cyberattacks as advanced AI tools spread**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-04-28/poland-sees-rising-cyberattacks-with-spread-of-advanced-ai-tools
+   - Published: April 28, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: รายงานของ Ramp ที่ Blognone หยิบมาเล่าระบุว่า อัตราการใช้ AI ในกลุ่มองค์กรเพิ่มเป็น 47.6% โดย OpenAI ยังเป็นแชมป์ที่ส่วนแบ่งสะสม 34.4% ทว่ากำลังลดลง ขณะที่ Anthropic ไล่ตามมาที่ 24.4% และทิ้งขาดในกลุ่มลูกค้าใหม่ของปี 2026
+   - Summary: Poland, battling rising Russian cyberattacks, warns that advanced AI tools will intensify online threats — one of the first official European government statements directly linking AI spread to escalation of state-sponsored cyber warfare.
 
-> Note: Tier 2 (WebSearch snippet) was used for every story because the runtime probe to https://example.com returned 403 (WEBFETCH_BLOCKED). Stories were chosen from the freshest items currently indexed on trusted-sources.md domains; the strict 24-hour window could not be guaranteed via search snippets alone, so items from the past several days were included.
+## Dropped
+- https://openai.com/index/introducing-gpt-5-5/ — Filter A (>24h): URL slug and snippets place this April 23, 2026 (6 days old)
+- https://www.anthropic.com/news/claude-managed-agents-memory — Filter A (>24h): reported ~April 24, 2026 (5 days old)
+- https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/ — Filter A (>24h): April 24, 2026 (5 days old)
+- https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/ — Filter A (>24h): April 25, 2026 (4 days old)
+- https://www.blognone.com/node/150122 — Filter A (>24h): March 27, 2026 (33 days old)
+
+> Note: 5 items passed both filters this run. No Thai-language story from within the last 24h was found on trusted domains (blognone.com, beartai.com, thestandard.co — all recent Thai-language candidates either had ambiguous timestamps or were older than 24h). Of candidates reviewed: majority failed Filter A (>24h old); 0 failed Filter B (URL dedup).
