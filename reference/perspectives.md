@@ -1,25 +1,41 @@
-# Perspectives — 2026-04-28
+# Perspectives — 2026-05-01
 
-## 1. China Blocks Meta's $2 Billion Acquisition of AI Firm Manus
+## 1. OpenAI Reaches 10-Gigawatt AI Capacity Milestone Years Ahead of Target
 
-**อาจารย์ (มหาวิทยาลัย):** นี่เป็นกรณีศึกษาที่ควรนำเข้าชั้นเรียนกฎหมายเศรษฐกิจระหว่างประเทศทันที — รัฐบาลสามารถบังคับ unwind ดีลที่ปิดตัวไปแล้ว 4 เดือนได้หรือไม่? ขอบเขตของ national security review ในยุค AI race อยู่ที่ใด? นักศึกษาควรเข้าใจว่า geopolitics กำลังกลายเป็น variable สำคัญในการตัดสินใจของบริษัทเทคโนโลยีทุกแห่ง
+**อาจารย์ (มหาวิทยาลัย):** การบรรลุเป้าหมาย 10 กิกะวัตต์ก่อนกำหนดชี้ให้เห็นว่าการแข่งขันด้านโครงสร้างพื้นฐาน AI ดำเนินไปเร็วกว่าที่นักวิเคราะห์ส่วนใหญ่คาด นักศึกษาควรศึกษาว่า compute advantage มีนัยยะต่อการแข่งขันและนโยบายสาธารณะด้าน AI อย่างไร
 
-**ผู้เชี่ยวชาญด้าน AI:** Manus เป็น agentic AI ที่มี revenue $100M+ ต่อปี — ไม่ใช่ prototype แต่เป็นระบบ production-ready ที่ถูกตัดจากมือ Meta โดยตรง การที่จีนเลือกบล็อก deal หลัง Manus ย้าย HQ ไปสิงคโปร์แล้วยิ่งชี้ว่า geolocation ของ founders และ origin ของ training data จะกลายเป็น factor ใน M&A review ของ AI companies ต่อไป
+**ผู้เชี่ยวชาญด้าน AI:** Compute คือตัวแปรสำคัญที่สุดในการพัฒนา frontier model รุ่นถัดไป การที่ OpenAI มีกำลังการผลิตเพิ่มขึ้นก่อนกำหนดอาจเร่งการเปิดตัวโมเดลที่ทรงพลังกว่า GPT-5.5 ออกมาเร็วกว่าที่ตลาดคาดไว้
 
-**โปรแกรมเมอร์มืออาชีพ:** ถ้ากำลังสร้าง AI startup ในเอเชีย เรื่องนี้สำคัญมาก — ชาติที่ founders ถือพาสปอร์ต, data ถูกเก็บที่ไหน, และ IP ขึ้นทะเบียนที่ไหน อาจกำหนดว่าบริษัทจะขายให้ใครได้บ้างในอนาคต ควรวางแผนโครงสร้างบริษัทตั้งแต่ early stage โดยคำนึงถึงประเด็นเหล่านี้
+**โปรแกรมเมอร์มืออาชีพ:** ในอดีต compute surplus ของ OpenAI มักแปลงเป็นการลดราคา API และการเพิ่ม rate limits สำหรับ developers — ควรจับตาการประกาศ pricing ในไตรมาสหน้า
 
-## 2. Google Staff Urge Pichai to Refuse Classified Military AI Work
+## 2. White House Opposes Anthropic's Mythos AI Expansion
 
-**อาจารย์ (มหาวิทยาลัย):** ขบวนการต่อต้านของพนักงานเทคโนโลยีต่อสัญญาทางทหารสะท้อนประเด็นจริยธรรม AI ที่นักศึกษาต้องเข้าใจ: ใครมีสิทธิ์ตัดสินใจว่า AI จะถูกนำไปใช้ในบริบทใด — บริษัท, รัฐบาล, หรือวิศวกร? ไม่มีคำตอบสำเร็จรูป แต่การตั้งคำถามนี้กำลังกลายเป็น defining issue ของวงการ
+**อาจารย์ (มหาวิทยาลัย):** ความขัดแย้งระหว่าง Anthropic และทำเนียบขาวเรื่อง Mythos นับเป็นกรณีศึกษา AI governance ที่ทรงคุณค่า นักศึกษาควรวิเคราะห์ว่าใครมีสิทธิ์กำหนดว่าโมเดล dual-use ควรเข้าถึงได้แค่ไหน และกระบวนการตัดสินใจนั้นโปร่งใสเพียงพอหรือไม่
 
-**ผู้เชี่ยวชาญด้าน AI:** "Classified AI workloads" คือ AI ในระบบที่ไม่เปิดเผยต่อสาธารณะ ซึ่งสร้าง oversight gap ที่ลึกกว่าการประท้วงทั่วไป เพราะนักวิจัยที่เซ็นชื่อนั้นไม่สามารถรู้ได้เลยว่า model ของตัวเองถูกนำไปใช้ทำอะไร — นี่คือปัญหาเชิงโครงสร้างที่แท้จริง
+**ผู้เชี่ยวชาญด้าน AI:** Mythos ที่สามารถค้นพบ high-severity vulnerability ในทุก OS หลักเป็นตัวอย่างของ dual-use AI ที่ชัดเจนที่สุด การจำกัดการเข้าถึงมีเหตุผล แต่กระบวนการตัดสินใจที่ขาดความโปร่งใสทำให้ทั้ง Anthropic และผู้ใช้ถูกกฎไม่ชัดเจน
 
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าทำงานที่ big tech และบริษัทเซ็นสัญญาป้องกันประเทศ โค้ดที่คุณเขียนอาจกลายเป็นส่วนของระบบที่ไม่รู้จักปลายทาง การพัฒนา responsible AI policy ภายในองค์กรจึงไม่ใช่เรื่อง CSR แต่เป็น professional accountability โดยตรง
+**โปรแกรมเมอร์มืออาชีพ:** นักพัฒนาที่รอใช้ Mythos สำหรับงาน security testing และ red teaming ควรวางแผนสำรองไว้ก่อน เพราะ access อาจล่าช้ากว่าที่ Anthropic เคยประกาศ
 
-## 3. OpenAI Breaks Free From Exclusive AI Pact With Microsoft
+## 3. China Says "Not So Fast" on Meta's $2B Deal for AI Firm Manus
 
-**อาจารย์ (มหาวิทยาลัย):** นี่เป็นตัวอย่างที่ดีของ power dynamics ในระบบนิเวศ AI — OpenAI เติบโตจนใหญ่พอที่จะ renegotiate เงื่อนไขกับ investor รายใหญ่อย่าง Microsoft ได้ มีนัยยะสำคัญต่อการเข้าใจว่าความสัมพันธ์ระหว่าง AI lab กับ cloud provider จะวิวัฒน์ไปอย่างไร
+**อาจารย์ (มหาวิทยาลัย):** การที่จีนขัดขวางดีล Meta-Manus แสดงว่า AI กลายเป็นสินทรัพย์เชิงยุทธศาสตร์ที่รัฐต้องควบคุมการไหลออก ไม่ต่างจากอาวุธยุทโธปกรณ์หรือเทคโนโลยีนิวเคลียร์ในยุคก่อน นักศึกษาควรเริ่มวิเคราะห์ว่า "AI nationalism" นี้จะกำหนดโครงสร้างโลกเทคโนโลยีอีก 10 ปีข้างหน้าอย่างไร
 
-**ผู้เชี่ยวชาญด้าน AI:** เมื่อ OpenAI models ใช้ได้บน Azure, AWS และ cloud อื่น ๆ พร้อมกัน แรงกดดันด้าน commodity จะเร่งขึ้น — ผู้ใช้ enterprise จะเปรียบเทียบ cost-per-token, latency และ data residency ระหว่าง cloud ได้โดยตรง บังคับให้ providers หา differentiation ในระดับ application layer แทน
+**ผู้เชี่ยวชาญด้าน AI:** Meta ต้องการ Manus เพราะความสามารถ agentic AI ที่แข็งแกร่ง การที่ดีลพัง Meta จะต้องพัฒนาความสามารถด้านนี้เองหรือหาเป้าหมาย acquisition ใหม่ที่อยู่นอกอิทธิพลของรัฐบาลจีน
 
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer enterprise ข่าวดีคือ OpenAI models จะรันบน AWS native ได้ในเร็ว ๆ นี้ ไม่ต้องเพิ่ม Azure dependency ในโครงสร้าง — ลดความซับซ้อนของ multi-cloud architecture และเพิ่ม flexibility ในการเลือก pricing tier ที่เหมาะสมกว่า
+**โปรแกรมเมอร์มืออาชีพ:** AI startups ที่วางแผนระดมทุนหรือ exit กับบริษัทต่างชาติควรตรวจสอบความเสี่ยงด้านกฎระเบียบ cross-border ตั้งแต่แรก — national origin ของ IP และ data อาจกลายเป็นอุปสรรคที่ยากแก้ไขในภายหลัง
+
+## 4. OpenAI Announces Advanced Account Security for ChatGPT + Yubico
+
+**อาจารย์ (มหาวิทยาลัย):** การเสริม security layer ที่แข็งแกร่งขึ้นให้ ChatGPT สะท้อนว่าบัญชีผู้ใช้ AI กำลังกลายเป็นเป้าหมายมูลค่าสูงในระบบนิเวศดิจิทัล ประเด็น identity และ authentication ในยุค AI ควรอยู่ในหลักสูตร cybersecurity ทุกระดับ
+
+**ผู้เชี่ยวชาญด้าน AI:** Hardware security key เป็น MFA ที่แข็งแกร่งที่สุดที่มีอยู่ในปัจจุบัน การที่ OpenAI เลือก partnership กับ Yubico แทนที่จะสร้างเองชี้ว่าบริษัทโฟกัสอยู่กับ core AI และให้ security specialist จัดการ authentication infrastructure
+
+**โปรแกรมเมอร์มืออาชีพ:** เปิดใช้ AAS วันนี้ถ้าบัญชีของคุณมี API keys หรือ production credentials — ต้นทุนของ Yubico key ถูกกว่าค่าเสียหายจากบัญชีถูก compromise มาก
+
+## 5. News Organizations Move to Block AI Training Using Common Crawl Archive
+
+**อาจารย์ (มหาวิทยาลัย):** การต่อสู้ระหว่างสื่อกับบริษัท AI เรื่อง training data สะท้อนปัญหาเชิงโครงสร้าง — ระบบกฎหมาย copyright ที่ออกแบบมาก่อน AI ไม่สามารถรองรับกรณีนี้ได้อย่างสมบูรณ์ นักศึกษากฎหมายและนโยบายสาธารณะควรศึกษาเป็นพิเศษ
+
+**ผู้เชี่ยวชาญด้าน AI:** Common Crawl เป็น pre-training data source ที่ใหญ่ที่สุดสำหรับ open-source model หลายตัว การที่สื่อคุณภาพสูงถอนตัวออกจะลด linguistic quality และความหลากหลายของข่าวใน training corpus — ผลกระทบอาจเห็นชัดในโมเดลที่ train ปี 2027 เป็นต้นไป
+
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า project ของคุณพึ่ง Common Crawl dataset ให้เริ่มประเมิน alternative data sources เช่น FineWeb หรือ Dolma ที่มี transparent licensing policy เพื่อลดความเสี่ยงทางกฎหมายในอนาคต
