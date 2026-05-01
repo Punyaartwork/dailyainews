@@ -1,44 +1,61 @@
-# Sources — 2026-04-28
+# Sources — 2026-05-01
 
-Generated: 2026-04-28 (Asia/Bangkok)
+Generated: 2026-05-01 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-04-27-brief.md (4 URLs loaded)
+Dedup against: articles/2026-04-30-brief.md (0 URLs loaded — file not found)
 
-1. **China Blocks Meta's $2 Billion Acquisition of AI Firm Manus**
+1. **OpenAI Reaches 10-Gigawatt AI Capacity Milestone Years Ahead of Target**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-04-30/openai-meets-key-ai-computing-capacity-goal-ahead-of-schedule
+   - Published: April 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-30
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's brief not found — empty dedup set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: OpenAI has met a key milestone for securing AI capacity in the US several years ahead of schedule, boosting the startup's ambitious plans for data center expansion.
+
+2. **White House Opposes Anthropic's Mythos AI Expansion, WSJ Reports**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-04-30/white-house-opposes-anthropic-plan-for-mythos-access-wsj-says
+   - Published: April 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-30
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (empty dedup set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: The White House opposes Anthropic's plan to grant access to its Mythos model — a powerful cybersecurity-capable AI — to roughly 70 companies and organizations, with Trump administration officials directly communicating their objections to Anthropic.
+
+3. **China Says "Not So Fast" on Meta's $2B Deal for AI Firm Manus**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/newsletters/2026-04-30/china-says-not-so-fast-on-meta-s-deal-for-ai-firm-manus
+   - Published: April 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-30
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (empty dedup set; prior coverage at different TechCrunch URL on 2026-04-27)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: China has upended a $2 billion acquisition deal between Meta and AI firm Manus, citing worries about outflows of talent and technology.
+
+4. **OpenAI Announces Advanced Account Security for ChatGPT, Including a Partnership with Yubico**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/
-   - Published: April 27, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/04/27/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's brief covered OpenAI phone, Ineffable Intelligence, Asia markets, Skye app — this URL not present)
-   - Verification: Tier 2 — WebSearch snippet (TechCrunch, trusted domain)
-   - Summary: China's NDRC ordered Meta to unwind its $2B acquisition of Manus, an agentic AI startup founded by Chinese engineers (relocated to Singapore). The block came 4 months after the deal closed, unprecedented in scope for a cross-border AI M&A.
+   - URL: https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/
+   - Published: April 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/04/30
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (empty dedup set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: OpenAI launched Advanced Account Security (AAS), an opt-in set of protections for ChatGPT users; Yubico is partnering to link physical security keys to accounts.
 
-2. **Google Staff Urge Pichai to Refuse Classified Military AI Work**
+5. **News Organizations Move to Block AI Training Using Common Crawl Archive**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-27/google-staff-urge-pichai-to-refuse-classified-military-ai-work
-   - Published: April 27, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-04-27/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, not in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet (Bloomberg, trusted domain)
-   - Summary: Hundreds of Google AI researchers signed a letter urging CEO Sundar Pichai to refuse to make the company's AI available for classified US defense workloads, the latest episode in ongoing internal activism at major AI labs.
-
-3. **OpenAI Breaks Free From Exclusive AI Pact With Microsoft**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai
-   - Published: April 27, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-04-27/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, not in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet (Bloomberg, trusted domain)
-   - Summary: Microsoft and OpenAI agreed to end Microsoft's exclusive right to sell OpenAI's AI models, triggered by OpenAI's $50B Amazon partnership in February 2026. Microsoft retains a nonexclusive license through 2032; OpenAI continues paying a capped revenue share to Microsoft until 2030.
+   - URL: https://www.bloomberg.com/news/articles/2026-04-30/news-organizations-push-back-against-web-archive-used-for-ai
+   - Published: April 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-30
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (empty dedup set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: CNN, NBC, USA Today and other major news organizations have joined an effort to block the storage of their content in the Common Crawl web archive, which AI companies use to train chatbots.
 
 ## Dropped
-- https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/ — Filter A (>24h): URL slug /2026/04/21/ is 7 days old
-- https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough — Filter A (>24h): URL slug 2026-04-24 is 4 days old
-- https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/ — Filter A (>24h): URL slug 2026-04-25 is 3 days old
-- https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic — Filter A (>24h): URL slug 2026-04-24 is 4 days old
-- https://www.bloomberg.com/news/articles/2026-04-23/ai-coding-firm-cognition-in-funding-talks-at-25-billion-value — Filter A (>24h): URL slug 2026-04-23 is 5 days old
-- https://www.bloomberg.com/news/articles/2026-04-23/bezos-s-physical-ai-lab-has-closed-round-at-38-billion-value — Filter A (>24h): URL slug 2026-04-23 is 5 days old
-- https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/ — Editorial drop: same initial announcement as yesterday's story 2 (Ineffable Intelligence/David Silver), covered via Bloomberg URL in prior run
+- https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/ — Filter A (>24h): April 28, 2026 — 3 days before May 1
+- https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/ — Filter A (>24h): April 24, 2026 — 7 days before May 1
+- https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/ — Filter A (>24h): April 28, 2026 — 3 days before May 1
+- https://www.blognone.com/node/150051 — Filter A: timestamp not surfaced in snippet, cannot verify 24h freshness
+- https://www.blognone.com/node/150383 — Filter A: events described (April 23/27) are >24h old
+- https://thestandard.co/google-io-2026-ai-gemini-android/ — Filter A: timestamp not surfaced in snippet, cannot verify 24h freshness
 
-> Note: 3 items passed both filters this run. Of 11 candidates evaluated, 7 failed Filter A (older than 24h), 0 failed Filter B, 1 was editorially dropped as a duplicate announcement already covered in yesterday's brief.
+> Note: 5 items passed both filters this run. Of approximately 14 candidates evaluated, 6 failed Filter A (older than 24h or ambiguous timestamp), 0 failed Filter B (dedup set was empty — yesterday's brief not found). No Thai-language source passed Filter A this run — all Thai snippets lacked explicit publication timestamps within the rolling 24h window.
