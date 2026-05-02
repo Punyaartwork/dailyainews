@@ -1,41 +1,25 @@
-# Perspectives — 2026-05-01
+# Perspectives — 2026-05-02
 
-## 1. OpenAI Reaches 10-Gigawatt AI Capacity Milestone Years Ahead of Target
+## 1. Meta ซื้อ Assured Robot Intelligence ผลักดันแผน humanoid robot
 
-**อาจารย์ (มหาวิทยาลัย):** การบรรลุเป้าหมาย 10 กิกะวัตต์ก่อนกำหนดชี้ให้เห็นว่าการแข่งขันด้านโครงสร้างพื้นฐาน AI ดำเนินไปเร็วกว่าที่นักวิเคราะห์ส่วนใหญ่คาด นักศึกษาควรศึกษาว่า compute advantage มีนัยยะต่อการแข่งขันและนโยบายสาธารณะด้าน AI อย่างไร
+**อาจารย์ (มหาวิทยาลัย):** การซื้อกิจการครั้งนี้แสดงให้เห็นว่า embedded AI ในระบบ physical computing เป็นศาสตร์ที่ต้องการการวิจัยพื้นฐานใหม่ทั้งหมด นักศึกษา robotics และ AI ควรศึกษา sim-to-real transfer และ imitation learning ซึ่งจะเป็นทักษะหายากที่ตลาดต้องการ
+**ผู้เชี่ยวชาญด้าน AI:** Foundation model สำหรับหุ่นยนต์ต้องการ physical interaction data ที่ต่างจาก LLM โดยสิ้นเชิง — data ประเภทนี้ยังหายากมาก Meta จะต้องสร้าง data flywheel ใหม่ ความสำเร็จในระยะสั้นยังไม่แน่นอน
+**โปรแกรมเมอร์มืออาชีพ:** ระบบนิเวศ SDK และ simulator สำหรับ robotic AI (Isaac Sim, MuJoCo) กำลังจะขยายตัว — ลงทุนเวลาเรียนรู้ framework เหล่านี้ตอนนี้ก่อนที่ demand จะพุ่งสูงในอีก 2 ปี
 
-**ผู้เชี่ยวชาญด้าน AI:** Compute คือตัวแปรสำคัญที่สุดในการพัฒนา frontier model รุ่นถัดไป การที่ OpenAI มีกำลังการผลิตเพิ่มขึ้นก่อนกำหนดอาจเร่งการเปิดตัวโมเดลที่ทรงพลังกว่า GPT-5.5 ออกมาเร็วกว่าที่ตลาดคาดไว้
+## 2. เพนตากอนขยายข้อตกลง AI บนเครือข่ายลับกับ Nvidia, Microsoft และ Amazon
 
-**โปรแกรมเมอร์มืออาชีพ:** ในอดีต compute surplus ของ OpenAI มักแปลงเป็นการลดราคา API และการเพิ่ม rate limits สำหรับ developers — ควรจับตาการประกาศ pricing ในไตรมาสหน้า
+**อาจารย์ (มหาวิทยาลัย):** นักศึกษาควรทำความเข้าใจความตึงเครียดระหว่าง AI capability กับ oversight — ใครมีอำนาจตรวจสอบว่าโมเดลถูกใช้อย่างชอบธรรม และกลไกใดที่ควรมีในโครงสร้างประชาธิปไตย
+**ผู้เชี่ยวชาญด้าน AI:** โมเดลที่ถูก fine-tune สำหรับงาน classified intelligence ยังขาด robustness benchmark ที่ผ่านการตรวจสอบจากภายนอก ความเสี่ยงด้าน adversarial attack ในบริบทนี้ยังไม่ได้รับการแก้ไขอย่างเป็นระบบ
+**โปรแกรมเมอร์มืออาชีพ:** DoD contracts หมายถึง compliance requirements ที่เข้มข้น — FedRAMP High, IL5/IL6 certification — บริษัทที่ต้องการเข้าสู่ตลาดนี้ควรเริ่มกระบวนการ certification ล่วงหน้าอย่างน้อย 18-24 เดือน
 
-## 2. White House Opposes Anthropic's Mythos AI Expansion
+## 3. Nebius ซื้อ Eigen AI มูลค่า $643 ล้าน เพิ่มประสิทธิภาพ inference ชิป AI
 
-**อาจารย์ (มหาวิทยาลัย):** ความขัดแย้งระหว่าง Anthropic และทำเนียบขาวเรื่อง Mythos นับเป็นกรณีศึกษา AI governance ที่ทรงคุณค่า นักศึกษาควรวิเคราะห์ว่าใครมีสิทธิ์กำหนดว่าโมเดล dual-use ควรเข้าถึงได้แค่ไหน และกระบวนการตัดสินใจนั้นโปร่งใสเพียงพอหรือไม่
+**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างของ vertical integration ในอุตสาหกรรม AI — การควบรวมเพื่อควบคุม stack ตั้งแต่ hardware ถึง inference layer สะท้อนรูปแบบที่เคยเกิดในอุตสาหกรรมเซมิคอนดักเตอร์
+**ผู้เชี่ยวชาญด้าน AI:** Inference efficiency ที่เพิ่มขึ้นจาก kernel optimization และ quantization จะมีผลโดยตรงต่อ throughput ต่อดอลลาร์ — นี่คือสมรภูมิที่แท้จริงเมื่อโมเดลมี quality ใกล้เคียงกัน
+**โปรแกรมเมอร์มืออาชีพ:** ติดตาม Eigen AI releases — เทคโนโลยีนี้อาจถูก open-source บางส่วนก่อนที่ Nebius จะ commercialize เต็มรูปแบบ ซึ่งอาจเปลี่ยน pricing และ throughput ของ workload ที่รันบน Nebius infrastructure
 
-**ผู้เชี่ยวชาญด้าน AI:** Mythos ที่สามารถค้นพบ high-severity vulnerability ในทุก OS หลักเป็นตัวอย่างของ dual-use AI ที่ชัดเจนที่สุด การจำกัดการเข้าถึงมีเหตุผล แต่กระบวนการตัดสินใจที่ขาดความโปร่งใสทำให้ทั้ง Anthropic และผู้ใช้ถูกกฎไม่ชัดเจน
+## 4. Fed เตือน: Anthropic Mythos เป็นสัญญาณให้กำกับดูแล AI ด้าน cybersecurity
 
-**โปรแกรมเมอร์มืออาชีพ:** นักพัฒนาที่รอใช้ Mythos สำหรับงาน security testing และ red teaming ควรวางแผนสำรองไว้ก่อน เพราะ access อาจล่าช้ากว่าที่ Anthropic เคยประกาศ
-
-## 3. China Says "Not So Fast" on Meta's $2B Deal for AI Firm Manus
-
-**อาจารย์ (มหาวิทยาลัย):** การที่จีนขัดขวางดีล Meta-Manus แสดงว่า AI กลายเป็นสินทรัพย์เชิงยุทธศาสตร์ที่รัฐต้องควบคุมการไหลออก ไม่ต่างจากอาวุธยุทโธปกรณ์หรือเทคโนโลยีนิวเคลียร์ในยุคก่อน นักศึกษาควรเริ่มวิเคราะห์ว่า "AI nationalism" นี้จะกำหนดโครงสร้างโลกเทคโนโลยีอีก 10 ปีข้างหน้าอย่างไร
-
-**ผู้เชี่ยวชาญด้าน AI:** Meta ต้องการ Manus เพราะความสามารถ agentic AI ที่แข็งแกร่ง การที่ดีลพัง Meta จะต้องพัฒนาความสามารถด้านนี้เองหรือหาเป้าหมาย acquisition ใหม่ที่อยู่นอกอิทธิพลของรัฐบาลจีน
-
-**โปรแกรมเมอร์มืออาชีพ:** AI startups ที่วางแผนระดมทุนหรือ exit กับบริษัทต่างชาติควรตรวจสอบความเสี่ยงด้านกฎระเบียบ cross-border ตั้งแต่แรก — national origin ของ IP และ data อาจกลายเป็นอุปสรรคที่ยากแก้ไขในภายหลัง
-
-## 4. OpenAI Announces Advanced Account Security for ChatGPT + Yubico
-
-**อาจารย์ (มหาวิทยาลัย):** การเสริม security layer ที่แข็งแกร่งขึ้นให้ ChatGPT สะท้อนว่าบัญชีผู้ใช้ AI กำลังกลายเป็นเป้าหมายมูลค่าสูงในระบบนิเวศดิจิทัล ประเด็น identity และ authentication ในยุค AI ควรอยู่ในหลักสูตร cybersecurity ทุกระดับ
-
-**ผู้เชี่ยวชาญด้าน AI:** Hardware security key เป็น MFA ที่แข็งแกร่งที่สุดที่มีอยู่ในปัจจุบัน การที่ OpenAI เลือก partnership กับ Yubico แทนที่จะสร้างเองชี้ว่าบริษัทโฟกัสอยู่กับ core AI และให้ security specialist จัดการ authentication infrastructure
-
-**โปรแกรมเมอร์มืออาชีพ:** เปิดใช้ AAS วันนี้ถ้าบัญชีของคุณมี API keys หรือ production credentials — ต้นทุนของ Yubico key ถูกกว่าค่าเสียหายจากบัญชีถูก compromise มาก
-
-## 5. News Organizations Move to Block AI Training Using Common Crawl Archive
-
-**อาจารย์ (มหาวิทยาลัย):** การต่อสู้ระหว่างสื่อกับบริษัท AI เรื่อง training data สะท้อนปัญหาเชิงโครงสร้าง — ระบบกฎหมาย copyright ที่ออกแบบมาก่อน AI ไม่สามารถรองรับกรณีนี้ได้อย่างสมบูรณ์ นักศึกษากฎหมายและนโยบายสาธารณะควรศึกษาเป็นพิเศษ
-
-**ผู้เชี่ยวชาญด้าน AI:** Common Crawl เป็น pre-training data source ที่ใหญ่ที่สุดสำหรับ open-source model หลายตัว การที่สื่อคุณภาพสูงถอนตัวออกจะลด linguistic quality และความหลากหลายของข่าวใน training corpus — ผลกระทบอาจเห็นชัดในโมเดลที่ train ปี 2027 เป็นต้นไป
-
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า project ของคุณพึ่ง Common Crawl dataset ให้เริ่มประเมิน alternative data sources เช่น FineWeb หรือ Dolma ที่มี transparent licensing policy เพื่อลดความเสี่ยงทางกฎหมายในอนาคต
+**อาจารย์ (มหาวิทยาลัย):** Governor Bowman แสดงให้เห็นว่า AI regulation ต้องการ sectoral expertise — regulator ที่เข้าใจ financial system มองความเสี่ยงของ Mythos ต่างจาก regulator ทั่วไป นักศึกษา policy ควรศึกษา EU AI Act เปรียบเทียบกับแนวทาง sectoral ของสหรัฐฯ
+**ผู้เชี่ยวชาญด้าน AI:** ความกังวลของ Fed มีฐานทางเทคนิคที่แท้จริง — โมเดลที่ค้นหาช่องโหว่ได้ในทุก OS มีศักยภาพ offensive จริง และกระบวนการ evaluation ปัจจุบันยังไม่เป็นมาตรฐานสากล
+**โปรแกรมเมอร์มืออาชีพ:** ถ้าทำงานในภาคการเงินหรือ critical infrastructure ให้เตรียมรับมือ audit requirements ด้าน AI ที่จะเพิ่มขึ้น — เริ่มเก็บ model cards, version logs และ decision trail ตั้งแต่ตอนนี้
