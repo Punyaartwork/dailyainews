@@ -1,61 +1,52 @@
-# Sources — 2026-05-01
+# Sources — 2026-05-02
 
-Generated: 2026-05-01 (Asia/Bangkok)
+Generated: 2026-05-02 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-04-30-brief.md (0 URLs loaded — file not found)
+Dedup against: articles/2026-05-01-brief.md (5 URLs loaded)
 
-1. **OpenAI Reaches 10-Gigawatt AI Capacity Milestone Years Ahead of Target**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-30/openai-meets-key-ai-computing-capacity-goal-ahead-of-schedule
-   - Published: April 30, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-30
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's brief not found — empty dedup set)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI has met a key milestone for securing AI capacity in the US several years ahead of schedule, boosting the startup's ambitious plans for data center expansion.
-
-2. **White House Opposes Anthropic's Mythos AI Expansion, WSJ Reports**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-30/white-house-opposes-anthropic-plan-for-mythos-access-wsj-says
-   - Published: April 30, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-30
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (empty dedup set)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: The White House opposes Anthropic's plan to grant access to its Mythos model — a powerful cybersecurity-capable AI — to roughly 70 companies and organizations, with Trump administration officials directly communicating their objections to Anthropic.
-
-3. **China Says "Not So Fast" on Meta's $2B Deal for AI Firm Manus**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/newsletters/2026-04-30/china-says-not-so-fast-on-meta-s-deal-for-ai-firm-manus
-   - Published: April 30, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-30
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (empty dedup set; prior coverage at different TechCrunch URL on 2026-04-27)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: China has upended a $2 billion acquisition deal between Meta and AI firm Manus, citing worries about outflows of talent and technology.
-
-4. **OpenAI Announces Advanced Account Security for ChatGPT, Including a Partnership with Yubico**
+1. **Meta ซื้อ Assured Robot Intelligence ผลักดันแผน humanoid robot**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/
-   - Published: April 30, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/04/30
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (empty dedup set)
+   - URL: https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/
+   - Published: May 1, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/05/01 and snippet "closed the acquisition Friday (May 1, 2026)"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host techcrunch.com, path /2026/05/01/meta-buys-robotics-startup... not in yesterday's set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI launched Advanced Account Security (AAS), an opt-in set of protections for ChatGPT users; Yubico is partnering to link physical security keys to accounts.
+   - Summary: Meta acquired Assured Robot Intelligence (ARI), a startup building foundation models for humanoid robots. The team, including co-founders, joins Meta's Superintelligence Labs research division. ARI built models for robots to perform physical labor such as household chores.
 
-5. **News Organizations Move to Block AI Training Using Common Crawl Archive**
+2. **เพนตากอนขยายข้อตกลง AI บนเครือข่ายลับกับ Nvidia, Microsoft และ Amazon**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-30/news-organizations-push-back-against-web-archive-used-for-ai
-   - Published: April 30, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-30
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (empty dedup set)
+   - URL: https://www.bloomberg.com/news/articles/2026-05-01/nvidia-microsoft-aws-expanding-classified-military-ai-use
+   - Published: May 1, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-01 and snippet "about 9 hours ago"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /2026-05-01/nvidia-microsoft-aws-expanding-classified-military-ai-use not in yesterday's set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: CNN, NBC, USA Today and other major news organizations have joined an effort to block the storage of their content in the Common Crawl web archive, which AI companies use to train chatbots.
+   - Summary: The Pentagon struck new agreements with Nvidia, Microsoft, Reflection AI, and Amazon for expanded use of AI tools on classified military networks, citing "lawful operational use."
+
+3. **Nebius ซื้อ Eigen AI มูลค่า $643 ล้าน เพิ่มประสิทธิภาพ inference ชิป AI**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-05-01/nebius-agrees-to-buy-startup-that-makes-ai-run-faster-cheaper
+   - Published: May 1, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-01 and snippet "approximately 13 hours ago"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /2026-05-01/nebius-agrees-to-buy-startup... not in yesterday's set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Nebius Group agreed to acquire Eigen AI, a startup that boosts chip inference performance for AI tasks, for approximately $643 million in stock and cash to build a more integrated AI infrastructure stack.
+
+4. **Fed เตือน: Anthropic Mythos เป็นสัญญาณให้กำกับดูแล AI ด้าน cybersecurity**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-05-01/fed-s-bowman-says-mythos-shows-dynamic-nature-of-ai-tools
+   - Published: May 1, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-01
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Mythos URL was /2026-04-30/white-house-opposes-anthropic-plan-for-mythos-access-wsj-says — different path and date)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Federal Reserve Governor Bowman said Anthropic's Mythos AI model illustrates the dynamic nature of AI tools and called for regulators to consider new supervision frameworks given its cybersecurity capabilities that could be used offensively.
 
 ## Dropped
-- https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/ — Filter A (>24h): April 28, 2026 — 3 days before May 1
-- https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/ — Filter A (>24h): April 24, 2026 — 7 days before May 1
-- https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/ — Filter A (>24h): April 28, 2026 — 3 days before May 1
-- https://www.blognone.com/node/150051 — Filter A: timestamp not surfaced in snippet, cannot verify 24h freshness
-- https://www.blognone.com/node/150383 — Filter A: events described (April 23/27) are >24h old
-- https://thestandard.co/google-io-2026-ai-gemini-android/ — Filter A: timestamp not surfaced in snippet, cannot verify 24h freshness
+- https://techcrunch.com/2026/04/30/sources-anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/ — Filter A: URL slug /2026/04/30/ likely >24h from May 2 Asia/Bangkok
+- https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/ — Filter A: URL slug /2026/04/30/ likely >24h from May 2 Asia/Bangkok
+- https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/ — Filter A: URL slug /2026/04/30/ likely >24h
+- https://www.blognone.com/node/150399 — Filter A (ambiguous): Cloudflare Agents Week underlying event from April 20; Blognone article timestamp not surfaced in snippet
+- https://www.blognone.com/node/150403 — Filter A (ambiguous): South Africa AI policy story broke April 27-30; Blognone article timestamp not surfaced in snippet
+- https://www.blognone.com/node/150404 — Filter A (ambiguous): [ไม่ยืนยัน] tag, Blognone article timestamp not surfaced in snippet
 
-> Note: 5 items passed both filters this run. Of approximately 14 candidates evaluated, 6 failed Filter A (older than 24h or ambiguous timestamp), 0 failed Filter B (dedup set was empty — yesterday's brief not found). No Thai-language source passed Filter A this run — all Thai snippets lacked explicit publication timestamps within the rolling 24h window.
+> Note: 4 items passed both filters this run. Of approximately 10 candidates evaluated, ~6 failed Filter A (date slug >24h or timestamp ambiguous), 0 failed Filter B. No Thai-language source confirmed within the freshness window.
