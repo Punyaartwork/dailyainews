@@ -1,62 +1,46 @@
-# Sources — 2026-04-29
+# Sources — 2026-05-05
 
-Generated: 2026-04-29 (Asia/Bangkok)
+Generated: 2026-05-05 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-04-28-brief.md (5 URLs loaded)
+Dedup against: articles/2026-05-04-brief.md (4 URLs loaded)
 
-1. **Amazon launches AI productivity software for office workers; OpenAI products come to AWS**
-   - Publisher: Bloomberg / TechCrunch
-   - URL: https://www.bloomberg.com/news/articles/2026-04-28/amazon-launches-ai-productivity-software-for-office-workers
-   - URL2: https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/
-   - Published: April 28, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (neither path matches any of the 5 April 27 URLs in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: AWS announced Amazon Connect Decisions and Amazon Connect Talent — AI-powered productivity tools for logistics workers and recruiters — marking Amazon's push into enterprise business software. AWS Bedrock also began hosting OpenAI's latest models, Codex, and Managed Agents following the OpenAI-Amazon partnership.
-
-2. **OpenAI misses sales and user targets; stocks drop; company pushes back**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-28/openai-linked-stocks-slump-on-report-of-startup-missing-targets
-   - URL2: https://www.bloomberg.com/news/articles/2026-04-28/openai-hits-back-at-growth-fears-says-firing-on-all-cylinders
-   - Published: April 28, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday covered Microsoft exclusivity ending; these are separate articles about targets and growth)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI reportedly failed to meet several monthly sales and user targets in 2026, losing ground to Anthropic in coding and enterprise markets. SoftBank and Oracle shares fell ~1%, Nasdaq 100 dropped 1%. OpenAI responded saying "the mood internally is incredibly positive."
-
-3. **Chinese tech billionaire overhauls AI startup after Manus warning**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-28/chinese-billionaire-overhauls-ai-startup-after-warning-on-manus
-   - Published: April 28, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Manus story: techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/ and blognone.com/node/150361 — both different paths and different angle)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Following China's order to Meta to unwind the Manus acquisition, a Chinese tech billionaire is creating strict walls between his AI startup's Chinese and US operations to avoid similar regulatory risk.
-
-4. **YouTube testing AI-powered search with guided step-by-step answers**
+1. **Anthropic and OpenAI are both launching joint ventures for enterprise AI services**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/
-   - Published: April 28, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - URL: https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/
+   - Published: 2026-05-04
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-04
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /2026/05/04/anthropic-and-openai... not present in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: YouTube is testing a search feature that uses AI to generate guided step-by-step answers combining text and video results, extending Google's broader AI Mode expansion.
+   - Summary: Both Anthropic and OpenAI announced enterprise AI JVs within minutes of each other. Anthropic: $1.5B with Blackstone, Hellman & Friedman, and Goldman Sachs. OpenAI "The Deployment Company": $10B pre-money valuation, $4B from 19 investors including TPG, Brookfield, Bain Capital, with a 17.5% guaranteed annual return.
 
-5. **Poland warns of rising cyberattacks as advanced AI tools spread**
+2. **White House Weighs AI Working Group, Model Testing, NYT Reports**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-04-28/poland-sees-rising-cyberattacks-with-spread-of-advanced-ai-tools
-   - Published: April 28, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-04-28
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - URL: https://www.bloomberg.com/news/articles/2026-05-04/white-house-eyes-vetting-ai-models-before-release-ny-times-says
+   - Published: 2026-05-04
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-04
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com domain in yesterday but path /2026-05-04/asx-warns... differs from this path)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Poland, battling rising Russian cyberattacks, warns that advanced AI tools will intensify online threats — one of the first official European government statements directly linking AI spread to escalation of state-sponsored cyber warfare.
+   - Summary: Trump administration is considering an executive order to create an AI working group and a government review process for new AI models before public release. NSA, ONCD, and DNI are under consideration to lead reviews. The push is reportedly prompted by concerns about Anthropic's Mythos model's cybersecurity capabilities.
+
+3. **OpenAI's cozy partner Cerebras is on track for a blockbuster IPO**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/
+   - Published: 2026-05-04
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-04
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no Cerebras URL in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Cerebras Systems launched its IPO roadshow targeting $3.5B at $115–125/share, implying a $26.6B valuation. The company offers WSE-3 chips as an alternative to Nvidia GPUs for AI inference. Cerebras has a $20B+ compute contract with OpenAI through 2028 and Amazon as its first major hyperscaler customer.
 
 ## Dropped
-- https://openai.com/index/introducing-gpt-5-5/ — Filter A (>24h): URL slug and snippets place this April 23, 2026 (6 days old)
-- https://www.anthropic.com/news/claude-managed-agents-memory — Filter A (>24h): reported ~April 24, 2026 (5 days old)
-- https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/ — Filter A (>24h): April 24, 2026 (5 days old)
-- https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/ — Filter A (>24h): April 25, 2026 (4 days old)
-- https://www.blognone.com/node/150122 — Filter A (>24h): March 27, 2026 (33 days old)
+- https://www.bloomberg.com/news/articles/2026-05-01/openai-finance-chief-sees-vertical-wall-of-demand-for-products — Filter A (>24h): URL slug /2026-05-01/ is 4 days old
+- https://www.bloomberg.com/news/articles/2026-05-01/meta-acquires-assured-robot-intelligence-to-help-build-humanoid-technology — Filter A (>24h): URL slug /2026-05-01/ is 4 days old
+- https://www.bloomberg.com/news/articles/2026-05-01/mckinsey-plans-to-use-ai-agents-to-help-choose-client-teams — Filter A (>24h): URL slug /2026-05-01/ is 4 days old
+- https://www.blognone.com/node/150383 (GitHub instability) — Filter A (>24h): search snippet says "5 days ago" ≈ April 30, 2026
+- https://siliconangle.com/2026/04/08/anthropic-launches-claude-managed-agents-speed-ai-agent-development/ — Filter A (>24h): April 8, 2026
+- https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/ — Filter A (>24h): April 15, 2026
+- https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/ — Filter B (dedup): in 2026-05-04-brief.md
+- https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/ — Filter B (dedup): in 2026-05-04-brief.md
+- https://www.bloomberg.com/news/articles/2026-05-04/asx-warns-firms-about-ramping-ai-upside-to-push-stock-prices — Filter B (dedup): in 2026-05-04-brief.md
 
-> Note: 5 items passed both filters this run. No Thai-language story from within the last 24h was found on trusted domains (blognone.com, beartai.com, thestandard.co — all recent Thai-language candidates either had ambiguous timestamps or were older than 24h). Of candidates reviewed: majority failed Filter A (>24h old); 0 failed Filter B (URL dedup).
+> Note: 3 items passed both filters this run. Of ~12 candidates examined, ~9 failed Filter A (>24h), 3 failed Filter B (dedup). No Thai-language story from a trusted domain was found within the 24h window.
