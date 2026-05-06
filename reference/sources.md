@@ -1,54 +1,53 @@
-# Sources — 2026-05-04
+# Sources — 2026-05-06
 
-Generated: 2026-05-04 (Asia/Bangkok)
+Generated: 2026-05-06 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-05-03-brief.md (4 URLs loaded)
+Dedup against: articles/2026-05-05-brief.md (3 URLs loaded)
 
-1. **In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors**
+1. **OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/
-   - Published: 2026-05-03 (URL slug)
-   - FreshnessCheck: ✅ within last 24h via URL slug "2026-05-03" (yesterday)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host techcrunch.com not present in yesterday's four Bloomberg URLs)
+   - URL: https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/
+   - Published: May 5, 2026 (URL slug 2026-05-05)
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-05-05" (yesterday)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com path /2026/05/05/openai-releases-gpt-5-5-instant… not present in yesterday's set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Harvard and Stanford researchers published a study in Science showing OpenAI's o1 model correctly identified diagnoses 67% of the time in early ER triage, compared to ~57% for two physicians given the same 76 cases. The gap held at 2–10% in later stages of care. Study co-author Arjun Manrai emphasised the findings do not mean AI replaces doctors.
+   - Summary: OpenAI updated ChatGPT's default model to GPT-5.5 Instant on May 5, replacing GPT-5.3 Instant. The model reduces hallucinations by 52.5% on high-stakes prompts, uses 30% fewer words, and supports Gmail-linked personalised answers for Plus/Pro subscribers. GPT-5.3 Instant remains available for paid users for three months.
 
-2. **'This is fine' creator says AI startup stole his art**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/
-   - Published: 2026-05-03 (URL slug); additionally confirmed "10 hours ago" in search snippet
-   - FreshnessCheck: ✅ within last 24h via URL slug "2026-05-03" and search snippet "10 hours ago"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host techcrunch.com not in yesterday's set)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Artist KC Green, creator of the 'This is fine' meme (webcomic "Gunshow", 2013), announced he would seek legal representation after AI startup Artisan allegedly used his art in an ad campaign without permission. Artisan said it has "a lot of respect for KC Green" and scheduled time to speak with him.
-
-3. **Palo Alto Networks ซื้อกิจการ Portkey สตาร์ทอัปพัฒนาเทคโนโลยีความปลอดภัย AI Agent ในองค์กร**
-   - Publisher: Blognone
-   - URL: https://www.blognone.com/node/150424
-   - Published: 2026-05-03 (confirmed in search snippet: "Blognone published an article on May 3, 2026")
-   - FreshnessCheck: ✅ within last 24h via confirmed publication date May 3, 2026
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (domain blognone.com not in yesterday's Bloomberg-only set)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Palo Alto Networks announced its intent to acquire Portkey, an AI Gateway startup that centrally controls and monitors AI Agent operations in enterprises. Deal estimated at $120–140 million. Portkey technology will be integrated with Prisma AIRS to form a security control plane for autonomous enterprise agents.
-
-4. **ASX Warns Firms About 'Ramping' AI Upside to Push Stock Prices**
+2. **Anthropic Unveils AI Agents to Field Financial Services Tasks**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-04/asx-warns-firms-about-ramping-ai-upside-to-push-stock-prices
-   - Published: 2026-05-04 (URL slug); confirmed "3 hours ago" in search result
-   - FreshnessCheck: ✅ within last 24h via URL slug "2026-05-04" and search snippet "3 hours ago"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from all four yesterday's Bloomberg URLs)
+   - URL: https://www.bloomberg.com/news/articles/2026-05-05/anthropic-unveils-ai-agents-to-field-financial-services-tasks
+   - Published: May 5, 2026 (URL slug 2026-05-05)
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-05-05" (yesterday)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com path /2026-05-05/anthropic-unveils… not in yesterday's three URLs)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Australia's stock exchange (ASX) warned listed companies against exaggerating AI's impact on their operations to inflate share prices, stating it actively monitors for such "AI ramping" behaviour, which constitutes a breach of securities law.
+   - Summary: Anthropic released 10 preconfigured AI agent templates for financial services: pitch-book builder, KYC screener, earnings reviewer, GL reconciler, month-end closer, and more. Claude now integrates with Microsoft 365 (Excel, PowerPoint, Word) via add-ins, and a new Moody's data partnership surfaces financial data directly in Claude. Shares of FactSet fell as much as 8.1% on the news.
+
+3. **OpenAI and PwC collaborate to reimagine the office of the CFO**
+   - Publisher: OpenAI
+   - URL: https://openai.com/index/openai-pwc-finance-collaboration/
+   - Published: May 5, 2026 (multiple search snippets confirm "Tuesday" announcement = May 5)
+   - FreshnessCheck: ✅ within last 24h via search snippets citing May 5, 2026 announcement
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (openai.com domain not present in yesterday's set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: OpenAI and PwC announced a collaboration to build an AI-native finance function at enterprise scale, deploying agents across forecasting, planning, reporting, procurement, payments, and treasury. PwC is first building a procurement agent inside OpenAI's own finance organisation, then exporting the blueprint to enterprise clients.
+
+4. **Etsy launches its app within ChatGPT as it continues its AI push**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/
+   - Published: May 5, 2026 (URL slug 2026-05-05)
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-05-05" (yesterday)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com path /2026/05/05/etsy… not present)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Etsy launched a native app integration inside ChatGPT, enabling shoppers to search and browse its catalogue of 100 million+ listings directly through the chatbot as part of its broader AI distribution strategy.
 
 ## Dropped
 
-- https://www.bloomberg.com/news/articles/2026-05-01/meta-acquires-assured-robot-intelligence-to-help-build-humanoid-technology — Filter A (>24h): URL slug 2026-05-01 is 3 days old
-- https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/ — Filter A (>24h): URL slug 2026-04-30 is 4 days old
-- https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html — Filter A (>24h): April 14 is 20 days old; also not on trusted-sources list
-- https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/ — Filter A (>24h): URL slug 2026-04-15 is 19 days old
-- https://api-docs.deepseek.com/news/news260424 — Filter A (>24h): slug indicates April 24, 10 days old
-- https://www.blognone.com/node/150383 (GitHub instability) — date ambiguous, could not confirm within 24h (node number predates confirmed May-3 node/150424)
-- OpenAI marketing cookies (default for free users, Apr 30 event) — no trusted-source URL returned in any search result (Wired referenced in summaries only, no direct Wired URL surfaced)
+- https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/ — Filter A (>24h): URL slug 2026-05-04 is >24h old as of May 6 Bangkok time
+- https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/ — Filter B (dedup): URL present in articles/2026-05-05-brief.md
+- https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/ — Filter B (dedup): URL present in articles/2026-05-05-brief.md
+- https://www.bloomberg.com/news/articles/2026-05-04/white-house-eyes-vetting-ai-models-before-release-ny-times-says — Filter B (dedup): URL present in articles/2026-05-05-brief.md
+- https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/ — Filter A (>24h): URL slug 2026-05-01 is 5 days old
+- https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/ — Filter A (>24h): April 16, 20 days old
 
-> Note: 4 items passed both filters this run. Of ~15 candidates evaluated, ~10 failed Filter A (older than 24h), 0 failed Filter B, 1 had ambiguous date, 1 lacked a trusted-source URL.
+> Note: 4 items passed both filters this run. Of ~10 candidates evaluated, ~3 failed Filter A, 3 failed Filter B. No trusted Thai-language source with confirmed May 5–6 timestamp found this run.
