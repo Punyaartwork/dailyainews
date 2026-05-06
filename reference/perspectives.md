@@ -1,25 +1,25 @@
-# Perspectives — 2026-05-04
+# Perspectives — 2026-05-06
 
-## 1. AI วินิจฉัยโรคห้องฉุกเฉินแม่นกว่าแพทย์ — Harvard/Stanford ใน Science
+## 1. OpenAI เปลี่ยน default ChatGPT เป็น GPT-5.5 Instant
 
-**อาจารย์ (มหาวิทยาลัย):** งานวิจัยนี้น่าสนใจเพราะใช้เคสจริงจาก ER จริง ไม่ใช่ benchmark สังเคราะห์ — นักศึกษาแพทยศาสตร์และ biomedical informatics ควรศึกษา methodology ก่อนตัดสินตัวเลข เพราะวิธีวัดผลมีผลต่อการตีความอย่างมาก
-**ผู้เชี่ยวชาญด้าน AI:** o1 ทำได้ดีในขั้น triage เพราะ chain-of-thought reasoning เหมาะกับ differential diagnosis แต่โมเดลขาด feedback loop จากการตรวจร่างกายจริงและ clinical intuition ที่แพทย์สั่งสมจากประสบการณ์ — ตัวเลขดีกว่าแต่ context ที่แพทย์มีนั้นต่างกันโดยสิ้นเชิง
-**โปรแกรมเมอร์มืออาชีพ:** ตัวเลข 67% vs 57% ไม่ใช่ประเด็นหลักสำหรับทีม health-tech — ประเด็นคือออกแบบ human-AI handoff ให้ดี เพราะ error ใน high-stakes domain มีต้นทุนต่างกันอย่างสิ้นเชิงกับ error ในแอป consumer
+**อาจารย์ (มหาวิทยาลัย):** GPT-5.5 Instant เป็นตัวอย่างของ "model steering" ที่ OpenAI เลือก optimise hallucination reduction และ brevity แทน raw performance — สัญญาณว่า AI assistant สำหรับสาธารณะกำลัง optimise สำหรับ trust มากกว่า capability ซึ่งนักศึกษาด้าน AI policy และ HCI ควรศึกษาในฐานะการตัดสินใจด้านผลิตภัณฑ์ที่มีนัยยะสำคัญ
+**ผู้เชี่ยวชาญด้าน AI:** ตัวเลข hallucination reduction 52.5% มาจาก OpenAI เอง — ต้องรอ third-party evaluation ก่อนตัดสิน แต่เรื่องที่มีผลระยะยาวกว่าคือ Gmail memory integration ซึ่งสร้าง data flywheel ให้ OpenAI โดยตรงและเปลี่ยน ChatGPT จาก tool เป็น personal AI ที่รู้จักผู้ใช้ลึกขึ้นทุกวัน
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับทีมที่ใช้ ChatGPT API: token count ที่ลดลง 30% ช่วยด้าน cost แต่ต้องทดสอบ structured output และ JSON mode ก่อน migrate เพราะ "concise" model บางครั้งตัดข้อมูลสำคัญออกจาก formatted output
 
-## 2. มีม 'This is fine' ถูก AI startup นำไปโฆษณาโดยไม่ขออนุญาต — ศิลปิน KC Green เตรียมสู้คดี
+## 2. Anthropic ปล่อย 10 AI agent สำเร็จรูปสำหรับ financial services
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้เป็นโอกาสสอน IP law ในยุค AI ได้ดี — ความแตกต่างระหว่าง "fair use", "viral content", และ "public domain" เป็นสิ่งที่นักศึกษาทุกคนที่ทำงานกับ digital media ต้องเข้าใจ
-**ผู้เชี่ยวชาญด้าน AI:** Artisan อาจใช้ AI tool สร้าง creative content และ AI ดึง 'This is fine' มาจากข้อมูล training โดยไม่มี IP filter — ปัญหานี้จะทวีคูณขึ้นเมื่อ generative AI tools แพร่หลายในทีม marketing ทั่วทุกอุตสาหกรรม
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าใช้ AI สร้าง creative assets: ตรวจสอบทุกอย่างก่อน deploy ในโฆษณา — "viral meme" ไม่ได้หมายความว่าได้รับอนุญาตให้ใช้เชิงพาณิชย์ และ AI tools ยังไม่มี built-in copyright check ที่เพียงพอ
+**อาจารย์ (มหาวิทยาลัย):** Agent templates เหล่านี้ไม่ได้แทนที่ junior analyst แต่ redefine ว่า junior analyst ต้องรู้อะไร — นักศึกษา finance และ CS ควรทำความเข้าใจว่างานที่เหลืออยู่จะเป็น high-judgement tasks ที่ AI ยังทำไม่ได้ เช่น relationship management และ qualitative assessment ของ deal context
+**ผู้เชี่ยวชาญด้าน AI:** การที่ FactSet หุ้นร่วง 8% แสดงว่าตลาดอ่านออกว่า Anthropic กำลัง disrupt data vendors โดยตรง — Claude ดึง Moody's data ผ่าน partnership ทำให้ enterprise ไม่ต้องซื้อ data license แยก นี่คือ platform competition ที่ซ่อนอยู่ใต้ชั้น "AI agent" และจะขยายไปยัง data vendor อื่นๆ
+**โปรแกรมเมอร์มืออาชีพ:** Claude ทำงานผ่าน Microsoft 365 add-in ตอนนี้แล้ว — ประเมิน overlap กับ template เหล่านี้ก่อนลงทุน custom build เพราะ out-of-box solution อาจเร็วและถูกกว่ามาก โดยเฉพาะ KYC screening และ GL reconciliation ที่ structured มากพอให้ agent ทำได้ดี
 
-## 3. Palo Alto Networks เข้าซื้อ Portkey สตาร์ทอัปรักษาความปลอดภัย AI Agent
+## 3. OpenAI จับมือ PwC สร้าง AI-native finance function
 
-**อาจารย์ (มหาวิทยาลัย):** ดีลนี้สะท้อนว่า "AI Governance" กำลังกลายเป็นสาขาในตัวเอง — องค์กรจะต้องการคนที่เข้าใจทั้ง AI capability และ enterprise security ซึ่งหลักสูตรปัจจุบันยังไม่ได้เตรียมนักศึกษาอย่างเพียงพอ
-**ผู้เชี่ยวชาญด้าน AI:** AI Gateway จะกลายเป็น infrastructure layer สำคัญเหมือน API Gateway ในยุค microservices — Palo Alto กำลัง position ตัวเองให้เป็น "traffic cop" ของโลก agentic enterprise ซึ่งมี market size มหาศาล
-**โปรแกรมเมอร์มืออาชีพ:** ถ้ากำลังสร้างระบบ multi-agent: ออกแบบ observability และ access control ตั้งแต่ต้น ไม่ใช่รอ retrofit ทีหลัง เพราะ agent-to-agent calls สร้าง attack surface ที่ซับซ้อนกว่า REST API มาก
+**อาจารย์ (มหาวิทยาลัย):** โครงสร้างที่ OpenAI ใช้ตัวเองเป็น "test bed" ก่อน commercialize คล้าย Toyota Production System — เป็น model ที่น่าสนใจสำหรับนักศึกษา management: การที่ vendor เป็น reference customer เพิ่มความน่าเชื่อถือต่อ CFO ขององค์กรอื่นได้มากกว่า case study ทั่วไป
+**ผู้เชี่ยวชาญด้าน AI:** OpenAI กำลัง build "Reference Implementation" ของ AI-native CFO office ซึ่งเมื่อ complete จะกลายเป็น blueprint ที่ PwC นำไป replicate ให้ enterprise clients อีก 1,000+ ราย — channel strategy นี้ฉลาดมากเพราะ OpenAI ได้ learnings จาก deployment จริงขณะที่ PwC แบกรับ implementation risk
+**โปรแกรมเมอร์มืออาชีพ:** ถ้าสร้าง finance automation: ออกแบบ audit trail และ explainability ตั้งแต่ต้น เพราะ Anthropic และ OpenAI กำลัง set standard สำหรับ compliance ใน AI-powered finance — regulatory bodies จะ expect documentation ที่เทียบเท่ากับ human decision trail
 
-## 4. ASX เตือนบริษัทจดทะเบียนอย่าพูดเกินจริงเรื่อง AI เพื่อดันราคาหุ้น
+## 4. Etsy เปิดตัว native app ใน ChatGPT
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างดีของการศึกษาว่า "AI narrative" ส่งผลต่อตลาดทุนและ regulatory response อย่างไร — เหมาะสำหรับสอนในวิชา business ethics และ corporate governance ในยุค AI
-**ผู้เชี่ยวชาญด้าน AI:** การที่ ASX ต้องออกประกาศนี้บอกว่า AI hype ไม่ได้หายไป แต่กำลังถูก institutionalize ผ่านงบการเงิน — expect ว่า SEC, FSC และหน่วยงาน securities อื่นๆ จะออก guidance ลักษณะนี้ตามมา
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าอยู่ใน company ที่จดทะเบียนหรือกำลังเตรียม IPO: ตรวจสอบว่าตัวเลข AI ที่ฝ่ายบริหาร communicate กับตลาดทุนสอดคล้องกับสิ่งที่ทีมเทคนิคทำได้จริง — liability จะตกมาที่ทีม engineering ด้วยหากตัวเลขไม่สอดคล้อง
+**อาจารย์ (มหาวิทยาลัย):** Etsy เป็นตัวอย่างแรกๆ ของ e-commerce ที่เลือก embed ตัวเองใน AI interface แทนรอให้ AI link ออกมา — นี่คือ "AI-first distribution" strategy ที่นักศึกษา digital marketing และ e-commerce ควรศึกษา เพราะสะท้อนการเปลี่ยน paradigm จาก search-based discovery สู่ conversation-based discovery
+**ผู้เชี่ยวชาญด้าน AI:** ChatGPT plugin ecosystem กำลังกลายเป็น app store รูปแบบใหม่ — หาก conversion rate ใน conversational commerce สูงกว่า search-based ตามที่ early data ชี้ คาดว่าจะเห็น Amazon, Shopify และ Google Shopping ต้องตอบสนองด้วย ChatGPT integration ของตัวเองในเร็วๆ นี้
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า product มี structured catalog API อยู่แล้ว: ประเมิน effort สร้าง ChatGPT plugin ตอนนี้เพราะ user acquisition cost ผ่าน ChatGPT user base ยังต่ำมาก — OpenAI plugin API ไม่ซับซ้อนสำหรับทีมที่มี REST API พร้อมอยู่แล้ว
