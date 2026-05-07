@@ -1,25 +1,25 @@
-# Perspectives — 2026-05-06
+# Perspectives — 2026-05-07
 
-## 1. OpenAI เปลี่ยน default ChatGPT เป็น GPT-5.5 Instant
+## 1. Genesis AI เปิดตัว GENE-26.5 หุ่นยนต์เต็มรูปแบบระดับ "มือมนุษย์"
 
-**อาจารย์ (มหาวิทยาลัย):** GPT-5.5 Instant เป็นตัวอย่างของ "model steering" ที่ OpenAI เลือก optimise hallucination reduction และ brevity แทน raw performance — สัญญาณว่า AI assistant สำหรับสาธารณะกำลัง optimise สำหรับ trust มากกว่า capability ซึ่งนักศึกษาด้าน AI policy และ HCI ควรศึกษาในฐานะการตัดสินใจด้านผลิตภัณฑ์ที่มีนัยยะสำคัญ
-**ผู้เชี่ยวชาญด้าน AI:** ตัวเลข hallucination reduction 52.5% มาจาก OpenAI เอง — ต้องรอ third-party evaluation ก่อนตัดสิน แต่เรื่องที่มีผลระยะยาวกว่าคือ Gmail memory integration ซึ่งสร้าง data flywheel ให้ OpenAI โดยตรงและเปลี่ยน ChatGPT จาก tool เป็น personal AI ที่รู้จักผู้ใช้ลึกขึ้นทุกวัน
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับทีมที่ใช้ ChatGPT API: token count ที่ลดลง 30% ช่วยด้าน cost แต่ต้องทดสอบ structured output และ JSON mode ก่อน migrate เพราะ "concise" model บางครั้งตัดข้อมูลสำคัญออกจาก formatted output
+**อาจารย์ (มหาวิทยาลัย):** มือหุ่นยนต์ที่ถูกลง 100 เท่าเปิดประตูให้งานวิจัย embodied AI ในมหาวิทยาลัยที่งบจำกัด แต่ต้องทำความเข้าใจว่า "human-level manipulation" ของ GENE-26.5 ยังจำกัดอยู่ใน structured tasks — ไม่ใช่ทักษะ general-purpose ที่มนุษย์ใช้ในชีวิตประจำวัน
+**ผู้เชี่ยวชาญด้าน AI:** Full-stack approach ที่ควบคุมทั้ง hardware และ software ลดปัญหา embodiment gap ที่ทำให้โมเดลล์ที่ train บน simulation มักใช้ไม่ได้ใน real world — นี่คือ strategic moat ที่คู่แข่งยังทำไม่สำเร็จในสเกลนี้ แต่ต้นทุน data collection ใน production scale ยังต้องพิสูจน์
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Genesis AI ปล่อย SDK หรือ hardware API สำหรับ GENE-26.5 ในอนาคต developer ที่ทำ manufacturing automation หรือ warehouse robotics ควรวางแผน pilot ตั้งแต่เนิ่นๆ เพราะ first-mover advantage ในอุตสาหกรรมที่ hardware ยังแพงนั้นสำคัญมาก
 
-## 2. Anthropic ปล่อย 10 AI agent สำเร็จรูปสำหรับ financial services
+## 2. Microsoft กำลังพิจารณาถอนเป้าหมายพลังงานสะอาด 2030
 
-**อาจารย์ (มหาวิทยาลัย):** Agent templates เหล่านี้ไม่ได้แทนที่ junior analyst แต่ redefine ว่า junior analyst ต้องรู้อะไร — นักศึกษา finance และ CS ควรทำความเข้าใจว่างานที่เหลืออยู่จะเป็น high-judgement tasks ที่ AI ยังทำไม่ได้ เช่น relationship management และ qualitative assessment ของ deal context
-**ผู้เชี่ยวชาญด้าน AI:** การที่ FactSet หุ้นร่วง 8% แสดงว่าตลาดอ่านออกว่า Anthropic กำลัง disrupt data vendors โดยตรง — Claude ดึง Moody's data ผ่าน partnership ทำให้ enterprise ไม่ต้องซื้อ data license แยก นี่คือ platform competition ที่ซ่อนอยู่ใต้ชั้น "AI agent" และจะขยายไปยัง data vendor อื่นๆ
-**โปรแกรมเมอร์มืออาชีพ:** Claude ทำงานผ่าน Microsoft 365 add-in ตอนนี้แล้ว — ประเมิน overlap กับ template เหล่านี้ก่อนลงทุน custom build เพราะ out-of-box solution อาจเร็วและถูกกว่ามาก โดยเฉพาะ KYC screening และ GL reconciliation ที่ structured มากพอให้ agent ทำได้ดี
+**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างชัดเจนของ voluntary pledge ที่ขาดกลไกบังคับ — เมื่อ business pressure จริงมาถึง เป้าหมายด้านสิ่งแวดล้อมที่ตั้งเพื่อ reputation ก็ถูกตั้งคำถาม นักศึกษาด้าน sustainability governance ควรวิเคราะห์ว่าต้องการ regulatory backstop ระดับใดถึงจะทำให้ pledge มีผลจริง
+**ผู้เชี่ยวชาญด้าน AI:** ถ้า Microsoft ลด target สาธารณะ แรงกดดันทางการแข่งขันจะผ่อนลงสำหรับ Google, Amazon และ Meta ให้ทำแบบเดียวกัน — อาจนำไปสู่ race-to-the-bottom ด้าน sustainability commitments ทั้ง sector และต้องการ regulation บังคับเพื่อป้องกัน
+**โปรแกรมเมอร์มืออาชีพ:** ต้นทุนพลังงาน AI ที่สูงขึ้นจะส่งผลต่อราคา Azure ระยะยาว — เริ่ม track carbon footprint และ optimize compute efficiency ของ workloads ตั้งแต่ตอนนี้ทั้งเพื่อ ESG reporting และเพื่อ optimize cost ก่อนที่ pricing จะสะท้อน energy cost เต็มๆ
 
-## 3. OpenAI จับมือ PwC สร้าง AI-native finance function
+## 3. AI ยังไม่พร้อมเทรดหุ้น: ผล trading contest น่าผิดหวัง
 
-**อาจารย์ (มหาวิทยาลัย):** โครงสร้างที่ OpenAI ใช้ตัวเองเป็น "test bed" ก่อน commercialize คล้าย Toyota Production System — เป็น model ที่น่าสนใจสำหรับนักศึกษา management: การที่ vendor เป็น reference customer เพิ่มความน่าเชื่อถือต่อ CFO ขององค์กรอื่นได้มากกว่า case study ทั่วไป
-**ผู้เชี่ยวชาญด้าน AI:** OpenAI กำลัง build "Reference Implementation" ของ AI-native CFO office ซึ่งเมื่อ complete จะกลายเป็น blueprint ที่ PwC นำไป replicate ให้ enterprise clients อีก 1,000+ ราย — channel strategy นี้ฉลาดมากเพราะ OpenAI ได้ learnings จาก deployment จริงขณะที่ PwC แบกรับ implementation risk
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าสร้าง finance automation: ออกแบบ audit trail และ explainability ตั้งแต่ต้น เพราะ Anthropic และ OpenAI กำลัง set standard สำหรับ compliance ใน AI-powered finance — regulatory bodies จะ expect documentation ที่เทียบเท่ากับ human decision trail
+**อาจารย์ (มหาวิทยาลัย):** ผลลัพธ์นี้สอดคล้องกับทฤษฎี — LLM ถูก optimise สำหรับ next-token prediction บน language data ไม่ใช่สำหรับ time-series forecasting หรือ risk-adjusted decision making ที่ต้องการ consistency ทางคณิตศาสตร์อย่างสูง สอนนักศึกษาให้แยก "AI ที่ดีสำหรับภาษา" ออกจาก "AI ที่ดีสำหรับทุกงาน"
+**ผู้เชี่ยวชาญด้าน AI:** ปัญหาหลักคือ non-stationarity ของตลาดและ calibrated uncertainty ที่ LLM ขาดโดยพื้นฐาน — architecture ที่ผสม RL กับ LLM หรือใช้ Bayesian methods น่าจะจัดการปัญหานี้ได้ดีกว่า pure LLM approach แต่ยังต้องการงานวิจัยอีกมาก
+**โปรแกรมเมอร์มืออาชีพ:** อย่าใช้ LLM เป็น decision engine สำหรับ trading — ใช้มันสำหรับ news parsing, report generation, และ sentiment analysis แล้วต่อกับ classical quant models สำหรับ execution; หาก build fintech product ให้ validate LLM outputs กับ benchmark ที่ชัดเจนก่อน deploy ใน production
 
-## 4. Etsy เปิดตัว native app ใน ChatGPT
+## 4. White House เตรียมออกคำสั่ง AI Security หลัง Anthropic Mythos
 
-**อาจารย์ (มหาวิทยาลัย):** Etsy เป็นตัวอย่างแรกๆ ของ e-commerce ที่เลือก embed ตัวเองใน AI interface แทนรอให้ AI link ออกมา — นี่คือ "AI-first distribution" strategy ที่นักศึกษา digital marketing และ e-commerce ควรศึกษา เพราะสะท้อนการเปลี่ยน paradigm จาก search-based discovery สู่ conversation-based discovery
-**ผู้เชี่ยวชาญด้าน AI:** ChatGPT plugin ecosystem กำลังกลายเป็น app store รูปแบบใหม่ — หาก conversion rate ใน conversational commerce สูงกว่า search-based ตามที่ early data ชี้ คาดว่าจะเห็น Amazon, Shopify และ Google Shopping ต้องตอบสนองด้วย ChatGPT integration ของตัวเองในเร็วๆ นี้
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า product มี structured catalog API อยู่แล้ว: ประเมิน effort สร้าง ChatGPT plugin ตอนนี้เพราะ user acquisition cost ผ่าน ChatGPT user base ยังต่ำมาก — OpenAI plugin API ไม่ซับซ้อนสำหรับทีมที่มี REST API พร้อมอยู่แล้ว
+**อาจารย์ (มหาวิทยาลัย):** นี่อาจเป็นครั้งแรกที่ Trump administration พิจารณา mandatory pre-release testing อย่างจริงจัง — สะท้อนว่า capability ของ AI เดินไปถึงจุดที่ security concern บังคับให้ต้องตอบสนองข้ามอุดมการณ์ การศึกษานโยบายนี้ให้เข้าใจ trade-off ระหว่าง safety, innovation, และ competition ถือเป็นสิ่งสำคัญ
+**ผู้เชี่ยวชาญด้าน AI:** "FDA model" สำหรับ AI มีข้อดีด้าน safety แต่มีความเสี่ยงสูงที่ compliance cost จะเป็น barrier to entry ที่เอื้อเฉพาะบริษัทใหญ่ — ต้องออกแบบ framework ที่ proportional กับ risk level ไม่เช่นนั้นจะกระทบ open source และ academic research
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า executive order ผ่านจริง timeline การ release โมเดลใหม่จะยาวขึ้นและ unpredictable มากขึ้น — วางแผน multi-model strategy และ fallback infrastructure ให้พร้อม อย่า hard-code dependency กับ model รุ่นใดรุ่นหนึ่งใน production system
