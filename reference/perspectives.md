@@ -1,25 +1,25 @@
-# Perspectives — 2026-05-07
+# Perspectives — 2026-05-08
 
-## 1. Genesis AI เปิดตัว GENE-26.5 หุ่นยนต์เต็มรูปแบบระดับ "มือมนุษย์"
+## 1. OpenAI เปิดตัว GPT-Realtime-2 — เสียง AI ระดับ GPT-5 สำหรับนักพัฒนา
 
-**อาจารย์ (มหาวิทยาลัย):** มือหุ่นยนต์ที่ถูกลง 100 เท่าเปิดประตูให้งานวิจัย embodied AI ในมหาวิทยาลัยที่งบจำกัด แต่ต้องทำความเข้าใจว่า "human-level manipulation" ของ GENE-26.5 ยังจำกัดอยู่ใน structured tasks — ไม่ใช่ทักษะ general-purpose ที่มนุษย์ใช้ในชีวิตประจำวัน
-**ผู้เชี่ยวชาญด้าน AI:** Full-stack approach ที่ควบคุมทั้ง hardware และ software ลดปัญหา embodiment gap ที่ทำให้โมเดลล์ที่ train บน simulation มักใช้ไม่ได้ใน real world — นี่คือ strategic moat ที่คู่แข่งยังทำไม่สำเร็จในสเกลนี้ แต่ต้นทุน data collection ใน production scale ยังต้องพิสูจน์
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า Genesis AI ปล่อย SDK หรือ hardware API สำหรับ GENE-26.5 ในอนาคต developer ที่ทำ manufacturing automation หรือ warehouse robotics ควรวางแผน pilot ตั้งแต่เนิ่นๆ เพราะ first-mover advantage ในอุตสาหกรรมที่ hardware ยังแพงนั้นสำคัญมาก
+**อาจารย์ (มหาวิทยาลัย):** GPT-Realtime-2 ที่ใช้ reasoning ระดับ GPT-5 ใน voice interaction แสดงให้เห็นว่า "ปัญญา" ไม่ได้จำกัดอยู่ที่ text อีกต่อไป นักศึกษาควรเข้าใจว่า multimodal AI ไม่ใช่แค่การเพิ่ม modality แต่คือการขยาย cognitive reach ของโมเดลออกไปอีกขั้น
+**ผู้เชี่ยวชาญด้าน AI:** การนำ GPT-5-class reasoning มาใช้ใน real-time voice เป็นความท้าทายด้าน latency อย่างมาก เพราะ reasoning model มักต้องใช้เวลาคิดนานกว่า ถ้า OpenAI แก้ latency ได้จริงนี่คือ breakthrough ที่ competitor จะยากตาม
+**โปรแกรมเมอร์มืออาชีพ:** GPT-Realtime-Translate เปิด use case ใหม่มากมาย — voice-to-voice translation ใน call centers, live meetings, customer support หลายภาษา; ควรทดสอบ API ทันทีเพื่อประเมิน latency จริงก่อนวาง production roadmap
 
-## 2. Microsoft กำลังพิจารณาถอนเป้าหมายพลังงานสะอาด 2030
+## 2. OpenAI เพิ่ม Trusted Contact ป้องกันความเสี่ยง self-harm ใน ChatGPT
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างชัดเจนของ voluntary pledge ที่ขาดกลไกบังคับ — เมื่อ business pressure จริงมาถึง เป้าหมายด้านสิ่งแวดล้อมที่ตั้งเพื่อ reputation ก็ถูกตั้งคำถาม นักศึกษาด้าน sustainability governance ควรวิเคราะห์ว่าต้องการ regulatory backstop ระดับใดถึงจะทำให้ pledge มีผลจริง
-**ผู้เชี่ยวชาญด้าน AI:** ถ้า Microsoft ลด target สาธารณะ แรงกดดันทางการแข่งขันจะผ่อนลงสำหรับ Google, Amazon และ Meta ให้ทำแบบเดียวกัน — อาจนำไปสู่ race-to-the-bottom ด้าน sustainability commitments ทั้ง sector และต้องการ regulation บังคับเพื่อป้องกัน
-**โปรแกรมเมอร์มืออาชีพ:** ต้นทุนพลังงาน AI ที่สูงขึ้นจะส่งผลต่อราคา Azure ระยะยาว — เริ่ม track carbon footprint และ optimize compute efficiency ของ workloads ตั้งแต่ตอนนี้ทั้งเพื่อ ESG reporting และเพื่อ optimize cost ก่อนที่ pricing จะสะท้อน energy cost เต็มๆ
+**อาจารย์ (มหาวิทยาลัย):** Trusted Contact คือตัวอย่างที่ดีของ AI safety ระดับผู้ใช้ — ไม่ใช่แค่ content filter แต่เป็น human-in-the-loop ที่ดึงโลก offline มา intervene; เหมาะนำไปเป็น case study ด้าน human-centered AI design ในชั้นเรียน
+**ผู้เชี่ยวชาญด้าน AI:** ความท้าทายหลักคือ false positive rate — ถ้า alert เกิดบ่อยแต่ไม่จริง ทั้งผู้ใช้และ trusted contact จะ desensitize; OpenAI ต้องพิสูจน์ precision ของ self-harm signal detection ก่อนจะ scale ฟีเจอร์นี้
+**โปรแกรมเมอร์มืออาชีพ:** ถ้าคุณ build mental health หรือ social apps บน ChatGPT API ควรศึกษา Trusted Contact design pattern — UX ของ emergency contact notification ต้องใช้ความระมัดระวังสูง ไม่อยากให้ false alarm เกิดใน system ของตัวเอง
 
-## 3. AI ยังไม่พร้อมเทรดหุ้น: ผล trading contest น่าผิดหวัง
+## 3. Google Health Coach พลังงาน Gemini เปิดตัว 19 พฤษภาคมในราคา $9.99/เดือน
 
-**อาจารย์ (มหาวิทยาลัย):** ผลลัพธ์นี้สอดคล้องกับทฤษฎี — LLM ถูก optimise สำหรับ next-token prediction บน language data ไม่ใช่สำหรับ time-series forecasting หรือ risk-adjusted decision making ที่ต้องการ consistency ทางคณิตศาสตร์อย่างสูง สอนนักศึกษาให้แยก "AI ที่ดีสำหรับภาษา" ออกจาก "AI ที่ดีสำหรับทุกงาน"
-**ผู้เชี่ยวชาญด้าน AI:** ปัญหาหลักคือ non-stationarity ของตลาดและ calibrated uncertainty ที่ LLM ขาดโดยพื้นฐาน — architecture ที่ผสม RL กับ LLM หรือใช้ Bayesian methods น่าจะจัดการปัญหานี้ได้ดีกว่า pure LLM approach แต่ยังต้องการงานวิจัยอีกมาก
-**โปรแกรมเมอร์มืออาชีพ:** อย่าใช้ LLM เป็น decision engine สำหรับ trading — ใช้มันสำหรับ news parsing, report generation, และ sentiment analysis แล้วต่อกับ classical quant models สำหรับ execution; หาก build fintech product ให้ validate LLM outputs กับ benchmark ที่ชัดเจนก่อน deploy ใน production
+**อาจารย์ (มหาวิทยาลัย):** Google Health Coach สะท้อน trend ที่ AI กำลัง blur boundary ระหว่าง healthcare และ consumer tech; นักศึกษาสาขาสาธารณสุขและเทคโนโลยีควรตั้งคำถามว่า personalized AI health advice ที่ไม่ผ่านการรับรองทางการแพทย์มีขอบเขตความรับผิดชอบอย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** $9.99/เดือน เป็นจุดราคาที่เข้าถึงได้สำหรับ mass market แต่ performance ของ Gemini ใน health context ต้องวัดด้วย medical accuracy metrics ไม่ใช่แค่ user satisfaction; ความเสี่ยงของ hallucination ใน health domain สูงกว่า domain ทั่วไปมาก
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า build health app ให้ศึกษา Google Health Coach architecture — ควร design ให้ชัดว่า output เป็น "suggestion" ไม่ใช่ "diagnosis" เพื่อหลีกเลี่ยงปัญหาทางกฎหมายและความรับผิดชอบต่อผู้ใช้
 
-## 4. White House เตรียมออกคำสั่ง AI Security หลัง Anthropic Mythos
+## 4. White House: รัฐบาล Trump จะ "ไม่เลือกข้าง" ใน AI Race
 
-**อาจารย์ (มหาวิทยาลัย):** นี่อาจเป็นครั้งแรกที่ Trump administration พิจารณา mandatory pre-release testing อย่างจริงจัง — สะท้อนว่า capability ของ AI เดินไปถึงจุดที่ security concern บังคับให้ต้องตอบสนองข้ามอุดมการณ์ การศึกษานโยบายนี้ให้เข้าใจ trade-off ระหว่าง safety, innovation, และ competition ถือเป็นสิ่งสำคัญ
-**ผู้เชี่ยวชาญด้าน AI:** "FDA model" สำหรับ AI มีข้อดีด้าน safety แต่มีความเสี่ยงสูงที่ compliance cost จะเป็น barrier to entry ที่เอื้อเฉพาะบริษัทใหญ่ — ต้องออกแบบ framework ที่ proportional กับ risk level ไม่เช่นนั้นจะกระทบ open source และ academic research
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า executive order ผ่านจริง timeline การ release โมเดลใหม่จะยาวขึ้นและ unpredictable มากขึ้น — วางแผน multi-model strategy และ fallback infrastructure ให้พร้อม อย่า hard-code dependency กับ model รุ่นใดรุ่นหนึ่งใน production system
+**อาจารย์ (มหาวิทยาลัย):** นโยบาย "ไม่เลือกข้าง" ใน AI race สะท้อนปรัชญา laissez-faire ที่ตัดกันกับแนวทางของจีนที่รัฐเลือก national champions อย่างชัดเจน นักศึกษาด้านนโยบายควรวิเคราะห์ว่า approach ไหนได้เปรียบใน long run
+**ผู้เชี่ยวชาญด้าน AI:** "ไม่เลือกข้าง" ในทางปฏิบัติไม่ได้แปลว่า hands-off ทั้งหมด — Pentagon ที่เพิ่งทำสัญญากับ 8 บริษัท tech ก็คือการเลือกโดยทางอ้อม; สิ่งสำคัญคือ executive order จริงๆ จะกำหนด "level playing field" อย่างไร
+**โปรแกรมเมอร์มืออาชีพ:** สัญญาณนี้ดีต่อ startup และ open source — ถ้ารัฐไม่ผลักดัน frontier lab ใดเป็น national champion ก็มีพื้นที่สำหรับ alternative providers; แต่ต้องติดตาม executive order จริงๆ เพราะ stated policy กับ actual regulation มักต่างกัน
