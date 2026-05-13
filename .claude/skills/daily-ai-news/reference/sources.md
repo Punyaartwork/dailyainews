@@ -1,65 +1,62 @@
-# Sources — 2026-05-12
+# Sources — 2026-05-13
 
-Generated: 2026-05-12 (Asia/Bangkok)
+Generated: 2026-05-13 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-05-11-brief.md (3 URLs loaded)
+Dedup against: articles/2026-05-12-brief.md (5 URLs loaded)
 
-1. **OpenAI launches the OpenAI Deployment Company**
-   - Publisher: OpenAI
-   - URL: https://openai.com/index/openai-launches-the-deployment-company/
-   - Published: May 11, 2026
-   - FreshnessCheck: ✅ within last 24h via snippet "On May 11, 2026, OpenAI launched the OpenAI Deployment Company"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path never appeared in 2026-05-11-brief.md)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI launched the OpenAI Deployment Company, a new entity to embed Forward Deployed Engineers into organisations to redesign workflows around AI and drive durable change, acquiring Tomoro from day one.
-
-2. **ผู้สร้าง curl ระบุ Claude Mythos ดีกว่าโมเดลอื่นไม่มาก เจอเพียงช่องโหว่ระดับต่ำช่องเดียว**
-   - Publisher: Blognone
-   - URL: https://www.blognone.com/node/150501
-   - Published: May 11, 2026 at 22:48 (Asia/Bangkok)
-   - FreshnessCheck: ✅ within last 24h via search result confirming "published on May 11, 2026 at 22:48"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new path; blognone.com present yesterday but different node)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Daniel Stenberg (creator of curl) shared results from testing Anthropic's Claude Mythos on curl's 176,000-line codebase — the model found only one low-severity vulnerability, performing similarly to other AI models on a heavily reviewed project.
-
-3. **Alphabet Plans Debut Yen Bond Sale as AI Race Accelerates**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates
-   - Published: May 11, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-11
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Bloomberg Alphabet URL was /2026-05-10/ai-wins-have-alphabet-poised-to-become-world-s-biggest-company — different path)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Alphabet is planning its first-ever yen bond sale to fund AI investments, raising its 2026 capex target to $190 billion — a signal that global debt markets are now financing the AI infrastructure arms race.
-
-4. **AI-Related Job Displacement Isn't Being Planned for Enough, Economists Say**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-11/ai-related-job-displacement-isn-t-being-planned-for-enough-economists-say
-   - Published: May 11, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-11
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Economists Erik Brynjolfsson (Stanford) and Robert Gordon (Northwestern) debate AI-driven productivity and job displacement. A survey found 93.2% of organisations cite "cultural challenges" — not technology — as the main barrier to AI adoption.
-
-5. **Digg tries again, this time as an AI news aggregator**
+1. **Everything Google announced at its Android Show — Gemini Intelligence, Googlebooks, vibe-coded widgets**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/
-   - Published: May 11, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/05/11
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - URL: https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/
+   - Published: May 12, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug `2026/05/12/`
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (TechCrunch was in yesterday's set at a different path)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Digg relaunched as an AI-powered news aggregator, starting with the AI beat, using AI to track "influential voices" and surface news worth paying attention to — a bet that algorithmic curation beats social voting.
+   - Summary: Google held The Android Show on May 12, announcing Gemini Intelligence as the new AI layer for premium Android devices and Googlebook as a new AI-native laptop category launching this fall from partners including Acer, Asus, Dell, HP, and Lenovo.
+
+2. **Chromebook Plus กลับมาใหม่ ใช้ชื่อ Googlebook, ผูก Gemini Intelligence ไว้ในตัว**
+   - Publisher: Blognone
+   - URL: https://www.blognone.com/node/150514
+   - Published: May 12–13, 2026 (node 150514 > 150501 cited in yesterday's brief)
+   - FreshnessCheck: ✅ within last 24h via node number higher than 150501 (May 12 node) and story subject dated May 12
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Blognone was node/150501)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Google officially rebrands Chromebook Plus as Googlebook, integrating Gemini Intelligence with Magic Pointer (cursor-shake to invoke Gemini) and Create My Widget (generative desktop UI).
+
+3. **CME, Silicon Data to Create Futures Market for Computing Power Backing AI**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-05-12/cme-to-create-futures-market-for-computing-power-backing-ai
+   - Published: May 12, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug `2026-05-12`
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (Bloomberg was in yesterday's set at different paths)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: CME Group and Silicon Data announced a partnership to launch the first futures market for AI computing power, enabling traders, cloud providers, and AI builders to hedge GPU price volatility using Silicon Data's daily on-demand GPU rental rate benchmarks.
+
+4. **China Earns $500 Million an Hour From Exports Supercharged by AI**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-05-12/china-earns-500-million-per-hour-from-export-supercharged-by-ai
+   - Published: May 12, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug `2026-05-12`
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different Bloomberg path)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: China's exports of AI-related goods (semiconductors, computers, AI hardware) accounted for roughly half of its overall export growth in April 2026, generating approximately $500 million per hour.
+
+5. **AI-Fueled Rally Pushes Industrials to Tech-Like Valuations**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-05-12/ai-mania-makes-old-school-industrials-behave-like-chip-stocks
+   - Published: May 12, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug `2026-05-12`
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new article, not present yesterday)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: AI optimism has pushed valuations of industrial companies to levels historically associated with tech stocks, as investors bet on industrials profiting from AI infrastructure buildout in energy, cooling, and construction.
 
 ## Dropped
-- https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/ — Filter B (dedup): appeared in articles/2026-05-11-brief.md
-- https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/ — Filter B (dedup): appeared in articles/2026-05-11-brief.md
-- https://www.bloomberg.com/news/articles/2026-05-10/ai-wins-have-alphabet-poised-to-become-world-s-biggest-company — Filter B (dedup): appeared in articles/2026-05-11-brief.md
-- https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/ — Filter A (>24h): URL slug 2026-05-08 is 4 days old
-- https://www.bloomberg.com/news/articles/2026-05-07/cloudflare-to-cut-one-fifth-of-workers-in-move-to-ai-first-model — Filter A (>24h): URL slug 2026-05-07 is 5 days old
-- https://www.bloomberg.com/news/articles/2026-05-07/arm-sees-explosion-in-cpu-demand-on-ai-amid-smartphone-slump — Filter A (>24h): URL slug 2026-05-07 is 5 days old
-- https://www.bloomberg.com/news/articles/2026-05-08/tencent-alibaba-face-slowing-growth-as-ai-costs-mount — Filter A (>24h): URL slug 2026-05-08 is 4 days old
-- https://www.bloomberg.com/news/articles/2026-05-05/anthropic-unveils-ai-agents-to-field-financial-services-tasks — Filter A (>24h): URL slug 2026-05-05 is 7 days old
-- https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/ — Filter A (>24h): URL slug 2026-04-27 is 15 days old
-- https://www.blognone.com/node/150491 (Palo Alto Networks AI attack) — Filter A (>24h): estimated publication ~May 10 based on node-number interpolation (node/150501 confirmed May 11 22:48; 10 nodes ÷ ~8.6 nodes/day ≈ 1.16 days earlier = ~May 10)
+- https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/ — Filter A (>24h): URL slug `2026/05/11/` is 2 days before today
+- https://openai.com/signals/research/2026q1-update/ — Filter A (>24h): snippet indicated May 11 publish date = 2 days ago
+- https://www.bloomberg.com/news/articles/2026-05-05/ai-firms-agree-to-give-us-early-access-to-evaluate-their-models — Filter A (>24h): URL slug `2026-05-05`, 8 days old
+- https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/ — Filter A (>24h): dated May 7, 6 days old; also not on trusted-sources.md (`blogs.microsoft.com` ≠ `www.microsoft.com/en-us/research/blog/`)
+- https://openai.com/index/introducing-chatgpt-futures-class-of-2026/ — Filter A (>24h): published approximately May 6, 7 days old
+- https://www.anthropic.com/news/finance-agents — Filter A (>24h): published May 5, 8 days old
+- https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/ — Filter B (dedup): appeared in articles/2026-05-12-brief.md (Story 5)
 
-> Note: 5 items passed both filters this run. Of ~15 candidates examined, ~7 failed Filter A, 3 failed Filter B. 1 Thai-language source (Blognone) included.
+> Note: 5 items passed both filters this run. Of ~15 candidates evaluated, ~6 failed Filter A (>24h), 1 failed Filter B (Digg story in yesterday's brief), others not from trusted-source domains.
