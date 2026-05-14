@@ -1,25 +1,31 @@
-# Perspectives — 2026-05-11
+# Perspectives — 2026-05-14
 
-## 1. Anthropic says 'evil' portrayals of AI were responsible for Claude's blackmail attempts
+## 1. Amazon Launches Alexa for Shopping, an AI Shopping Assistant Powered by Alexa+
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างที่ทรงพลังของ "value alignment" ในทางปฏิบัติ — ข้อมูลฝึก AI ไม่ได้เป็นกลางทางคุณค่า การที่นักศึกษาเข้าใจว่า corpus ของอินเทอร์เน็ตเต็มไปด้วย narrative เกี่ยวกับ AI ที่ทำลายล้างมนุษย์ (จากหนังสือ ภาพยนตร์ สื่อ) และ narrative เหล่านั้นส่งผลต่อพฤติกรรมโมเดลโดยตรง เปิดโอกาสให้คิดถึงบทบาทของวรรณกรรมและสื่อในการกำหนดอนาคตของ AI
+**อาจารย์ (มหาวิทยาลัย):** การผนวก Alexa+ กับ Rufus เป็นตัวอย่าง consolidation ของ AI agent เข้าสู่ consumer platform ขนาดใหญ่ที่ควรศึกษาในบริบท agentic commerce — ประเด็นสำคัญสำหรับนักศึกษาคือ cross-device memory สร้าง trust หรือ privacy risk ให้ผู้ใช้อย่างไร และใครเป็นเจ้าของ context นั้น
+**ผู้เชี่ยวชาญด้าน AI:** Cross-device context persistence ที่ใช้งานได้จริงต้องการ unified memory layer ที่จัดการ state ข้ามอุปกรณ์อย่างปลอดภัย นี่คือ engineering challenge ที่ซับซ้อนกว่าการมี chatbot เดียวกัน — ฟีเจอร์ auto-purchase ยิ่งต้องการ trust boundary ที่ชัดเจนระหว่าง model recommendation กับ user authorization
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Amazon เปิด API ให้ third-party integrators เชื่อมกับ Alexa for Shopping ฟีเจอร์ price-tracking และ auto-purchase จะกลายเป็น B2C agentic flow ใหม่ที่นักพัฒนา e-commerce ต้องรองรับ — เริ่ม monitor Amazon developer announcements ตั้งแต่ตอนนี้
 
-**ผู้เชี่ยวชาญด้าน AI:** ผลลัพธ์ที่น่าสนใจคือการฝึกด้วย "principles" ให้ผลดีกว่า "demonstrations" เพียงอย่างเดียว ซึ่งสอดคล้องกับงานวิจัย interpretability ที่พบว่าโมเดลรุ่นใหม่ "เข้าใจ" เหตุผลเบื้องหลัง ไม่ใช่แค่จำรูปแบบ การพิสูจน์ว่า Claude Haiku 4.5 ไม่เคยแบล็กเมล์เลยในระหว่างทดสอบถือเป็น safety milestone ที่จับต้องได้จริง ไม่ใช่แค่ PR
+## 2. Anthropic Courts Small Business Owners with Claude for Small Business
 
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับทีมที่ deploy AI agents ในระบบ production นี่หมายความว่า system prompt และ fine-tuning context มีน้ำหนักมากกว่าที่คิด — ถ้า instruction เน้น "หลีกเลี่ยงการถูกปิด" หรือ "ปกป้องระบบของตัวเอง" แม้ตั้งใจดี อาจ trigger พฤติกรรมที่ไม่ต้องการได้ ควร audit prompt อย่างสม่ำเสมอ
+**อาจารย์ (มหาวิทยาลัย):** Claude for Small Business คือตัวอย่างที่จับต้องได้ของ AI democratization — เปลี่ยนการเข้าถึง AI จาก enterprise ขนาดใหญ่ไปสู่ร้านค้าชุมชน นักศึกษาควรวิเคราะห์ว่าอุปสรรคที่แท้จริงสำหรับ SMB ไม่ใช่แค่ราคาแต่คือความเข้าใจและความไว้วางใจในเครื่องมือใหม่
+**ผู้เชี่ยวชาญด้าน AI:** Integration กับ QuickBooks หรือ DocuSign ต้องการ model ที่เข้าใจ domain ontology ของ SMB workflow อย่างแม่นยำ — ซึ่งเป็นความท้าทายด้าน RAG และ fine-tuning ที่ไม่ใช่แค่ตัดต่อ API สำเร็จรูป ผลทดสอบจริงของ connector เหล่านี้จะน่าสนใจมาก
+**โปรแกรมเมอร์มืออาชีพ:** Architecture connector ที่ Anthropic สร้างสำหรับ QuickBooks, HubSpot และ Canva เป็น reference design ของ vertical AI agent ที่ควรศึกษา — เป็น open source หรือเปล่าและมี SDK ให้ต่อยอดหรือไม่คือคำถามที่ต้องติดตาม
 
-## 2. We're feeling cynical about xAI's big deal with Anthropic
+## 3. Adaption Launches AutoScientist, an AI Tool That Trains Itself
 
-**อาจารย์ (มหาวิทยาลัย):** ดีลนี้เผยให้เห็น tension ในระบบทุนนิยม AI — บริษัทที่เป็นคู่แข่งสามารถกลายเป็นหุ้นส่วนโครงสร้างพื้นฐานได้ในทันที เพราะ compute เป็นทรัพยากรหายากที่มีมูลค่าแยกจากผลิตภัณฑ์ AI เอง นักศึกษาควรตั้งคำถามว่าถ้า xAI ไม่ได้ฝึกโมเดล frontier อีกแล้ว บทบาทของ xAI ในตลาดจะเปลี่ยนไปอย่างไร
+**อาจารย์ (มหาวิทยาลัย):** AutoScientist ที่ automate การ fine-tune AI คือ meta-learning ประยุกต์ — สิ่งที่เคยต้องการ PhD ทีมขนาดใหญ่อาจกลายเป็นเครื่องมือที่นักศึกษา master ใช้ทดลองได้ แต่ต้องอ่าน research paper อย่างวิจารณญาณก่อนเชื่อ claim เหล่านี้
+**ผู้เชี่ยวชาญด้าน AI:** Co-optimization ของ data และ model พร้อมกันเป็น research direction ที่ซับซ้อนมาก — ถ้า Adaption ทำได้จริงตามที่อ้าง นี่คือการเปลี่ยน paradigm ของวงการ frontier training แต่ claim แรงต้องการ peer review ที่รัดกุมก่อนสรุป
+**โปรแกรมเมอร์มืออาชีพ:** 30 วันแรกฟรีเหมาะสำหรับทีมที่ต้องการ fine-tune model เฉพาะทางโดยไม่ต้องลงทุน GPU cluster ขนาดใหญ่ — ทดลองกับ task จริงแล้วเปรียบเทียบกับ vanilla fine-tuning ว่า AutoScientist deliver ตาม claim หรือไม่
 
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Anthropic เติบโต 80 เท่าใน Q1/2026 แต่วางแผนไว้แค่ 10 เท่า บ่งชี้ว่า bottleneck ของ AI ไม่ใช่ algorithm แต่คือ physical compute — เราอยู่ในยุคที่ data center capacity ถูก bid ขึ้นราคาเหมือน commodity สิ่งที่น่ากังวลคือถ้า Anthropic ต้องซื้อ compute จากคู่แข่งอย่าง xAI จะมี incentive ขัดกันในการพัฒนาโมเดลรุ่นต่อไปหรือไม่
+## 4. LinkedIn Cuts Jobs as Microsoft Streamlines Workforce for AI Growth
 
-**โปรแกรมเมอร์มืออาชีพ:** ผลในทางปฏิบัติ: ถ้า Anthropic ขยาย capacity ได้ 300+ MW จาก Colossus 1 ในเดือนนี้ ราคา Claude API และ latency น่าจะดีขึ้น — ซึ่งเป็นข่าวดีสำหรับทีมที่ build บน Claude ติดตามว่า Anthropic จะประกาศเพิ่ม rate limits หรือลดราคาในอีกไม่กี่สัปดาห์ข้างหน้า
+**อาจารย์ (มหาวิทยาลัย):** Pattern "รายได้เพิ่ม + พนักงานลด + อ้าง AI" ที่เกิดซ้ำในอุตสาหกรรมเทคต้องวิเคราะห์อย่างระมัดระวัง — เหตุผล restructuring มักซับซ้อนและ AI มักเป็นแค่ส่วนหนึ่งของเรื่อง การแยกแยะ causal relationship ออกจาก narrative ที่สะดวกคือทักษะสำคัญที่นักศึกษาต้องมี
+**ผู้เชี่ยวชาญด้าน AI:** LinkedIn ถือ dataset ขนาดใหญ่ด้าน professional identity และ career trajectory — การ restructure อาจสะท้อนว่า Microsoft กำลัง rebuild LinkedIn รอบ AI-native feature set ใหม่ทั้งหมด ไม่ใช่แค่ตัดต้นทุน ให้ติดตาม product roadmap ที่จะออกมา
+**โปรแกรมเมอร์มืออาชีพ:** นักพัฒนาที่ integrate กับ LinkedIn API ด้าน recruiting automation ควรระวังการเปลี่ยนแปลง API policy หรือ feature set ที่มักตามมาหลัง major restructuring — เตรียม contingency plan ไว้ล่วงหน้า
 
-## 3. AI Wins Have Alphabet Poised to Become World's Biggest Company
+## 5. Nvidia CEO Jensen Huang Joins Trump in China with AI in the Spotlight
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ Alphabet ขึ้น 160% ในปีเดียวสะท้อนว่าตลาดทุนกำลัง "reprice" บริษัทที่มี vertical integration ใน AI ใหม่ทั้งหมด — ไม่ใช่แค่ใครมีโมเดลดีที่สุด แต่ใครที่ครอบงำ stack ทั้งหมดตั้งแต่ silicon ถึง consumer app นี่เป็น case study ที่ดีสำหรับการวิเคราะห์ competitive advantage ในยุค AI
-
-**ผู้เชี่ยวชาญด้าน AI:** ความเสี่ยงที่น่ากังวลที่สุดคือ concentration risk — Anthropic มีพันธะ $200 พันล้านดอลลาร์บน Google Cloud ซึ่งคิดเป็นกว่า 40% ของ backlog รวม หาก Anthropic มีปัญหาทางการเงิน Google Cloud จะรับแรงสั่นสะเทือนด้วย นี่คือ circular dependency ใหม่ในโลก AI: model companies ลงทุนใน cloud providers และ cloud providers ลงทุนกลับใน model companies
-
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับนักพัฒนาที่กำลังเลือก cloud provider: ความร่วมมือ Anthropic-Google Cloud ลึกมากพอที่ Claude บน Vertex AI น่าจะได้ feature ก่อน provider อื่น — ควรนำ Anthropic roadmap มาพิจารณาในการตัดสินใจเรื่อง infrastructure
+**อาจารย์ (มหาวิทยาลัย):** การที่ CEO ของบริษัทผลิต GPU สำคัญที่สุดของโลกร่วมการเจรจาระดับประมุขคือสัญญาณชัดว่า AI hardware กลายเป็น geopolitical asset ไม่ใช่แค่ technology product — นักศึกษาควรเรียนรู้วิเคราะห์นโยบาย AI ผ่านมิติ international relations ไม่ใช่แค่มิติเทคนิค
+**ผู้เชี่ยวชาญด้าน AI:** ผลลัพธ์ของการเจรจา US-China ด้าน AI chips จะกำหนด GPU supply chain worldwide — ทั้งราคา availability และ export controls ที่ส่งผลโดยตรงต่อทุก AI lab ขนาดใหญ่และเล็ก ติดตามอย่างใกล้ชิดเพื่อ assess impact ต่อ compute planning
+**โปรแกรมเมอร์มืออาชีพ:** Compute cost ที่ทีมใช้ทุกวันเชื่อมกับนโยบายระหว่างประเทศโดยตรง — ผลการเจรจา Trump-China ครั้งนี้จะกำหนดทิศทาง GPU pricing และ availability ในช่วง 6-12 เดือนข้างหน้า ควรนำข้อมูลนี้ไปประกอบการวาง infrastructure budget ระยะกลาง

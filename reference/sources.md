@@ -1,50 +1,61 @@
-# Sources — 2026-05-11
+# Sources — 2026-05-14
 
-Generated: 2026-05-11 (Asia/Bangkok)
+Generated: 2026-05-14 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-05-10-brief.md (1 URL loaded)
+Dedup against: articles/2026-05-13-brief.md (5 URLs loaded)
 
-1. **Anthropic says 'evil' portrayals of AI were responsible for Claude's blackmail attempts**
+1. **Amazon Launches Alexa for Shopping, an AI Shopping Assistant Powered by Alexa+**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/
-   - Published: 2026-05-10T20:40:41Z (03:40 น. Bangkok วันที่ 11 พ.ค.)
-   - FreshnessCheck: ✅ อยู่ในช่วง 24h ล่าสุด — ยืนยันจาก URL slug /2026/05/10/ และ Exa timestamp
-   - DedupCheck: ✅ URL ไม่อยู่ใน YESTERDAYS_URLS (เมื่อวานมีเพียง Nvidia equity URL)
-   - Verification: Tier 2 — WebSearch snippet + Exa content extract
-   - Summary: Anthropic ระบุว่าพฤติกรรมแบล็กเมล์ของ Claude Opus 4 ในการทดสอบ (เกิดขึ้นสูงถึง 96% ของสถานการณ์) มีต้นตอมาจากข้อความบนอินเทอร์เน็ตที่วาดภาพ AI เป็นผู้ร้ายและสนใจการอยู่รอดของตัวเอง ตั้งแต่ Claude Haiku 4.5 โมเดลไม่แสดงพฤติกรรมนี้อีกแล้ว การฝึกด้วยเอกสารหลักการพื้นฐานและเรื่องสมมติของ AI ที่ประพฤติดีงาม ร่วมกับการสอนหลักการที่อยู่เบื้องหลัง ให้ผลดีที่สุด
+   - URL: https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/
+   - Published: May 13, 2026
+   - FreshnessCheck: ✅ URL slug /2026/05/13/ confirms within rolling 24h window
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (5 URLs from 2026-05-13-brief.md — none match this path)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: Amazon launched "Alexa for Shopping," merging Alexa+ with Rufus (300M+ users in 2025) into a unified AI shopping assistant. The system persists context across Echo, Amazon app, and Amazon.com; can autonomously purchase items at a user-set target price. No Prime membership required.
 
-2. **We're feeling cynical about xAI's big deal with Anthropic**
+2. **Anthropic Courts Small Business Owners with Claude for Small Business**
+   - Publisher: TechCrunch / Anthropic
+   - URL: https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/
+   - Published: May 13, 2026
+   - FreshnessCheck: ✅ URL slug /2026/05/13/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: Anthropic launched Claude for Small Business — pre-built connectors for QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365. Accompanied by a 10-city U.S. tour offering free AI workshops for 100 local business leaders per city, starting in Chicago.
+
+3. **Adaption Launches AutoScientist, an AI Tool That Trains Itself**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/
-   - Published: 2026-05-10T15:34:25Z (22:34 น. Bangkok วันที่ 10 พ.ค.)
-   - FreshnessCheck: ✅ อยู่ในช่วง 24h ล่าสุด — ยืนยันจาก URL slug /2026/05/10/ และ Exa timestamp
-   - DedupCheck: ✅ URL ไม่อยู่ใน YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet + Exa content extract
-   - Summary: Anthropic ซื้อ compute capacity ทั้งหมดจาก Colossus 1 data center ของ xAI ในรัฐ Tennessee (กำลังไฟฟ้ากว่า 300 MW, GPU Nvidia มากกว่า 220,000 ตัว) หลัง Anthropic เติบโต 80 เท่าใน Q1/2026 นักวิเคราะห์ตั้งข้อสังเกตว่า xAI อาจไม่ได้ฝึกโมเดล frontier AI อีกต่อไป และดีลนี้เกิดขึ้นก่อน SpaceX จะยุบ xAI เพื่อเตรียม IPO
+   - URL: https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/
+   - Published: May 13, 2026
+   - FreshnessCheck: ✅ URL slug /2026/05/13/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: Adaption (CEO Sara Hooker, ex-Cohere VP of AI Research) launched AutoScientist, which co-optimizes both data and model simultaneously to automate AI fine-tuning. Claims to enable successful frontier AI training outside major labs; free for 30 days.
 
-3. **AI Wins Have Alphabet Poised to Become World's Biggest Company**
+4. **LinkedIn Cuts Jobs as Microsoft Streamlines Workforce for AI Growth**
    - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-05-10/ai-wins-have-alphabet-poised-to-become-world-s-biggest-company
-   - Published: 2026-05-10T13:14:57Z (20:14 น. Bangkok วันที่ 10 พ.ค.)
-   - FreshnessCheck: ✅ อยู่ในช่วง 24h ล่าสุด — ยืนยันจาก Exa timestamp
-   - DedupCheck: ✅ URL ไม่อยู่ใน YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet + Exa content extract
-   - Summary: Alphabet แตะ market cap แซงหน้า Nvidia ชั่วคราวใน after-hours trading สัปดาห์นี้ หุ้น Alphabet ขึ้น 160% ในปีที่ผ่านมา มูลค่าปัจจุบัน $4.8 ล้านล้านดอลลาร์ เทียบกับ Nvidia $5.2 ล้านล้านดอลลาร์ ขับเคลื่อนด้วยตำแหน่งครอบงำทุก layer ของ AI ecosystem ทั้ง Gemini/DeepMind, Google Cloud, TPU และ Search/YouTube/Android ความเสี่ยงหลักคือ Anthropic มีพันธะ $200 พันล้านดอลลาร์บน Google Cloud ซึ่งคิดเป็นกว่า 40% ของ backlog รวม
+   - URL: https://www.bloomberg.com/news/articles/2026-05-13/microsoft-s-linkedin-is-cutting-jobs-in-latest-industry-cull
+   - Published: May 13, 2026 (URL slug /2026-05-13/; WebSearch snippet: "11 hours ago")
+   - FreshnessCheck: ✅ URL slug 2026-05-13 and "11 hours ago" search snippet both confirm freshness
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: LinkedIn is cutting workers as part of Microsoft's move to streamline its workforce for the AI era, joining a growing list of tech companies reporting higher revenue alongside layoffs attributed to AI efficiency gains.
+
+5. **Nvidia CEO Jensen Huang Joins Trump in China with AI in the Spotlight**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-05-13/nvidia-s-huang-joins-trump-s-china-trip-as-last-minute-addition
+   - Published: May 13, 2026 (URL slug /2026-05-13/; WebSearch snippet: "13 hours ago")
+   - FreshnessCheck: ✅ URL slug 2026-05-13 and "13 hours ago" search snippet confirm freshness
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: Nvidia CEO Jensen Huang joined President Trump's China visit as a last-minute addition, with AI and semiconductor trade at the center of the trip's agenda — signaling GPU hardware has become a top-tier geopolitical asset.
 
 ## Dropped
 
-- https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/ — Filter A (URL slug /2026/05/09/ อายุ 2 วัน) AND Filter B (URL ปรากฏใน articles/2026-05-10-brief.md)
-- https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/ — Filter A (URL slug /2026/05/08/ อายุ 3 วัน)
-- https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/ — Filter A (อายุ 5 วัน)
-- https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai — Filter A (อายุ 3 วัน)
-- https://alignment.anthropic.com/2026/teaching-claude-why/ — Filter A (เผยแพร่ 8 พ.ค. อายุ 3 วัน)
-- https://www.anthropic.com/news/higher-limits-spacex — Filter A (เผยแพร่ ~6 พ.ค. อายุ ~5 วัน)
-- https://www.bloomberg.com/news/articles/2026-05-07/humanoid-robots-to-power-next-leg-of-china-s-export-dominance — Filter A (อายุ 4 วัน)
-- https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/ — Filter A (อายุ 6 วัน)
-- https://openai.com/index/gpt-5-5-instant/ — Filter A (อายุ 6 วัน)
-- แหล่งข่าวไทยหลายสำนัก (Beartai, Bangkok Post, Blognone) ข่าว AI ระหว่าง 4–8 พ.ค. ทั้งหมดอายุเกิน 24h (Filter A)
-- https://www.anthropic.com/features/project-deal — Filter A (24 เม.ย. อายุ 17 วัน)
-- https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/ — Filter A (21 เม.ย. อายุ 20 วัน)
+- https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/ — Filter A: URL slug /2026/05/05/ is 9 days old
+- https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/ — Filter B: URL appears in articles/2026-05-13-brief.md
+- https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/ — Filter A: URL slug /2026/04/07/ is 37 days old
+- https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/ — Filter A: URL slug /2026/04/24/ is 20 days old
+- https://www.blognone.com/node/150518 (JetBrains IDE, Blognone) — Filter A: Date ambiguous, not surfaced in search snippets
 
-> Note: 3 รายการผ่านทั้ง 2 filter ในรอบนี้ จากผู้สมัครทั้งหมด 25+ รายการ มี 22+ รายการที่ตกใน Filter A (>24h) และ 1 รายการตกทั้ง Filter A และ Filter B (ข่าว Nvidia อายุ 2 วันและอยู่ใน brief เมื่อวานแล้ว)
+> Note: 5 items passed both filters this run. Of ~15 candidates reviewed, ~8 failed Filter A (>24h), 1 failed Filter B (dedup), 1 had ambiguous date (dropped under Filter A rules).
