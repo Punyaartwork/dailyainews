@@ -1,31 +1,25 @@
-# Perspectives — 2026-05-14
+# Perspectives — 2026-05-15
 
-## 1. Amazon Launches Alexa for Shopping, an AI Shopping Assistant Powered by Alexa+
+## 1. OpenAI-Apple Partnership Frays, Setting Up Possible Legal Fight
 
-**อาจารย์ (มหาวิทยาลัย):** การผนวก Alexa+ กับ Rufus เป็นตัวอย่าง consolidation ของ AI agent เข้าสู่ consumer platform ขนาดใหญ่ที่ควรศึกษาในบริบท agentic commerce — ประเด็นสำคัญสำหรับนักศึกษาคือ cross-device memory สร้าง trust หรือ privacy risk ให้ผู้ใช้อย่างไร และใครเป็นเจ้าของ context นั้น
-**ผู้เชี่ยวชาญด้าน AI:** Cross-device context persistence ที่ใช้งานได้จริงต้องการ unified memory layer ที่จัดการ state ข้ามอุปกรณ์อย่างปลอดภัย นี่คือ engineering challenge ที่ซับซ้อนกว่าการมี chatbot เดียวกัน — ฟีเจอร์ auto-purchase ยิ่งต้องการ trust boundary ที่ชัดเจนระหว่าง model recommendation กับ user authorization
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า Amazon เปิด API ให้ third-party integrators เชื่อมกับ Alexa for Shopping ฟีเจอร์ price-tracking และ auto-purchase จะกลายเป็น B2C agentic flow ใหม่ที่นักพัฒนา e-commerce ต้องรองรับ — เริ่ม monitor Amazon developer announcements ตั้งแต่ตอนนี้
+**อาจารย์ (มหาวิทยาลัย):** ความขัดแย้งนี้แสดงให้เห็น incentive misalignment แบบคลาสสิกระหว่าง platform owner กับ AI provider — Apple ต้องการ ecosystem control และ privacy ขณะที่ OpenAI ต้องการ distribution scale และ revenue visibility ซึ่งสองฝ่ายไม่มีทางตกลงกันได้ง่าย ๆ ในระยะยาว
+**ผู้เชี่ยวชาญด้าน AI:** สาเหตุลึก ๆ คือ on-device AI กับ cloud inference API มี trust model ต่างกันสุดขั้ว — Apple Intelligence ต้องการ private compute บน device ขณะที่ OpenAI ต้องการ server-side processing ซึ่งหมายความว่า Apple มีเหตุผลทางวิศวกรรมที่จะไม่ integrate OpenAI ลึกเกินไปโดยไม่คำนึงถึงสัญญา
+**โปรแกรมเมอร์มืออาชีพ:** เมื่อ Apple เปิด Siri ให้ third-party AI providers ปลายปีนี้ native app integration จะต้องรองรับ multiple AI backends — ถึงเวลาออกแบบ abstraction layer ที่สลับ provider ได้โดยไม่ต้อง rewrite business logic
 
-## 2. Anthropic Courts Small Business Owners with Claude for Small Business
+## 2. OpenAI Says Codex Is Coming to Your Phone
 
-**อาจารย์ (มหาวิทยาลัย):** Claude for Small Business คือตัวอย่างที่จับต้องได้ของ AI democratization — เปลี่ยนการเข้าถึง AI จาก enterprise ขนาดใหญ่ไปสู่ร้านค้าชุมชน นักศึกษาควรวิเคราะห์ว่าอุปสรรคที่แท้จริงสำหรับ SMB ไม่ใช่แค่ราคาแต่คือความเข้าใจและความไว้วางใจในเครื่องมือใหม่
-**ผู้เชี่ยวชาญด้าน AI:** Integration กับ QuickBooks หรือ DocuSign ต้องการ model ที่เข้าใจ domain ontology ของ SMB workflow อย่างแม่นยำ — ซึ่งเป็นความท้าทายด้าน RAG และ fine-tuning ที่ไม่ใช่แค่ตัดต่อ API สำเร็จรูป ผลทดสอบจริงของ connector เหล่านี้จะน่าสนใจมาก
-**โปรแกรมเมอร์มืออาชีพ:** Architecture connector ที่ Anthropic สร้างสำหรับ QuickBooks, HubSpot และ Canva เป็น reference design ของ vertical AI agent ที่ควรศึกษา — เป็น open source หรือเปล่าและมี SDK ให้ต่อยอดหรือไม่คือคำถามที่ต้องติดตาม
+**อาจารย์ (มหาวิทยาลัย):** Codex mobile เปลี่ยน software development จาก synchronous session หน้าจอเดียวสู่ asynchronous orchestration — นักพัฒนากลายเป็น "supervisor" ที่ตั้ง tasks และ review outputs เป็นช่วง ๆ แทนที่จะเขียนโค้ดทุกบรรทัดเอง paradigm นี้ต้องการ skill ใหม่ในการตั้ง tasks อย่างชัดเจนและ evaluate outputs อย่างมีวิจารณญาณ
+**ผู้เชี่ยวชาญด้าน AI:** Architecture ที่ ChatGPT mobile เป็นแค่ remote control ของ local Codex environment เป็นแนวทางที่ถูกต้องด้าน security — agent state และ credentials อยู่บน trusted hardware ส่วน mobile ทำหน้าที่แค่ UI layer ซึ่งต่างจาก cloud-only agent ที่ต้องรับ credentials ผ่าน network
+**โปรแกรมเมอร์มืออาชีพ:** Approve commands จาก phone เป็นฟีเจอร์ที่ดีสำหรับ on-call scenarios แต่ต้องระวัง social engineering — ควร require additional confirmation สำหรับ destructive actions เช่น delete หรือ deploy production และ set timeout ที่เข้มงวดสำหรับ pending approvals ที่ค้างนาน
 
-## 3. Adaption Launches AutoScientist, an AI Tool That Trains Itself
+## 3. Exclusive: US Clears H200 Chip Sales to 10 China Firms
 
-**อาจารย์ (มหาวิทยาลัย):** AutoScientist ที่ automate การ fine-tune AI คือ meta-learning ประยุกต์ — สิ่งที่เคยต้องการ PhD ทีมขนาดใหญ่อาจกลายเป็นเครื่องมือที่นักศึกษา master ใช้ทดลองได้ แต่ต้องอ่าน research paper อย่างวิจารณญาณก่อนเชื่อ claim เหล่านี้
-**ผู้เชี่ยวชาญด้าน AI:** Co-optimization ของ data และ model พร้อมกันเป็น research direction ที่ซับซ้อนมาก — ถ้า Adaption ทำได้จริงตามที่อ้าง นี่คือการเปลี่ยน paradigm ของวงการ frontier training แต่ claim แรงต้องการ peer review ที่รัดกุมก่อนสรุป
-**โปรแกรมเมอร์มืออาชีพ:** 30 วันแรกฟรีเหมาะสำหรับทีมที่ต้องการ fine-tune model เฉพาะทางโดยไม่ต้องลงทุน GPU cluster ขนาดใหญ่ — ทดลองกับ task จริงแล้วเปรียบเทียบกับ vanilla fine-tuning ว่า AutoScientist deliver ตาม claim หรือไม่
+**อาจารย์ (มหาวิทยาลัย):** กรณีนี้แสดงให้เห็นว่า AI hardware กลายเป็น geopolitical instrument อย่างชัดเจน — ทั้ง export control ฝั่ง US และ guidance จากปักกิ่งให้บริษัทจีนระวัง สะท้อนว่าทั้งสองประเทศมองว่าการเข้าถึง compute เป็นส่วนหนึ่งของ strategic competition ไม่ใช่แค่ technology trade
+**ผู้เชี่ยวชาญด้าน AI:** การที่บริษัทจีนถอนตัวเองจาก approved deals หลัง Beijing guidance บ่งชี้ว่า China กำลัง accelerate domestic alternatives อย่าง Huawei Ascend — เพราะซื้อ H200 แล้วถูก cut access ในภายหลังจะแย่กว่าไม่ซื้อตั้งแต่แรก ซึ่งเป็น rational response ต่อ supply chain uncertainty
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า H200 deals unlock ได้จากทริปนี้ cloud inference pricing ในเอเชียอาจลดลงอย่างมีนัยสำคัญใน H2 2026 — เป็น trigger ที่ดีสำหรับ re-evaluate architecture ที่ตอนนี้ใช้ quantized models เพื่อประหยัด compute cost
 
-## 4. LinkedIn Cuts Jobs as Microsoft Streamlines Workforce for AI Growth
+## 4. Cerebras Shares Surge 89% After Year's Top IPO
 
-**อาจารย์ (มหาวิทยาลัย):** Pattern "รายได้เพิ่ม + พนักงานลด + อ้าง AI" ที่เกิดซ้ำในอุตสาหกรรมเทคต้องวิเคราะห์อย่างระมัดระวัง — เหตุผล restructuring มักซับซ้อนและ AI มักเป็นแค่ส่วนหนึ่งของเรื่อง การแยกแยะ causal relationship ออกจาก narrative ที่สะดวกคือทักษะสำคัญที่นักศึกษาต้องมี
-**ผู้เชี่ยวชาญด้าน AI:** LinkedIn ถือ dataset ขนาดใหญ่ด้าน professional identity และ career trajectory — การ restructure อาจสะท้อนว่า Microsoft กำลัง rebuild LinkedIn รอบ AI-native feature set ใหม่ทั้งหมด ไม่ใช่แค่ตัดต้นทุน ให้ติดตาม product roadmap ที่จะออกมา
-**โปรแกรมเมอร์มืออาชีพ:** นักพัฒนาที่ integrate กับ LinkedIn API ด้าน recruiting automation ควรระวังการเปลี่ยนแปลง API policy หรือ feature set ที่มักตามมาหลัง major restructuring — เตรียม contingency plan ไว้ล่วงหน้า
-
-## 5. Nvidia CEO Jensen Huang Joins Trump in China with AI in the Spotlight
-
-**อาจารย์ (มหาวิทยาลัย):** การที่ CEO ของบริษัทผลิต GPU สำคัญที่สุดของโลกร่วมการเจรจาระดับประมุขคือสัญญาณชัดว่า AI hardware กลายเป็น geopolitical asset ไม่ใช่แค่ technology product — นักศึกษาควรเรียนรู้วิเคราะห์นโยบาย AI ผ่านมิติ international relations ไม่ใช่แค่มิติเทคนิค
-**ผู้เชี่ยวชาญด้าน AI:** ผลลัพธ์ของการเจรจา US-China ด้าน AI chips จะกำหนด GPU supply chain worldwide — ทั้งราคา availability และ export controls ที่ส่งผลโดยตรงต่อทุก AI lab ขนาดใหญ่และเล็ก ติดตามอย่างใกล้ชิดเพื่อ assess impact ต่อ compute planning
-**โปรแกรมเมอร์มืออาชีพ:** Compute cost ที่ทีมใช้ทุกวันเชื่อมกับนโยบายระหว่างประเทศโดยตรง — ผลการเจรจา Trump-China ครั้งนี้จะกำหนดทิศทาง GPU pricing และ availability ในช่วง 6-12 เดือนข้างหน้า ควรนำข้อมูลนี้ไปประกอบการวาง infrastructure budget ระยะกลาง
+**อาจารย์ (มหาวิทยาลัย):** Cerebras IPO แสดงว่าตลาดทุนพร้อมให้มูลค่ากับ deep tech hardware company ที่มี real revenue และ profitability — แตกต่างจาก AI software valuations ที่มักอิงกับ ARR multiples สูง ๆ เป็น case study เรื่อง technology commercialization ที่น่าศึกษาในบริบท AI hardware race
+**ผู้เชี่ยวชาญด้าน AI:** WSE-3 ชนะ GPU ชัดเจนในด้าน inference throughput และ latency สำหรับ large language model serving แต่ ecosystem ของ software tools (CUDA, PyTorch) ยังห่างไกลจาก Nvidia — barrier to adoption อยู่ที่ migration cost และ tooling ไม่ใช่ performance ตัวเลข
+**โปรแกรมเมอร์มืออาชีพ:** หลัง IPO Cerebras จะมีทุนมากขึ้นในการพัฒนา SDK และ developer tools — ถึงเวลา benchmark Cerebras Cloud กับ use case inference ของตัวเอง เพราะ pricing competition หลัง IPO มักดีกว่าช่วงก่อน โดยเฉพาะสำหรับ low-latency serving workloads
