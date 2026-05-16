@@ -1,31 +1,25 @@
-# Perspectives — 2026-05-13
+# Perspectives — 2026-05-16
 
-## 1. Google ประกาศ Gemini Intelligence และ Googlebook ที่งาน Android Show
+## 1. ChatGPT Personal Finance: OpenAI + Plaid เชื่อมบัญชีธนาคาร 12,000 แห่ง
 
-**อาจารย์ (มหาวิทยาลัย):** Google กำลังใช้ strategy เดียวกับ Microsoft ในยุค Windows — ฝัง AI ลึกใน OS เพื่อสร้าง platform lock-in นักเรียนควรวิเคราะห์ว่า "platform bundling" นี้แตกต่างจาก Apple Intelligence และ Microsoft Copilot+ PC อย่างไร และใคร positioned ดีกว่าในระยะยาว
-**ผู้เชี่ยวชาญด้าน AI:** Magic Pointer — ฟีเจอร์ invoke Gemini ด้วยการสั่น cursor — เป็น interaction paradigm ที่น่าจับตามองมาก ถ้า UX นี้ทำงานได้ดีในชีวิตจริง มันอาจเปลี่ยน desktop AI จาก "เปิด chat window" เป็น "ชี้ที่ข้อมูลและถาม" ซึ่งจะกระทบ UX design ของ AI tools ทั้งหมด
-**โปรแกรมเมอร์มืออาชีพ:** Googlebook ที่มีฟีเจอร์ Cast my apps และ Quick Access ข้ามอุปกรณ์เป็นสัญญาณชัดว่า cross-device UX กลายเป็น first-class concern — นักพัฒนาต้องเริ่ม design app ให้ทำงานข้าม Android phone และ Googlebook laptop ตั้งแต่ตอนนี้ ก่อนอุปกรณ์จะวางขาย
+**อาจารย์ (มหาวิทยาลัย):** นักศึกษาควรทำความเข้าใจว่า open banking และ permissioned data sharing ไม่ใช่เรื่องใหม่ แต่การที่ AI อย่าง ChatGPT เข้ามาอยู่ใน financial data loop สร้าง information asymmetry ใหม่ระหว่างผู้ใช้กับ AI provider — ควรศึกษาทั้ง GDPR/PDPA implications และ fiduciary duty ของ AI financial advisors ซึ่งยังเป็น gray area ในกฎหมายไทยและสากล
+**ผู้เชี่ยวชาญด้าน AI:** การที่ OpenAI เลือก partnership กับ Plaid แทนสร้าง connectivity layer เอง คือการยอมรับว่า financial institution relationships และ trust infrastructure คือ barrier to entry จริง — ผลิตภัณฑ์นี้จะน่าสนใจก็ต่อเมื่อ reasoning quality ของ ChatGPT สูงกว่า rules-based budgeting tools พอที่จะ justify ความเสี่ยงด้าน data privacy อย่างชัดเจน
+**โปรแกรมเมอร์มืออาชีพ:** Plaid API ที่ embedded ใน ChatGPT interface เป็น signal ว่า conversational AI กำลังจะกลายเป็น universal frontend สำหรับ financial data — ควรออกแบบ backend services ของตัวเองให้รองรับ AI-readable structured responses (JSON-LD, OpenAPI spec) มากกว่า human-readable HTML ตั้งแต่วันนี้
 
-## 2. Chromebook Plus เปลี่ยนชื่อเป็น Googlebook ผูก Gemini Intelligence ไว้ในตัว
+## 2. Figure AI: Helix 02 ทำงาน 50 ชั่วโมงไม่หยุด คัดแยกพัสดุ 50,000 ชิ้น
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ Google ทิ้งชื่อ "Chromebook" หลัง 10 ปีบ่งชี้ว่า brand นั้นสื่อสาร value proposition ของ AI-native computing ไม่ได้อีกต่อไป นี่คือ case study ของ "brand pivot driven by product strategy shift" ที่น่าวิเคราะห์
-**ผู้เชี่ยวชาญด้าน AI:** Create My Widget เป็น "generative UI" บน desktop — ถ้า Google push feature นี้ผ่าน Googlebook API การ generate UI แบบ on-demand จะเปลี่ยนวิธีที่ users customize workflow ของตัวเองอย่างสิ้นเชิง และเปิด design space ใหม่สำหรับ AI-assisted productivity tools
-**โปรแกรมเมอร์มืออาชีพ:** ควรติดตาม Googlebook SDK และ API ที่จะประกาศใน Google I/O วันที่ 19 พฤษภาคม — Magic Pointer และ Create My Widget คาดว่าจะมี third-party integration API ที่เปิดให้นักพัฒนาเข้าถึง
+**อาจารย์ (มหาวิทยาลัย):** มิลสโตนนี้เป็นโอกาสดีให้นักศึกษา robotics และ industrial engineering ทำความเข้าใจว่า deployment readiness ของ autonomous systems ต้องการ reliability metrics ที่เข้มงวดกว่า lab demos มาก — Mean Time Between Failures (MTBF) และ task success rate ใน unstructured environments ยังเป็นตัวชี้วัดสำคัญที่ต้องพิสูจน์ต่อ
+**ผู้เชี่ยวชาญด้าน AI:** การ run inference on-device โดยไม่ผ่าน cloud ทั้งหมดเป็นทั้ง engineering achievement และ business necessity — แต่น่าตั้งคำถามว่า generalization ไปยัง novel tasks นอกเหนือจาก package sorting จะทำได้ดีแค่ไหนโดยไม่ต้องมี continual learning loop ที่ส่งข้อมูลกลับมาที่ server
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Figure AI เปิด SDK หรือ ROS integration สำหรับ Helix 02 ปีนี้ นักพัฒนาที่เชี่ยวชาญ edge inference optimization จะมีข้อได้เปรียบมาก — ควรเริ่ม practice TensorRT, ONNX runtime, และ INT8 quantization บน ARM hardware ตั้งแต่ตอนนี้
 
-## 3. CME จับมือ Silicon Data เปิดตลาด Futures ของ Computing Power
+## 3. Runway AI: world model ท้าชน Google
 
-**อาจารย์ (มหาวิทยาลัย):** การเกิด futures market สำหรับ compute power คือ "financialization of AI infrastructure" ที่เทียบได้กับ oil futures ในทศวรรษ 1970s — นักเรียนควรศึกษาว่าตลาด futures เปลี่ยน price discovery และ resource allocation ใน energy sector อย่างไร และ pattern เดียวกันจะเกิดกับ AI compute หรือไม่
-**ผู้เชี่ยวชาญด้าน AI:** GPU index รายวันที่ neutral และโปร่งใสจาก Silicon Data จะทำให้ราคา compute ถูก price ใน information ได้ดีขึ้น และกดดันให้ cloud providers แข่งขันด้านราคามากขึ้น — เป็น benchmark ที่จะช่วยให้ทีม AI evaluate cost ของ workloads ได้อย่างมีมาตรฐาน
-**โปรแกรมเมอร์มืออาชีพ:** เมื่อมี compute futures ทีมที่วาง AI infrastructure budget สำหรับโปรเจกต์ระยะยาวสามารถ hedge GPU price volatility ได้ — finance literacy โดยเฉพาะเรื่อง futures และ options กำลังจะกลายเป็น skill ที่ engineering managers ต้องมีในยุค AI
+**อาจารย์ (มหาวิทยาลัย):** วิสัยทัศน์ของ Runway ที่มองว่า world model จะเป็น scientific infrastructure คล้าย particle accelerator — อุปกรณ์ที่นักวิจัยทุกสาขาจะใช้ร่วมกัน — เป็น thesis ที่น่าทดสอบผ่าน research ว่า physics simulation และ drug discovery จะ benefit จาก video-derived world models ได้จริงแค่ไหน เทียบกับ specialized simulators ที่มีอยู่
+**ผู้เชี่ยวชาญด้าน AI:** Runway มี edge ในเรื่อง high-quality cinematic training data และ creator ecosystem ที่ Google/OpenAI ไม่มี แต่ความเสี่ยงคือ world model training requires compute ที่ Runway มีน้อยกว่าคู่แข่ง 10–100x — partnership strategy กับ compute provider จะสำคัญกว่า algorithm quality ในระยะสั้น
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Runway เปิด world model API ปีนี้ use case แรกที่น่าลองคือ procedural environment generation สำหรับ game dev และ simulation training สำหรับ robotic systems — ทั้งสองตลาดนี้กำลังมองหา realistic physics simulation ที่ flexible กว่า game engine ที่มีอยู่
 
-## 4. China Earns $500 Million an Hour From Exports Supercharged by AI
+## 4. OpenAI อาจระดมทุนอีกครั้ง แม้เพิ่งปิด $122B — CFO ชี้ compute ขาดแคลน
 
-**อาจารย์ (มหาวิทยาลัย):** ตัวเลข $500M/hour สะท้อน structural shift ที่สำคัญ: จีน transition จากผู้ผลิตสินค้าราคาถูกไปสู่ผู้ส่งออก AI hardware ที่มี value-added สูง การ shift นี้จะ reshape trade balances และ geopolitical dynamics ในระยะยาว
-**ผู้เชี่ยวชาญด้าน AI:** เมื่อ AI hardware กลายเป็นครึ่งหนึ่งของการเติบโตส่งออกจีน supply chain ของ AI global ผูกกับ US-China geopolitics อย่างลึกมาก — semiconductor export controls จะมีผลกระทบต่อ development cost ของทุกคนอย่างมีนัยยะ ผู้เชี่ยวชาญควรติดตาม policy dynamics อย่างใกล้ชิด
-**โปรแกรมเมอร์มืออาชีพ:** ราคา GPU และ cloud compute ที่ทีม dev ใช้ทุกวันได้รับผลกระทบโดยตรงจาก AI export dynamics ของจีน — engineer ที่เข้าใจ supply chain ของ AI infrastructure จะ plan procurement และ budget ได้ดีกว่า
-
-## 5. AI-Fueled Rally Pushes Industrials to Tech-Like Valuations
-
-**อาจารย์ (มหาวิทยาลัย):** "AI-fueled valuation re-rating" ใน industrials เป็น economic phenomenon ที่น่าศึกษา — นักเรียนควรวิเคราะห์ว่า premium นี้ justified ด้วย fundamentals (อุตสาหกรรมจะ profit จาก AI จริงๆ ไหม?) หรือเป็น speculative overflow ที่อาจเกิด correction ได้
-**ผู้เชี่ยวชาญด้าน AI:** ถ้า AI ทำให้ industrials มี margin profile คล้าย tech stocks จริง investment thesis ของ "picks and shovels" play ใน AI จะขยายออกไปไกลกว่าแค่ chip makers และ cloud providers — utilities, cooling systems, construction และ logistics อาจเป็น AI plays ที่ undervalued อยู่
-**โปรแกรมเมอร์มืออาชีพ:** sector rotation นี้มีผลทางอ้อมต่อ AI infrastructure ที่ทุกคนใช้ — industrials ที่มี high valuation ระดม capital ได้ง่ายขึ้น แปลงเป็น data center capacity และ energy supply เพิ่มขึ้นในระยะกลาง ซึ่งอาจช่วยกดราคา compute ลงในอนาคต
+**อาจารย์ (มหาวิทยาลัย):** สถานการณ์ของ OpenAI เป็น case study ที่น่าสนใจมากสำหรับนักศึกษา business — บริษัทที่มี revenue growth สูงสุดในประวัติศาสตร์เทคโนโลยียังมี cash burn สูงเพราะ compute cost scale ตาม demand ควรวิเคราะห์ว่า AI company economics แตกต่างจาก traditional software economics (high margin, low marginal cost) อย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** คำพูดของ Friar เกี่ยวกับ "not a lot of compute in 2026" สะท้อน GPU supply chain bottleneck ที่ยังไม่ได้รับการแก้ไข — จนกว่า next-gen fab capacity จาก TSMC จะพร้อมใน 2027–2028 AI labs จะต้องแข่งกัน reserve compute ล่วงหน้า ซึ่งทำให้ capital requirement ไม่มีเพดาน
+**โปรแกรมเมอร์มืออาชีพ:** capital raise cycle ที่สั้นลงของ OpenAI บอกนัยว่า pricing ของ API services ไม่น่าจะลดลงมาก ในขณะที่ open-source alternatives อย่าง Llama-4 และ DeepSeek กำลัง mature ขึ้น — นี่เป็นเวลาที่ดีในการ evaluate multi-provider architecture แทนการ lock-in กับ provider เดียว
