@@ -1,62 +1,50 @@
-# Sources — 2026-05-13
+# Sources — 2026-05-16
 
-Generated: 2026-05-13 (Asia/Bangkok)
+Generated: 2026-05-16 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-05-12-brief.md (5 URLs loaded)
+Dedup against: articles/2026-05-15-brief.md (4 URLs loaded)
 
-1. **Everything Google announced at its Android Show — Gemini Intelligence, Googlebooks, vibe-coded widgets**
+1. **OpenAI launches ChatGPT Personal Finance with Plaid**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/
-   - Published: May 12, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug `2026/05/12/`
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (TechCrunch was in yesterday's set at a different path)
+   - URL: https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/
+   - Published: May 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/05/15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's TechCrunch paths were /05/14/)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google held The Android Show on May 12, announcing Gemini Intelligence as the new AI layer for premium Android devices and Googlebook as a new AI-native laptop category launching this fall from partners including Acer, Asus, Dell, HP, and Lenovo.
+   - Summary: OpenAI partnered with Plaid to enable ChatGPT Pro users in the US to connect bank accounts at 12,000+ institutions and receive personalized financial advice via a spending/portfolio dashboard.
 
-2. **Chromebook Plus กลับมาใหม่ ใช้ชื่อ Googlebook, ผูก Gemini Intelligence ไว้ในตัว**
-   - Publisher: Blognone
-   - URL: https://www.blognone.com/node/150514
-   - Published: May 12–13, 2026 (node 150514 > 150501 cited in yesterday's brief)
-   - FreshnessCheck: ✅ within last 24h via node number higher than 150501 (May 12 node) and story subject dated May 12
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Blognone was node/150501)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google officially rebrands Chromebook Plus as Googlebook, integrating Gemini Intelligence with Magic Pointer (cursor-shake to invoke Gemini) and Create My Widget (generative desktop UI).
-
-3. **CME, Silicon Data to Create Futures Market for Computing Power Backing AI**
+2. **Figure AI Humanoid Robots Sorted Packages for 50 Hours Nonstop, CEO Says**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-12/cme-to-create-futures-market-for-computing-power-backing-ai
-   - Published: May 12, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug `2026-05-12`
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (Bloomberg was in yesterday's set at different paths)
+   - URL: https://www.bloomberg.com/news/articles/2026-05-15/robotics-ceo-vows-no-intervention-in-humanoids-viral-trial-run
+   - Published: May 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Bloomberg paths were /2026-05-14/)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: CME Group and Silicon Data announced a partnership to launch the first futures market for AI computing power, enabling traders, cloud providers, and AI builders to hedge GPU price volatility using Silicon Data's daily on-demand GPU rental rate benchmarks.
+   - Summary: Figure AI CEO Brett Adcock confirmed four Helix 02 humanoid robots completed 50+ hours of autonomous package sorting with zero human interventions, processing 50,000+ packages with fully on-device AI inference.
 
-4. **China Earns $500 Million an Hour From Exports Supercharged by AI**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-12/china-earns-500-million-per-hour-from-export-supercharged-by-ai
-   - Published: May 12, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug `2026-05-12`
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different Bloomberg path)
+3. **Runway started by helping filmmakers — now it wants to beat Google at AI**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/
+   - Published: May 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/05/15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not present in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: China's exports of AI-related goods (semiconductors, computers, AI hardware) accounted for roughly half of its overall export growth in April 2026, generating approximately $500 million per hour.
+   - Summary: Runway ($5.3B valuation, +$40M ARR in Q2 2026) is pivoting from AI video tools to world models that learn from observational video data, positioning itself as scientific AI infrastructure competitive with Google.
 
-5. **AI-Fueled Rally Pushes Industrials to Tech-Like Valuations**
+4. **OpenAI May Raise More Money as Compute Crunch Deepens, CFO Says**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-12/ai-mania-makes-old-school-industrials-behave-like-chip-stocks
-   - Published: May 12, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug `2026-05-12`
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new article, not present yesterday)
+   - URL: https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says
+   - Published: May 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different Bloomberg path from yesterday's Cerebras and Apple stories)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: AI optimism has pushed valuations of industrial companies to levels historically associated with tech stocks, as investors bet on industrials profiting from AI infrastructure buildout in energy, cooling, and construction.
+   - Summary: CFO Sarah Friar said in a Bloomberg TV interview that OpenAI may raise more capital just 6 weeks after closing a $122B round, citing "a vertical wall of demand" and scarce compute capacity as drivers.
 
 ## Dropped
-- https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/ — Filter A (>24h): URL slug `2026/05/11/` is 2 days before today
-- https://openai.com/signals/research/2026q1-update/ — Filter A (>24h): snippet indicated May 11 publish date = 2 days ago
-- https://www.bloomberg.com/news/articles/2026-05-05/ai-firms-agree-to-give-us-early-access-to-evaluate-their-models — Filter A (>24h): URL slug `2026-05-05`, 8 days old
-- https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/ — Filter A (>24h): dated May 7, 6 days old; also not on trusted-sources.md (`blogs.microsoft.com` ≠ `www.microsoft.com/en-us/research/blog/`)
-- https://openai.com/index/introducing-chatgpt-futures-class-of-2026/ — Filter A (>24h): published approximately May 6, 7 days old
-- https://www.anthropic.com/news/finance-agents — Filter A (>24h): published May 5, 8 days old
-- https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/ — Filter B (dedup): appeared in articles/2026-05-12-brief.md (Story 5)
+- https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say — Filter A (>24h): URL slug 2026-05-11, 5 days old
+- https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/ — Filter A (>24h): April 2026, ~39 days old
+- https://windsurf.com/blog/swe-1-5 — Filter A (>24h): April 2026, not within 24h window
+- https://z.ai/blog/glm-5 — Filter A (>24h): March–April 2026, not within 24h window
 
-> Note: 5 items passed both filters this run. Of ~15 candidates evaluated, ~6 failed Filter A (>24h), 1 failed Filter B (Digg story in yesterday's brief), others not from trusted-source domains.
+> Note: 4 items passed both filters this run. Of ~12 candidates evaluated, 4+ failed Filter A (>24h), 0 failed Filter B. Thai-language source target (≥1) not met — no Blognone/Beartai/TheStandard articles from May 15–16, 2026 were returned by search.
