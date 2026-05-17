@@ -1,50 +1,46 @@
-# Sources — 2026-05-16
+# Sources — 2026-05-17
 
-Generated: 2026-05-16 (Asia/Bangkok)
+Generated: 2026-05-17 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-05-15-brief.md (4 URLs loaded)
+Dedup against: articles/2026-05-16-brief.md (5 URLs loaded)
 
-1. **OpenAI launches ChatGPT Personal Finance with Plaid**
+1. **arXiv will ban authors for a year if they let AI do all the work**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/
-   - Published: May 15, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/05/15
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's TechCrunch paths were /05/14/)
+   - URL: https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/
+   - Published: May 16, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/16/; confirmed "1 day ago" in search results
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (unique path not present in 2026-05-16-brief.md)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI partnered with Plaid to enable ChatGPT Pro users in the US to connect bank accounts at 12,000+ institutions and receive personalized financial advice via a spending/portfolio dashboard.
+   - Summary: arXiv is cracking down on careless LLM use in scientific papers. If unchecked AI generation is found, authors face a 1-year ban from arXiv plus a requirement that future submissions first be accepted by peer-reviewed venues before returning.
 
-2. **Figure AI Humanoid Robots Sorted Packages for 50 Hours Nonstop, CEO Says**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-15/robotics-ceo-vows-no-intervention-in-humanoids-viral-trial-run
-   - Published: May 15, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-15
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Bloomberg paths were /2026-05-14/)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Figure AI CEO Brett Adcock confirmed four Helix 02 humanoid robots completed 50+ hours of autonomous package sorting with zero human interventions, processing 50,000+ packages with fully on-device AI inference.
-
-3. **Runway started by helping filmmakers — now it wants to beat Google at AI**
+2. **$60B AI chip darling Cerebras almost died early on, burning $8M a month**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/
-   - Published: May 15, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/05/15
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not present in yesterday's brief)
+   - URL: https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/
+   - Published: May 16, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/16/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (Cerebras backstory article; Cerebras IPO itself was not covered in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Runway ($5.3B valuation, +$40M ARR in Q2 2026) is pivoting from AI video tools to world models that learn from observational video data, positioning itself as scientific AI infrastructure competitive with Google.
+   - Summary: One day after Cerebras' blockbuster IPO ($5.55B raised at $185/share, stock +68% on day one, week-end market cap ~$60B), TechCrunch profiles how the company burned $8M/month and incinerated nearly $200M in 2019 solving the technical problem of making its Wafer-Scale Engine viable.
 
-4. **OpenAI May Raise More Money as Compute Crunch Deepens, CFO Says**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says
-   - Published: May 15, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-15
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different Bloomberg path from yesterday's Cerebras and Apple stories)
+3. **The haves and have nots of the AI gold rush**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/
+   - Published: May 16, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/16/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: CFO Sarah Friar said in a Bloomberg TV interview that OpenAI may raise more capital just 6 weeks after closing a $122B round, citing "a vertical wall of demand" and scarce compute capacity as drivers.
+   - Summary: Menlo Ventures partner Deedy Das reports the wealth divide in AI is the worst he has seen: ~10,000 people at OpenAI, Anthropic, and Nvidia have "retirement wealth well above $20M," while others with well-paying AI jobs worry they'll never reach that level.
 
 ## Dropped
-- https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say — Filter A (>24h): URL slug 2026-05-11, 5 days old
-- https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/ — Filter A (>24h): April 2026, ~39 days old
-- https://windsurf.com/blog/swe-1-5 — Filter A (>24h): April 2026, not within 24h window
-- https://z.ai/blog/glm-5 — Filter A (>24h): March–April 2026, not within 24h window
+- https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/ — Filter B (dedup): URL in articles/2026-05-16-brief.md
+- https://www.bloomberg.com/news/articles/2026-05-15/openai-taps-plaid-to-bring-tailored-financial-advice-to-masses — Filter B (dedup): URL in articles/2026-05-16-brief.md
+- https://www.bloomberg.com/news/articles/2026-05-15/robotics-ceo-vows-no-intervention-in-humanoids-viral-trial-run — Filter B (dedup): URL in articles/2026-05-16-brief.md
+- https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/ — Filter B (dedup): URL in articles/2026-05-16-brief.md
+- https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says — Filter B (dedup): URL in articles/2026-05-16-brief.md
+- https://www.bloomberg.com/news/articles/2026-05-15/trump-says-he-discussed-ai-guardrails-nvidia-s-chips-with-xi — Filter A (>24h): URL slug 2026-05-15, published 2 days before May 17
+- https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/ — Filter A (>24h): published May 15
+- https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/ — Filter A (>24h): published May 14
+- https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/ — Filter A (>24h): published May 14
 
-> Note: 4 items passed both filters this run. Of ~12 candidates evaluated, 4+ failed Filter A (>24h), 0 failed Filter B. Thai-language source target (≥1) not met — no Blognone/Beartai/TheStandard articles from May 15–16, 2026 were returned by search.
+> Note: 3 items passed both filters this run. Of ~15 candidates evaluated, ~7 failed Filter A (>24h), 5 failed Filter B (dedup against yesterday's brief). No Thai-language source found within the 24h window despite searches on blognone.com, beartai.com, and thestandard.co.
