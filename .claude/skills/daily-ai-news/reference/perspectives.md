@@ -1,19 +1,25 @@
-# Perspectives — 2026-05-17
+# Perspectives — 2026-05-18
 
-## 1. arXiv will ban authors for a year if they let AI do all the work
+## 1. China's Energy Boom Could Give It the AI Edge
 
-**อาจารย์ (มหาวิทยาลัย):** นโยบายนี้สะท้อนวิกฤตความน่าเชื่อถือของงานวิชาการในยุค LLM — นักศึกษาต้องเข้าใจว่า arXiv เป็น infrastructure สำคัญของวิทยาศาสตร์โลก และการที่ LLM-generated papers ระบาดเป็นร้อยชิ้นต่อเดือนทำให้ peer reviewers มีภาระเพิ่มขึ้นจน signal-to-noise ratio ลดลงอย่างน่าเป็นห่วง ซึ่งกระทบคุณภาพวิทยาศาสตร์ระยะยาว
-**ผู้เชี่ยวชาญด้าน AI:** น่าสนใจที่ arXiv เลือก "social enforcement" (ban + peer review requirement) แทน AI detection tools เพราะ detectors เหล่านั้นยัง false positive สูงและ adversarially fragile — อย่างไรก็ตาม นโยบายนี้สร้าง perverse incentive ให้ผู้เขียนซ่อน AI use แทนที่จะ disclose อย่างโปร่งใส ซึ่งอาจซับซ้อนกว่าปัญหาเดิม
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าคุณ publish งานวิจัยควบคู่กับ product ต้องปรับ workflow ให้มี audit trail ชัดเจนว่า human contributed อะไรบ้าง ตั้งแต่วันนี้ — journals และ conferences จะออก policies คล้ายกันในเร็ว ๆ นี้ และ LLM-assisted code documentation ก็อยู่ในสายตาเดียวกัน
+**อาจารย์ (มหาวิทยาลัย):** การแข่งขัน AI ไม่ใช่แค่เรื่องอัลกอริทึมหรือชิป แต่รวมถึงโครงสร้างพื้นฐานด้านพลังงาน — นักศึกษาควรเข้าใจว่า data center ที่รัน frontier LLM ต้องการกระแสไฟฟ้ามหาศาล และข้อได้เปรียบเชิงภูมิรัฐศาสตร์ที่แท้จริงอาจอยู่ที่ energy capacity ไม่ใช่แค่ compute หรือ talent
 
-## 2. $60B AI chip darling Cerebras almost died early on, burning $8M a month
+**ผู้เชี่ยวชาญด้าน AI:** ประเด็นที่ Paulson ยกขึ้นมาชี้ให้เห็น constraint ที่มักถูกมองข้าม: training run ของโมเดล frontier ใช้ไฟฟ้าหลัก GWh ต่อครั้ง และถ้า US grid ไม่โต ข้อได้เปรียบด้าน infrastructure ของจีนอาจกลายเป็น bottleneck จริงสำหรับสหรัฐฯ ไม่ใช่แค่ rhetoric เชิงนโยบาย
 
-**อาจารย์ (มหาวิทยาลัย):** Cerebras คือ case study ของ "technical moat through impossible bet" — บริษัทเลือกสร้าง Wafer-Scale Engine ซึ่ง risk ระดับ existential เผา $200M ก่อนจะรู้ว่าใช้ได้จริง นักศึกษา engineering และ entrepreneurship ควรวิเคราะห์ว่าทำไม investor จึงยังสนับสนุนต่อในช่วงที่ burn rate สูงและไม่มีหลักประกันของผลลัพธ์
-**ผู้เชี่ยวชาญด้าน AI:** WSE3 ของ Cerebras โดดเด่นที่ inter-chip bandwidth ต่ำมาก ทำให้ latency ต่ำในงาน long-context single-request inference แต่ GPU cluster ยังชนะใน parallel batch workloads — ดังนั้น use case ที่เหมาะที่สุดคือ real-time interactive AI ที่ต้องการ response time ต่ำกว่า 100ms สำหรับ context ยาว
-**โปรแกรมเมอร์มืออาชีพ:** Cerebras Cloud API พึ่งขยายหลัง IPO — ลอง benchmark กับ long-context inference workloads จริงของตัวเอง ถ้าต้องการ low-latency long-context responses (>32K tokens) อาจคุ้มค่ากว่า GPU providers ที่ใช้อยู่สำหรับ use cases เฉพาะเจาะจง
+**โปรแกรมเมอร์มืออาชีพ:** ในทางปฏิบัติ ต้นทุน inference ที่สูงขึ้นจาก energy cost แปลตรงมาเป็น API cost ที่สูงขึ้นสำหรับ developer ทุกคน — นั่นคือเหตุผลที่ model efficiency, quantization, และ on-device inference กำลังกลายเป็น core engineering skill แทนที่จะเป็น niche specialty
 
-## 3. The haves and have nots of the AI gold rush
+## 2. iOS 27: Siri App to Have Auto-Deleting Chats; Siri May Be a 'Beta'; Genmoji
 
-**อาจารย์ (มหาวิทยาลัย):** ปรากฏการณ์นี้ไม่ใช่แค่ wealth gap แต่คือ "knowledge and access gap" ในระดับที่ไม่เคยเกิดขึ้นในรอบการปฏิวัติเทคโนโลยีใดมาก่อน — คน 10,000 คนนั้นกำลัง shape trajectory ของ AI ขณะที่คนส่วนใหญ่ยังเป็น passive consumer ซึ่งมีนัยต่อ democratic governance of AI ที่ต้องพูดถึงในหลักสูตร AI ethics
-**ผู้เชี่ยวชาญด้าน AI:** ตัวเลข 10,000 คน ($20M+) ชี้ว่า equity concentration เป็น winner-take-most ไม่ใช่ winner-take-all — ยังมี second-tier upside ที่ Mistral, Cohere, Runway แต่ gap กับ frontier labs กว้างขึ้นทุกเดือนเมื่อ valuation เพิ่มขึ้น exponentially ทำให้ early employees ใหม่ในบริษัทเหล่านี้ได้ upside น้อยลงเรื่อย ๆ
-**โปรแกรมเมอร์มืออาชีพ:** อย่า discouraged เพราะไม่ได้อยู่ใน top 10K — demand สำหรับ AI integration engineering, agentic orchestration, RAG pipeline optimization, และ fine-tuning ยังโตต่อเนื่องในทุก sector และ skills เหล่านี้สร้าง leverage ที่แข็งแกร่งในตลาดแรงงานปัจจุบัน
+**อาจารย์ (มหาวิทยาลัย):** กรณีของ Apple ชี้ให้เห็นว่าการออกแบบ AI ที่ "privacy-first" ไม่ใช่แค่ feature ทางการตลาด แต่เป็นการตัดสินใจเชิงสถาปัตยกรรม — auto-deleting chats สะท้อนแนวคิด data minimization ที่เป็น foundation ของ GDPR และ AI governance หลักสูตรควรให้นักศึกษาวิเคราะห์ trade-off ระหว่าง personalization กับ privacy อย่างจริงจัง
+
+**ผู้เชี่ยวชาญด้าน AI:** การที่ Apple เลือก launch เป็น beta หลังดีเลย์ 2 ปี บ่งชี้ว่าบริษัทยังไม่มั่นใจในคุณภาพ — ซึ่งฉลาดกว่าการ rush ออก product ที่ไม่พร้อม แต่ก็ตอกย้ำว่าการทำ AI personal assistant ที่ดีจริงในระดับ mass market ยากกว่าที่ตลาดประเมินมาโดยตลอด
+
+**โปรแกรมเมอร์มืออาชีพ:** จับตา API ที่ Apple จะ expose ใน iOS 27 อย่างใกล้ชิด โดยเฉพาะถ้า Apple เปิดให้ third-party AI models แข่งขันกับ ChatGPT ตามที่รายงานก่อนหน้า — distribution channel ระดับ hundreds of millions of devices นั้น opportunity size ใหญ่มาก
+
+## 3. If you're giving a commencement speech in 2026, maybe don't mention AI
+
+**อาจารย์ (มหาวิทยาลัย):** ปฏิกิริยาของ Gen Z ต่อ AI ในพิธีจบการศึกษาสะท้อน anxiety จริง ๆ ที่นักศึกษามีต่ออนาคตการทำงาน — สถาบันการศึกษาต้องรับฟังและบูรณาการความกังวลเหล่านี้เข้าไปในหลักสูตร AI ethics และ career preparation แทนที่จะสื่อสารแต่ optimism ที่ไม่สอดคล้องกับประสบการณ์จริงของนักศึกษา
+
+**ผู้เชี่ยวชาญด้าน AI:** backlash นี้ไม่ใช่ anti-technology แต่เป็น signal ที่ชัดเจนว่า public narrative ของ AI ถูก dominate โดยเสียงของ executives และ investors มากเกินไป — ชุมชน AI ต้องลงทุนในการสื่อสารที่ตรงไปตรงมา empathetic และยอมรับ uncertainty มากขึ้น
+
+**โปรแกรมเมอร์มืออาชีพ:** ความไม่ไว้วางใจของ user ต่อ AI คือ product problem ที่แก้ได้ด้วย transparency, control, และ explainability — build tools ที่ให้ user เห็นได้ว่า AI ทำอะไร ควบคุมได้ และถอนตัวได้ง่าย; นั่นคือ path สู่ adoption จริงมากกว่าการตลาดที่ดีขึ้น
