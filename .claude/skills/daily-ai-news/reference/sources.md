@@ -1,61 +1,54 @@
-# Sources — 2026-05-19
+# Sources — 2026-05-20
 
-Generated: 2026-05-19 (Asia/Bangkok)
+Generated: 2026-05-20 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-05-18-brief.md (3 URLs loaded)
+Dedup against: articles/2026-05-19-brief.md (5 URLs loaded)
 
-1. **NextEra to Buy Dominion for $67 Billion to Form Power Giant**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-18/nextera-to-buy-dominion-for-67-billion-to-form-utility-colossus
-   - Published: 2026-05-18
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-18
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /news/articles/2026-05-18/nextera... differs from yesterday's Bloomberg at /news/videos/2026-05-17/china-s-energy-boom... and /news/newsletters/2026-05-17/ios-27...)
+1. **With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots**
+   - Publisher: TechCrunch (techcrunch.com — trusted)
+   - URL: https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/
+   - Published: 2026-05-19
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/19/ (< 24h before 2026-05-20 Bangkok time)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no techcrunch.com Gemini Flash URL in 2026-05-19 brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: NextEra Energy agreed to acquire Dominion Energy in an all-stock deal valued at ~$67 billion, creating the world's largest regulated electric utility. Dominion powers the world's largest data center market in northern Virginia; the deal is explicitly motivated by AI-driven power demand surging beyond current grid capacity.
+   - Summary: Google launched Gemini 3.5 Flash at I/O 2026, its strongest model yet for coding and autonomous AI agents, capable of independently executing coding pipelines and building operating systems. It outperforms Gemini 3.1 Pro on nearly all benchmarks and is now the default model in the Gemini app and AI Mode in Search globally.
 
-2. **Meta Moves 7,000 Workers Into AI Roles Ahead of Job Cuts**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-18/meta-moves-7-000-workers-into-ai-roles-ahead-of-job-cuts
-   - Published: 2026-05-18
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-18
+2. **Google Search as you know it is over**
+   - Publisher: TechCrunch (techcrunch.com — trusted)
+   - URL: https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/
+   - Published: 2026-05-19
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/19/
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Meta Platforms is reassigning 7,000 workers to new AI-focused groups (agents, apps, infrastructure) per an internal memo from Chief People Officer Janelle Gale, ahead of planned layoffs of ~8,000 on May 20. Zuckerberg's vision: "flatter" teams where one talented person with AI can do what previously required a whole team.
+   - Summary: Google unveiled an AI-powered overhaul of Search at I/O 2026, replacing the 25-year-old link-based paradigm with generative UI that builds interactive widgets and visualizations on the fly. The new search box arrives this week; generative UI and information agents roll out this summer, with mini-app builders for Pro/Ultra subscribers.
 
-3. **Nvidia's CEO Says China Will Open Its Market to AI Chips From US**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-18/nvidia-s-ceo-says-china-will-open-its-market-to-ai-chips-from-us
-   - Published: 2026-05-18
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-18
+3. **Google introduces Gemini Spark, a 24/7 agentic assistant with Gmail integration, at IO 2026**
+   - Publisher: TechCrunch (techcrunch.com — trusted)
+   - URL: https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/
+   - Published: 2026-05-19
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/19/
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Nvidia CEO Jensen Huang, speaking in a Bloomberg Television interview days after joining President Trump's China summit, said he expects Chinese authorities to eventually open the import of US AI chips. China AI stocks surged after Huang's Beijing visit; the geopolitical context is the US-China AI chip embargo and ongoing negotiations.
+   - Summary: Google announced Gemini Spark, a 24/7 cloud-based AI agent built on Gemini and Google Antigravity that works in the background even when the phone is locked. Users can email Spark through a dedicated Gmail address; the agent integrates with Chrome, MCP services, and Google Workspace documents, with availability to Google AI Ultra subscribers next week.
 
-4. **AI Chip Startup Tenstorrent Draws Takeover Interest From Intel, Qualcomm**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-18/ai-chip-startup-tenstorrent-draws-takeover-interest-from-intel-qualcomm
-   - Published: 2026-05-18
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-18
+4. **Google's Gemini Omni turns images, audio, and text into video — and that's just the start**
+   - Publisher: TechCrunch (techcrunch.com — trusted)
+   - URL: https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/
+   - Published: 2026-05-19
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/19/
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Tenstorrent, the RISC-V AI chip startup founded by chip architect Jim Keller, has drawn early takeover interest from Intel and Qualcomm. The company designs chips positioned as more efficient alternatives to Nvidia for certain AI workloads, attracting M&A interest at a moment when rivals race to challenge Nvidia's dominance.
+   - Summary: Google launched Gemini Omni, a new family of multimodal models that reasons across text, images, audio, and video to generate and edit videos through conversation. Omni Flash is available via Google Flow and YouTube Shorts for Google AI subscribers, with a professional Omni Pro model planned for more advanced use cases.
 
-5. **A New Personal Finance Experience in ChatGPT**
-   - Publisher: OpenAI
-   - URL: https://openai.com/index/personal-finance-chatgpt/
-   - Published: 2026-05-18 (confirmed by multiple third-party coverage dates: dataconomy.com/2026/05/18/, ghacks.net/2026/05/18/, resultsense.com/2026-05-18, theaiinsider.tech/2026/05/18/; TechCrunch published an earlier preview on May 15 but the official OpenAI blog post and formal launch occurred May 18)
-   - FreshnessCheck: ✅ within last 24h — multiple third-party sites with 2026-05-18 slugs; LLM-stats.com search snippet explicitly states "announced May 18, 2026"
+5. **OpenAI is making it easier to check if an image was made by their models**
+   - Publisher: TechCrunch / OpenAI (techcrunch.com, openai.com — both trusted)
+   - URL: https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/
+   - Published: 2026-05-19
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/19/
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet (openai.com is on trusted list; URL present in search results)
-   - Summary: OpenAI launched a personal finance experience in ChatGPT for Pro subscribers in the US, allowing secure connection to 12,000+ financial institutions via Plaid. Users get a dashboard of portfolio, spending, subscriptions, and upcoming payments, with AI-powered Q&A grounded in their real financial data. ChatGPT cannot move money or execute trades.
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: OpenAI committed to the C2PA open standard for AI image metadata and partnered with Google to embed SynthID invisible watermarks in ChatGPT-generated images. The two systems complement each other: C2PA provides rich metadata but can be stripped; SynthID persists through screenshots and digital manipulation. OpenAI is also previewing a public verification tool.
 
-## Dropped
-- https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/ — Filter A (>24h): May 15, 2026 (earlier preview; official launch was May 18)
-- https://www.anthropic.com/news/claude-opus-4-7 — Filter A (>24h): announced April 16, 2026
-- Anthropic agent pricing changes — Filter A (>24h): announced May 14, 2026
-- Blognone node/150513, 150514, 150539 (Gemini Intelligence, Googlebook, AppFunctions) — date ambiguous; Android Show was May 12 → likely >24h; dropped per no confirmed 24h timestamp
-- https://thestandard.co/google-io-2026-ai-gemini-android/ — Filter A (>24h): published February 19, 2026
-- https://thestandard.co/meta-microsoft-tech-layoffs-ai/ — Filter A (>24h): snippet confirms "4 weeks ago" (~April 19, 2026)
-
-> Note: 5 items passed both filters this run. All from trusted international sources (Bloomberg ×4, OpenAI ×1). Thai-language coverage of Meta layoffs exists (Blognone node/150340; thestandard.co/meta-snap-layoffs-ai-jobs/) but publication dates could not be confirmed within 24h; using Bloomberg as the primary citation. Thai-language source target not met due to supply constraints.
+> Note: 5 items passed both filters this run. 0 failed Filter A, 0 failed Filter B.
+> No Thai-language source included: Blognone searches returned no fresh (< 24h) coverage of today's Google I/O 2026 announcements — only a pre-event date-announcement node (149778) and older stories were found. Proceeding with 5 international sources from TechCrunch.
