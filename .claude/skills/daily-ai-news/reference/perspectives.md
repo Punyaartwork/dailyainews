@@ -1,31 +1,25 @@
-# Perspectives — 2026-05-20
+# Perspectives — 2026-05-21
 
-## 1. Gemini 3.5 Flash — Google bets its next AI wave on agents, not chatbots
+## 1. AI search startups are blowing up
 
-**อาจารย์ (มหาวิทยาลัย):** นักศึกษาต้องเข้าใจว่า "agentic AI" ไม่ใช่แค่ชื่อใหม่ของ automation — มันคือ software paradigm ใหม่ที่ AI วางแผน ตัดสินใจ และ iterate โดยไม่ต้องมีคนนำทางทุกขั้นตอน Gemini 3.5 Flash ที่สามารถ "build an OS from scratch" ในการทดสอบคือ concrete example ที่ควรนำเข้า curriculum
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Flash 3.5 beat Pro 3.1 บน agentic benchmarks บอกว่า Google optimize ขนาด/ต้นทุนสำหรับ deployment จริง ไม่ใช่แค่ research — เป็นสัญญาณว่า performance frontier กำลัง commoditize เร็วกว่าที่ตลาดคาด ต้องดูว่า model นี้ทำงานอย่างไรบน real-world tasks ที่มี noisy environment
-**โปรแกรมเมอร์มืออาชีพ:** Gemini 3.5 Flash เป็น default ใน Gemini Enterprise แล้ว หมายความว่า agentic pipeline ที่ build บน Gemini API ตอนนี้จะใช้ model นี้โดยอัตโนมัติ ลอง test ว่า tool use และ multi-step reasoning ดีขึ้นใน production จริงหรือเปล่าก่อน commit architecture
+**อาจารย์ (มหาวิทยาลัย):** นักศึกษา CS ควรทำความเข้าใจความแตกต่างระหว่าง semantic search, vector databases และ traditional keyword search เพราะนี่คือ foundation ของ AI agent ecosystems — การที่ Exa Labs ได้ valuation $2.2B บ่งชี้ว่า information retrieval สำหรับ AI systems กำลังกลายเป็น discipline ใหม่ที่มีมูลค่าสูงมาก
+**ผู้เชี่ยวชาญด้าน AI:** Exa Labs' technical moat คือ semantic search ที่ optimize สำหรับ AI agents โดยเฉพาะ — index structure, query processing และ output format ล้วนออกแบบสำหรับ machine consumption ไม่ใช่ human browsing; precision ของ semantic matching ไม่ใช่แค่ความเร็ว คือ differentiator ที่แท้จริง
+**โปรแกรมเมอร์มืออาชีพ:** ถึงเวลาแล้วที่จะเลิก default ไปที่ Google Search API สำหรับ AI agents — Exa, Tavily และ Parallel ให้ structured JSON output ที่ agent-friendly กว่ามาก; pricing model scale ดีกว่าสำหรับ high-volume automated queries ที่ cost per token คือปัจจัยชี้ขาด
 
-## 2. Google Search as you know it is over
+## 2. Nvidia disappointing forecast as AI chip competition mounts
 
-**อาจารย์ (มหาวิทยาลัย):** Generative UI ใน Search คือ moment ที่ต้องสอนนักศึกษาให้ตั้งคำถามว่า "ใครสร้าง content" เมื่อ AI generate visualization ตอบคำถาม — source attribution และ academic integrity ใน AI era ต้องถูก redefine ในทุก discipline
-**ผู้เชี่ยวชาญด้าน AI:** การสร้าง generative UI แบบ real-time ที่ ground บน live data โดยรักษา factual consistency ข้าม follow-up queries คือ engineering challenge ยากกว่า text generation มาก ต้องดูว่า Google จะจัดการ hallucination ใน visual context อย่างไร
-**โปรแกรมเมอร์มืออาชีพ:** SEO ที่รู้จักกันหมดสิ้นแล้ว — traffic model ใหม่คือ "ข้อมูลของคุณปรากฏใน information agents ได้หรือเปล่า" ให้ invest ใน structured data, APIs และ data quality มากกว่า keyword optimization
+**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างที่ดีของ market dynamics ที่ซับซ้อน — Nvidia สร้างรายได้สถิติใหม่แต่ตลาดยังผิดหวัง เพราะ valuation ฝัง growth expectations สูงไว้แล้ว; ให้นักศึกษาวิเคราะห์ว่า hardware commoditization เกิดขึ้นอย่างไรในอุตสาหกรรม AI และ innovator's dilemma มีรูปแบบใดในบริบทนี้
+**ผู้เชี่ยวชาญด้าน AI:** Custom ASIC ไม่ได้ kill Nvidia — มันเป็น bifurcation ของ market: Nvidia ครอง training และ R&D workloads ที่ต้องการ flexibility; custom silicon ครอง predictable high-volume inference; AI team ควรตัดสินใจบน workload profile จริงไม่ใช่ vendor loyalty หรือ hype
+**โปรแกรมเมอร์มืออาชีพ:** ข้อมูลนี้มีความหมายตรงๆ สำหรับ infra budget — ถ้า inference workload predictable และ high-volume ให้ benchmark Google TPU v5 และ AWS Inferentia กับ A100/H100 บน total cost of ownership; savings อาจสูงถึง 40-60% สำหรับ right workloads ที่ run ตลอด
 
-## 3. Google introduces Gemini Spark
+## 3. Chatbots struggle with news accuracy, sourcing ahead of midterms
 
-**อาจารย์ (มหาวิทยาลัย):** Gemini Spark ที่รับคำสั่งผ่าน Gmail คือ example ที่ดีของ "interface for human-agent collaboration" — ชวนนักศึกษาคิดว่า workflow ของงานแต่ละประเภทจะ delegate ส่วนไหนให้ agent ได้และส่วนไหนควรมีมนุษย์ดูแล
-**ผู้เชี่ยวชาญด้าน AI:** Cloud-based agent ที่ทำงาน background ขณะผู้ใช้ไม่ online มี security และ privacy implication ที่ต้องพิจารณาอย่างจริงจัง โดยเฉพาะการที่ Spark สามารถ read emails, docs, และ browse เว็บ — trust boundary ของ agentic system ยังไม่มี industry standard ที่ชัดเจน
-**โปรแกรมเมอร์มืออาชีพ:** MCP integration ของ Spark เปิดโอกาสให้ tools ของคุณ "เป็น API ที่ Spark ใช้" — ลงทุน expose API ผ่าน MCP schema ตั้งแต่ตอนนี้เพื่อรองรับ agent ecosystem ที่กำลังเติบโต
+**อาจารย์ (มหาวิทยาลัย):** ผลการศึกษานี้เป็นหลักฐานเชิงประจักษ์ที่ควรใช้ในห้องเรียนทุกระดับ — 90% failure rate บน election questions ไม่ใช่เรื่องเล็กน้อย; AI literacy ที่แท้จริงคือการเข้าใจว่า AI มีแนวโน้มผิดพลาดในลักษณะใดและทำไม ไม่ใช่แค่รู้ว่าผิดพลาดได้
+**ผู้เชี่ยวชาญด้าน AI:** Systematic bias ที่แตกต่างกันระหว่าง models บ่งชี้ว่า RLHF process และ training data curation ของแต่ละ lab มีผลอย่างมากต่อ political framing — ปัญหานี้แก้ยากมากเพราะ "neutral" ใน politics คือแนวคิดที่ contested โดยตัวมันเอง; การ audit model bias ควรเป็น standard practice ก่อน civic deployment
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า build chatbot ที่มี civic หรือ election content: treat LLM เป็น orchestration layer เท่านั้น ไม่ใช่แหล่งข้อมูล primary; ใช้ RAG กับ authoritative election databases และ implement citation verification ก่อน output ทุกครั้ง — ไม่มี guardrail ใดสำคัญเท่านี้สำหรับ high-stakes information
 
-## 4. Google's Gemini Omni
+## 4. YouTube บอกระบบค้นหาวิดีโอแบบใหม่สไตล์ AI Mode จะเปิดให้ใช้งานเร็ว ๆ นี้
 
-**อาจารย์ (มหาวิทยาลัย):** Video generation ที่มี historical/cultural reasoning ระดับนี้เปลี่ยน dynamic ของ educational content production — ให้นักศึกษาคิดว่า AI-generated explainer video กับ video ที่มนุษย์ผลิตต่างกันใน context อะไรบ้าง และ trust ควรให้น้ำหนักต่างกันอย่างไร
-**ผู้เชี่ยวชาญด้าน AI:** Native multimodal model ที่ reason ข้าม modalities แทน pipeline ต่อกัน คือ architectural leap ที่ลด error accumulation และ latency — เป็นสิ่งที่ research community พูดถึงมาหลายปี ต้องดูว่า consistency ข้าม modalities จะ hold ใน complex prompt จริงหรือเปล่า
-**โปรแกรมเมอร์มืออาชีพ:** Google Flow API สำหรับ Gemini Omni น่าจะมี favorable pricing เพราะ Google optimize สำหรับ YouTube Shorts volume — ทำให้เป็นตัวเลือกที่น่าสนใจสำหรับ consumer app ที่ต้องการ video generation ต้นทุนต่ำ
-
-## 5. OpenAI + Google image provenance (C2PA + SynthID)
-
-**อาจารย์ (มหาวิทยาลัย):** C2PA + SynthID คือโอกาสสอนนักศึกษาเรื่อง trust chain ใน digital media — ให้นักศึกษาทดสอบ public verification tool ของ OpenAI กับรูปที่ AI-generate เพื่อเข้าใจว่า provenance system ทำงานอย่างไรและมีจุดอ่อนที่ไหน
-**ผู้เชี่ยวชาญด้าน AI:** การที่ OpenAI และ Google ร่วมมือกันบน content provenance ทั้งที่แข่งกันดุเดือดในด้านอื่นสะท้อนว่า trust infrastructure ถูกมองเป็น public good — แต่ยังต้องการ platform adoption (browsers, social media, OS) เพื่อให้มีผลจริงในระดับ systemic
-**โปรแกรมเมอร์มืออาชีพ:** C2PA กำลัง converge กลายเป็น industry standard จริง ให้ implement metadata tagging ใน image generation endpoint ของ product ตั้งแต่ตอนนี้ — ต้นทุนต่ำมาก แต่ผลระยะยาวคือ compliance ready สำหรับ platform requirements ที่กำลังมา
+**อาจารย์ (มหาวิทยาลัย):** Ask YouTube เปลี่ยนวิธีที่นักศึกษาค้นหาวิดีโอการเรียนรู้ — แทนที่จะ optimize keyword อาจารย์ควรสนับสนุนให้นักศึกษาฝึกตั้งคำถามที่มี context ครบถ้วน เพราะ AI search ตอบคำถามที่ specific ได้ดีกว่า broad keywords มาก; เป็นโอกาสสอน information literacy ใหม่ในยุค AI
+**ผู้เชี่ยวชาญด้าน AI:** การ integrate Ask YouTube กับ Gemini model family เดียวกับ Google Search AI Mode คือ technical advantage ที่ชัดเจน — YouTube มี multimodal training data (video+audio+transcript) ที่ให้ video search model มี context เชิงลึกกว่า text-only alternatives; cross-platform data flywheel ที่ competitor ทำได้ยาก
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับ content creators และ publisher ที่ใช้ YouTube เป็น distribution channel — ลงทุนเวลาใน timestamps, chapters และ detailed descriptions ตั้งแต่ตอนนี้ เพราะ Ask YouTube ใช้ structured metadata เหล่านี้ใน ranking; SEO สำหรับ AI search แตกต่างจาก traditional video SEO อย่างมีนัยสำคัญ
