@@ -1,31 +1,19 @@
-# Perspectives — 2026-05-23
+# Perspectives — 2026-05-24
 
-## 1. Gemini 3.5 Flash: Frontier Intelligence with Action
+## 1. Gemini Omni: AI วิดีโอที่รับทุก Input
 
-**อาจารย์ (มหาวิทยาลัย):** Gemini 3.5 Flash แสดงว่า "สงครามโมเดล" ย้ายจากการแข่งขันด้าน parameters สู่การแข่งด้าน speed-cost-utility trade-off — นักเรียนควรเรียนรู้ว่าการเลือกโมเดลต้องพิจารณา latency, pricing และ context window ไม่ใช่แค่ benchmark score
-**ผู้เชี่ยวชาญด้าน AI:** 4x throughput เหนือคู่แข่ง frontier ที่ราคา $1.50/1M input tokens คือสัญญาณที่ชัดเจนว่า inference efficiency กลายเป็น key differentiator — Antigravity's managed agents สร้าง first-party lock-in ผ่าน infrastructure แทนที่จะเป็น model weight ซึ่งน่าจับตามากกว่า
-**โปรแกรมเมอร์มืออาชีพ:** เวลา Gemini 3.5 Flash ตอบใน sub-second ผ่าน managed agent harness หมายความว่า use cases ที่ผู้ใช้รอไม่ได้ เช่น live coding assist หรือ real-time customer support ตอนนี้ทำได้จริงในเชิงเศรษฐศาสตร์ — ถึงเวลา re-benchmark pipeline ที่ใช้ turbo-class model อยู่
+**อาจารย์ (มหาวิทยาลัย):** Gemini Omni ผลักเส้นแบ่งระหว่าง documentary กับ synthetic media ให้เลือนหายไปอย่างรวดเร็ว — นักศึกษาด้านสื่อและการสื่อสารต้องเรียนรู้ว่า barrier เข้าถึง deepfake-quality video กำลังหายไป และผลต่อ information ecosystem ต้องถูกนำเข้าสู่ห้องเรียน
+**ผู้เชี่ยวชาญด้าน AI:** multimodal-to-video pipeline ที่รับได้ทุก input format คือก้าวสำคัญด้าน architecture — แต่ที่น่าจับตากว่าคือการที่ Google เลือก distribute ผ่าน Flow platform แทน API ตรง ซึ่งบ่งชี้ strategy ควบคุม safety layer ก่อนเปิด broad access แทนที่จะวางใจ developer ให้ self-moderate
+**โปรแกรมเมอร์มืออาชีพ:** Flow API integration เปิดโอกาส use case เชิงพาณิชย์ เช่น automated product demo videos, e-learning content generation หรือ personalized marketing — ควรเริ่ม prototype ก่อนที่ rate limit จะแน่นเมื่อผู้ใช้แห่เข้าในช่วงแรก
 
-## 2. AI Resurrects Voices of Dead Pilots
+## 2. Ferrari + IBM: AI สร้าง F1 Superfans
 
-**อาจารย์ (มหาวิทยาลัย):** เหตุการณ์นี้ตอกย้ำว่า AI ethics ไม่ใช่แค่เรื่องของ "bias ในข้อมูล" แต่รวมถึงสิทธิ์ของบุคคลหลังเสียชีวิต — ควรนำเข้าสู่บทเรียนเรื่อง digital identity, consent และ post-mortem data rights ซึ่งกฎหมายยังไม่ทัน
-**ผู้เชี่ยวชาญด้าน AI:** Voice cloning จากเสียงที่บันทึกใน public safety records เป็นกรณีชัดเจนที่ model capability นำหน้า governance มาก — นี่คือ argument แข็งแกร่งที่สุดสำหรับ mandatory watermarking ของ synthetic audio เช่น SynthID standard ที่ Google ผลักดัน
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า TTS model ถูกใช้ใน production ควรตรวจสอบว่า training data มี consent agreement ที่ครอบคลุม posthumous use ด้วย — ไม่งั้นบริษัทอาจเผชิญ liability ที่คาดไม่ถึง โดยเฉพาะเมื่อ EU AI Act มีผลบังคับเต็มรูปแบบ
+**อาจารย์ (มหาวิทยาลัย):** กรณี Ferrari-IBM เป็นตัวอย่างดีของ "fan engagement economy" ที่ AI ไม่ได้แทนที่ประสบการณ์แต่ personalize ในระดับ mass — เหมาะนำมาสอนในคอร์ส sports management และ marketing strategy เพื่อวิเคราะห์ผลของ AI ต่อ brand loyalty และ customer lifetime value
+**ผู้เชี่ยวชาญด้าน AI:** ตัวเลข 62% engagement boost น่าตั้งคำถาม — ควรถามว่าวัดอะไร: session duration, click-through หรือ DAU? ถ้า watsonx ตอบคำถามแฟนได้แม่นจริง conversational AI สำหรับ sports domain อาจเป็น underserved vertical ที่คุ้มค่า invest มากกว่าที่ตลาดตระหนัก
+**โปรแกรมเมอร์มืออาชีพ:** IBM watsonx integration ใน fan app คือ reference architecture ที่น่าศึกษาสำหรับ enterprise AI team — โดยเฉพาะวิธี handle real-time race data ingestion ควบคู่กับ LLM response generation โดยไม่ให้ latency พัง ซึ่งเป็น challenge ที่ทีม sport-tech ทุกทีมต้องเผชิญ
 
-## 3. Spotify's AI Bet: More Generation, Less Discovery
+## 3. หุ้น AI: Supercycle หรือฟองสบู่?
 
-**อาจารย์ (มหาวิทยาลัย):** Spotify กำลัง prioritize supply-side AI (ลดต้นทุน content) เหนือ demand-side AI (ช่วยผู้ฟังค้นพบ) — เป็น case study เรื่อง business incentive กับ user value ที่ไม่สอดคล้องกัน ซึ่งนักเรียนด้าน product strategy ควรวิเคราะห์
-**ผู้เชี่ยวชาญด้าน AI:** AI cover/remix generation ที่ถูกกฎหมายหลัง Spotify-Universal deal คือ proof-of-concept ที่น่าสนใจ — แต่คุณภาพ editorial curation ยังเป็น bottleneck ที่ AI ยังแก้ได้ไม่ดีนักโดยไม่มี human taste layer
-**โปรแกรมเมอร์มืออาชีพ:** Streaming platform ที่เปิด API สำหรับ user-generated AI content จะสร้าง spam content moderation challenge ขนาดใหญ่ — ทีม engineering ต้องเตรียม pipeline สำหรับ quality filtering และ rights tracking ตั้งแต่ architecture ไม่ใช่ retrofit ทีหลัง
-
-## 4. Google's Android XR AI Glasses
-
-**อาจารย์ (มหาวิทยาลัย):** แว่น AR ที่รวม contextual AI เข้ากับชีวิตประจำวันเป็น leap ที่แตกต่างจากสมาร์ตโฟน — ผลกระทบต่อ attention economy, privacy ในที่สาธารณะ และ human-computer interaction จะเป็นประเด็น research ที่สำคัญมากในทศวรรษหน้า
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Gemini on-device ทำงานในแว่นที่มี constraint ทั้ง compute, battery และ form factor แสดงว่า model quantization และ edge inference ก้าวหน้าไปมาก — ต่อไปคือ challenge ด้าน context window บน device ที่มี RAM จำกัด
-**โปรแกรมเมอร์มืออาชีพ:** Android XR SDK กำลัง public อยู่ — ถ้า hardware launch ล่าช้า (ซึ่งมักเกิดกับ AR) ยังมีเวลา prototype app ก่อนตลาดอิ่มตัว โดยเฉพาะ vertical use case เช่น field service, surgery assist หรือ language learning
-
-## 5. AI Startup ARR Inflation
-
-**อาจารย์ (มหาวิทยาลัย):** ARR inflation ใน AI startups สะท้อน information asymmetry ระหว่าง founder กับ investor แบบคลาสสิก — เป็น market failure pattern เดียวกับ dot-com era และ fintech hype ที่ควรศึกษาในบริบทของ due diligence และ market efficiency
-**ผู้เชี่ยวชาญด้าน AI:** การนับ "committed contract ที่ยังไม่ deploy" เป็น ARR เป็น structural problem ของ enterprise AI ที่มี long sales cycle — metric ที่ honest กว่าคือ Net Revenue Retention (NRR) และ time-to-value ซึ่งยากกว่าแต่บ่งชี้ health จริงของ product
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า startup คุณอยู่ฝั่ง vendor — ตรวจสอบว่า revenue recognition policy comply กับ ASC 606 อย่างเข้มงวด ถ้าอยู่ฝั่ง enterprise buyer — ขอ reference จาก customer ที่ fully deployed แล้ว ไม่ใช่แค่ signed contracts ก่อนตัดสินใจซื้อ
+**อาจารย์ (มหาวิทยาลัย):** ที่หุ้น AI 10 ตัวถือ market cap เกือบครึ่งหนึ่งของ S&P 500 คือ concentration risk แบบ textbook — เปรียบได้กับยุค dot-com แต่ต่างตรงที่รายได้จริงแข็งแกร่งกว่ามาก ประเด็นสำคัญคือ valuation multiple ที่ built-in บน long-term growth assumptions ที่ยังพิสูจน์ไม่ได้
+**ผู้เชี่ยวชาญด้าน AI:** ความเสี่ยงด้านกฎระเบียบและภาษีที่ตลาดใหม่อย่างเกาหลีใต้กำลังพิจารณาบ่งชี้ว่า AI geopolitics จะเป็น wildcard สำคัญ — บริษัทที่กระจาย compute infrastructure ไปหลายประเทศและ comply กับ local data residency rules จะมีความได้เปรียบในระยะยาว
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer ใน AI startup ถึงเวลาติดตาม macro signals เหล่านี้ด้วย — valuation correction ที่เกิดกับ investor อาจกระทบ runway ของ employer และ hiring plan ใน 12-18 เดือนข้างหน้า การเข้าใจ financial health ของบริษัทที่ทำงานอยู่ไม่ใช่แค่เรื่องของ CFO อีกต่อไป
