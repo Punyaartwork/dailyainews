@@ -1,53 +1,39 @@
-# Sources — 2026-05-21
+# Sources — 2026-05-25
 
-Generated: 2026-05-21 (Asia/Bangkok)
+Generated: 2026-05-25 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-05-20-brief.md (5 URLs loaded)
+Dedup against: articles/2026-05-24-brief.md (3 URLs loaded)
 
-1. **AI search startups are blowing up**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/
-   - Published: May 20, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/05/20/ confirms May 20 (yesterday from May 21 Asia/Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com present yesterday but all 5 paths were /2026/05/19/…; this path is /2026/05/20/)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Exa Labs raised $250M at $2.2B valuation led by a16z (3× up from $700M last fall); Parallel Web Systems raised $100M at $2B from Sequoia; Tavily and TinyFish also active. Customer base includes Cursor, Cognition, HubSpot, Monday.com. Wave of AI-native search infrastructure serving AI agents rather than human browsers.
-
-2. **Nvidia disappointing forecast as AI chip competition mounts**
+1. **"Magnifica Humanitas": Pope Leo XIV เผย Encyclical AI พร้อม Anthropic Co-founder**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-20/nvidia-gives-disappointing-forecast-as-chip-competition-mounts
-   - Published: May 20, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-05-20/ confirms May 20
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com not present in 2026-05-20 brief at all)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Nvidia Q1 FY2027 revenue $81.62B (+85%), beat expectations of $78.91B; net income $58.32B; but forward guidance disappointed investors. Custom ASIC shipments from Google, Amazon, Microsoft projected +44.6% in 2026 vs GPU +16.1% (TrendForce). Nvidia pivoting to non-hyperscaler customers.
+   - URL: https://www.bloomberg.com/news/videos/2026-05-24/pope-leo-focusing-on-ai-in-first-encyclical-video
+   - Published: May 24, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug `2026-05-24` (1 day ago, within rolling 24h window from May 25)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com not present in 2026-05-24-brief.md; yesterday covered theverge.com, techcrunch.com, thestandard.co)
+   - Verification: Tier 2 — WebSearch snippet (Bloomberg video page confirmed by multiple search results; the event itself — presentation of Magnifica Humanitas at Vatican Synod Hall — occurred on May 25)
+   - Summary: Pope Leo XIV presented "Magnifica Humanitas" on May 25 alongside Christopher Olah (co-founder of Anthropic) in the Vatican's Synod Hall, in an unprecedented first where the pope himself attended the press conference. The encyclical, centered on protecting human dignity in the AI age, was signed May 15 — the 135th anniversary of Rerum Novarum.
 
-3. **Chatbots struggle with news accuracy, sourcing ahead of midterms**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-05-20/chatbots-struggle-with-news-accuracy-sourcing-ahead-of-midterms
-   - Published: May 20, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-05-20/ confirms May 20
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com path distinct)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Forum AI tested ChatGPT, Gemini, Claude, Grok on 3,100+ questions about elections, politics, geopolitics. Answers about elections failed accuracy/bias/sourcing 90% of the time; 36% contained ≥1 factual error; Grok worst at 52%. ChatGPT/Claude/Gemini lean politically left; Grok leans right. Most professional-looking answers had highest rate of buried errors.
-
-4. **YouTube บอกระบบค้นหาวิดีโอแบบใหม่สไตล์ AI Mode จะเปิดให้ใช้งานเร็ว ๆ นี้**
-   - Publisher: Blognone
-   - URL: https://www.blognone.com/node/150623
-   - Published: ~May 20, 2026 (node ID 150623 is one step above node/150622 confirmed May 20 by search results; both are Google I/O 2026 coverage)
-   - FreshnessCheck: ✅ within last 24h — published as part of Google I/O 2026 post-event coverage batch; node/150622 (confirmed May 20) is the adjacent article
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (blognone.com not present in 2026-05-20 brief at all)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Following Google I/O 2026, YouTube announced Ask YouTube — AI-style question-based video search — will roll out to all users soon (currently US premium only). Supports natural-language questions returning both text answers and relevant video links. Gemini Omni also available for free YouTube Shorts creation for all creators via YouTube Create app.
+2. **ครม. เห็นชอบ "ไทยช่วยไทยพลัส" 43 ล้านคน + เปิดตัว AI "นกกระซิบ" ช่วยร้านค้า**
+   - Publisher: Matichon
+   - URL: https://www.matichon.co.th/politics/news_5724353
+   - Published: May 25, 2026 (confirmed: "เริ่มลงทะเบียน 25 พ.ค." in multiple article headlines; Dailynews reported "เริ่มแล้ว!" confirming registration opened today)
+   - FreshnessCheck: ✅ within last 24h via direct date reference ("เริ่มลงทะเบียน 25 พ.ค." = today in Asia/Bangkok)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (matichon.co.th not in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet (Matichon headline confirmed by search; corroborated by Thairath, Beartai, Dailynews, PRD government website, and Thansettakij coverage of the same event)
+   - Summary: Thai cabinet approved "ไทยช่วยไทย พลัส" welfare program covering 43+ million people, with registration opening May 25. Merchants on the "ถุงเงิน" app gain access to "นกกระซิบ" AI — analyzing daily sales, recommending peak selling times, linking government commodity price data, and improving access to merchant credit.
 
 ## Dropped
-- https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/ — Filter A (>24h): URL slug /2026/05/19/ is 2 days before May 21
-- https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/ — Filter A (>24h): May 19 article (also in YESTERDAYS_URLS)
-- https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/ — Filter A (>24h) AND Filter B (in YESTERDAYS_URLS)
-- https://www.anthropic.com/news/google-broadcom-partnership-compute — Filter A (>24h): announced April 6-7, 2026
-- https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/ — Filter A (>24h): URL slug /2026/04/08/
-- All remaining May 19 TechCrunch I/O articles — Filter A (>24h): published 2 days before May 21
-- https://www.blognone.com/node/150344 — Filter A (>24h): confirmed published ~April 2026 ("approximately one month ago" per search)
+- https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/ — Filter A: URL slug 2026-05-22 is 3 days old
+- https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/ — Filter A: 2026-05-20 is 5 days old
+- https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/ — Filter A: 2026-05-20 is 5 days old
+- https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/ — Filter A: 2026-05-21 is 4 days old
+- https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/ — Filter A: 2026-05-20 is 5 days old
+- https://www.bloomberg.com/news/articles/2026-05-20/airbnb-s-chesky-says-us-misunderstanding-use-of-chinese-open-source-ai-models — Filter A: 2026-05-20 is 5 days old
+- https://www.bloomberg.com/news/articles/2026-05-20/anthropic-on-pace-for-first-profitable-quarter-as-revenue-surges — Filter A: 2026-05-20 is 5 days old
+- https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/ — Filter A: 2026-05-21 is 4 days old
+- https://www.bloomberg.com/news/articles/2026-05-19/ai-on-college-campuses-sparks-pushback-protests-booing-at-graduation — Filter A: 2026-05-19 is 6 days old
+- https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/ — Filter B: URL already in articles/2026-05-24-brief.md (yesterday's brief)
+- https://www.blognone.com/node/150678 (Apple genai.apple.com subdomain) — Date ambiguous (May 23 or 24 based on node sequence); dropped per policy (never guess)
 
-> Note: 4 items passed both filters this run. Of candidates searched, majority failed Filter A (published May 19 or earlier), 0 failed Filter B. The rolling 24h window (May 20–21) yielded 4 stories: 1 TechCrunch, 2 Bloomberg, 1 Blognone.
+> Note: 2 items passed both filters this run. Of ~20 candidates examined, ~17 failed Filter A (most major AI stories this week came from Google I/O on May 19–20 and follow-up through May 22), 1 failed Filter B (Ferrari story in yesterday's brief), and 1 was dropped due to date ambiguity. May 25 is a Sunday in Thailand — a slower AI news day.
