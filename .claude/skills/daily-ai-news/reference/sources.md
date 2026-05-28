@@ -1,56 +1,52 @@
-# Sources — 2026-05-26
+# Sources — 2026-05-28
 
-Generated: 2026-05-26 (Asia/Bangkok)
+Generated: 2026-05-28 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-05-25-brief.md (2 URLs loaded)
+Dedup against: articles/2026-05-27-brief.md (5 URLs loaded)
 
-1. **ClickUp ปลดพนักงาน 22% หลัง AI agent ทำงานแทน 3:1**
+1. **ByteDance Weighs Capex of as Much as $70 Billion in AI Push**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-05-27/bytedance-weighs-capex-of-as-much-as-70-billion-in-ai-push
+   - Published: 2026-05-27T07:51:09Z (2:51 PM Bangkok May 27)
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-27 and Exa-confirmed timestamp "May 27, 2026 at 7:51 AM UTC"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com appeared yesterday but at a completely different path /2026-05-26/china-expands-travel-curbs-...)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: ByteDance is discussing capital expenditures of as much as $70 billion in 2026 to build data centers and AI infrastructure, funded largely from its ~$50B 2025 profit, aiming to lead China's AI market and challenge US players globally.
+
+2. **Tech CEOs are apparently suffering from AI psychosis**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/
-   - Published: May 25, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-25
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's brief had bloomberg.com/news/videos/2026-05-24/... and matichon.co.th URLs)
+   - URL: https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/
+   - Published: 2026-05-27T12:30:00Z (7:30 PM Bangkok May 27)
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/05/27 and Exa-confirmed snippet "5:30 AM PDT · May 27, 2026"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com not present in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: ClickUp ปลดพนักงาน 22% (~290 จาก 1,300 คน) หลังใช้ AI agent 3,000 ตัวในอัตราส่วน 3:1 CEO Zeb Evans เรียกว่า "radical embrace of AI" ไม่ใช่ cost-cutting พร้อมเปิด salary band ล้านดอลลาร์สำหรับผู้ที่สร้าง "100x impact" ผ่าน AI
+   - Summary: Box CEO Aaron Levie coined "AI psychosis" to describe executives who overestimate AI capabilities because they only see demo-layer results; the tech industry has already laid off 115,430 people in the first 5 months of 2026, many citing AI productivity gains that researchers call "AI washing."
 
-2. **DeepSeek ลดราคา API V4-Pro ลง 75% ถาวร**
-   - Publisher: Blognone
-   - URL: https://www.blognone.com/node/150680
-   - Published: May 25, 2026
-   - FreshnessCheck: ✅ within last 24h via corroborating sources with URL slugs 2026-05-25 (technology.org/2026/05/25/, dataconomy.com/2026/05/25/, winbuzzer.com/2026/05/25/)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet (date corroborated by multiple sources)
-   - Summary: DeepSeek ทำให้ส่วนลด 75% ของ V4-Pro เป็นถาวร ราคาใหม่ $0.435/$0.87/M tokens ลดจาก $1.74/$3.48 ถูกกว่า GPT-5.5 34 เท่า และถูกกว่า Claude Opus 4.7 17 เท่า
-
-3. **AI Rally ขับ Global Momentum Stocks สู่ผลตอบแทนสูงสุดในรอบ 35 ปี**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-05-25/ai-rally-drives-best-run-in-global-momentum-stocks-on-record
-   - Published: May 25, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-25
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had bloomberg.com/news/videos/2026-05-24/... — different URL)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: MSCI Global Momentum gauge ทำผลงานเหนือ MSCI ACWI ถึง 17 percentage points ตั้งแต่ปลายมีนาคม 2026 กำลังจะทำสถิติ 2-month outperformance สูงสุดในข้อมูลย้อนหลังถึงปี 1991
-
-4. **TechCrunch: Pope's AI Encyclical ไม่ได้เกี่ยวกับ AI จริงๆ**
+3. **Why Google's AI can't spell Google (or anything else)**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/
-   - Published: May 25, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-05-25
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had bloomberg.com/news/videos/2026-05-24/... — different article, different angle)
+   - URL: https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/
+   - Published: 2026-05-28T00:17:41Z (7:17 AM Bangkok May 28)
+   - FreshnessCheck: ✅ within last 24h via Exa-confirmed timestamp 2026-05-28T00:17:41Z
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (completely new URL)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: TechCrunch วิเคราะห์ว่า Magnifica Humanitas มุ่งเน้น inequality, war, democracy erosion และ power concentration มากกว่า AI โดยตรง — AI เป็นเพียง lens ที่ Vatican ใช้มองปัญหาสังคมที่มีอยู่ก่อน
+   - Summary: Following Google's AI-forward Search overhaul at I/O 2026, its AI overview is making striking spelling errors—tracing to fundamental LLM tokenizer architecture: transformer models parse text as numerical tokens, not individual letters, making character-level accuracy inherently difficult.
+
+4. **China is increasingly keeping its best AI talent to itself**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/05/27/china-is-increasingly-keeping-its-best-ai-talent-to-itself/
+   - Published: 2026-05-27T13:48:41Z (8:48 PM Bangkok May 27)
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/05/27 and Exa-confirmed snippet "6:48 AM PDT · May 27, 2026"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday covered Bloomberg's May 26 article at a different path; this is TechCrunch's May 27 follow-up with new angles: Manus-Meta deal and Stanford 2.7% gap data)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: China has extended AI travel restrictions to private-sector researchers; Manus AI co-founders are barred from leaving as Beijing investigates Meta's $2B acquisition. Stanford's AI Index shows the US-China frontier model performance gap shrunk from 31% in 2023 to just 2.7% as of March 2026.
 
 ## Dropped
+- https://www.bloomberg.com/news/articles/2026-05-26/qualcomm-strikes-ai-chip-deal-with-tiktok-owner-bytedance — Filter A (>24h): published 2026-05-26T14:44Z = 9:44 PM Bangkok May 26, ~34h ago
+- Fortune/TIME Sam Altman AI jobs reversal articles — not on trusted-sources.md allow-list
+- https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week — Filter A: URL slug 2026-05-22, 6 days old; no confirmed close-announcement URL found on trusted source for May 27-28
+- https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/ — Filter B: appeared in articles/2026-05-27-brief.md
+- https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/ — Filter A: 9 days old
+- https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/ — Filter A: 3 days old
 
-- https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/ — Filter A: URL slug /2026/05/19/ is 7 days old
-- https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/ — Filter A: URL slug /2026/05/20/ is 6 days old
-- https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/ — Filter A: URL slug /2026/05/20/ is 6 days old
-- https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/ — Filter A: URL slug /2026/05/19/ is 7 days old
-- https://www.anthropic.com/news/google-broadcom-partnership-compute — Filter A: April 7, 2026 (>24h)
-- https://www.blognone.com/node/150664 — Filter A: Google I/O context suggests ~May 19-20; ambiguous date, dropped per policy
-- https://www.blognone.com/node/150676 — Filter A: AMD Ryzen AI Halo; no explicit timestamp in snippet, dropped per "date ambiguous → DROP" policy
-- https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/ — Filter A: URL slug /2026/05/21/ is 5 days old
-- https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/ — Filter A: URL slug /2026/05/24/ is 2 days old
-
-> Note: 4 items passed both filters this run. Of ~15 candidates reviewed, ~11 failed Filter A (>24h or ambiguous date), 0 failed Filter B.
+> Note: 4 items passed both filters this run. Of ~15 candidates reviewed, ~10 failed Filter A, 1 failed Filter B, ~2 failed trusted-source requirement.
