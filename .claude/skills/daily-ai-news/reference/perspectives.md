@@ -1,25 +1,31 @@
-# Perspectives — 2026-05-28
+# Perspectives — 2026-05-29
 
-## 1. ByteDance Weighs Capex of as Much as $70 Billion in AI Push
+## 1. Anthropic Valued at $965 Billion After Latest Funding Round, Eclipsing OpenAI
 
-**อาจารย์ (มหาวิทยาลัย):** การที่บริษัทเดียววางงบลงทุน AI สูงกว่า GDP ของหลายประเทศชี้ให้นักศึกษาเห็นว่า compute infrastructure คือ "ทุนทางกายภาพ" ยุคใหม่ — ควรศึกษาเศรษฐศาสตร์การลงทุนในโครงสร้างพื้นฐานดิจิทัลควบคู่กับ AI techniques เพื่อเข้าใจว่าใครจะได้เปรียบในระยะยาว
-**ผู้เชี่ยวชาญด้าน AI:** $70B จาก organic profit ไม่ใช่จากการ dilute equity — ByteDance มี flywheel ที่ sustainable กว่า pure-play AI labs แต่ความท้าทายใหญ่คือ chip export controls ที่บังคับให้พึ่ง domestic alternatives ซึ่งยัง performance gap กับ NVIDIA H100 อยู่มาก
-**โปรแกรมเมอร์มืออาชีพ:** Doubao ecosystem กำลัง scale อย่างรวดเร็ว — developers ที่ต้องการ diversify จาก OpenAI/Anthropic single-vendor dependency ควรเริ่มศึกษา ByteDance AI APIs โดยเฉพาะถ้า target ผู้ใช้ในตลาดจีน
+**อาจารย์ (มหาวิทยาลัย):** Anthropic เริ่มต้นด้วย "safety-first" positioning แล้วตอนนี้แซง OpenAI ในมูลค่าตลาด — นี่คือ evidence สำคัญให้นักศึกษาเข้าใจว่า governance และ interpretability research ไม่ใช่แค่ academic idealism แต่ถูก price in โดยนักลงทุนระดับโลกแล้ว
+**ผู้เชี่ยวชาญด้าน AI:** Revenue run rate $47B ที่โตจาก $30B ในต้นปีบ่งชี้ว่า Claude API adoption ใน enterprise กำลัง compound อย่างรวดเร็ว โดยเฉพาะหลัง Opus 4.8 ที่รองรับ 1M token context; รอบ IPO จะกำหนดว่า Anthropic จะ balance safety mission กับ shareholder return อย่างไร
+**โปรแกรมเมอร์มืออาชีพ:** การที่ Anthropic ใกล้ IPO หมายถึง developer ecosystem จะได้รับ tooling, SDK stability และ API reliability ที่ดีขึ้นอย่างมีนัยสำคัญ — ตอนนี้เป็นเวลาดีที่จะ evaluate Claude APIs เป็น primary provider สำหรับ production workloads ระยะยาว
 
-## 2. Tech CEOs are apparently suffering from AI psychosis
+## 2. Just like gold and oil, we'll soon be able to trade AI token futures
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างคลาสสิกของ cognitive bias จาก information asymmetry — CEO ที่ห่างจาก execution เห็นเฉพาะ "happy path" ของ demo แต่ไม่เห็น edge cases ที่ทีม technical ต้องจัดการ เป็น case study ที่ดีมากสำหรับวิชา organizational behavior
-**ผู้เชี่ยวชาญด้าน AI:** Levie พูดถูก — gap ระหว่าง "demo quality" กับ "production quality" ยังกว้างมาก enterprise AI มี failure modes จำนวนมากที่ไม่ปรากฏใน controlled demo เช่น hallucinated API calls, data leakage และ behavior drift เมื่อ input นอก distribution
-**โปรแกรมเมอร์มืออาชีพ:** Engineers คือผู้รับผิดชอบ "last mile" ที่ CEO ไม่เห็น — ควรสร้าง AI acceptance testing suite ที่ครอบคลุม edge cases จริงและ document failure cases ให้ leadership เห็น ก่อนที่จะถูก pressure ให้ ship เร็วเกินไป
+**อาจารย์ (มหาวิทยาลัย):** การ financialization ของ compute เป็น milestone ที่ควรสอนควบคู่กับ history ของ commodity markets — เมื่อ GPU rental rate กลายเป็น public index ทฤษฎีด้าน price discovery, hedging และ risk management ทั้งหมดจะถูก apply เข้าสู่ AI infrastructure economy
+**ผู้เชี่ยวชาญด้าน AI:** Futures market จะ democratize compute risk hedging สำหรับ AI labs ขนาดกลาง — บริษัทที่มี training pipeline ขนาดใหญ่สามารถ lock-in cost ล่วงหน้าแทนที่จะต้องแบกรับ GPU spot price volatility; Goldman's 24x projection ถ้าถูกต้องจะทำให้ compute futures กลายเป็น major asset class ใหม่
+**โปรแกรมเมอร์มืออาชีพ:** GPU spot rate indices ที่ public จะทำให้ budget planning สำหรับ ML workloads มีความแม่นยำมากขึ้น — engineers จะสามารถ benchmark ว่า cloud compute cost ที่บริษัทจ่ายอยู่ fair หรือไม่ โดยมี market reference ที่ independent
 
-## 3. Why Google's AI can't spell Google (or anything else)
+## 3. Apple iOS 27: Revamped Siri App, New AI Features Preview
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้เป็นโอกาสทองสอนว่า LLM ไม่ได้ "รู้" ภาษาแบบที่มนุษย์รู้ — การ tokenize text เป็น numerical vectors หมายความว่า AI ไม่มี concept ของ "ตัวอักษร" ในแบบที่เราเข้าใจ ควรนำไปสอนใน computational linguistics และ AI literacy ทุกหลักสูตร
-**ผู้เชี่ยวชาญด้าน AI:** spelling อาจดูเป็นเรื่องตลก แต่เป็น symptom ของ fundamental architectural limitation — transformer tokenizers ถูกออกแบบสำหรับ semantic understanding ไม่ใช่ character-level processing ซึ่งกระทบ use cases จริงอย่าง OCR post-correction, exact brand name matching และ structured data extraction
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า pipeline ต้องการ character-level precision ไม่ควรพึ่ง LLM โดยตรง — ใช้ regex, exact-match lookup หรือ rule-based post-processing layer แทน และเพิ่ม spelling validation ของ proper nouns เป็น standard acceptance criteria ใน AI feature ทุกอัน
+**อาจารย์ (มหาวิทยาลัย):** Apple เปิด Siri ให้รองรับ third-party AI models — นี่คือ "AI marketplace" บน consumer device ที่นักศึกษา HCI และ AI policy ต้องติดตาม เพราะจะสร้างคำถามใหม่เกี่ยวกับ trust, liability และ user agency เมื่อ AI provider มีหลายเจ้าบน platform เดียว
+**ผู้เชี่ยวชาญด้าน AI:** Multi-model architecture บน iOS สร้างความท้าทายด้าน output consistency — เมื่อ user switch models ระหว่าง tasks behavioral drift อาจทำให้ UX ไม่สม่ำเสมอ; Apple จะต้องออกแบบ model switching protocol ที่ handle context handoff ได้อย่างราบรื่น
+**โปรแกรมเมอร์มืออาชีพ:** WWDC June 8 จะ release Apple Intelligence SDK ใหม่ — เริ่มอ่าน SiriKit documentation และทำความเข้าใจ on-device AI APIs ตั้งแต่ตอนนี้จะช่วยให้ ship features ที่ใช้ multi-model routing ได้ก่อนคู่แข่งหลัง WWDC
 
-## 4. China is increasingly keeping its best AI talent to itself
+## 4. Sesame, the conversational AI startup from Oculus founders, launches its iOS app
 
-**อาจารย์ (มหาวิทยาลัย):** กรณี Manus-Meta เปิดมิติใหม่ให้นักศึกษา law และ business ต้องศึกษา — foreign investment review กลายเป็น strategic tool ที่รัฐบาลใช้ควบคุม technology transfer ในยุค geopolitics AI ซึ่งซับซ้อนกว่าการเจรจาการค้าธรรมดามาก
-**ผู้เชี่ยวชาญด้าน AI:** ตัวเลข Stanford 2.7% gap บ่งชี้ว่า Chinese labs สามารถ replicate architectural innovation โดยไม่ต้องพึ่ง foreign hardware มากแล้ว — chip export controls ชะลอได้แต่ไม่หยุดได้ในระยะยาว
-**โปรแกรมเมอร์มืออาชีพ:** ผลกระทบต่อ open-source ecosystem ที่น่ากังวลคือการ fragment ของ global knowledge sharing — ควรเริ่ม snapshot และ mirror contributions สำคัญจาก Chinese research teams ก่อนที่ collaboration จะถูกจำกัดมากขึ้น
+**อาจารย์ (มหาวิทยาลัย):** Sesame เป็นตัวอย่างของ "embodied AI UX research" — การออกแบบ AI ที่คำนึงถึง social context ของการสนทนา เช่น incognito mode สำหรับ private conversations และ real-time response flow ที่ไม่มี pause เป็น research area ที่ยังน้อยมากใน HCI mainstream
+**ผู้เชี่ยวชาญด้าน AI:** Sesame กำลัง tackle "perceived latency problem" ของ conversational AI — การที่ AI pause ก่อนตอบทำลาย social presence อย่างมากใน user research; การ stream response ขณะ reasoning ยังอยู่เป็น open engineering challenge ที่สำคัญ
+**โปรแกรมเมอร์มืออาชีพ:** Architecture ที่ให้ AI respond in real-time while thinking น่าจะใช้ streaming generation combined กับ speculative prefilling — เป็น pattern ที่ควรศึกษาสำหรับงาน real-time conversational apps และ voice interfaces ที่ต้องการ low perceived latency
+
+## 5. Meta Unveils Subscriptions for AI While OpenAI, xAI Target Meta's Ad Business
+
+**อาจารย์ (มหาวิทยาลัย):** Meta เปิด subscription AI ขณะ AI-native players รุกตลาด advertising ของ Meta — นี่คือ textbook case ของ "platform convergence" ที่เหมาะสำหรับสอนใน business strategy: ทุกบริษัทกำลัง compete กับทุกบริษัทพร้อมกัน เส้นแบ่งระหว่าง sector กำลังหายไป
+**ผู้เชี่ยวชาญด้าน AI:** $7.99 ต่ำกว่า ChatGPT Plus ($20) และ Claude Pro ($20) อย่างมีนัยสำคัญ — น่าจะเป็น strategy ของ Meta เพื่อ build AI habit ในฐาน user 3 พันล้านคนก่อน แล้ว upsell tier ที่สูงกว่าในภายหลัง
+**โปรแกรมเมอร์มืออาชีพ:** Meta มีรายได้ subscription แยกจาก advertising แล้ว — หมายความว่า Meta AI APIs และ developer tools จะได้รับการลงทุนระยะยาวมากขึ้น ลดความเสี่ยงที่ platform จะถูก deprioritize เมื่อ ad market มีปัญหา
