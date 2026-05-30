@@ -1,31 +1,25 @@
-# Perspectives — 2026-05-27
+# Perspectives — 2026-05-30
 
-## 1. DuckDuckGo ติดตั้งพุ่ง 30% — ผู้ใช้ปฏิเสธ Google AI Search
+## 1. OpenAI เปิดตัว Rosalind Biodefense Program
 
-**อาจารย์ (มหาวิทยาลัย):** ปรากฏการณ์นี้เป็นตัวอย่างคลาสสิกของ "technology acceptance model" ในทางกลับกัน — เมื่อ UX เปลี่ยนแบบฝืนใจโดยไม่มีทางเลือก ผู้ใช้จะแสดงออกด้วยเท้า นักศึกษาควรตั้งคำถามว่า "consent" และ "agency" ใน AI product design ควรอยู่ที่ระดับใด และใครถืออำนาจตัดสินใจว่าประสบการณ์ใหม่ดีพอ
-**ผู้เชี่ยวชาญด้าน AI:** ข้อมูลนี้บ่งชี้ว่า "AI-first" UX ที่ไม่มี opt-out path จะผลักผู้ใช้ออกไปหา alternatives ที่ให้ control มากกว่า — เป็นหลักฐานเชิงประจักษ์ว่า value proposition ของ AI search ยังไม่ชัดพอในสายตาผู้ใช้ทั่วไป โดยเฉพาะเมื่อ AI overviews ยังมี accuracy issues
-**โปรแกรมเมอร์มืออาชีพ:** surge ของ DuckDuckGo เป็น signal ตลาดที่ชัดเจน — privacy-first และ AI-optional search เป็น niche ที่มี demand จริง สำหรับ engineers ที่สร้าง AI products ในองค์กร การ build granular opt-out mechanisms ไม่ใช่แค่ UX ดี แต่เป็น retention strategy ที่วัดผลได้
+**อาจารย์ (มหาวิทยาลัย):** AI ที่ถูก deploy เพื่อ biodefense คือตัวอย่างของ dual-use technology ที่ชัดเจนที่สุด — เทคโนโลยีเดียวกันสามารถทั้งป้องกันและก่อภัยคุกคามได้ นักศึกษาควรศึกษาว่ากลไก "trusted access" ที่ OpenAI ออกแบบนั้นเพียงพอหรือไม่ และใครเป็นผู้ตรวจสอบว่าคนที่ได้รับ access นั้น "trusted" จริง
+**ผู้เชี่ยวชาญด้าน AI:** การกำหนด access tiers สำหรับ GPT-Rosalind เป็น pattern สำคัญสำหรับ frontier AI ใน sensitive domains — สมดุลระหว่าง democratization กับ misuse prevention แต่ความท้าทายคือ vetting process ที่ scale ยากและอาจ exclude legitimate researchers ที่ไม่มี institutional backing
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับ engineers ใน life sciences และ public health tech โปรแกรมนี้เปิด API access ให้สร้าง applications ด้าน early warning และ epidemiological modeling — ควรสมัครเข้า program เพื่อรับ early access และ build proof-of-concept สำหรับงานที่ GPT-Rosalind รองรับ
 
-## 2. จีนจำกัดการเดินทางต่างประเทศผู้เชี่ยวชาญ AI ภาคเอกชน
+## 2. OpenAI เผยแพร่ Frontier Governance Framework
 
-**อาจารย์ (มหาวิทยาลัย):** การที่รัฐบาลจีนจำแนก AI talent เป็น "national security asset" ระดับเดียวกับนักวิทยาศาสตร์นิวเคลียร์คือสัญญาณว่าการแข่งขัน AI ได้ก้าวข้ามมิติการค้าสู่ geopolitics เต็มรูปแบบ นักศึกษาควรศึกษาว่า brain drain policies ในยุค AI ต่างจากยุคอุตสาหกรรมก่อนอย่างไร และผลกระทบต่อ global research collaboration จะเป็นอย่างไร
-**ผู้เชี่ยวชาญด้าน AI:** มาตรการนี้จะลด velocity ของ open-source contribution จาก Chinese AI researchers ทางอ้อม เพราะนักวิจัยที่ถูกจำกัดการเดินทางจะเข้าร่วมงาน conferences และ collaborative research กับ global AI community ได้ยากขึ้น ซึ่งกระทบทั้งการ share และ receive knowledge
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ engineering teams ที่ใช้ DeepSeek models หรือ Alibaba AI APIs ควรประเมิน supply chain risk ใหม่ — ถ้า key researchers ถูกจำกัด innovation cycle อาจช้าลงและ bug fix responsiveness อาจลดลง ควร diversify ไปสู่ models จากหลาย geopolitical jurisdictions
+**อาจารย์ (มหาวิทยาลัย):** เอกสารนี้เป็นตัวอย่างแรกๆ ที่ lab ใหญ่ publish governance document ที่ tie กับ legal requirements อย่างเป็นรูปธรรม ควรนำมาเปรียบกับ EU AI Act เพื่อให้นักศึกษาเข้าใจความแตกต่างระหว่าง self-regulation และ government regulation และ incentives ที่แตกต่างกันที่ทำให้แต่ละแบบทำงานหรือล้มเหลว
+**ผู้เชี่ยวชาญด้าน AI:** การที่ OpenAI อ้างว่า "meet and go beyond baseline legal requirements" น่าสนใจ — ถ้า framework นี้ถูก third-party audit อย่างจริงจัง จะเป็น stress test ว่า self-regulation ของ AI labs ทำงานได้จริงหรือไม่ และ CBRN risk coverage ที่ระบุใน framework เชื่อมโยงโดยตรงกับ Rosalind Biodefense ที่ประกาศในวันเดียวกัน
+**โปรแกรมเมอร์มืออาชีพ:** Framework นี้ให้ template ที่ใช้งานได้จริงสำหรับ enterprise AI governance ทีม engineering ที่ build AI systems สำหรับ regulated industries สามารถ adopt structure ของ risk categorization, incident response และ external expert input process เป็น starting point ได้เลย
 
-## 3. BNP Paribas + Mistral: ยุโรปสร้าง Cybersecurity AI ของตัวเอง
+## 3. นักพัฒนาปฏิเสธทำงานโดยไม่มี AI — แต่ข้อมูลจริงน่าเป็นห่วง
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้เปิดเผย "AI access inequality" มิติใหม่ที่ไม่ใช่แค่ระหว่างประเทศร่ำรวยและยากจน แต่ระหว่างธนาคาร US และ European ในการเข้าถึง cutting-edge cybersecurity AI — เหมาะนำมาวิเคราะห์ในมุม digital sovereignty และ multi-polar AI ecosystem
-**ผู้เชี่ยวชาญด้าน AI:** Mythos ที่มี exploit success rate >83% ในการทดสอบคือ capability gap ที่มีนัยสำคัญต่อระบบการเงิน ถ้า US banks มี access แต่ European banks ไม่มี asymmetry นี้อาจสร้าง systemic resilience gap ที่ regulator จะต้องตอบสนองในที่สุด
-**โปรแกรมเมอร์มืออาชีพ:** Mistral กำลัง carve out niche ในฐานะ "European sovereign AI" สำหรับ regulated industries ที่ US providers ไม่ serve เต็มที่ — สำหรับ engineers ใน fintech และ cybersecurity sector ในยุโรปหรืออาเซียน นี่คือ signal ที่ควรติดตาม Mistral's technical roadmap อย่างใกล้ชิด
+**อาจารย์ (มหาวิทยาลัย):** "Tokenmaxxing" คือตัวอย่างคลาสสิกของ Goodhart's Law — เมื่อ metric กลายเป็น target มันก็หยุดเป็น good metric ควรนำกรณี Amazon และ Uber มาสอนวิธีออกแบบ measurement systems ที่ align กับ actual value creation ไม่ใช่ proxy metrics
+**ผู้เชี่ยวชาญด้าน AI:** ข้อมูลจาก METR ที่พบ gap ระหว่าง perceived กับ actual productivity ชี้ว่า AI's impact ยังไม่ evenly distributed และ self-assessment ของ engineers เกี่ยวกับ AI augmentation น่าจะเกินจริงอย่างมีระบบ ต้องการ objective outcome metrics มากกว่า surveys
+**โปรแกรมเมอร์มืออาชีพ:** ถ้าทีมของคุณวัด AI productivity ด้วย token usage ให้หยุดทันที ออกแบบ metrics ที่วัด actual output quality แทน เช่น code review pass rate, defect density ใน AI-generated code และ cycle time ตั้งแต่ commit ถึง production — ก่อนที่จะเจอปัญหาแบบ Amazon
 
-## 4. Pony AI: Robotaxi พาณิชย์บุกยุโรปครั้งแรก
+## 4. Computex 2026: Nvidia และ Intel เตรียมคีย์โน้ต
 
-**อาจารย์ (มหาวิทยาลัย):** Pony AI เป็น case study ที่ดีของ "AI scaling in practice" — รายได้โต 145% YoY พร้อม expansion สู่ Croatia แสดงว่า autonomous vehicle deployment ได้ผ่าน proof-of-concept สู่ commercial reality แต่คำถามสำคัญคือ safety validation framework ใน jurisdiction ใหม่ที่มี regulatory maturity แตกต่างกัน
-**ผู้เชี่ยวชาญด้าน AI:** ตัวเลข 119% growth ใน weekly paid orders ตั้งแต่มกราคมบ่งชี้ว่า demand side accelerate เร็วกว่าที่หลายคนคาดการณ์ ความท้าทายต่อไปคือ safety validation ในสภาพแวดล้อม urban ที่ complex กว่า Guangzhou และการจัดการ edge cases ที่ training data อาจไม่ครอบคลุม
-**โปรแกรมเมอร์มืออาชีพ:** Expansion สู่ยุโรปเปิด regulatory challenge ชุดใหม่ที่ต้องใช้ formal verification, safety certification ตาม EU AI Act, และ data residency compliance แตกต่างจาก China market อย่างมาก — สำหรับ engineers ใน autonomous systems นี่คือ domain ที่ต้องการ regulatory engineering skills มากขึ้น
-
-## 5. ข้อมูลแรงงานสหรัฐฯ ปะทะ AI Jobs Panic
-
-**อาจารย์ (มหาวิทยาลัย):** ความขัดแย้งระหว่างข้อมูล aggregate (unemployment ต่ำในกลุ่ม AI-exposed) กับ Stanford study (young workers ได้รับผลกระทบ) คือตัวอย่างคลาสสิกของ Simpson's Paradox ในการวิเคราะห์ตลาดแรงงาน ควรสอนนักศึกษาว่าข้อมูลระดับ aggregate ซ่อนความแตกต่างตาม demographics ได้อย่างไร
-**ผู้เชี่ยวชาญด้าน AI:** ผลของ generative AI ต่อแรงงานน่าจะเป็น "K-shaped" — experienced workers ได้ประโยชน์จาก AI augmentation ในขณะที่ entry-level jobs ถูก displace เร็วกว่า นี่คือ signal สำคัญสำหรับนักวิจัย AI ว่า impact ไม่ใช่ doom-or-boom แต่ highly differentiated ตาม career stage
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ senior engineers ข้อมูลนี้บอกว่า AI tools กำลัง amplify productivity ของคนที่มี experience สูงอยู่แล้ว แต่ gap ระหว่าง senior และ junior กำลังขยาย — การ invest ใน mentoring junior members และ structured AI skill-building เป็นทั้งการทำดีและการป้องกัน team capacity ระยะยาว
+**อาจารย์ (มหาวิทยาลัย):** การที่ NVIDIA จัด GTC event ในเอเชียเป็นครั้งแรกควบคู่กับ Computex สะท้อน shift ของ AI hardware ecosystem ไปสู่เอเชีย — ทั้งในแง่ manufacturing (TSMC) และ market demand ควรวิเคราะห์ใน context ของ geopolitics AI และ tech supply chain dependencies
+**ผู้เชี่ยวชาญด้าน AI:** "Surprise new product" ที่ Huang พูดถึงน่าจะเป็น N1X — NVIDIA's first ARM-based chip สำหรับ PC ซึ่งถ้าจริงจะเป็น disruption ใหญ่ใน PC architecture ที่ x86 ครองมา 40 ปี ประเด็น memory chip bottleneck ที่จะถูก debate ก็สำคัญเพราะ HBM shortage ยังคงเป็น limiting factor สำหรับ AI compute ทั่วโลก
+**โปรแกรมเมอร์มืออาชีพ:** ติดตาม GTC Taipei keynote วันที่ 1 มิถุนายนสดๆ — NVIDIA มักจะ release developer tools, SDKs และ CUDA updates ควบคู่กับ hardware announcements สำหรับทีมที่วางแผน hardware budget ปลายปี ข้อมูลจาก Computex จะมีผลต่อ GPU procurement และ infrastructure planning decisions
