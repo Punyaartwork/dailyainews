@@ -1,36 +1,61 @@
-# Sources — 2026-06-02
+# Sources — 2026-06-04
 
-Generated: 2026-06-02 (Asia/Bangkok)
+Generated: 2026-06-04 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-01-brief.md (2 URLs loaded)
+Dedup against: articles/2026-06-03-brief.md (5 URLs loaded)
 
-1. **Anthropic confidentially submits draft S-1 to the SEC**
-   - Publisher: Anthropic
-   - URL: https://www.anthropic.com/news/confidential-draft-s1-sec
-   - Published: June 1, 2026 ("Jun 1, 2026" explicit date on Anthropic blog; TechCrunch "9:36 AM PDT · June 1, 2026")
-   - FreshnessCheck: ✅ within last 24h — explicit "Jun 1, 2026" date on Anthropic blog; TechCrunch URL slug 2026/06/01; Exa confirmed 2026-06-01T16:36:55.000Z
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/ and bloomberg.com/news/articles/2026-05-31/...; anthropic.com/news/confidential-draft-s1-sec is new)
-   - Verification: Tier 2 — WebSearch snippet + Exa snippet (WEBFETCH_BLOCKED)
-   - Summary: Anthropic confidentially filed Form S-1 with the SEC for a proposed IPO on June 1, 2026. Company is valued at ~$965B following $65B Series H; revenue run-rate surpassed $47B/year (up from $9B at end-2025). Filing beats rival OpenAI to the market. IPO timing depends on market conditions; shares and price not yet set.
-
-2. **AI weather startup WindBorne Systems' WeatherMesh v6 is out-forecasting government agencies**
+1. **Still facing copyright lawsuits, AI music generator Suno raises another $400M**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/
-   - Published: June 1, 2026 (URL slug: techcrunch.com/2026/06/01/...)
-   - FreshnessCheck: ✅ within last 24h — URL slug 2026/06/01 confirms publication date
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not present in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED)
-   - Summary: WindBorne Systems released WeatherMesh v6, which provides more accurate and more frequent predictions than ECMWF on key meteorological variables by improving how sensor readings are fed into deep learning models.
+   - URL: https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/
+   - Published: June 3, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/03/ = yesterday (Asia/Bangkok)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's TechCrunch stories were all /06/02/ paths; this path is distinct)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Suno raised $400M Series D at a $5.4B valuation led by Bond Capital, despite ongoing copyright class actions from labels and 1,800+ independent artists. The round includes a partnership with Warner Music Group to co-develop the company's first model built with industry input.
+
+2. **Alphabet Upsizes Equity Offering to $85 Billion for AI Spending**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-06-03/alphabet-upsizes-equity-offering-to-85-billion-for-ai-spending
+   - Published: June 3, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-03 = yesterday (Asia/Bangkok)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com not in yesterday's set at all)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Alphabet upsized its equity raise from $80B to $84.75B in two days on strong institutional demand. The capital funds 2026 capex of $180–190B — 6× 2022 levels — driven by Gemini reaching 900M monthly active users in May.
+
+3. **Publishers will be able to opt out of AI Search, thanks to new regulation**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/
+   - Published: June 3, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/03/ = yesterday (Asia/Bangkok)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path distinct from all five 06/02 stories)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Under UK CMA pressure, Google will add a Search Console toggle letting publishers exclude their domains from AI Overviews, AI Mode, and AI Overviews in Discover — initially a UK pilot, then global rollout. CMA calls it a "world first."
+
+4. **DeepSeek Close to Sealing $7 Billion Funding in Historic AI Deal**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal
+   - Published: June 3, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-03 = yesterday (Asia/Bangkok)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com not in yesterday's set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: DeepSeek is finalizing its first-ever outside funding at ~$7.4B, led by Tencent (~¥10B) and CATL (~¥5B), with founder Liang Wenfeng committing ¥20B of his own capital. China's state National AI Investment Fund is participating. Post-money valuation: $52–59B.
+
+5. **These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/
+   - Published: June 3, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/03/ = yesterday (Asia/Bangkok)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path distinct from all yesterday's stories)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: AethexAI raised $3M pre-seed (led by 4DX Ventures) to build localized enterprise voice AI for Africa and the Middle East — targeting English, French, and Arabic dialects using a custom small model to cut latency and cost in a market with 3× the call volume of Western peers.
 
 ## Dropped
+- https://www.anthropic.com/research/project-vend-2 — Filter A (>24h): original publication December 2025 (GIGAZINE slug /20251219/ confirms date)
+- https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/ — Filter A (>24h): URL slug /2026/06/02/ = 2 days old
+- https://openai.com/index/codex-for-every-role-tool-workflow/ — Filter A (>24h): announced June 2, 2026 per 9to5Mac URL slug /2026/06/02/
+- https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/ — Filter A (>24h): signed June 2, 2026 per Washington Post slug
+- https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/ — Filter A (>24h): URL slug /2026/06/01/ = 3 days old
+- https://www.anthropic.com/news/claude-opus-4-8 — Filter A (>24h): announced May 28, 2026 per MacRumors slug /2026/05/28/
 
-- `https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/` — Filter A (>24h): Published 2026-05-28 (5 days old)
-- `https://www.bloomberg.com/news/articles/2026-05-27/sk-hynix-joins-1-trillion-club-on-ai-memory-chip-dominance` — Filter A (>24h): Published 2026-05-27 (6 days old)
-- `https://www.theverge.com/science/935229/spacex-anthropic-ipo-ai-capacity-deal-colossus` — Filter A (>24h): Published 2026-05-21 (12 days old)
-- `https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/` — Filter A (>24h): Published 2026-05-19 (14 days old)
-- Microsoft Build 2026 (June 2 keynote) — No trusted-source URL confirmed: windowsnews.ai, chatforest.com, byteiota.com not on trusted-sources.md; no TechCrunch/Verge/Reuters/Bloomberg June 2 article URL found via WebSearch or Exa
-- `https://www.blognone.com/node/150724` — Date ambiguous: references May 28 Reuters article; no confirmed publication date in URL or snippet
-- `https://www.blognone.com/node/150717` — Filter A (>24h): Published ~May 28 (references Anthropic Series H announced May 28)
-
-> Note: 2 items passed both filters this run. Of ~15 candidates evaluated, ~10 failed Filter A (>24h), 0 failed Filter B (dedup), 3 dropped for lack of confirmed trusted-source URL or ambiguous timestamp. Runtime: WEBFETCH_BLOCKED throughout — all verification is Tier 2 (WebSearch snippet / Exa snippet).
+> Note: 5 items passed both filters this run. Of ~11 candidates evaluated, 6 failed Filter A (>24h), 0 failed Filter B (dedup). No Thai-language trusted-source article found within the 24h window despite searching blognone.com and beartai.com — international sources only this run.
