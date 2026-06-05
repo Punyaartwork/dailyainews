@@ -1,31 +1,19 @@
-# Perspectives — 2026-06-04
+# Perspectives — 2026-06-05
 
-## 1. DeepSeek Close to Sealing $7 Billion Funding in Historic AI Deal
+## 1. Anthropic president cites high computing costs as driver for IPO
 
-**อาจารย์ (มหาวิทยาลัย):** ดีลนี้คือหลักฐานชัดเจนที่สุดว่า AI กลายเป็นเดิมพันระดับชาติ — การที่ National AI Investment Fund เข้าร่วมไม่ใช่แค่การลงทุนเชิงพาณิชย์ แต่คือการประกาศว่า DeepSeek คือ strategic asset ของจีน ควรนำไปเปรียบเทียบกับรูปแบบ DARPA ในชั้นเรียน Industrial Policy
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Tencent เป็น lead investor หมายความว่า DeepSeek จะต้องรองรับ use case ของ Tencent ecosystem ด้วย ซึ่งอาจส่งผลต่อทิศทางการพัฒนา model รุ่นถัดไปให้เน้น conversational reasoning และ knowledge graph มากขึ้น
-**โปรแกรมเมอร์มืออาชีพ:** DeepSeek ที่มี runway เพิ่มขึ้นหมายความว่า open-weight model จาก DeepSeek น่าจะยังคงเป็น option ราคาถูกสำหรับ self-host ไปอีกหลายปี แต่ต้องประเมิน data residency risk ก่อน deploy ใน production ที่มี PII
+**อาจารย์ (มหาวิทยาลัย):** การที่ผู้นำ AI ระดับ top-tier ต้องระดมทุนจากตลาดหุ้นสะท้อนว่า AI model training คือ capital-intensive infrastructure ที่เทียบได้กับโรงงานผลิตพลังงาน — ใช้เป็น case study "patient capital" ในชั้นเรียน Industrial Policy ร่วมกับ DeepSeek case เพื่อเปรียบเทียบ state-backed vs. market-driven AI financing
+**ผู้เชี่ยวชาญด้าน AI:** Bottleneck ที่แท้จริงของการพัฒนา frontier model ไม่ใช่ algorithm แต่คือ compute availability และ energy — บริษัทที่ control infrastructure เหล่านี้มี moat แข็งแกร่งกว่าที่นักลงทุนส่วนใหญ่เข้าใจ การ IPO คือการเปลี่ยน VC runway เป็น public equity runway เพื่อรับมือ compute demand ที่โตเร็วกว่า revenue
+**โปรแกรมเมอร์มืออาชีพ:** ความสัมพันธ์ระหว่าง compute cost กับ model capability เปลี่ยนแปลงเร็วมาก — estimate cost per token ของทุก model ใน production stack และ project ว่าราคาจะถูกลงอีกแค่ไหนใน 2 ปีข้างหน้า ก่อน commit infrastructure ระยะยาวกับ provider ใดผู้หนึ่ง
 
-## 2. Alphabet Upsizes Equity Offering to $85 Billion for AI Spending
+## 2. Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion
 
-**อาจารย์ (มหาวิทยาลัย):** นักศึกษา Finance ควรวิเคราะห์ว่า at-the-market program $40B ต่างจาก traditional equity offering อย่างไร และทำไม Berkshire Hathaway ถึงยอมรับ dilution ในระดับนี้ — มันคือ signal ของ fundamental shift ใน value investing หรือแค่ yield chasing ในยุค AI?
-**ผู้เชี่ยวชาญด้าน AI:** Alphabet capex $180–190B ปีนี้จะแปลเป็น compute จริงได้มากแค่ไหนขึ้นอยู่กับ supply chain ของ HBM memory และ CoWoS packaging — bottleneck จริงคือ advanced packaging ของ TSMC ไม่ใช่ GPU count
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับทีมที่ใช้ Gemini API supply จะไม่ตึงในอนาคตอันใกล้ แต่ควร hedge ด้วยการ test multi-provider fallback เพราะ 2026 คือปีที่ pricing war ระหว่าง Gemini, Claude, และ GPT จะรุนแรงขึ้น
+**อาจารย์ (มหาวิทยาลัย):** กรณี Generalist AI แสดง trend ที่ top talent จาก DeepMind เลือก startup เพราะ equity upside — ควรวิเคราะห์ว่า incentive structure นี้ส่งผลต่อ research direction ใน physical AI อย่างไร และ disruptive impact ต่ออุตสาหกรรม logistics, manufacturing, healthcare robotics
+**ผู้เชี่ยวชาญด้าน AI:** ความท้าทายหลักของ general-purpose robotics ไม่ใช่ AI model แต่คือ sim-to-real transfer — การให้ robot ที่ฝึกใน simulator ทำงานได้ใน real-world ที่ messy กว่ามาก; ผลงานของ Florence ที่ DeepMind ในด้าน generalist robot policy เป็นจุดแข็งที่ investor ยอมจ่าย premium
+**โปรแกรมเมอร์มืออาชีพ:** Physical AI เป็น category ที่เติบโตเร็วที่สุดในปี 2026 — ติดตาม API stack ของ Generalist AI เพราะจะกำหนด interface มาตรฐานสำหรับ robotics automation; ถ้าทีมคุณทำ software สำหรับ logistics หรือ manufacturing นี่คือ category ที่ต้อง monitor ใกล้ชิด
 
-## 3. Publishers will be able to opt out of AI Search, thanks to new regulation
+## 3. What to expect from WWDC 2026: Siri's revamp and Apple Intelligence
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ case study ของ "regulatory nudge" — แทนที่จะ ban การใช้ content ใน AI, UK CMA เลือก opt-out mechanism ที่รักษา default ไว้ฝั่ง Google นักศึกษา law และ policy ควรถกเถียงว่า opt-out เพียงพอหรือควรเป็น opt-in เพื่อ protect IP อย่างแท้จริง
-**ผู้เชี่ยวชาญด้าน AI:** ผลกระทบที่น่ากังวลกว่า publisher opt-out คือ ถ้า news publishers รายใหญ่ opt out พร้อมกัน quality ของ AI Overviews จะลดลงเพราะ training data สำหรับ grounding จะหายไป นี่คือ incentive misalignment ที่น่าสนใจ
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าสร้าง product ที่ crawl หรืออ้างอิง web content ควรติดตามว่า mechanism นี้จะถูก generalize เป็น standard protocol ไหม — อาจจะมี "AI-opt-out" header ใน robots.txt รุ่นใหม่ตามมา
-
-## 4. Suno raises $400M Series D at $5.4B valuation
-
-**อาจารย์ (มหาวิทยาลัย):** Suno-Warner deal เป็นตัวอย่างของ co-creation model ระหว่าง AI company และ rights holder — ต่างจาก scrape-and-generate ที่มีปัญหาทางกฎหมาย นักศึกษา IP Law ควรวิเคราะห์ว่า deal นี้เปลี่ยน power dynamic ระหว่าง label กับ tech company อย่างไร
-**ผู้เชี่ยวชาญด้าน AI:** ความสำเร็จทางการเงินของ Suno ในขณะที่ legal case ยังไม่จบสะท้อนว่านักลงทุนยอมรับ litigation risk เป็น cost of doing business ใน generative media — แต่ถ้า court ตัดสิน damages สูงพอ อาจลบล้าง Series D ทั้งหมดได้
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ product ที่ integrate audio generation Suno-Warner model ที่กำลังจะมาจะเป็น option ที่ legally safer กว่า current models — worth watching เมื่อ release เพื่อ evaluate ว่าคุณภาพเทียบเท่า unlicensed version หรือไม่
-
-## 5. AethexAI raises $3M for voice AI in Africa and Middle East
-
-**อาจารย์ (มหาวิทยาลัย):** AethexAI เป็นตัวอย่างที่ดีของ "appropriate technology design" — เริ่มจาก user constraint ไม่ใช่ technology capability ควรใช้ case นี้สอน localization ใน Human-Computer Interaction และ technology equity
-**ผู้เชี่ยวชาญด้าน AI:** การเลือกใช้ small custom model แทน API จาก provider ใหญ่สำหรับ voice latency-sensitive applications สะท้อน trade-off ที่สำคัญ — flexibility และ control กับ cost ต่ำ vs. accuracy ของ general-purpose model ที่เทรนบน data มากกว่า
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าทำ voice AI ใน emerging market เอง ให้ศึกษา small model approach ของ AethexAI — fine-tuned Whisper บน dialect data + custom TTS อาจให้ latency และ accent recognition ที่ดีกว่า off-the-shelf API โดยเฉพาะสำหรับภาษาที่มี tone สูง
+**อาจารย์ (มหาวิทยาลัย):** กรณี Siri-Gemini เป็น case study "build vs. buy" คลาสสิก — Apple ยอม license Gemini แทนสร้าง LLM เอง เพื่อแลก time-to-market ที่เร็วขึ้น ขณะที่ Google ได้ distribution บน iPhone ทั่วโลก — ควรวิเคราะห์ว่า partnership ระหว่าง competitor ลักษณะนี้จะถูก regulators ตรวจสอบอย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** การใช้ Gemini บน Apple device เป็น test case ของ on-device inference vs. cloud routing — Apple Silicon จะ handle inference บน device ได้ส่วนไหน และต้อง route ขึ้น cloud ส่วนไหน ซึ่งกำหนดทั้ง privacy guarantee และ latency ของ Siri รุ่นใหม่
+**โปรแกรมเมอร์มืออาชีพ:** จับตา Apple Intelligence API ที่จะเปิดสำหรับ third-party developer ใน WWDC 2026 — ถ้า Apple เปิด access กว้างพอ นี่คือ distribution channel ที่ใหญ่ที่สุดสำหรับ AI app บน iOS ซึ่งมี user quality (willingness to pay) สูงกว่า Android โดยเฉลี่ย
