@@ -1,55 +1,54 @@
-# Sources — 2026-06-06
+# Sources — 2026-06-07
 
-Generated: 2026-06-06 (Asia/Bangkok)
+Generated: 2026-06-07 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-05-brief.md (3 URLs loaded)
+Dedup against: articles/2026-06-06-brief.md (4 URLs loaded)
 
-1. **AirTrunk commits $30B to build 5GW of AI data centers in India**
+1. **OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/
-   - Published: June 5, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/05/ (yesterday, within rolling 24h window)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different domain/path from all 3 yesterday URLs)
-   - Verification: Tier 2 — WebSearch snippet (corroborated by Bloomberg https://www.bloomberg.com/news/articles/2026-06-05/blackstone-s-airtrunk-to-spend-30-billion-on-india-data-centers)
-   - Summary: Blackstone-backed AirTrunk plans to invest $30 billion in India by 2030, developing 5GW of new AI data center capacity including a 3GW facility at Maharashtra's Raigad Pen Growth Center (~$21B).
+   - URL: https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/
+   - Published: 1:32 PM PDT · June 6, 2026 (2026-06-06T20:32:24Z = June 7, 03:32 Bangkok)
+   - FreshnessCheck: ✅ within last 24h via timestamp "2026-06-06T20:32:24Z = June 7 03:32 Bangkok"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted source domain)
+   - Summary: OpenAI rolled out Lockdown Mode to self-serve ChatGPT Business and eligible personal accounts. Disables live web browsing, image retrieval, Deep Research, and Agent Mode to reduce prompt injection-based data exfiltration risk.
 
-2. **Google will pay SpaceX $920M per month for compute**
+2. **Sriram Krishnan is leaving his role as White House AI advisor**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/
-   - Published: June 5, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/05/ (yesterday, within rolling 24h window)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, not previously covered)
-   - Verification: Tier 2 — WebSearch snippet (corroborated by Bloomberg https://www.bloomberg.com/news/articles/2026-06-05/google-buying-computing-from-spacex-in-920-million-a-month-deal)
-   - Summary: Google agreed to pay SpaceX $920M/month (Oct 2026–Jun 2029) for ~110,000 NVIDIA GPUs to cover surging Gemini Enterprise demand, totaling ~$30B. Mirrors Anthropic's earlier $1.25B/month SpaceX deal.
+   - URL: https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/
+   - Published: 10:42 AM PDT · June 6, 2026 (2026-06-06T17:42:15Z = June 7, 00:42 Bangkok)
+   - FreshnessCheck: ✅ within last 24h via timestamp "2026-06-06T17:42:15Z = June 7 00:42 Bangkok"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted source domain)
+   - Summary: Senior White House AI policy advisor Sriram Krishnan (former a16z partner) leaving Trump administration end of June to build an outside technology policy institution.
 
-3. **Reid Hoffman is leaving Microsoft's board to go 'founder mode' with startup Manus**
+3. **What to expect from WWDC 2026: Siri's highly anticipated revamp and Apple Intelligence updates**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/
-   - Published: June 5, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/05/ (yesterday, within rolling 24h window)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not previously covered)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Reid Hoffman will leave Microsoft's board (member since 2017) to focus full-time on Manus, an AI drug discovery startup co-founded with Dr. Siddhartha Mukherjee, targeting cancer treatments with "Move 37" AI for molecular chemistry.
+   - URL: https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/
+   - Published: 11:13 AM PDT · June 6, 2026 (2026-06-06T18:13:36Z = June 7, 01:13 Bangkok)
+   - FreshnessCheck: ✅ within last 24h via timestamp "2026-06-06T18:13:36Z = June 7 01:13 Bangkok"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's WWDC story was Bloomberg at different URL)
+   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted source domain)
+   - Summary: WWDC 2026 keynote June 8. Siri overhaul powered by Google's Gemini, new standalone Siri chat app, AI Agent App Store, iOS 27 Apple Intelligence updates.
 
-4. **WWDC 2026 Preview: iOS 27, Siri, AI Features, macOS 27, More Apple Will Announce**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce
-   - Published: June 5, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-05/ (yesterday, within rolling 24h window)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday covered TechCrunch June 4 article; this is a different Bloomberg June 5 article — URL-level dedup passes)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Bloomberg's detailed WWDC 2026 preview reports Apple will unveil an overhauled Siri and new AI capabilities across iOS 27, macOS 27, and all Apple platforms starting June 8, framing it as "redemption" for the failed 2024 AI rollout.
+4. **The Trump administration might take an equity stake in OpenAI**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/
+   - Published: 9:17 AM PDT · June 6, 2026 (= June 6, 23:17 Bangkok — within rolling 24h window)
+   - FreshnessCheck: ✅ within last 24h via snippet "9:17 AM PDT · June 6, 2026 = June 6 23:17 Bangkok"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted source domain)
+   - Summary: Trump disclosed discussions with AI companies about government equity stakes. CNBC confirmed active talks between White House and OpenAI CEO Sam Altman to potentially seed a "Public Wealth Fund" distributing returns to American citizens.
 
 ## Dropped
-- https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/ — Filter B (dedup): appeared in articles/2026-06-05-brief.md
-- https://www.bloomberg.com/news/articles/2026-06-04/anthropic-president-cites-high-computing-costs-as-driver-for-ipo — Filter B (dedup): appeared in articles/2026-06-05-brief.md
-- https://www.bloomberg.com/news/articles/2026-06-04/nvidia-backed-robotics-startup-generalist-ai-valued-at-2-billion — Filter B (dedup): appeared in articles/2026-06-05-brief.md
-- Microsoft MAI-Thinking-1 (June 2) — Filter A: URL slug /2026/06/02/ is 4 days old
-- Anthropic Claude Opus 4.8 (May 28) — Filter A: 9 days old
-- Gemini 3.5 Flash (May 19) — Filter A: 18 days old
-- OpenAI ChatGPT Dreaming V3 (June 4) — Filter A: URL slug /2026/06/04/ is 2 days old
-- Great American AI Act (June 4) — Filter A: 2 days old
-- Trump AI Executive Order (June 2) — Filter A: 4 days old
+- https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/ — Filter B (dedup): appeared in articles/2026-06-06-brief.md
+- https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce — Filter B (dedup) + Filter A (published June 5)
+- https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/ — Filter A (>24h): published June 5
+- https://www.anthropic.com/research/making-claude-a-chemist — Filter A (>24h): published June 5
+- https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/ — Filter A (>24h): published June 4
+- https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations/ — Filter A (>24h): published June 5
+- Anthropic chip engineer (the-decoder.com) — NOT a trusted source domain
+- https://www.blognone.com/node/150792 — Filter A (>24h): published June 5
 
-> Note: 4 items passed both filters this run. Of ~11 candidates evaluated: 7 failed Filter A (>24h), 3 failed Filter B (dedup). No Thai-language sources met both filters — no articles with confirmable June 5–6 timestamps surfaced from blognone.com or beartai.com.
+> Note: 4 items passed both filters this run. Of ~15 candidates examined, ~8 failed Filter A (>24h), ~1 failed Filter B (dedup), ~1 dropped for non-trusted source. No Thai-language source confirmed within 24h window — Blognone most recent article found was June 5.
