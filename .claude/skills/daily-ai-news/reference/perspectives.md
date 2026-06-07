@@ -1,25 +1,25 @@
-# Perspectives — 2026-06-06
+# Perspectives — 2026-06-07
 
-## 1. AirTrunk commits $30B to build 5GW of AI data centers in India
+## 1. OpenAI เปิดตัว Lockdown Mode ป้องกัน Prompt Injection
 
-**อาจารย์ (มหาวิทยาลัย):** การลงทุนโครงสร้างพื้นฐาน AI ในเอเชียใต้ขนาดนี้สะท้อนว่า "AI infrastructure race" ไม่ใช่เรื่องของสหรัฐฯ-ยุโรปอีกต่อไป — นักเรียนควรวิเคราะห์ว่าอินเดียจะกลายเป็น hyperscaling hub ถัดไปได้หรือไม่ และ grid stability คือข้อจำกัดเชิง structural ที่สำคัญ
-**ผู้เชี่ยวชาญด้าน AI:** 5GW ภายในปี 2030 เป็นตัวเลขที่มีนัยสำคัญ แต่ bottleneck ที่แท้จริงไม่ใช่เงินลงทุน แต่คือ grid stability และ cooling infrastructure ในพื้นที่ที่ภูมิอากาศร้อนชื้น — Blackstone กำลังเดิมพันว่าอินเดียจะแก้ปัญหาเหล่านี้ได้ก่อนคู่แข่งในภูมิภาค
-**โปรแกรมเมอร์มืออาชีพ:** ทีมที่ build inference workloads สำหรับตลาดเอเชียใต้ควรจับตา AirTrunk capacity roadmap — latency จาก Mumbai/Pune region น่าจะต่ำกว่า Singapore และ cost structure จะเปลี่ยนอย่างมีนัยในปี 2027-2028 เมื่อ capacity เริ่ม online
+**อาจารย์ (มหาวิทยาลัย):** Lockdown Mode เป็นตัวอย่างที่ดีของ "defense in depth" ในวิชา cybersecurity — การออกแบบให้แต่ละชั้นของระบบมีกลไกป้องกันของตัวเอง แทนที่จะพึ่งพาจุดป้องกันเดียว นักเรียนควรเรียนรู้ว่า tradeoff ระหว่าง security และ functionality คือการตัดสินใจที่ทุก system designer ต้องเผชิญ
+**ผู้เชี่ยวชาญด้าน AI:** Prompt injection เป็น frontier threat ที่เพิ่มขึ้นอย่างรวดเร็วในยุคที่ AI agents มีสิทธิ์เข้าถึง external systems — การที่ OpenAI ออก feature นี้สะท้อนว่า agentic AI กำลังเผชิญกับ threat model ใหม่ที่ซับซ้อนขึ้น และยังไม่มีการแก้ปัญหาที่สมบูรณ์
+**โปรแกรมเมอร์มืออาชีพ:** ทีมที่ deploy ChatGPT ในองค์กรควรประเมินว่า Lockdown Mode เหมาะกับ use case ไหนบ้าง เพราะการปิด Agent Mode, Deep Research, และ live web browsing จะกระทบ productivity อย่างมีนัย — ควร test กับ workflow จริงก่อน rollout
 
-## 2. Google will pay SpaceX $920M per month for compute
+## 2. ที่ปรึกษา AI ทำเนียบขาว Sriram Krishnan ลาออก
 
-**อาจารย์ (มหาวิทยาลัย):** ดีลนี้สะท้อน political economy ของ AI — Google ซื้อ compute จาก SpaceX (Elon Musk) แม้จะเป็น competitor ด้าน AI หลายตลาด ความจำเป็นด้านโครงสร้างพื้นฐานเอาชนะ ideological competition ในระดับ hyperscale ได้ และนี่คือบทเรียนเรื่อง "coopetition" ที่ควรสอนในชั้น strategy
-**ผู้เชี่ยวชาญด้าน AI:** $920M/เดือน คือการยอมรับโดยนัยว่า Google internal datacenter expansion ช้ากว่า Gemini Enterprise demand; สัญญาณสำคัญว่า agentic AI demand กำลังเติบโตเร็วกว่าที่ทุกฝ่ายคาดการณ์ไว้ในต้นปี 2026
-**โปรแกรมเมอร์มืออาชีพ:** ทีมที่ใช้ Gemini API ควร benchmark rate limits และ latency ใหม่อีกครั้งหลัง October 2026 เมื่อ SpaceX capacity เริ่มไหลเข้า — capacity surge ขนาดนี้น่าจะทำให้ developer experience ดีขึ้นอย่างเห็นได้ชัด
+**อาจารย์ (มหาวิทยาลัย):** การลาออกของ Krishnan แสดงให้เห็น "revolving door" ระหว่าง Silicon Valley กับ Washington อีกครั้ง — ปรากฏการณ์นี้ทำให้ policy influence ไหลทั้งสองทิศทาง และเป็น case study ที่ดีสำหรับการเรียน digital governance
+**ผู้เชี่ยวชาญด้าน AI:** การย้ายออกจากรัฐบาลไปตั้งองค์กรอิสระมักมีอิทธิพลต่อนโยบายได้กว้างและยาวนานกว่า เพราะสามารถกำหนด framing ของการอภิปรายสาธารณะโดยไม่ถูกจำกัดด้วยข้อจำกัดของ bureaucracy
+**โปรแกรมเมอร์มืออาชีพ:** ควรติดตาม output ขององค์กรที่ Krishnan จะตั้ง เพราะเอกสารนโยบายจากองค์กรลักษณะนี้มักถูกนำไปใช้เป็นฐานร่างกฎหมายและ regulation ที่กระทบการพัฒนา AI โดยตรง
 
-## 3. Reid Hoffman leaves Microsoft board for Manus AI drug discovery
+## 3. WWDC 2026: Siri โฉมใหม่ด้วย Gemini
 
-**อาจารย์ (มหาวิทยาลัย):** Hoffman เลือก "founder mode" เหนือ board seat ที่มี influence ใน Microsoft — สะท้อน pattern ที่นักลงทุน/ที่ปรึกษาระดับ LP เริ่ม migrate ไปสู่ hands-on role ใน AI startups เพราะ equity upside ดึงดูดกว่า governance role ใน big tech — เป็น case study เรื่อง opportunity cost ใน AI era
-**ผู้เชี่ยวชาญด้าน AI:** "Move 37" AI สำหรับ chemistry คือ frontier ที่น่าจับตาที่สุดใน life science — ถ้า Manus ทำสำเร็จ จะหมายความว่า AI สามารถ propose novel molecular structures ที่มนุษย์ไม่เคยคิดถึงและ validate ใน silico ก่อน wet lab ได้จริง; Mukherjee เป็น CEO ที่เข้าใจทั้ง biology และ science communication
-**โปรแกรมเมอร์มืออาชีพ:** AI drug discovery เป็น domain ที่ต้องการ bioinformatics + ML engineering มากขึ้นเรื่อยๆ — ถ้าสนใจ switch career ไปทาง computational biology ในอีก 2-3 ปี นี่คือสัญญาณว่า market demand กำลังเร่งตัวหลัง Manus และ peer startups ได้รับ validation
+**อาจารย์ (มหาวิทยาลัย):** ดีล Apple-Google เป็นตัวอย่างที่ดีของ "competitive collaboration" — สองบริษัทที่เป็นคู่แข่งกันในหลายตลาดร่วมมือกันในจุดที่ต่างฝ่ายต่างได้ประโยชน์ นักเรียน strategy ควรวิเคราะห์ว่า Apple ยอมรับ Gemini เพราะขาด capability จริง หรือเป็นการ hedge ความเสี่ยง
+**ผู้เชี่ยวชาญด้าน AI:** Key test ที่แท้จริงคือ Apple จะจัดสมดุลระหว่าง on-device privacy กับ cloud-powered capability ได้แค่ไหน — ถ้า Apple รักษา privacy edge ได้จริงพร้อมกับ capability ที่เทียบได้กับ ChatGPT นั่นคือ competitive moat ที่ยากจะเลียนแบบ
+**โปรแกรมเมอร์มืออาชีพ:** iOS developer ควรดาวน์โหลด iOS 27 beta ทันทีหลัง WWDC June 8 เพื่อทดสอบ Siri API ใหม่และ Apple Intelligence framework — ถ้า App Store เปิดรับ AI agents จะเป็น distribution channel ที่ใหญ่มากใน ecosystem ที่มี willingness to pay สูง
 
-## 4. WWDC 2026 Preview: iOS 27, Siri AI revamp, macOS 27
+## 4. ทรัมป์-OpenAI หารือรัฐบาลถือหุ้น AI
 
-**อาจารย์ (มหาวิทยาลัย):** Apple กำลังใช้ "redemption narrative" อย่างชาญฉลาด — การยอมรับว่า 2024 AI rollout ล้มเหลวและ frame WWDC 2026 เป็นการกลับมาใหม่เป็น PR strategy ที่น่าศึกษาในแง่ brand recovery และ trust rebuilding กับผู้ใช้งาน
-**ผู้เชี่ยวชาญด้าน AI:** Bloomberg มักรายงาน Apple โดยอาศัย source ภายใน ทำให้ iOS 27 AI features ที่รายงานนี้น่าเชื่อถือสูง; key test คือ on-device inference vs cloud routing — Apple Silicon ที่แรงขึ้นจะทำให้ privacy guarantee แข็งแกร่งกว่า cloud-based competitors ได้จริงหรือไม่
-**โปรแกรมเมอร์มืออาชีพ:** นักพัฒนา iOS ควรเตรียม test environment สำหรับ iOS 27 beta ทันทีหลัง WWDC June 8 — ถ้า Apple Intelligence API เปิด third-party access เพิ่มขึ้น นี่คือ distribution channel ที่ใหญ่ที่สุดสำหรับ AI app บน mobile ใน ecosystem ที่มี willingness to pay สูงกว่า Android
+**อาจารย์ (มหาวิทยาลัย):** นี่คือ precedent ครั้งสำคัญสำหรับ AI governance ที่เชื่อม public ownership กับ private innovation — เป็นครั้งแรกที่มีการพูดถึง public equity ใน frontier AI infrastructure อย่างจริงจังในระดับนโยบายของสหรัฐฯ มีนัยต่อ global AI governance อย่างมาก
+**ผู้เชี่ยวชาญด้าน AI:** รูปแบบ government equity stake สะท้อนว่าผู้กำหนดนโยบายเริ่มมอง AI เป็น infrastructure สาธารณะคล้ายกับ utility — ถ้าเกิดขึ้นจริงจะเปลี่ยน incentive structure ของ AI lab อย่างมีนัยสำคัญ โดยเฉพาะการตัดสินใจเรื่อง safety และ access
+**โปรแกรมเมอร์มืออาชีพ:** OpenAI IPO พร้อม government stake อาจส่งผลต่อ product strategy และ API pricing ในระยะยาว ควรติดตาม term sheet รายละเอียดก่อนวางแผน API integration ระยะยาวกับ OpenAI
