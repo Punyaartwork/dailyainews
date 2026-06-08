@@ -1,25 +1,19 @@
-# Perspectives — 2026-06-07
+# Perspectives — 2026-06-08
 
-## 1. OpenAI เปิดตัว Lockdown Mode ป้องกัน Prompt Injection
+## 1. OpenAI ยังคงพัฒนา "Super App" ต่อไป
 
-**อาจารย์ (มหาวิทยาลัย):** Lockdown Mode เป็นตัวอย่างที่ดีของ "defense in depth" ในวิชา cybersecurity — การออกแบบให้แต่ละชั้นของระบบมีกลไกป้องกันของตัวเอง แทนที่จะพึ่งพาจุดป้องกันเดียว นักเรียนควรเรียนรู้ว่า tradeoff ระหว่าง security และ functionality คือการตัดสินใจที่ทุก system designer ต้องเผชิญ
-**ผู้เชี่ยวชาญด้าน AI:** Prompt injection เป็น frontier threat ที่เพิ่มขึ้นอย่างรวดเร็วในยุคที่ AI agents มีสิทธิ์เข้าถึง external systems — การที่ OpenAI ออก feature นี้สะท้อนว่า agentic AI กำลังเผชิญกับ threat model ใหม่ที่ซับซ้อนขึ้น และยังไม่มีการแก้ปัญหาที่สมบูรณ์
-**โปรแกรมเมอร์มืออาชีพ:** ทีมที่ deploy ChatGPT ในองค์กรควรประเมินว่า Lockdown Mode เหมาะกับ use case ไหนบ้าง เพราะการปิด Agent Mode, Deep Research, และ live web browsing จะกระทบ productivity อย่างมีนัย — ควร test กับ workflow จริงก่อน rollout
+**อาจารย์ (มหาวิทยาลัย):** การรวม AI tools เข้าใน "super app" เดียวสะท้อนแนวโน้มของเศรษฐกิจดิจิทัลที่แพลตฟอร์มเดียวพยายามครอบคลุมทุกความต้องการของผู้ใช้ นักศึกษาควรตั้งคำถามถึงผลกระทบต่อการแข่งขันในตลาดและความเป็นส่วนตัวของข้อมูล
+**ผู้เชี่ยวชาญด้าน AI:** สิ่งที่น่าสนใจคือการผสาน scheduling, commerce, และ third-party integrations เข้าด้วยกัน ซึ่งต้องการ orchestration layer ที่ซับซ้อน และยังไม่ชัดเจนว่า OpenAI จะจัดการ latency และ context boundaries ระหว่าง agents ต่างๆ อย่างไร
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า OpenAI สร้าง super app จริง API ecosystem จะเปลี่ยนไปมาก developers ที่สร้าง integrations แยกต่างหากอาจถูก disintermediate ขณะที่คนที่ build บน platform นี้ตั้งแต่เนิ่นๆ จะได้เปรียบ
 
-## 2. ที่ปรึกษา AI ทำเนียบขาว Sriram Krishnan ลาออก
+## 2. AI Content Creators แยกไม่ออกจากมนุษย์มากขึ้น
 
-**อาจารย์ (มหาวิทยาลัย):** การลาออกของ Krishnan แสดงให้เห็น "revolving door" ระหว่าง Silicon Valley กับ Washington อีกครั้ง — ปรากฏการณ์นี้ทำให้ policy influence ไหลทั้งสองทิศทาง และเป็น case study ที่ดีสำหรับการเรียน digital governance
-**ผู้เชี่ยวชาญด้าน AI:** การย้ายออกจากรัฐบาลไปตั้งองค์กรอิสระมักมีอิทธิพลต่อนโยบายได้กว้างและยาวนานกว่า เพราะสามารถกำหนด framing ของการอภิปรายสาธารณะโดยไม่ถูกจำกัดด้วยข้อจำกัดของ bureaucracy
-**โปรแกรมเมอร์มืออาชีพ:** ควรติดตาม output ขององค์กรที่ Krishnan จะตั้ง เพราะเอกสารนโยบายจากองค์กรลักษณะนี้มักถูกนำไปใช้เป็นฐานร่างกฎหมายและ regulation ที่กระทบการพัฒนา AI โดยตรง
+**อาจารย์ (มหาวิทยาลัย):** ปัญหา AI content creators ที่แยกไม่ออกจากมนุษย์เป็นโจทย์ทาง media literacy ที่ต้องบรรจุในหลักสูตร นักศึกษาต้องเรียนรู้การวิเคราะห์ข้อมูลและแหล่งที่มาอย่างวิพากษ์วิจารณ์
+**ผู้เชี่ยวชาญด้าน AI:** multimodal generation ที่ดีขึ้นในปี 2025-2026 ทำให้ synthetic personas มีความ coherent มากกว่าเดิม ทั้งเสียง ภาพ และ text style — เป็น arms race กับ detection models ที่ไม่มีจุดสิ้นสุด
+**โปรแกรมเมอร์มืออาชีพ:** platforms ที่ต้องการ verify human creators จะต้องลงทุนใน identity verification infrastructure มากขึ้น สร้างโอกาสสำหรับ startups ด้าน digital identity แต่ก็เพิ่ม onboarding friction สำหรับ real creators ด้วย
 
-## 3. WWDC 2026: Siri โฉมใหม่ด้วย Gemini
+## 3. Notion กู้คืนการเชื่อมต่อ Anthropic หลัง Service Disruption
 
-**อาจารย์ (มหาวิทยาลัย):** ดีล Apple-Google เป็นตัวอย่างที่ดีของ "competitive collaboration" — สองบริษัทที่เป็นคู่แข่งกันในหลายตลาดร่วมมือกันในจุดที่ต่างฝ่ายต่างได้ประโยชน์ นักเรียน strategy ควรวิเคราะห์ว่า Apple ยอมรับ Gemini เพราะขาด capability จริง หรือเป็นการ hedge ความเสี่ยง
-**ผู้เชี่ยวชาญด้าน AI:** Key test ที่แท้จริงคือ Apple จะจัดสมดุลระหว่าง on-device privacy กับ cloud-powered capability ได้แค่ไหน — ถ้า Apple รักษา privacy edge ได้จริงพร้อมกับ capability ที่เทียบได้กับ ChatGPT นั่นคือ competitive moat ที่ยากจะเลียนแบบ
-**โปรแกรมเมอร์มืออาชีพ:** iOS developer ควรดาวน์โหลด iOS 27 beta ทันทีหลัง WWDC June 8 เพื่อทดสอบ Siri API ใหม่และ Apple Intelligence framework — ถ้า App Store เปิดรับ AI agents จะเป็น distribution channel ที่ใหญ่มากใน ecosystem ที่มี willingness to pay สูง
-
-## 4. ทรัมป์-OpenAI หารือรัฐบาลถือหุ้น AI
-
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ precedent ครั้งสำคัญสำหรับ AI governance ที่เชื่อม public ownership กับ private innovation — เป็นครั้งแรกที่มีการพูดถึง public equity ใน frontier AI infrastructure อย่างจริงจังในระดับนโยบายของสหรัฐฯ มีนัยต่อ global AI governance อย่างมาก
-**ผู้เชี่ยวชาญด้าน AI:** รูปแบบ government equity stake สะท้อนว่าผู้กำหนดนโยบายเริ่มมอง AI เป็น infrastructure สาธารณะคล้ายกับ utility — ถ้าเกิดขึ้นจริงจะเปลี่ยน incentive structure ของ AI lab อย่างมีนัยสำคัญ โดยเฉพาะการตัดสินใจเรื่อง safety และ access
-**โปรแกรมเมอร์มืออาชีพ:** OpenAI IPO พร้อม government stake อาจส่งผลต่อ product strategy และ API pricing ในระยะยาว ควรติดตาม term sheet รายละเอียดก่อนวางแผน API integration ระยะยาวกับ OpenAI
+**อาจารย์ (มหาวิทยาลัย):** เหตุการณ์นี้แสดงให้เห็นว่าการพึ่งพา third-party AI providers ในองค์กรมีความเสี่ยงเรื่อง availability ที่ต้องวางแผนรับมือ นักศึกษาด้าน IS ควรศึกษาเรื่อง SLA และ vendor lock-in
+**ผู้เชี่ยวชาญด้าน AI:** service disruption ระหว่าง Notion กับ Anthropic เปิดเผยปัญหา single point of failure ใน AI integration stack — multi-provider architecture พร้อม fallback logic เป็นแนวทางที่ดีกว่า แม้จะซับซ้อนกว่า
+**โปรแกรมเมอร์มืออาชีพ:** ถ้าคุณ build production app บน third-party AI API ให้ implement circuit breakers และ graceful degradation ตั้งแต่แรก เหตุการณ์ Notion-Anthropic เป็นตัวอย่างชัดว่า "availability" ใน AI APIs ยังไม่ได้ระดับ 99.9% ทุกเจ้า
