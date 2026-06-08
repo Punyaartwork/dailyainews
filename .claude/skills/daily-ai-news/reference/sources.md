@@ -1,54 +1,42 @@
-# Sources — 2026-06-07
+# Sources — 2026-06-08
 
-Generated: 2026-06-07 (Asia/Bangkok)
+Generated: 2026-06-08 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-06-brief.md (4 URLs loaded)
+Dedup against: articles/2026-06-07-brief.md (4 URLs loaded)
 
-1. **OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks**
+1. **OpenAI is still working on that 'super app'**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/
-   - Published: 1:32 PM PDT · June 6, 2026 (2026-06-06T20:32:24Z = June 7, 03:32 Bangkok)
-   - FreshnessCheck: ✅ within last 24h via timestamp "2026-06-06T20:32:24Z = June 7 03:32 Bangkok"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted source domain)
-   - Summary: OpenAI rolled out Lockdown Mode to self-serve ChatGPT Business and eligible personal accounts. Disables live web browsing, image retrieval, Deep Research, and Agent Mode to reduce prompt injection-based data exfiltration risk.
+   - URL: https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/
+   - Published: 2026-06-07T16:23:22Z
+   - FreshnessCheck: ✅ within last 24h via Exa confirmed timestamp 2026-06-07T16:23:22Z
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's URLs are all /2026/06/06/ paths; this is /2026/06/07/)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: OpenAI is developing a ChatGPT "super app" that would bundle AI tools into a unified platform, competing with WeChat-style all-in-one apps. Features expected to include scheduling, commerce, and third-party integrations.
 
-2. **Sriram Krishnan is leaving his role as White House AI advisor**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/
-   - Published: 10:42 AM PDT · June 6, 2026 (2026-06-06T17:42:15Z = June 7, 00:42 Bangkok)
-   - FreshnessCheck: ✅ within last 24h via timestamp "2026-06-06T17:42:15Z = June 7 00:42 Bangkok"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted source domain)
-   - Summary: Senior White House AI policy advisor Sriram Krishnan (former a16z partner) leaving Trump administration end of June to build an outside technology policy institution.
+2. **AI 'content creators' are getting harder to spot**
+   - Publisher: The Verge
+   - URL: https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators
+   - Published: 2026-06-07T12:00:00Z
+   - FreshnessCheck: ✅ within last 24h via Exa confirmed timestamp 2026-06-07T12:00:00Z
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (theverge.com domain not present in yesterday's URLs)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: AI-generated content creators on social media are becoming increasingly difficult for audiences to distinguish from real humans. The article examines the evolving landscape of synthetic influencers and the challenge platforms face in labeling AI-generated personas.
 
-3. **What to expect from WWDC 2026: Siri's highly anticipated revamp and Apple Intelligence updates**
+3. **Notion restores access to Anthropic after service disruption**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/
-   - Published: 11:13 AM PDT · June 6, 2026 (2026-06-06T18:13:36Z = June 7, 01:13 Bangkok)
-   - FreshnessCheck: ✅ within last 24h via timestamp "2026-06-06T18:13:36Z = June 7 01:13 Bangkok"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's WWDC story was Bloomberg at different URL)
-   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted source domain)
-   - Summary: WWDC 2026 keynote June 8. Siri overhaul powered by Google's Gemini, new standalone Siri chat app, AI Agent App Store, iOS 27 Apple Intelligence updates.
-
-4. **The Trump administration might take an equity stake in OpenAI**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/
-   - Published: 9:17 AM PDT · June 6, 2026 (= June 6, 23:17 Bangkok — within rolling 24h window)
-   - FreshnessCheck: ✅ within last 24h via snippet "9:17 AM PDT · June 6, 2026 = June 6 23:17 Bangkok"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted source domain)
-   - Summary: Trump disclosed discussions with AI companies about government equity stakes. CNBC confirmed active talks between White House and OpenAI CEO Sam Altman to potentially seed a "Public Wealth Fund" distributing returns to American citizens.
+   - URL: https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/
+   - Published: 2026-06-07 (URL slug date; confirmed in Exa search results)
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/07/ and Exa search results
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from yesterday's techcrunch.com articles)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: Notion experienced a service disruption affecting its Anthropic Claude AI integration, which has since been restored. The incident highlights the growing dependency of productivity tools on third-party AI providers.
 
 ## Dropped
-- https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/ — Filter B (dedup): appeared in articles/2026-06-06-brief.md
-- https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce — Filter B (dedup) + Filter A (published June 5)
-- https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/ — Filter A (>24h): published June 5
-- https://www.anthropic.com/research/making-claude-a-chemist — Filter A (>24h): published June 5
-- https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/ — Filter A (>24h): published June 4
-- https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations/ — Filter A (>24h): published June 5
-- Anthropic chip engineer (the-decoder.com) — NOT a trusted source domain
-- https://www.blognone.com/node/150792 — Filter A (>24h): published June 5
+- https://techcrunch.com/2026/06/04/anthropic-says-its-working-on-making-ai-that-can-recursively-self-improve/ — Filter A (>24h): URL slug /2026/06/04/ is 4 days old
+- https://techcrunch.com/2026/06/05/google-and-spacex-are-teaming-up-to-put-starlink-satellite-internet-into-chromebooks/ — Filter A (>24h): URL slug /2026/06/05/ is 3 days old
+- Multiple Blognone articles — Filter A (>24h): node numbers place articles in May or early June (before 24h window)
+- Multiple WWDC 2026 preview/pre-keynote articles — Filter A: keynote at 10am PDT June 8 = midnight Bangkok June 9; only previews available during Bangkok June 8 daytime
+- Various Meta AI / Microsoft / Google articles — Filter A (>24h): publication dates 3–7 days old
 
-> Note: 4 items passed both filters this run. Of ~15 candidates examined, ~8 failed Filter A (>24h), ~1 failed Filter B (dedup), ~1 dropped for non-trusted source. No Thai-language source confirmed within 24h window — Blognone most recent article found was June 5.
+> Note: 3 items passed both filters this run. Of ~15 candidates, ~12 failed Filter A, 0 failed Filter B.
