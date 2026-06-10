@@ -1,31 +1,19 @@
-# Perspectives — 2026-06-09
+# Perspectives — 2026-06-10
 
-## 1. WWDC 2026: Apple Intelligence อัพเกรด Siri ด้วย Google Gemini
+## 1. Anthropic เปิดตัว Claude Fable 5 — Mythos-Class Model สำหรับสาธารณชน
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ Apple เลือกใช้ Google Gemini แทนการพัฒนา frontier model เองเป็นกรณีศึกษา "build vs. buy" ที่น่านำเข้าห้องเรียน นักศึกษาควรเข้าใจว่า distribution advantage ในอุปกรณ์กว่า 2 พันล้านเครื่องอาจมีค่ามากกว่าการเป็นผู้นำด้าน model capability
-**ผู้เชี่ยวชาญด้าน AI:** Custom Gemini ~1.2 trillion parameters บน Private Cloud Compute เป็น hybrid architecture ที่ท้าทาย ความสำเร็จขึ้นอยู่กับว่า Apple สามารถ fine-tune model ขนาดนี้ภายใน privacy boundary ของตัวเองโดยไม่ leak ข้อมูลไปยัง Google ได้จริงหรือไม่
-**โปรแกรมเมอร์มืออาชีพ:** SiriKit ถูกแทนที่ด้วย App Intents อย่างเป็นทางการ — ระฆังนับถอยหลัง migration เริ่มแล้ว developer ที่มี SiriKit integrations อยู่ควรวางแผน App Intents migration ก่อน iOS 27 launch ในฤดูใบไม้ร่วงนี้ทันที
+**อาจารย์ (มหาวิทยาลัย):** การที่ Anthropic ออกโมเดล Mythos-class สู่สาธารณะในขณะที่เพิ่งเรียกร้องให้ชะลอการพัฒนา AI สะท้อนความขัดแย้งพื้นฐานของ "safety through leadership" — นักศึกษาควรถามว่า deploy ก่อนแล้วค่อย regulate หลังเป็นกลยุทธ์ที่รับผิดชอบต่อสังคมหรือไม่ และใครคือผู้ที่ควรตัดสิน
+**ผู้เชี่ยวชาญด้าน AI:** ระบบ tiered deployment (Fable 5 สำหรับสาธารณะ / Mythos 5 เฉพาะหน่วยงานด้านความมั่นคง) เป็น governance model ที่น่าจับตา — boundary ระหว่างสองระดับนี้จะ hold ได้นานแค่ไหนเมื่อ adversarial technique พัฒนาขึ้นเรื่อยๆ เป็นคำถามที่มีความเสี่ยงสูง
+**โปรแกรมเมอร์มืออาชีพ:** ราคา $10/$50 per million tokens ที่ถูกกว่า Mythos Preview ครึ่งหนึ่งน่าดึงดูก็จริง แต่ต้องออกแบบ fallback logic รองรับ guardrail triggers อย่างรอบคอบ โดยเฉพาะถ้า use case ใกล้หมวด security หรือ life sciences ซึ่งอาจกระทบ reliability ของ production system
 
-## 2. Siri AI ตัวใหม่: Personal Context, Multi-Step Tasks และ Dynamic Island
+## 2. WWDC 2026 วันที่สอง: EU บล็อก Siri AI + Foundation Models จะ Open Source
 
-**อาจารย์ (มหาวิทยาลัย):** Personal context awareness ที่เข้าถึง email, photos, files ของผู้ใช้นำไปสู่คำถามด้าน data sovereignty ที่เหมาะสำหรับ seminar: ความสมดุลระหว่าง AI utility กับ personal privacy เป็นโจทย์ที่นักศึกษาด้าน tech และ policy ต้องร่วมกันถกเถียง
-**ผู้เชี่ยวชาญด้าน AI:** Multi-step task execution ที่รักษา context ข้ามแอปและ session เป็น agentic architecture ที่ซับซ้อนกว่า chatbot ธรรมดา ความสำเร็จจะวัดได้จากว่า Apple จัดการ context window และ memory consolidation ได้ดีแค่ไหนในการใช้งานจริง
-**โปรแกรมเมอร์มืออาชีพ:** Dynamic Island integration และ system-wide "Ask Siri" gesture จะเปลี่ยน interaction pattern บน iOS ทีมที่ build apps ที่มี voice input ควรทดสอบบน iOS 27 beta ตั้งแต่เดือนกรกฎาคม เพราะ UX เดิมอาจถูก override โดย Siri AI layer
+**อาจารย์ (มหาวิทยาลัย):** ความขัดแย้งระหว่าง Apple กับ EU Commission แสดงว่า AI governance ไม่มีคำตอบสากล — Apple อ้าง privacy protection ขณะ EU อ้างการแข่งขันเสรี ทั้งสองฝ่ายใช้ "ผู้ใช้" เป็นเหตุผลแต่นิยาม harm ต่างกัน นี่คือบทเรียน epistemology ของ policy-making ในยุค AI ที่ควรนำเข้าห้องเรียน
+**ผู้เชี่ยวชาญด้าน AI:** Foundation Models framework ที่จะ open source ในฤดูร้อนนี้น่าสนใจมากกว่า Siri AI ตัวเดิม — ถ้า Apple ปล่อย model weights และ fine-tuning recipe ออกมา จะเปลี่ยน dynamic ของ on-device AI อย่างมีนัยสำคัญและเปิดโอกาสสำหรับ deployment นอก Apple ecosystem
+**โปรแกรมเมอร์มืออาชีพ:** Xcode 27 ที่ route agentic coding analysis ไปยัง Claude/Gemini/OpenAI เป็น developer workflow ที่น่าทดสอบ แต่ต้องกำหนด privacy boundary ของ code ที่ส่งไป cloud ก่อน production — โดยเฉพาะถ้างานมี proprietary logic หรือ customer data
 
-## 3. Apple เป็น "Fast Follower" ใน AI — ไม่ใช่ผู้นำ
+## 3. Beartai: Siri AI ใหม่มีอะไรที่ Android ทำมานานแล้วบ้าง?
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้เป็นตัวอย่างคลาสสิกของ "fast follower" ที่ใช้ distribution moat แทน innovation leadership ทฤษฎี competitive strategy บอกว่ากลยุทธ์นี้ได้ผลเมื่อ switching cost สูง แต่ในตลาด AI ที่ผู้ใช้ใช้หลาย assistants พร้อมกัน ความได้เปรียบนี้อาจน้อยกว่าที่คิด
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Siri ยังไม่พร้อมใน EU และ China ไม่ได้มาจากปัญหาทางเทคนิค แต่เป็น regulatory และ geopolitical constraints — นี่แสดงว่า AI deployment ในยุคนี้ต้อง navigate ทั้ง technical และ policy landscape พร้อมกัน
-**โปรแกรมเมอร์มืออาชีพ:** iOS 27 Extensions ที่ให้เลือก third-party AI model เป็น default assistant เป็นการเปิด API ที่น่าสนใจ แต่ boundary ของ access ยังไม่ชัดเจน — ควรรอ WWDC session recordings และ documentation ฉบับเต็มก่อนวางแผน integration
-
-## 4. Apple จ่าย $250 ล้าน: บทเรียน False Advertising ใน AI
-
-**อาจารย์ (มหาวิทยาลัย):** เหตุการณ์นี้สอนบทเรียนที่ควรนำเข้าหลักสูตร: การโฆษณา AI features ที่ยังไม่มีจริง (vaporware) ไม่ใช่แค่ damage ต่อ brand แต่มีผลทางกฎหมาย class-action lawsuit กลายเป็น accountability mechanism ที่ผู้บริโภคสามารถใช้ได้
-**ผู้เชี่ยวชาญด้าน AI:** Settlement นี้จะกลายเป็น precedent สำหรับ "capability claims" ในการ market AI products ทั้ง industry บริษัท AI ทุกเจ้าควรทบทวนว่าเส้นแบ่งระหว่าง "shipped" กับ "aspirational" ในการสื่อสารต่อสาธารณะชัดเจนเพียงพอหรือไม่
-**โปรแกรมเมอร์มืออาชีพ:** Pre-taped demo แทน live demo เป็น risk mitigation ที่สมเหตุสมผล แต่ developer community มักตีความว่า "ถ้าทำงานได้จริง ทำไมไม่ demo live?" — Apple ต้องส่งมอบ features ตรงกำหนดบน public beta เพื่อ rebuild trust
-
-## 5. Apple Shortcuts ใหม่: พิมพ์ภาษาพูด — AI สร้าง Automation ให้
-
-**อาจารย์ (มหาวิทยาลัย):** Natural language → automation workflow ที่ end-user สร้างได้โดยไม่ต้องเขียนโค้ด เปิดคำถามเชิงการศึกษาว่า "computational thinking" ในยุค AI ควรเน้น "problem decomposition" มากกว่า "syntax" — นี่คือโจทย์สำหรับนักออกแบบหลักสูตร
-**ผู้เชี่ยวชาญด้าน AI:** LLM ที่ interpret natural language แล้ว generate workflow steps เป็น simplified agent pattern — hallucination rate เมื่อ model generate automation steps ที่มีผลต่อข้อมูลหรือระบบของผู้ใช้เป็นตัวแปรสำคัญที่ต้องพิสูจน์ใน real-world usage
-**โปรแกรมเมอร์มืออาชีพ:** Shortcuts ecosystem มี power user base ขนาดใหญ่ ถ้า Apple Intelligence ลด friction การสร้าง Shortcuts ได้จริง demand สำหรับ App Intents actions ที่ apps expose จะเพิ่มขึ้น — เป็นสัญญาณว่าควรลงทุน App Intents coverage มากขึ้น
+**อาจารย์ (มหาวิทยาลัย):** บทวิเคราะห์ของ Beartai สะท้อน perspective ของผู้ใช้จากตลาดเอเชียตะวันออกเฉียงใต้ที่มักใช้ทั้ง Android และ iOS — มุมมองนี้สำคัญสำหรับการศึกษา AI adoption ในบริบทที่ผู้บริโภคไม่ได้ loyal กับ platform เดียวเหมือนตลาดตะวันตก
+**ผู้เชี่ยวชาญด้าน AI:** ความแตกต่างที่แท้จริงไม่ใช่ feature list แต่คือ integration depth — on-screen awareness ที่ทำงานข้ามทุกแอปบน iOS โดยไม่ต้องขอ permission แยก คือ architecture advantage ที่ Android ยังทำได้ยากกว่าเนื่องจาก OS fragmentation
+**โปรแกรมเมอร์มืออาชีพ:** บทวิเคราะห์ของ Beartai เตือนว่า feature parity ไม่เพียงพออีกต่อไป — ถ้าผู้ใช้รู้สึกว่า "Android ทำได้มานานแล้ว" innovation story ของ product จะอ่อนแอลง ให้โฟกัสที่ user value ที่วัดได้และความลึกของ integration ก่อน
