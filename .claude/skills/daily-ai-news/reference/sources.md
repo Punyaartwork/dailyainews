@@ -1,66 +1,47 @@
-# Sources — 2026-06-09
+# Sources — 2026-06-10
 
-Generated: 2026-06-09 (Asia/Bangkok)
+Generated: 2026-06-10 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-08-brief.md (3 URLs loaded)
+Dedup against: articles/2026-06-09-brief.md (5 URLs loaded)
 
-1. **WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more**
+1. **Anthropic's Claude Fable 5 is a version of Mythos the public can access today**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/
-   - Published: June 8, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/08
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from yesterday's techcrunch.com articles at /2026/06/07/)
+   - URL: https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/
+   - Published: June 9, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/06/09"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's URLs were 5 WWDC/Apple articles at /06/08/ paths)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Apple unveiled Gemini-powered Siri at WWDC 2026 on June 8, licensing a custom ~1.2T-parameter Google Gemini model for ~$1B/year. New standalone Siri app, iOS 27, and expanded Apple Intelligence features launched; developer betas available immediately after keynote.
+   - Summary: Anthropic released Claude Fable 5 on June 9, 2026 — the first publicly available Mythos-class model. Surpasses all previous Anthropic models on nearly all benchmarks; excels at software engineering, knowledge work, vision, scientific research. Safety guardrails reroute <5% of sessions in high-risk areas (cybersecurity, biology, chemistry) to Opus 4.8. Free on Pro/Max/Team/Enterprise plans through June 22, then requires usage credits. Priced at $10/M input tokens, $50/M output tokens. Also released: Claude Mythos 5 for approved cyberdefense organizations via Project Glasswing.
 
-2. **Apple's long-awaited AI Siri overhaul is finally here**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/
-   - Published: June 8, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/08
+Also referenced: https://www.anthropic.com/news/claude-fable-5-mythos-5 (Anthropic official blog, June 9 ✅)
+
+2. **น้องออลนิว "Siri AI" มีอะไรใหม่ (ที่ Android มีมานานแล้ว) บ้าง?**
+   - Publisher: Beartai
+   - URL: https://www.beartai.com/tech/it-news/1501648/
+   - Published: June 9, 2026
+   - FreshnessCheck: ✅ within last 24h via search engine snippet "1 day ago" (relative to June 10 Bangkok)
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Siri AI gains a dedicated standalone app, Dynamic Island integration, personal context awareness (emails, photos, files), multi-step task execution across apps, and on-screen awareness — the largest Siri update since its 2011 launch.
+   - Summary: Beartai analyzed new Siri AI features from WWDC 2026, comparing them to existing Android capabilities and questioning whether Apple's AI updates represent genuine innovation for users already familiar with Google Assistant or Samsung Galaxy AI.
 
-3. **Apple plays catch-up at WWDC**
+3. **WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/
-   - Published: June 8, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/08
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - URL: https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/
+   - Published: June 9, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/06/09"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday used /06/08/ paths; this is /06/09/)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: TechCrunch analysis argues Apple's WWDC keynote was structured to lead with fixes before AI features — a signal the company acknowledges it fell behind ChatGPT, Claude, and Gemini; new Siri launches in beta and is unavailable in EU or China due to regulatory hurdles.
-
-4. **Apple's WWDC AI demos looked more real after $250M false ad settlement**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/
-   - Published: June 8, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/08
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Apple settled a $250M class-action lawsuit in May 2026 over false Siri advertising from WWDC 2024; at WWDC 2026 all AI demos were shown on real hardware with actual working features — a marked shift from aspirational pre-recorded presentations.
-
-5. **Apple will let you build workflows using AI in its new Shortcuts app**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/
-   - Published: June 8, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/08
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: New Apple Shortcuts lets users describe what they want in natural language; Apple Intelligence interprets the prompt and builds the required automation steps without manual drag-and-drop configuration.
+   - Summary: TechCrunch's June 9 WWDC roundup covers post-keynote developments: Apple formally confirmed Siri AI will not launch on iPhone/iPad in EU (no timeline, DMA regulatory dispute); EU Commission disputed this, saying it was Apple's own decision; Foundation Models framework to go open source this summer; free Private Cloud Compute for developers with <2M downloads; Xcode 27 with agentic coding system routing heavy analysis to Claude/Gemini/OpenAI.
 
 ## Dropped
 
-- https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/ — Filter A (>24h): URL slug 2026/05/28, 12 days old
-- https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/ — Filter A (>24h): URL slug 2026/06/01, 8 days old
-- https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/ — Filter A (>24h): URL slug 2026/06/02, 7 days old
-- https://openai.com/index/introducing-gpt-5-4-mini-and-nano/ — Filter A (>24h): released March 17, 2026
-- https://www.anthropic.com/news/enterprise-ai-services-company — Filter A (>24h): announced May 4, 2026
-- https://www.anthropic.com/news/higher-limits-spacex — Filter A (>24h): announced May 6, 2026
-- https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/ — Filter A (>24h): URL slug 2026/05/19, 21 days old
-- https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/ — Filter A (>24h): Nemotron 3 Ultra released June 4, 5 days old
-- https://www.beartai.com/read/1500852/ — Filter A (>24h): AI นกกระซิบ launched June 1, article from ~May 2026
-- https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/ — Filter A (>24h): pre-WWDC preview from June 4
+- https://www.bloomberg.com/news/articles/2026-06-08/apple-delays-siri-ai-for-iphone-users-in-eu-says-regulators-refusing-to-engage — Filter A: URL slug 2026-06-08, 2 calendar days before Bangkok June 10 (>24h)
+- https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/ — Filter A: URL slug 2026/06/08, 2 calendar days old
+- https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/ — Filter B: URL 1 in articles/2026-06-09-brief.md
+- https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/ — Filter B: URL 2 in articles/2026-06-09-brief.md
+- https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/ — Filter B: URL 3 in articles/2026-06-09-brief.md
+- https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/ — Filter B: URL 4 in articles/2026-06-09-brief.md
+- https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/ — Filter B: URL 5 in articles/2026-06-09-brief.md
 
-> Note: 5 items passed both filters this run. All 5 are from TechCrunch and cover WWDC 2026 from June 8, 2026. Of approximately 18 candidates, ~13 failed Filter A (>24h), 0 failed Filter B. No Thai-language sources with confirmed June 8–9 timestamps were found from the trusted-sources.md allow-list.
+> Note: 3 items passed both filters this run. Of ~15 candidates reviewed, ~7 failed Filter A (URL slugs showing 2026-06-08 or older), ~5 failed Filter B (in yesterday's brief). No additional Thai-language trusted sources with confirmed June 9–10 timestamps found beyond Beartai.
