@@ -1,47 +1,46 @@
-# Sources — 2026-06-10
+# Sources — 2026-06-11
 
-Generated: 2026-06-10 (Asia/Bangkok)
+Generated: 2026-06-11 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-09-brief.md (5 URLs loaded)
+Dedup against: articles/2026-06-10-brief.md (4 URLs loaded)
 
-1. **Anthropic's Claude Fable 5 is a version of Mythos the public can access today**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/
-   - Published: June 9, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug "2026/06/09"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's URLs were 5 WWDC/Apple articles at /06/08/ paths)
+1. **OpenAI เตรียมซื้อกิจการ Ona ขยาย Codex สู่งาน Agentic ระยะยาว**
+   - Publisher: OpenAI
+   - URL: https://openai.com/index/openai-to-acquire-ona/
+   - Published: June 11, 2026
+   - FreshnessCheck: ✅ within last 24h via snippet — multiple search results confirm "June 11, 2026"; CNBC published 2026-06-11T03:24:56Z (Exa); worldnews.com URL slug 2026/06/11
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (openai.com seen yesterday at different path /news/claude-fable-5-mythos-5; path /index/openai-to-acquire-ona/ is new)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Anthropic released Claude Fable 5 on June 9, 2026 — the first publicly available Mythos-class model. Surpasses all previous Anthropic models on nearly all benchmarks; excels at software engineering, knowledge work, vision, scientific research. Safety guardrails reroute <5% of sessions in high-risk areas (cybersecurity, biology, chemistry) to Opus 4.8. Free on Pro/Max/Team/Enterprise plans through June 22, then requires usage credits. Priced at $10/M input tokens, $50/M output tokens. Also released: Claude Mythos 5 for approved cyberdefense organizations via Project Glasswing.
+   - Summary: OpenAI will acquire Ona, a German startup providing secure cloud execution environments for AI agents. Ona's team joins Codex. Codex now has 5M weekly users (up 400%). Acquisition subject to regulatory approval, financial terms undisclosed.
 
-Also referenced: https://www.anthropic.com/news/claude-fable-5-mythos-5 (Anthropic official blog, June 9 ✅)
-
-2. **น้องออลนิว "Siri AI" มีอะไรใหม่ (ที่ Android มีมานานแล้ว) บ้าง?**
-   - Publisher: Beartai
-   - URL: https://www.beartai.com/tech/it-news/1501648/
-   - Published: June 9, 2026
-   - FreshnessCheck: ✅ within last 24h via search engine snippet "1 day ago" (relative to June 10 Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+2. **OpenAI เปิดทาง Oracle Cloud ลูกค้าองค์กรใช้ GPT โมเดลและ Codex ผ่าน Universal Credits**
+   - Publisher: OpenAI
+   - URL: https://openai.com/index/openai-on-oracle-cloud/
+   - Published: June 10, 2026
+   - FreshnessCheck: ✅ within last 24h via OpenAI news page summary showing "June 10, 2026"; worldnews.com slug 2026/06/11 for syndicated article
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /index/openai-on-oracle-cloud/ not in yesterday's set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Beartai analyzed new Siri AI features from WWDC 2026, comparing them to existing Android capabilities and questioning whether Apple's AI updates represent genuine innovation for users already familiar with Google Assistant or Samsung Galaxy AI.
+   - Summary: Oracle Cloud Infrastructure customers can apply existing Oracle Universal Credits toward OpenAI frontier models and Codex through OCI, eliminating a separate vendor procurement process. Availability expected "in the coming weeks."
 
-3. **WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/
-   - Published: June 9, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug "2026/06/09"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday used /06/08/ paths; this is /06/09/)
+3. **OpenAI พิจารณาลดราคา Token ครั้งใหญ่ รับมือ Anthropic ก่อนทั้งคู่เข้า IPO**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-06-11/openai-weighs-major-price-cuts-to-win-anthropic-users-wsj-says
+   - Published: June 11, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-11; bgov.com confirmed "Published: 2026-06-11T12:11:09"; invezz.com confirmed "Jun 11, 2026, 03:04 AM"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com host not in yesterday's set at all)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: TechCrunch's June 9 WWDC roundup covers post-keynote developments: Apple formally confirmed Siri AI will not launch on iPhone/iPad in EU (no timeline, DMA regulatory dispute); EU Commission disputed this, saying it was Apple's own decision; Foundation Models framework to go open source this summer; free Private Cloud Compute for developers with <2M downloads; Xcode 27 with agentic coding system routing heavy analysis to Claude/Gemini/OpenAI.
+   - Summary: WSJ reports OpenAI is weighing significant token price cuts anticipating similar cuts from Anthropic. Both companies recently filed confidential S-1s. OpenAI ($852B) trails Anthropic ($965B). CEO Altman: "Cost has become a very big issue."
 
 ## Dropped
+- https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/ — Filter A (>24h): published June 9; Filter B: appeared in articles/2026-06-10-brief.md
+- https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/ — Filter A (>24h): published June 9; Filter B: appeared in articles/2026-06-10-brief.md
+- https://www.beartai.com/tech/it-news/1501648/ — Filter A (>24h): published June 9; Filter B: appeared in articles/2026-06-10-brief.md
+- https://www.blognone.com/node/150856 (Apple EU DMA) — Filter A (>24h): published June 9 per "2 days ago" in search snippet
+- https://www.blognone.com/node/150863 (Apple Intelligence Gemini details) — Filter A (>24h): published June 9, 2026
+- https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/ — Filter A (>24h): announced at WWDC June 8, 2026
+- Microsoft MAI-Thinking-1 (microsoft.ai/news/) — Filter A (>24h): announced at Microsoft Build ~June 3, 2026
+- NVIDIA Nemotron 3 Ultra (blogs.nvidia.com) — Filter A (>24h): released June 4, 2026
+- DiffusionGemma (Google/NVIDIA Blog) — third-party sources confirm June 10 release, but NVIDIA Blog search snippet lacked a datestamp; no Google Research/DeepMind blog URL confirmed in search results; dropped per Tier 2 timestamp requirement
 
-- https://www.bloomberg.com/news/articles/2026-06-08/apple-delays-siri-ai-for-iphone-users-in-eu-says-regulators-refusing-to-engage — Filter A: URL slug 2026-06-08, 2 calendar days before Bangkok June 10 (>24h)
-- https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/ — Filter A: URL slug 2026/06/08, 2 calendar days old
-- https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/ — Filter B: URL 1 in articles/2026-06-09-brief.md
-- https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/ — Filter B: URL 2 in articles/2026-06-09-brief.md
-- https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/ — Filter B: URL 3 in articles/2026-06-09-brief.md
-- https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/ — Filter B: URL 4 in articles/2026-06-09-brief.md
-- https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/ — Filter B: URL 5 in articles/2026-06-09-brief.md
-
-> Note: 3 items passed both filters this run. Of ~15 candidates reviewed, ~7 failed Filter A (URL slugs showing 2026-06-08 or older), ~5 failed Filter B (in yesterday's brief). No additional Thai-language trusted sources with confirmed June 9–10 timestamps found beyond Beartai.
+> Note: 3 items passed both filters this run. Of ~15 candidates reviewed, ~9 failed Filter A (>24h), 0 failed Filter B only, 3 failed both. No Thai-language trusted source (Blognone/Beartai/The Standard Tech) published today's AI news within the confirmed 24h window in indexed search results.
