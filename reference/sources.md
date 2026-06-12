@@ -1,58 +1,63 @@
-# Sources — 2026-06-03
+# Sources — 2026-06-12
 
-Generated: 2026-06-03 (Asia/Bangkok)
+Generated: 2026-06-12 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-02-brief.md (3 URLs loaded)
+Dedup against: articles/2026-06-11-brief.md (4 URLs loaded)
 
-1. **Microsoft เปิดมาตรฐาน open-source Agent Control Specification (ACS) ควบคุม AI agent ข้าม framework**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/
-   - Published: 2026-06-02
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/02/ (1 day ago from June 3 Asia/Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path differs from all 3 yesterday URLs)
+1. **SpaceX Leases Colossus 1 Data Center to Anthropic After Internal AI Hurdles**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-06-12/spacex-rented-out-computing-after-own-teams-had-trouble-using-it
+   - Published: June 12, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-06-12"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com path differs from all 4 yesterday URLs)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Microsoft เปิดตัว Agent Control Specification (ACS) มาตรฐาน open-source ที่ให้ developer, compliance และ security team เขียน policy ควบคุม AI agent ได้ละเอียด ทำงานข้าม LangChain, OpenAI Agents SDK, Anthropic Agents SDK, AutoGen, CrewAI, Semantic Kernel และ MCP tools ประกาศที่งาน Microsoft Build 2026 เมื่อวันที่ 2 มิถุนายน 2026
+   - Summary: SpaceX decided to rent out full capacity of Colossus 1 data center in Memphis to Anthropic after latency issues connecting it to two other sites (10+ miles away), compounded by aging network infrastructure. Gives Anthropic 300+ MW of compute (220,000+ NVIDIA GPUs) at $1.25B/month through May 2029.
 
-2. **Microsoft Scout — AI agent "always-on" พนักงานส่วนตัวบนฐาน OpenClaw สำหรับ Microsoft 365**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/
-   - Published: 2026-06-02
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/02/ (1 day ago from June 3 Asia/Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path differs from all 3 yesterday URLs)
+2. **DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on**
+   - Publisher: Anthropic
+   - URL: https://www.anthropic.com/news/dxc-anthropic-alliance
+   - Published: June 11, 2026
+   - FreshnessCheck: ✅ within last 24h via search snippet "On June 11, 2026, Anthropic announced"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (anthropic.com/news/dxc-anthropic-alliance not in yesterday's 4 URLs)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Microsoft Scout คือ "Autopilot" ประเภทใหม่ — AI agent ที่ทำงานตลอดเวลาในฐานะผู้ช่วยส่วนตัวสำหรับงาน สร้างบน OpenClaw เชื่อมต่อ Teams, Outlook, OneDrive, SharePoint เปิดผ่านโปรแกรม Frontier ณ Microsoft Build 2026
+   - Summary: DXC Technology will train tens of thousands of Claude-certified forward-deployed engineers (FDEs) embedded inside customer organizations, bringing Claude into core systems of the world's largest banks, airlines, insurers, manufacturers, and government agencies. DXC's OASIS platform (April 2026) runs Claude as default foundation model and serves 50+ customers; Claude wrote 95%+ of its code.
 
-3. **Uber กำหนดวงเงิน $1,500/เดือน/คนสำหรับ AI tools หลังงบทั้งปีหมดใน 4 เดือน**
+3. **Jeff Bezos's Prometheus raises $12B to build an 'artificial general engineer' for the physical world**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/
-   - Published: 2026-06-02
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/02/ (1 day ago from June 3 Asia/Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path differs from all 3 yesterday URLs)
+   - URL: https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/
+   - Published: June 11, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/06/11"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no techcrunch.com URL in yesterday's set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Uber กำหนด cap $1,500 ต่อเดือนต่อพนักงานสำหรับ agentic coding tools เช่น Claude Code และ Cursor หลัง CTO เปิดเผยว่าบริษัทใช้งบ AI ทั้งปีหมดภายใน 4 เดือน มี internal dashboard ให้ตรวจสอบการใช้จ่ายได้แบบ real-time
+   - Summary: Prometheus, co-founded by Jeff Bezos and Vik Bajaj, raised $12B at a $41B valuation to build software automating the design and manufacturing of complex physical systems, from jet engines to drug compounds.
 
-4. **Google ปล่อยระบบตรวจจับสาย deepfake AI แบบ real-time บน Android**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/
-   - Published: 2026-06-02
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/02/ (1 day ago from June 3 Asia/Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path differs from all 3 yesterday URLs)
+4. **Google DeepMind and partners announce multi-agent safety research funding call**
+   - Publisher: Google DeepMind
+   - URL: https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/
+   - Published: June 11, 2026
+   - FreshnessCheck: ✅ within last 24h via search snippet "announcement was made on June 11, 2026"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (deepmind.google domain not in yesterday's set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google เปิดตัว "fake call detection" ใน Phone by Google สำหรับ Android 12+ เริ่มจาก Pixel ใช้ RCS end-to-end encrypted handshake ยืนยัน caller identity แบบ real-time ทำงานอัตโนมัติ ไม่ต้องตั้งค่า
+   - Summary: Google DeepMind, Schmidt Sciences, Cooperative AI Foundation, and ARIA (UK) launched a $10M research funding call to study large-scale multi-agent AI system behavior as a group and develop frameworks to mitigate risks when millions of AI agents from different organizations interact. Deadline: August 8, 2026.
 
-5. **Martin Scorsese เข้าร่วม Black Forest Labs ใช้ AI FLUX วาด storyboard ภาพยนตร์**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/
-   - Published: 2026-06-02
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/02/ (1 day ago from June 3 Asia/Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path differs from all 3 yesterday URLs)
+5. **ดีอีเปิดเวทีเคลียร์ TH-AI Passport 1,600 ล้าน แจงทุกข้อครหา ปัดล็อกสเปก-ฮั้วประมูล**
+   - Publisher: The Standard
+   - URL: https://thestandard.co/de-thai-ai-passport-clarifies/
+   - Published: June 11, 2026
+   - FreshnessCheck: ✅ within last 24h via search snippet "วันนี้ (11 มิถุนายน)"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (thestandard.co domain not in yesterday's set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Martin Scorsese ผู้กำกับระดับ Academy Award เข้าร่วมเป็น partner และ adviser ของ Black Forest Labs (valuation $3.25B) ใช้เทคโนโลยี FLUX ช่วยสร้าง storyboard ใน pre-production เพื่อสื่อสารวิสัยทัศน์กับทีมงานได้เร็วขึ้น
+   - Summary: กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (ดีอี) จัดเวที TH-AI Passport Forum เพื่อเปิดโอกาสให้ทุกภาคส่วนซักถามโดยตรงเกี่ยวกับโครงการ 1,600 ล้านบาท ท่ามกลางข้อครหาเรื่องการล็อกสเปกและฮั้วประมูล โดยกระทรวงยืนยันปฏิเสธทุกข้อกล่าวหา
 
 ## Dropped
-- https://www.beartai.com/read/1500862/ — Filter A (ambiguous): URL ไม่มี date slug, snippet ไม่แสดง timestamp ที่ชัดเจน ไม่สามารถยืนยันว่าอยู่ใน 24h window ได้
-- https://www.blognone.com/node/150760 — Filter A (ambiguous): URL ไม่มี date slug, timestamp ไม่ชัดเจนจาก snippet
-- https://www.blognone.com/node/150754 — Filter A (ambiguous): URL ไม่มี date slug, timestamp ไม่ชัดเจนจาก snippet
+- https://openai.com/index/openai-to-acquire-ona/ — Filter B (dedup): appeared in articles/2026-06-11-brief.md
+- https://www.bloomberg.com/news/articles/2026-06-11/openai-to-acquire-cloud-platform-ona-to-support-ai-agents — Filter B (dedup): appeared in articles/2026-06-11-brief.md
+- https://openai.com/index/openai-on-oracle-cloud/ — Filter B (dedup): appeared in articles/2026-06-11-brief.md
+- https://www.bloomberg.com/news/articles/2026-06-11/openai-weighs-major-price-cuts-to-win-anthropic-users-wsj-says — Filter B (dedup): appeared in articles/2026-06-11-brief.md
+- https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/ — Filter A (>24h): URL slug 2026-06-09 is 3 days old
+- https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/ — Filter A (>24h): URL slug 2026-06-09 is 3 days old
+- https://www.blognone.com/node/150781 — Filter A (>24h): metadata indicates ~June 3 (approximately 9 days old)
+- https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/ — Filter A (>24h): URL slug 2026-06-10 is 2 days old
 
-> Note: 5 items passed both filters this run. Of 8 candidates, 3 failed Filter A (ambiguous timestamp — no date slug, no parseable snippet date). 0 failed Filter B. Thai-language sources could not be confirmed within the 24h window due to missing date slugs and ambiguous snippets; all 5 selected stories are from TechCrunch (trusted international source).
+> Note: 5 items passed both filters this run. Of 13 candidates reviewed, 5 failed Filter A (too old), 4 failed Filter B (already in yesterday's brief). Mix: 4 international (Bloomberg, Anthropic, TechCrunch, Google DeepMind) + 1 Thai (The Standard).
