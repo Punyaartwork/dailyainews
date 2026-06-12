@@ -1,31 +1,31 @@
-# Perspectives — 2026-06-03
+# Perspectives — 2026-06-12
 
-## 1. Microsoft เปิดมาตรฐาน Agent Control Specification (ACS)
+## 1. SpaceX ให้เช่า Colossus 1 ทั้งหมดแก่ Anthropic หลัง Grok ล้มเหลวด้านเทคนิค
 
-**อาจารย์ (มหาวิทยาลัย):** ACS แสดงให้เห็นว่าอุตสาหกรรมเริ่มตระหนักถึงความจำเป็นของ governance framework สำหรับ AI agents นักศึกษาควรศึกษาวิธีที่มาตรฐาน open-source สร้าง ecosystem ร่วมกันข้าม vendor ได้อย่างไร เทียบกับ proprietary standards ที่ lock-in vendor
-**ผู้เชี่ยวชาญด้าน AI:** ACS แก้ปัญหา "boundary-setting" ที่ยากที่สุดของ agentic AI — นำ policy ติดไปกับ agent ข้าม framework แทนที่จะล็อค governance ไว้กับ platform ผู้เชี่ยวชาญควรประเมิน overhead ของ policy evaluation ที่จุดตรวจสอบ 4 ช่วงใน workflow ว่ากระทบ latency ของ agent มากน้อยเพียงใด
-**โปรแกรมเมอร์มืออาชีพ:** ACS SDK รองรับ LangChain, OpenAI Agents SDK, Anthropic Agents SDK, AutoGen, CrewAI และ Semantic Kernel — ควรเริ่ม integrate เข้า CI/CD pipeline ทันทีโดยเฉพาะในโปรเจกต์ที่ agent มีสิทธิ์ access production system เพราะ cost ของ remediate agent incident สูงกว่า set guardrails ตั้งแต่แรกมาก
+**อาจารย์ (มหาวิทยาลัย):** การที่ SpaceX ต้องยกเลิกแผนใช้คลัสเตอร์ GPU สามแห่งเพราะปัญหา latency สะท้อนว่า hyperscale AI infrastructure ไม่ใช่แค่เรื่องจำนวน GPU แต่ต้องการ networking architecture ที่แม่นยำ — เป็นบทเรียนที่นักศึกษา distributed systems ควรศึกษาในบริบทของ data center design จริง
+**ผู้เชี่ยวชาญด้าน AI:** การที่ Anthropic ได้ Colossus 1 ทั้งหมดหมายความว่า compute gap กับ OpenAI แคบลงอย่างมีนัยสำคัญ แต่น่าสังเกตว่าการ "รับช่วง" infrastructure ที่ออกแบบมาสำหรับ Grok อาจมีความเสี่ยงด้าน hardware dependency ที่แตกต่างจากการสร้าง compute ของตนเอง
+**โปรแกรมเมอร์มืออาชีพ:** ดีลนี้คาดว่าจะส่งผลต่อ Claude API rate limits และ capacity ในเร็วๆ นี้ — ควรตรวจสอบ Claude Pro/Max subscription tiers สำหรับการปลดล็อก capacity ใหม่ และออกแบบ pipeline ให้ provider-agnostic ไว้ก่อนเพราะ compute landscape ยังเปลี่ยนเร็ว
 
-## 2. Microsoft Scout — AI agent "always-on" สำหรับ Microsoft 365
+## 2. Anthropic + DXC: Claude เข้าสู่ Core Systems ของอุตสาหกรรม Regulated
 
-**อาจารย์ (มหาวิทยาลัย):** Scout เป็นตัวอย่างของ "ambient computing" ที่ AI ทำงานในพื้นหลังตลอดเวลา ควรให้นักศึกษาวิเคราะห์ trade-off ระหว่าง productivity gain กับ privacy risk ของการให้ AI เข้าถึง email, calendar และไฟล์ทั้งหมดของผู้ใช้อย่างต่อเนื่อง
-**ผู้เชี่ยวชาญด้าน AI:** Scout ทำงานทั้งบน local device และ cloud พร้อมกัน — architecture แบบนี้ต้องการ state synchronization ที่ซับซ้อนและ conflict resolution เมื่อ agent handle หลายงานพร้อมกัน ประเด็น security ของ always-on agent ที่มีสิทธิ์เข้าถึง inbox ควรได้รับการ audit อย่างจริงจัง
-**โปรแกรมเมอร์มืออาชีพ:** Scout เป็น Frontier-only preview ณ ตอนนี้ แต่ถ้าองค์กรใช้ Microsoft 365 ควร track ว่า API hooks ของ Scout สำหรับ third-party developers จะเปิดเมื่อไหร่ — โอกาสสร้าง custom skills บน Scout น่าจะตามมาในไม่ช้า
+**อาจารย์ (มหาวิทยาลัย):** การฝัง AI ลึกเข้าไปใน core systems ของธนาคาร สายการบิน และภาครัฐเป็น case study สำคัญด้าน AI governance — นักศึกษาควรวิเคราะห์ว่าใครรับผิดชอบเมื่อ AI ตัดสินใจใน claims processing หรือ credit scoring และ framework ไหนที่ควรมีก่อน deploy
+**ผู้เชี่ยวชาญด้าน AI:** การที่ Claude เขียนโค้ด 95%+ ของ DXC OASIS ที่ใช้งานใน production จริงนั้น remarkable — เป็น enterprise validation ที่แข็งแกร่งมาก แต่ compliance verification ของโค้ดที่ AI เขียนใน regulated environments ต้องการ methodology audit trail ที่ชัดเจน
+**โปรแกรมเมอร์มืออาชีพ:** การเกิดขึ้นของ "Claude-certified FDE" คือ signal ตลาดงานใหม่ที่ชัดเจน — คนที่รู้ทั้ง Claude API และ enterprise systems integration ของอุตสาหกรรม regulated จะหายากและมีมูลค่าสูงมากในปีหน้า
 
-## 3. Uber จำกัด $1,500/เดือน/คนสำหรับ AI tools
+## 3. Prometheus ของ Jeff Bezos ระดมทุน $12B สร้าง "AGI สำหรับงานวิศวกรรม"
 
-**อาจารย์ (มหาวิทยาลัย):** กรณี Uber เป็น case study คลาสสิคของ "adoption without governance" — องค์กรรีบนำ AI tools มาใช้โดยไม่มีนโยบาย spending control ชัดเจน เหมาะสำหรับวิชา IT governance และการวัด ROI ของ enterprise AI adoption
-**ผู้เชี่ยวชาญด้าน AI:** $1,500/เดือน อาจยังน้อยเกินไปสำหรับ heavy user ของ Claude Code — สิ่งสำคัญคือต้องมีกรอบวัด ROI ที่ชัดเจน (PR velocity, defect reduction, time-to-market) ก่อนพิจารณาปรับ cap และควรศึกษาว่า over-cap requests มาจากทีมไหนบ้าง
-**โปรแกรมเมอร์มืออาชีพ:** บทเรียนสำคัญ: ตั้ง cost monitoring ตั้งแต่วันแรกที่นำ AI coding tools มาใช้ในทีม พร้อม map ค่าใช้จ่ายกับ output metrics ที่วัดได้ก่อนที่ฝ่ายบริหารจะตั้งคำถาม — การพิสูจน์ ROI เชิงรุกดีกว่าการ defend cap retroactively เสมอ
+**อาจารย์ (มหาวิทยาลัย):** Prometheus reframe "AGI" จากมิติ cognitive intelligence เป็น engineering competence — นิยาม "ความสามารถทั่วไป" ในบริบท physical engineering วัดได้ชัดกว่า และน่าสำรวจว่าอาจทำให้เห็นว่า AGI-in-practice ใกล้กว่าที่นักวิชาการหลายคนเชื่อ
+**ผู้เชี่ยวชาญด้าน AI:** มูลค่า $41B สำหรับบริษัทที่เพิ่งก่อตั้งสะท้อน investor thesis ว่า physical AI สำหรับ engineering automation จะเป็น category ที่ใหญ่กว่า software AI — ความท้าทายทางเทคนิคคือต้องการ multimodal model ที่เข้าใจ physical constraints, material science, manufacturing tolerances ซึ่งต่างจาก LLM ทั่วไปมาก
+**โปรแกรมเมอร์มืออาชีพ:** โอกาสกำลังก่อตัวในกลุ่ม simulation, CAD API integration, และ robotics — Prometheus น่าจะสร้าง SDK สำหรับ engineering domains เฉพาะทาง ซึ่ง developer ที่รู้ทั้งฟิสิกส์วิศวกรรมและ ML จะมีค่ามาก
 
-## 4. Google ระบบตรวจจับสาย deepfake AI บน Android
+## 4. Google DeepMind เปิด Funding Call $10M ศึกษา Multi-Agent AI Safety
 
-**อาจารย์ (มหาวิทยาลัย):** ระบบนี้แสดงให้เห็น "AI arms race" ที่เทคโนโลยีถูกใช้ทั้งใน attack (deepfake voice) และ defense (detection) พร้อมกัน เป็นตัวอย่างสำคัญที่ควรให้นักศึกษาวิเคราะห์ว่าแต่ละฝ่ายจะพัฒนาไปพร้อมกันอย่างไรในระยะยาว
-**ผู้เชี่ยวชาญด้าน AI:** แนวทาง RCS cryptographic handshake ฉลาดกว่าการพยายาม detect deepfake audio โดยตรง — ใช้หลักฐานเชิง cryptography แทนการวิเคราะห์เสียง อย่างไรก็ตาม ฟีเจอร์นี้ work ได้เฉพาะเมื่อทั้งสองฝ่ายใช้ Phone by Google ซึ่ง RCS adoption คือ bottleneck สำคัญ
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer ที่ทำ enterprise communication apps — ควรศึกษา RCS API และ impact ของภัยคุกคาม AI deepfake ต่อ voice verification workflow รวมถึงพิจารณาว่า authentication model ในแอปของคุณยังเพียงพอต่อภัยคุกคาม voice-based attack หรือไม่
+**อาจารย์ (มหาวิทยาลัย):** Multi-agent AI safety เป็น problem ที่แตกต่างจาก single-agent alignment อย่างสิ้นเชิง — emergent behaviors ของกลุ่ม agent อาจ predict ไม่ได้จาก individual analysis; funding call ระดับนี้บ่งชี้ว่า academic community ยอมรับว่านี่คือ open problem ที่เร่งด่วน
+**ผู้เชี่ยวชาญด้าน AI:** ประเด็นสำคัญที่ funding call ไม่ได้พูดถึงคือ compositional safety — ระบบที่ปลอดภัยแต่ละตัวอาจรวมกันแล้วไม่ปลอดภัย ซึ่งต้องการ new paradigms ที่เรายังขาดอยู่; $10M ยังน้อยสำหรับ problem ระดับนี้แต่ถูกต้องที่จะเริ่ม
+**โปรแกรมเมอร์มืออาชีพ:** นักพัฒนาที่สร้าง multi-agent systems วันนี้ควรศึกษา failure modes เช่น agent collusion, reward hacking ใน networked settings จากงานวิจัยที่จะออกมา และออกแบบ system ให้มี human oversight checkpoints — prevention ถูกกว่า remediation มาก
 
-## 5. Martin Scorsese เข้าร่วม Black Forest Labs
+## 5. ดีอีไทยเปิดเวที TH-AI Passport Forum ชี้แจงโครงการ 1,600 ล้านบาท
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีของ Scorsese แสดงให้เห็น "AI as creative tool" ที่ผู้สร้างชั้นนำเลือก AI เป็นตัวช่วยเสริม ไม่ใช่ทดแทน ควรให้นักศึกษาถกเถียงเรื่อง "AI as tool vs. AI as creator" และผลกระทบต่อตลาดแรงงานสายสร้างสรรค์
-**ผู้เชี่ยวชาญด้าน AI:** FLUX ของ Black Forest Labs ขับเคลื่อน image generation ใน Adobe, Canva, Microsoft Designer และ Meta — การที่ Scorsese เลือกใช้ FLUX สำหรับ storyboard สะท้อนว่าคุณภาพ image generation ถึง threshold ที่ filmmaker ระดับโลกยอมรับได้แล้วในฐานะ visual reference tool
-**โปรแกรมเมอร์มืออาชีพ:** Black Forest Labs valuation $3.25B กับ customer base ครอบคลุม Adobe, Canva, Microsoft, Meta — ถ้าสร้าง product ในพื้นที่ visual content ควร evaluate FLUX API เทียบกับ DALL-E และ Stable Diffusion สำหรับ quality/cost trade-off ที่อาจเปลี่ยนไปหลัง Scorsese effect ดึงความสนใจมา
+**อาจารย์ (มหาวิทยาลัย):** กรณี TH-AI Passport เป็นตัวอย่างสำคัญของ public AI procurement ที่ถูก scrutiny — ความโปร่งใสในกระบวนการจัดซื้อ AI เป็นเงื่อนไขพื้นฐานของ public trust และนักศึกษาควรวิเคราะห์ว่า specification ของ AI system ภาครัฐควรเปิดเผยอะไรบ้าง
+**ผู้เชี่ยวชาญด้าน AI:** การที่รัฐบาลต้องจัดฟอรัมชี้แจงสะท้อนว่า technical transparency ใน AI procurement ยังขาดอยู่ — specification ที่ดีควรเปิดเผย algorithm, training data, bias assessment, และ performance benchmarks ต่อสาธารณะ ไม่ใช่แค่ราคาและชื่อผู้รับสัมปทาน
+**โปรแกรมเมอร์มืออาชีพ:** หากโครงการนี้เดินหน้า นักพัฒนาไทยควรศึกษา API design ของ identity verification systems ที่เชื่อมกับ AI — โอกาสในการสร้าง third-party applications บน TH-AI Passport infrastructure อาจเกิดขึ้นถ้าโครงการมี open API tier
