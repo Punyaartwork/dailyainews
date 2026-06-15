@@ -1,31 +1,31 @@
-# Perspectives — 2026-06-12
+# Perspectives — 2026-06-15
 
-## 1. SpaceX ให้เช่า Colossus 1 ทั้งหมดแก่ Anthropic หลัง Grok ล้มเหลวด้านเทคนิค
+## 1. Salesforce acquires AI customer service platform Fin for $3.6 billion
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ SpaceX ต้องยกเลิกแผนใช้คลัสเตอร์ GPU สามแห่งเพราะปัญหา latency สะท้อนว่า hyperscale AI infrastructure ไม่ใช่แค่เรื่องจำนวน GPU แต่ต้องการ networking architecture ที่แม่นยำ — เป็นบทเรียนที่นักศึกษา distributed systems ควรศึกษาในบริบทของ data center design จริง
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Anthropic ได้ Colossus 1 ทั้งหมดหมายความว่า compute gap กับ OpenAI แคบลงอย่างมีนัยสำคัญ แต่น่าสังเกตว่าการ "รับช่วง" infrastructure ที่ออกแบบมาสำหรับ Grok อาจมีความเสี่ยงด้าน hardware dependency ที่แตกต่างจากการสร้าง compute ของตนเอง
-**โปรแกรมเมอร์มืออาชีพ:** ดีลนี้คาดว่าจะส่งผลต่อ Claude API rate limits และ capacity ในเร็วๆ นี้ — ควรตรวจสอบ Claude Pro/Max subscription tiers สำหรับการปลดล็อก capacity ใหม่ และออกแบบ pipeline ให้ provider-agnostic ไว้ก่อนเพราะ compute landscape ยังเปลี่ยนเร็ว
+**อาจารย์ (มหาวิทยาลัย):** CRM กำลังกลายเป็นสมรภูมิสำคัญของ AI เพราะ customer service เป็นต้นทุนที่วัดผลได้ชัดและทุกองค์กรมีปัญหาร่วมกัน นักศึกษาควรเข้าใจว่า Fin ไม่ใช่แค่ software — มันคือ dataset ขนาดใหญ่ของ human-customer interaction ที่ Salesforce ซื้อมาเพื่อสร้าง competitive moat
+**ผู้เชี่ยวชาญด้าน AI:** Deal นี้น่าสนใจในฐานะ "data acquisition" มากกว่า "technology acquisition" — Fin มี real conversation data ที่ทำให้ AI agent เรียนรู้ domain-specific customer patterns ได้ดีกว่าการ train จาก scratch ความท้าทายอยู่ที่ integration: ถ้า Agentforce และ Fin ใช้ architecture ต่างกัน การ merge อาจใช้เวลาและทรัพยากรมากกว่าที่ตลาดคาด
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer ที่ integrate กับ Intercom/Fin API ปัจจุบัน: ต้องเตรียมรับมือกับ API deprecation cycle เมื่อ Salesforce นำมารวมกับ Agentforce — มักใช้เวลา 12-18 เดือนหลัง closing ควรเริ่ม map dependencies ตั้งแต่ตอนนี้
 
-## 2. Anthropic + DXC: Claude เข้าสู่ Core Systems ของอุตสาหกรรม Regulated
+## 2. The AI layoff wave is becoming a powder keg
 
-**อาจารย์ (มหาวิทยาลัย):** การฝัง AI ลึกเข้าไปใน core systems ของธนาคาร สายการบิน และภาครัฐเป็น case study สำคัญด้าน AI governance — นักศึกษาควรวิเคราะห์ว่าใครรับผิดชอบเมื่อ AI ตัดสินใจใน claims processing หรือ credit scoring และ framework ไหนที่ควรมีก่อน deploy
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Claude เขียนโค้ด 95%+ ของ DXC OASIS ที่ใช้งานใน production จริงนั้น remarkable — เป็น enterprise validation ที่แข็งแกร่งมาก แต่ compliance verification ของโค้ดที่ AI เขียนใน regulated environments ต้องการ methodology audit trail ที่ชัดเจน
-**โปรแกรมเมอร์มืออาชีพ:** การเกิดขึ้นของ "Claude-certified FDE" คือ signal ตลาดงานใหม่ที่ชัดเจน — คนที่รู้ทั้ง Claude API และ enterprise systems integration ของอุตสาหกรรม regulated จะหายากและมีมูลค่าสูงมากในปีหน้า
+**อาจารย์ (มหาวิทยาลัย):** ปรากฏการณ์ "AI-washing" ในการปลดพนักงานทำให้การวิจัยผลกระทบของ AI ต่อตลาดแรงงานเป็นเรื่องยากขึ้น เพราะ signal ถูก noise จาก corporate messaging บดบัง นักเรียนควรฝึกแยกแยะระหว่าง empirical evidence กับ narrative ที่บริษัทสร้าง
+**ผู้เชี่ยวชาญด้าน AI:** ตัวเลข 974 คนต่อวันสะท้อน adoption curve ที่เร่งตัวจริง แต่ systemic risk อยู่ที่ reskilling infrastructure ที่ไม่ได้ scale ตาม — ถ้า labor market adjustment ช้ากว่า AI adoption มากพอ ผลที่ตามมาจะเป็น political ไม่ใช่ economic
+**โปรแกรมเมอร์มืออาชีพ:** Document ผลกระทบของ AI tools ในทีมอย่างเป็นระบบ เพราะ ROI ที่ไม่ถูก track จะไม่ถูก attribute กลับมาที่ทีมคุณเมื่อถึงเวลา headcount review
 
-## 3. Prometheus ของ Jeff Bezos ระดมทุน $12B สร้าง "AGI สำหรับงานวิศวกรรม"
+## 3. The AI Jobs Crisis No One Is Talking About
 
-**อาจารย์ (มหาวิทยาลัย):** Prometheus reframe "AGI" จากมิติ cognitive intelligence เป็น engineering competence — นิยาม "ความสามารถทั่วไป" ในบริบท physical engineering วัดได้ชัดกว่า และน่าสำรวจว่าอาจทำให้เห็นว่า AGI-in-practice ใกล้กว่าที่นักวิชาการหลายคนเชื่อ
-**ผู้เชี่ยวชาญด้าน AI:** มูลค่า $41B สำหรับบริษัทที่เพิ่งก่อตั้งสะท้อน investor thesis ว่า physical AI สำหรับ engineering automation จะเป็น category ที่ใหญ่กว่า software AI — ความท้าทายทางเทคนิคคือต้องการ multimodal model ที่เข้าใจ physical constraints, material science, manufacturing tolerances ซึ่งต่างจาก LLM ทั่วไปมาก
-**โปรแกรมเมอร์มืออาชีพ:** โอกาสกำลังก่อตัวในกลุ่ม simulation, CAD API integration, และ robotics — Prometheus น่าจะสร้าง SDK สำหรับ engineering domains เฉพาะทาง ซึ่ง developer ที่รู้ทั้งฟิสิกส์วิศวกรรมและ ML จะมีค่ามาก
+**อาจารย์ (มหาวิทยาลัย):** การที่ AI CEO เปลี่ยน framing จาก "displacement" เป็น "productivity enhancement" ใน pre-IPO period เป็นตัวอย่างที่ดีของ how institutional incentives shape public discourse — ทั้งสอง statement อาจจริง แต่ถูกเลือกพูดในบริบทที่ต่างกัน นักเรียนต้องเรียนรู้อ่าน "บริบท" ของ statement ไม่ใช่แค่ "เนื้อหา"
+**ผู้เชี่ยวชาญด้าน AI:** ปัญหาที่ยากกว่า displacement คือ career ladder ที่หาย — entry-level jobs ที่ถูก AI แทนที่มักเป็น training ground ที่สร้าง senior workers ในอนาคต ถ้า pipeline นี้หาย 10 ปีข้างหน้าจะขาด senior talent แม้ productivity ระยะสั้นจะสูงขึ้น
+**โปรแกรมเมอร์มืออาชีพ:** อย่า conflate "AI ทำให้ฉัน productive ขึ้น" กับ "งานของฉันปลอดภัย" — ลงทุนใน judgment, domain expertise และ stakeholder communication ที่ AI ยังต้องการมนุษย์ validate ไม่ใช่แค่ execution tasks
 
-## 4. Google DeepMind เปิด Funding Call $10M ศึกษา Multi-Agent AI Safety
+## 4. The 'Potential Risks' of AI Singled Out in Draft G7 Statement
 
-**อาจารย์ (มหาวิทยาลัย):** Multi-agent AI safety เป็น problem ที่แตกต่างจาก single-agent alignment อย่างสิ้นเชิง — emergent behaviors ของกลุ่ม agent อาจ predict ไม่ได้จาก individual analysis; funding call ระดับนี้บ่งชี้ว่า academic community ยอมรับว่านี่คือ open problem ที่เร่งด่วน
-**ผู้เชี่ยวชาญด้าน AI:** ประเด็นสำคัญที่ funding call ไม่ได้พูดถึงคือ compositional safety — ระบบที่ปลอดภัยแต่ละตัวอาจรวมกันแล้วไม่ปลอดภัย ซึ่งต้องการ new paradigms ที่เรายังขาดอยู่; $10M ยังน้อยสำหรับ problem ระดับนี้แต่ถูกต้องที่จะเริ่ม
-**โปรแกรมเมอร์มืออาชีพ:** นักพัฒนาที่สร้าง multi-agent systems วันนี้ควรศึกษา failure modes เช่น agent collusion, reward hacking ใน networked settings จากงานวิจัยที่จะออกมา และออกแบบ system ให้มี human oversight checkpoints — prevention ถูกกว่า remediation มาก
+**อาจารย์ (มหาวิทยาลัย):** การที่ G7 เลือกภาคการเงินเป็น test bed สำหรับ AI risk language ไม่ใช่เรื่องบังเอิญ — financial regulation มี international coordination infrastructure ที่สามารถ operationalize G7 statement ได้เร็วกว่า sector อื่น นักเรียนควรติดตามว่า "potential risks" จะถูก translate เป็น regulatory text อย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** การมี AI CEO อยู่ในห้องเดียวกับผู้นำ G7 ขณะร่าง communiqué สร้าง dynamic ที่ซับซ้อน: industry มีโอกาส shape ภาษาที่จะกำกับตัวเอง ประวัติศาสตร์ financial regulation ชี้ว่านี่อาจนำไปสู่ language ที่ดูแข็งแต่มีช่องว่างในทางปฏิบัติ
+**โปรแกรมเมอร์มืออาชีพ:** G7 statement มักนำไปสู่ FSB recommendation ใน 6-12 เดือน ซึ่งกลายเป็น compliance requirement จริงใน 18-36 เดือน — ถ้า build AI สำหรับ financial services ควรเริ่ม map AI use cases ต่อ existing financial regulation framework ตั้งแต่ตอนนี้
 
-## 5. ดีอีไทยเปิดเวที TH-AI Passport Forum ชี้แจงโครงการ 1,600 ล้านบาท
+## 5. Macron's G7 Legacy Hangs on Fickle AI Funding and Data Centers
 
-**อาจารย์ (มหาวิทยาลัย):** กรณี TH-AI Passport เป็นตัวอย่างสำคัญของ public AI procurement ที่ถูก scrutiny — ความโปร่งใสในกระบวนการจัดซื้อ AI เป็นเงื่อนไขพื้นฐานของ public trust และนักศึกษาควรวิเคราะห์ว่า specification ของ AI system ภาครัฐควรเปิดเผยอะไรบ้าง
-**ผู้เชี่ยวชาญด้าน AI:** การที่รัฐบาลต้องจัดฟอรัมชี้แจงสะท้อนว่า technical transparency ใน AI procurement ยังขาดอยู่ — specification ที่ดีควรเปิดเผย algorithm, training data, bias assessment, และ performance benchmarks ต่อสาธารณะ ไม่ใช่แค่ราคาและชื่อผู้รับสัมปทาน
-**โปรแกรมเมอร์มืออาชีพ:** หากโครงการนี้เดินหน้า นักพัฒนาไทยควรศึกษา API design ของ identity verification systems ที่เชื่อมกับ AI — โอกาสในการสร้าง third-party applications บน TH-AI Passport infrastructure อาจเกิดขึ้นถ้าโครงการมี open API tier
+**อาจารย์ (มหาวิทยาลัย):** กรณีฝรั่งเศสเป็น case study ของ "industrial policy meets AI race" — การที่ฝรั่งเศสใช้ nuclear energy เป็น value proposition แสดงว่า legacy infrastructure สามารถ reframe เป็น strategic advantage ได้ในยุค AI นักศึกษาควรวิเคราะห์ว่า approach นี้ sustainable จริงหรือไม่
+**ผู้เชี่ยวชาญด้าน AI:** €75 พันล้านจาก SoftBank เป็นตัวเลขใหญ่ แต่ sustainable AI ecosystem ต้องการมากกว่า capital — ต้องการ talent pipeline และ research institution ที่แข็งแกร่ง data centers ที่เต็มไปด้วย model จาก US labs ไม่ใช่ AI sovereignty ที่แท้จริง
+**โปรแกรมเมอร์มืออาชีพ:** EU AI infrastructure กำลังขยายตัวจริง — ถ้า data residency หรือ EU AI Act compliance เป็น requirement ตอนนี้เป็นช่วงที่ดีในการ evaluate EU-based AI providers เพราะ capacity กำลังเพิ่มและ pricing กำลังแข่งขันมากขึ้น
