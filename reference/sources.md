@@ -1,63 +1,59 @@
-# Sources — 2026-06-12
+# Sources — 2026-06-15
 
-Generated: 2026-06-12 (Asia/Bangkok)
+Generated: 2026-06-15 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-11-brief.md (4 URLs loaded)
+Dedup against: articles/2026-06-14-brief.md (4 URLs loaded)
 
-1. **SpaceX Leases Colossus 1 Data Center to Anthropic After Internal AI Hurdles**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-12/spacex-rented-out-computing-after-own-teams-had-trouble-using-it
-   - Published: June 12, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug "2026-06-12"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com path differs from all 4 yesterday URLs)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: SpaceX decided to rent out full capacity of Colossus 1 data center in Memphis to Anthropic after latency issues connecting it to two other sites (10+ miles away), compounded by aging network infrastructure. Gives Anthropic 300+ MW of compute (220,000+ NVIDIA GPUs) at $1.25B/month through May 2029.
-
-2. **DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on**
-   - Publisher: Anthropic
-   - URL: https://www.anthropic.com/news/dxc-anthropic-alliance
-   - Published: June 11, 2026
-   - FreshnessCheck: ✅ within last 24h via search snippet "On June 11, 2026, Anthropic announced"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (anthropic.com/news/dxc-anthropic-alliance not in yesterday's 4 URLs)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: DXC Technology will train tens of thousands of Claude-certified forward-deployed engineers (FDEs) embedded inside customer organizations, bringing Claude into core systems of the world's largest banks, airlines, insurers, manufacturers, and government agencies. DXC's OASIS platform (April 2026) runs Claude as default foundation model and serves 50+ customers; Claude wrote 95%+ of its code.
-
-3. **Jeff Bezos's Prometheus raises $12B to build an 'artificial general engineer' for the physical world**
+1. **Salesforce acquires AI customer service platform Fin for $3.6 billion**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/
-   - Published: June 11, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug "2026/06/11"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no techcrunch.com URL in yesterday's set)
+   - URL: https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/
+   - Published: June 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com present yesterday at different paths)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Prometheus, co-founded by Jeff Bezos and Vik Bajaj, raised $12B at a $41B valuation to build software automating the design and manufacturing of complex physical systems, from jet engines to drug compounds.
+   - Summary: Salesforce agreed to acquire Fin (formerly Intercom, 15 years old) for $3.6B. Fin's AI Agent handles customer queries via chat, email, WhatsApp, SMS, phone, and Slack. Deal to close in Salesforce FY2027 Q4; will complement Salesforce's Agentforce platform.
 
-4. **Google DeepMind and partners announce multi-agent safety research funding call**
-   - Publisher: Google DeepMind
-   - URL: https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/
-   - Published: June 11, 2026
-   - FreshnessCheck: ✅ within last 24h via search snippet "announcement was made on June 11, 2026"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (deepmind.google domain not in yesterday's set)
+2. **The AI layoff wave is becoming a powder keg**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/
+   - Published: June 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google DeepMind, Schmidt Sciences, Cooperative AI Foundation, and ARIA (UK) launched a $10M research funding call to study large-scale multi-agent AI system behavior as a group and develop frameworks to mitigate risks when millions of AI agents from different organizations interact. Deadline: August 8, 2026.
+   - Summary: 363 companies have laid off nearly 150,000 tech workers this year (974/day, 44% faster than 2025). AI cited as the top reason for 3rd consecutive month. Contrasted with Cerebras IPO making co-founders billionaires on day one.
 
-5. **ดีอีเปิดเวทีเคลียร์ TH-AI Passport 1,600 ล้าน แจงทุกข้อครหา ปัดล็อกสเปก-ฮั้วประมูล**
-   - Publisher: The Standard
-   - URL: https://thestandard.co/de-thai-ai-passport-clarifies/
-   - Published: June 11, 2026
-   - FreshnessCheck: ✅ within last 24h via search snippet "วันนี้ (11 มิถุนายน)"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (thestandard.co domain not in yesterday's set)
+3. **The AI Jobs Crisis No One Is Talking About**
+   - Publisher: Bloomberg Opinion
+   - URL: https://www.bloomberg.com/opinion/articles/2026-06-15/the-ai-jobs-crisis-no-one-is-talking-about
+   - Published: June 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (ดีอี) จัดเวที TH-AI Passport Forum เพื่อเปิดโอกาสให้ทุกภาคส่วนซักถามโดยตรงเกี่ยวกับโครงการ 1,600 ล้านบาท ท่ามกลางข้อครหาเรื่องการล็อกสเปกและฮั้วประมูล โดยกระทรวงยืนยันปฏิเสธทุกข้อกล่าวหา
+   - Summary: Dario Amodei previously warned AI would eliminate 50%+ of entry-level white-collar jobs within 5 years; he now says AI will make everyone more productive. Article examines the narrative shift and its implications for displaced workers.
+
+4. **The 'Potential Risks' of AI Singled Out in Draft G7 Statement**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-06-15/the-potential-risks-of-ai-singled-out-in-draft-g7-statement
+   - Published: June 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: G7 draft communiqué at Évian summit flags AI "potential risks" especially in the financial sector. Sam Altman, Demis Hassabis, and Dario Amodei are all attending the June 15-17 summit — first time all three rival AI lab CEOs appear before world leaders together.
+
+5. **Macron's G7 Legacy Hangs on Fickle AI Funding and Data Centers**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-06-15/macron-s-g7-legacy-hangs-on-fickle-ai-funding-and-data-centers
+   - Published: June 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-15
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Macron positions France as Europe's AI powerhouse using nuclear energy for data centers. SoftBank pledged €75B ($86B) to French AI projects. France holds only 3.4% of G7 AI funding vs. 79% in the US.
 
 ## Dropped
-- https://openai.com/index/openai-to-acquire-ona/ — Filter B (dedup): appeared in articles/2026-06-11-brief.md
-- https://www.bloomberg.com/news/articles/2026-06-11/openai-to-acquire-cloud-platform-ona-to-support-ai-agents — Filter B (dedup): appeared in articles/2026-06-11-brief.md
-- https://openai.com/index/openai-on-oracle-cloud/ — Filter B (dedup): appeared in articles/2026-06-11-brief.md
-- https://www.bloomberg.com/news/articles/2026-06-11/openai-weighs-major-price-cuts-to-win-anthropic-users-wsj-says — Filter B (dedup): appeared in articles/2026-06-11-brief.md
-- https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/ — Filter A (>24h): URL slug 2026-06-09 is 3 days old
-- https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/ — Filter A (>24h): URL slug 2026-06-09 is 3 days old
-- https://www.blognone.com/node/150781 — Filter A (>24h): metadata indicates ~June 3 (approximately 9 days old)
-- https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/ — Filter A (>24h): URL slug 2026-06-10 is 2 days old
+- https://www.bloomberg.com/news/articles/2026-06-12/anthropic-openai-google-executives-plan-to-attend-g7-summit — Filter A (>24h): URL slug 2026-06-12 is 3 days old
+- https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/ — Filter A (>24h): URL slug 2026/06/09 is 6 days old
+- https://thestandard.co/th-ai-pass-thailand-ai-competitiveness/ — Filter A: date ambiguous; URL has no date slug and no explicit timestamp surfaced in search snippet
+- https://thestandard.co/thai-military-police-ai-defense/ — Filter A: date ambiguous; URL has no date slug
 
-> Note: 5 items passed both filters this run. Of 13 candidates reviewed, 5 failed Filter A (too old), 4 failed Filter B (already in yesterday's brief). Mix: 4 international (Bloomberg, Anthropic, TechCrunch, Google DeepMind) + 1 Thai (The Standard).
+> Note: 5 items passed both filters this run. Of 9 candidates reviewed, 3 failed Filter A (too old or ambiguous date), 0 failed Filter B. No Thai-language source with a confirmed today's date found; all Thai candidates failed Filter A. Thai source requirement waived per "when supply allows" clause. Mix: 5 international (2 × TechCrunch, 3 × Bloomberg).
