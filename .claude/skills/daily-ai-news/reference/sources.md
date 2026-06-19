@@ -1,55 +1,60 @@
-# Sources — 2026-06-14
+# Sources — 2026-06-19
 
-Generated: 2026-06-14 (Asia/Bangkok)
+Generated: 2026-06-19 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-13-brief.md (6 URLs loaded)
+Dedup against: articles/2026-06-18-brief.md (4 URLs loaded)
 
-1. **As AI companies race to go public, who else is along for the ride?**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/
-   - Published: June 14, 2026 (URL slug /2026/06/14/)
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/14
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new article on AI IPO race, different from June 13 Fable ban coverage)
+1. **Nobel Winner John Jumper to Leave Google DeepMind for Anthropic**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic
+   - Published: 2026-06-19
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-19
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com host not present in yesterday's brief at all)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: SpaceX went public this week in the largest IPO in history, making CEO Elon Musk the world's first trillionaire. Competitors OpenAI (S-1 filed June 8) and Anthropic (IPO prep ongoing) may soon follow. The article — part of TechCrunch's Equity podcast — examines who else in the AI ecosystem benefits from an IPO summer.
+   - Summary: Google DeepMind VP John Jumper, who won the 2024 Nobel Prize in Chemistry for AlphaFold, is leaving to join Anthropic. His departure strains Google's efforts to beat rivals in the frontier AI race; Jumper had recently shifted from scientific AI to AI coding work at Google.
 
-2. **Cyber Scams Will Get Worse Thanks to AI**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/newsletters/2026-06-14/cyber-scams-will-get-worse-thanks-to-ai
-   - Published: June 14, 2026 (URL slug /2026-06-14/)
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-14
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new Bloomberg newsletter analysis piece)
+2. **Howard Lutnick's Anthropic Crackdown Claims New Power Over AI Models**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-06-19/lutnick-s-anthropic-crackdown-claims-new-power-over-ai-models
+   - Published: 2026-06-19
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-19
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com host not present in yesterday's brief; yesterday's Anthropic story was about the earlier week's events without this legal-precedent framing)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Bloomberg's Walter Frick warns that AI is rapidly lowering barriers for fraudsters, enabling highly personalized phishing, voice cloning, and social engineering attacks at scale. The piece argues that the threat landscape is worsening faster than defensive tooling can adapt.
+   - Summary: June 19 analysis shows that US Commerce Secretary Howard Lutnick's June 12 letter ordering Anthropic to bar foreign nationals from Fable 5 and Mythos 5 expands export control law in an unprecedented way — from governing the transfer of technology to governing the mere usage of AI models, creating new legal territory for the entire industry.
 
-3. **As Anthropic suspends access to new models, India debates its AI future**
+3. **Billionaire Ambani Wants AI in Every Call, App, and Home**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/
-   - Published: 2026-06-14T03:00:00.000Z (10:00 AM Bangkok June 14, byline "8:00 PM PDT · June 13")
-   - FreshnessCheck: ✅ within last 24h via Exa-confirmed publish timestamp 2026-06-14T03:00:00.000Z = 10:00 AM Bangkok June 14
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different article and angle from June 13 coverage of the suspension itself; focuses on India's strategic response)
-   - Verification: Tier 2 — Exa search snippet with confirmed ISO publish timestamp
-   - Summary: Anthropic's suspension of Fable 5/Mythos 5 triggered sharp debate in India (Anthropic's second-largest market). Investor Mohandas Pai called for a ₹50,000 crore ($5B) annual sovereign AI fund plus ₹2 lakh crore ($21B) credit guarantee for infrastructure. Zoho founder Sridhar Vembu advocated embracing open-source and Chinese models to reduce dependence on US systems switchable by executive order.
+   - URL: https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/
+   - Published: 2026-06-19
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/19
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (domain matches but path differs; this path not in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: At Reliance Industries' annual shareholder meeting (Friday), Mukesh Ambani announced Jio Call Agent — an AI assistant that joins phone calls, identifies up to 10 speakers, transcribes each in their own language, and performs tasks like booking cabs and ordering food. Expected later in 2026 for 500+ million Jio users; five new AI apps supporting 22 Indian languages also announced.
 
-4. **China may have accessed Mythos**
-   - Publisher: The Verge
-   - URL: https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos
-   - Published: 2026-06-14T18:27:55.000Z (June 14 UTC; 01:27 AM Bangkok June 15 — borderline; included as within rolling 24h window at brief publication time)
-   - FreshnessCheck: ✅ June 14 UTC confirmed by Exa; borderline Bangkok timestamp — treated as within rolling window at time of brief publication
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — Exa search snippet
-   - Summary: The Verge reports that the White House's Anthropic export control order was driven partly by fears that a China-linked group had accessed Mythos — based on a Semafor exclusive. White House has not confirmed the China angle; Trump advisor David Sacks focused on jailbreak vulnerabilities in public comments. Anthropic spokesperson stated China access was not raised during export control discussions. If China holds Mythos, distillation could let Beijing replicate capabilities without stealing model weights.
+4. **UnitedHealth Bets $3 Billion on AI to Cut Costs, Tame Backlash**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-06-19/unitedhealth-bets-3-billion-on-ai-to-cut-costs-tame-backlash
+   - Published: 2026-06-19
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-19
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, not in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: The largest US health insurer plans to invest $3 billion in AI over 2026–2027, projecting a 2-to-1 return from automating manual processes (prior authorization, claims) and improving worker efficiency, while also seeking to address public backlash over its business practices.
+
+5. **The CEO of Allbirds' New AI Biz Has a Plan, But No Employees**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/
+   - Published: 2026-06-19
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/19
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, not in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Allbirds sold its shoe business for $43M in April, raised $100M from public markets, rebranded as Smartbird, and appointed Nadia Carlsten (former AWS executive, engineering PhD) as CEO. The company is fully pivoting to AI but has no employees yet and has not announced a product vision.
 
 ## Dropped
+- https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/ — Filter A (>24h): URL slug 2026/06/16 is 3 days old
+- https://www.blognone.com/node/150923 — Filter A (>24h): confirmed published June 17, 2026 (2 days ago)
+- https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/ — Filter A (>24h): URL slug 2026/06/16 is 3 days old
+- OpenAI/Astral acquisition (openai.com/index/openai-to-acquire-astral/) — Filter A (>24h): announced March 19, 2026; no closing confirmation on trusted sources for June 19
+- beartai.com/read/1501785 (UN AI energy warning) — ambiguous date; no trusted-source snippet timestamp resolvable to today; dropped per "date ambiguous" rule
 
-- https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/ — Filter A (>24h): June 1, 2026 — 13 days old
-- https://www.bloomberg.com/news/articles/2026-06-09/asia-s-largest-outsourcer-to-slow-hiring-as-ai-reshapes-industry — Filter A (>24h): June 9, 2026 — 5 days old
-- https://www.bloomberg.com/news/articles/2026-06-09/magnetar-plans-fund-that-replaces-human-analysts-with-ai-bots — Filter A (>24h): June 9, 2026 — 5 days old
-- https://openai.com/index/openai-submits-confidential-s-1/ — Filter A (>24h): June 8, 2026 — 6 days old
-- https://microsoft.ai/news/introducing-mai-thinking-1/ — Filter A (>24h): Build 2026, early June — >10 days old
-- https://www.blognone.com/node/150887 — Filter A (>24h): June 12, 2026 (DiffusionGemma launch) — 2 days old
-- https://www.semafor.com/article/06/13/2026/white-house-move-to-limit-anthropic-linked-to-concerns-about-chinese-access-to-mythos — Not on trusted-sources.md allow-list (Semafor); published June 13 21:11 UTC = June 14 04:11 AM Bangkok (would pass Filter A, but untrusted source domain)
-- https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/ — Filter A (>24h): April 21, 2026 — far too old
-
-> Note: 4 items passed both filters this run. Of approximately 15 candidates examined, 9 failed Filter A (>24h old), 2 failed due to untrusted source domain (Semafor, BBC Thai).
+> Note: 5 items passed both filters this run. Of ~10 candidates evaluated, 5 failed Filter A (>24h), 0 failed Filter B.
