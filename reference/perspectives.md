@@ -1,25 +1,25 @@
-# Perspectives — 2026-06-18
+# Perspectives — 2026-06-20
 
-## 1. FERC สั่ง Fast-Track ดาต้าเซ็นเตอร์ AI เข้ากริดไฟฟ้า
+## 1. Nobel laureate John Jumper is leaving DeepMind for rival Anthropic
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ FERC ออกคำสั่ง unanimous นี้สะท้อนว่าโครงสร้างพื้นฐานด้านไฟฟ้าของสหรัฐกำลังถูก reshape โดย AI demand อย่างเป็นทางการ — เรื่องนี้ควรอยู่ในหลักสูตรด้านพลังงาน, นโยบายสาธารณะ, และ sustainability ควบคู่กันเป็น interdisciplinary case study ไม่ใช่แค่ในหลักสูตรเทคโนโลยี
-**ผู้เชี่ยวชาญด้าน AI:** FERC order ช่วยแก้ bottleneck ด้าน time-to-power ที่ AI hyperscalers ประสบอยู่ แต่ไม่ได้แก้ปัญหาการขาดกำลังผลิตจริง: เชื่อมต่อได้เร็วขึ้น แต่ถ้าไม่มีไฟพอจ่ายก็ยังติดขัด — เป็น necessary แต่ not sufficient condition สำหรับ AI infrastructure expansion
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า plan training infrastructure ขนาดใหญ่ใน US data centers ให้ติดตาม 30-day และ 60-day deadline ของ grid operators เพื่อดูว่าภูมิภาคที่คุณ rely on มี spare capacity จริงหรือไม่ — data center availability timeline อาจเปลี่ยนแปลงใน 6-12 เดือนข้างหน้า
+**อาจารย์ (มหาวิทยาลัย):** การที่ Nobel laureate ออกจาก Google DeepMind มาสู่ Anthropic บอกว่า "prestige" ในการทำวิจัย AI ระดับโลกไม่ได้อยู่ที่บริษัทใหญ่เพียงอย่างเดียวอีกต่อไป — นักเรียนที่เลือก career path ควรดูว่างานจริงอยู่ที่ไหน ไม่ใช่แค่ชื่อที่ปลอดภัยที่สุด
 
-## 2. Amazon เตรียมขายชิป Trainium นอก AWS — ท้าทาย Nvidia ในตลาดภายนอก
+**ผู้เชี่ยวชาญด้าน AI:** Jumper มา Anthropic พร้อม AlphaFold mindset — structural reasoning ระดับ atomic — ถ้าเขาทำงานในทิศทางเดิม Anthropic อาจกำลัง build scientific reasoning capability ที่ลึกกว่า LLM ทั่วไป ซึ่งจะเป็น differentiator ที่สำคัญในตลาดที่แข่งกัน scale parameters
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้คือ case study ตำราของ vertical integration ที่ unbundle ตัวเอง — Amazon สร้าง Trainium เพื่อลด cost ก่อน แล้วพบว่า product มี market value ของตัวเอง เหมาะนำไปสอนเรื่อง market entry strategy, economies of scale, และ how internal tools become external products
-**ผู้เชี่ยวชาญด้าน AI:** ถ้า Amazon ขายได้จริงในตลาดภายนอก CUDA ecosystem ของ Nvidia จะถูก pressure ให้ลดราคาหรือเปิด tooling มากขึ้น เพราะ developer lock-in จะอ่อนแอลงเมื่อมีทางเลือกที่ competitive — ตัวเลข $225B commitment บอกว่า Trainium ผ่าน quality bar สำหรับ frontier labs แล้ว
-**โปรแกรมเมอร์มืออาชีพ:** ติดตาม Trainium pricing บน AWS เพราะ external demand อาจผลักดันให้ Amazon ปรับ pricing model ของ reserved instances — ในระยะกลาง อาจมี spot pricing ที่คุ้มค่ากว่า GPU equivalents บน cloud อื่น; หาก consider multi-cloud strategy นี่คือ timing ที่ดีในการ evaluate Trainium benchmarks สำหรับ workload ของคุณ
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Anthropic เริ่ม release tools สำหรับ scientific computing หรือ structured-data reasoning ใน Q3-Q4 นั่นคือสัญญาณบอกว่า Jumper กำลัง deliver แล้ว — จับตาดู Claude API updates และ changelog อย่างใกล้ชิดในช่วง 6 เดือนข้างหน้า
 
-## 3. General Intuition ระดมทุน $300M สร้าง World Model จากวิดีโอเกม
+## 2. In the Weights is your new AI-centric vanity search
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ case study ของ data moat ที่ดีมาก — General Intuition ไม่ได้แค่มี model ที่ดี แต่มี exclusive dataset จาก gaming behavior ที่ไม่มีใครในโลก replicate ได้ การปฏิเสธ $500M จาก OpenAI บอกว่า founders เชื่อมั่นว่า long-term dataset value สูงกว่า — เหมาะสำหรับสอนเรื่อง competitive advantage ใน AI era
-**ผู้เชี่ยวชาญด้าน AI:** gaming data มี advantage เฉพาะตัวสำหรับ world model: เกมมี physics, causality, และ spatial reasoning ที่ richer กว่า text หรือ image data ทั่วไป — แต่ challenge สำคัญคือ sim-to-real gap เพราะ physics ในเกมคือ simplified model ของโลกจริง; วิธีที่ General Intuition แก้ปัญหานี้จะเป็นตัวชี้วัดว่า dataset advantage จะแปลงเป็น real-world performance ได้หรือไม่
-**โปรแกรมเมอร์มืออาชีพ:** ติดตาม General Intuition API เพราะถ้า world model ที่ train บน gaming data generalize ได้ดี จะเปิดทางให้ build physical AI apps โดยไม่ต้องสร้าง physics engine เอง — ดูเทียบกับ Odyssey ที่ระดมทุนเมื่อวาน ตอนนี้มีอย่างน้อยสอง world model startups ที่ใกล้จะออก API สำหรับ developers
+**อาจารย์ (มหาวิทยาลัย):** นี่คือ artifact สำหรับสอน information literacy ยุคใหม่: "digital presence" ในโลก LLM ไม่เหมือน SEO อีกต่อไป นักเรียนต้องเข้าใจว่าโมเดลถูก train บนอะไรและ "จำ" อะไรได้บ้าง — เหมาะสำหรับ discussion ว่า knowledge และ reputation หมุนเวียนอย่างไรใน AI era
 
-## 4. Adobe ขยาย Firefly AI เข้า Premiere Pro, Illustrator, InDesign
+**ผู้เชี่ยวชาญด้าน AI:** คำว่า "in the weights" ชี้ตรงประเด็น: ถ้าไม่อยู่ใน training data ที่ต้องการ ก็ไม่มี SEO ที่จะแก้ได้ — แต่ยังเป็น early-stage มากเพราะ model recall ขึ้นอยู่กับ version, prompt, และ context; LLM "reputation" จึงยังเป็น moving target
 
-**อาจารย์ (มหาวิทยาลัย):** Adobe เป็น case study ชั้นดีของ incumbent ที่สำเร็จในการ integrate AI — แทนที่จะสร้าง product ใหม่มาแข่ง Adobe augment workflow ที่ users รู้จักอยู่แล้ว บทเรียนสำหรับนักศึกษา product design: ผู้ใช้ไม่ต้องการเปลี่ยน tool, พวกเขาต้องการทำงานเดิมให้เร็วขึ้น
-**ผู้เชี่ยวชาญด้าน AI:** การ support multi-model (ChatGPT, Claude, Copilot) คือ strategic move ที่ฉลาด: Adobe ไม่ lock-in กับ model เดียว ลดความเสี่ยงถ้า model ใดถูก disrupt ในอนาคต — agentic tools ที่ทำ multi-step actions จริงๆ เป็นก้าวที่ qualitatively ต่างจาก copilot generation
-**โปรแกรมเมอร์มืออาชีพ:** ดู Adobe API ที่น่าจะ expose agentic actions เหล่านี้ให้ call ได้ภายนอก — integration กับ Claude หรือ Copilot อาจเปิดทาง build content pipeline automation ที่รวม Adobe tools เข้ากับ AI workflow ได้โดยไม่ต้องใช้ UI; ถ้า build สำหรับ creative teams, Firefly API ใน public beta คือ timing ที่ดีในการ experiment ก่อน competitors
+**โปรแกรมเมอร์มืออาชีพ:** การ benchmark ว่า LLM รุ่นต่างๆ recall ชื่อบริษัทหรือ product ของคุณได้แม่นแค่ไหน โดยใช้ Anthropic API + OpenAI API เปรียบเทียบ เป็น side project ที่ practical มากในปี 2026 — ลองทำก่อน competitor รู้ตัว
+
+## 3. Every new iOS 27 feature that's worth knowing about
+
+**อาจารย์ (มหาวิทยาลัย):** iOS 27 คือ case study ว่า AI "reach" ทำงานจริงอย่างไร — Apple ไม่ได้ขาย AI model แต่ขาย ecosystem ที่ AI เป็น feature; นี่คือโมเดลที่ mass adoption จะเกิดขึ้นได้จริงมากกว่าการ install แอปเพิ่มเติม เหมาะสำหรับสอน product strategy และ platform economics
+
+**ผู้เชี่ยวชาญด้าน AI:** การที่ Apple ใช้ Google Gemini บน server-side พร้อม custom NVIDIA chips ที่ออกแบบเพื่อ privacy เป็นสถาปัตยกรรม hybrid ที่ฉลาด: sensitive inference ถูกส่งไปที่ cloud แต่ data handling อยู่ภายใต้การควบคุมของ Apple — enterprise น่านำ pattern นี้ไปปรับใช้กับ private AI deployments
+
+**โปรแกรมเมอร์มืออาชีพ:** Developer API ของ Siri AI ใน iOS 27 ผ่าน App Intents framework และ SiriKit extensions คือโอกาสที่ต้องรีบ explore — ผู้ใช้จะเริ่ม expect ว่า app ของคุณ "พูดคุยกับ Siri ได้" ภายในปีนี้ และ apps ที่รองรับจะมีข้อได้เปรียบชัดเจนใน App Store discovery
