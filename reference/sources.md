@@ -1,48 +1,48 @@
-# Sources — 2026-06-18
+# Sources — 2026-06-20
 
-Generated: 2026-06-18 (Asia/Bangkok)
+Generated: 2026-06-20 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-17-brief.md (5 URLs loaded)
+Dedup against: articles/2026-06-19-brief.md (5 URLs loaded)
 
-1. **AI data centers just got a government-mandated fast lane to the grid**
+1. **Nobel laureate John Jumper is leaving DeepMind for rival Anthropic**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/
-   - Published: 2026-06-18
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/18
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (unique path, not in 2026-06-17 brief)
+   - URL: https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/
+   - Published: 2026-06-20 (URL slug /2026/06/20/)
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/20/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday covered Bloomberg's version at a different URL: bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: FERC unanimously ordered six major grid operators to fast-track interconnection requests from AI data centers. Operators have 30 days to report spare generating capacity and 60 days to defend or revise rates. FERC also opened a path for grid tech startups via "alternative transmission technologies" including solid-state transformers and superconducting lines. Data center electricity demand is projected to nearly triple through 2035.
+   - Summary: John Jumper, Nobel Prize laureate in chemistry who co-created AlphaFold at Google DeepMind, confirmed on Friday he is leaving after "nearly 9 years" to join Anthropic — marking a major talent acquisition as Anthropic nears an IPO at ~$1T valuation.
 
-2. **Amazon hopes to challenge Nvidia more directly by selling its AI chips**
+2. **In the Weights is your new AI-centric vanity search**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/
-   - Published: 2026-06-18
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/18
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (unique path)
+   - URL: https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/
+   - Published: 2026-06-20 (URL slug /2026/06/20/ + snippet timestamp 12:41 PM PDT)
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/20/ and snippet timestamp
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not covered yesterday)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Amazon is in talks to sell its Trainium AI chips externally to other companies' data centers. Amazon AI chief Peter DeSantis confirmed discussions, stemming from CEO Andy Jassy's April shareholder letter. Sales commitments for Trainium reach $225B from clients including OpenAI and Anthropic. Chip business on track for $20B external revenue this year.
+   - Summary: Thomas Dimson and Joey Flynn, former OpenAI employees (who joined via Global Illumination acquisition), launched "In the Weights" — a site that measures how well AI models recall a person without using web search, reflecting the shift from Google to LLMs as the primary information source.
 
-3. **General Intuition in talks to raise $300M at around $2B valuation**
+3. **Every new iOS 27 feature that's worth knowing about**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/
-   - Published: 2026-06-18
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/18
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (unique path)
+   - URL: https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/
+   - Published: 2026-06-20 (URL slug /2026/06/20/ + snippet timestamp 8:00 AM PDT)
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/20/ and snippet timestamp
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not covered yesterday)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: General Intuition, a world model AI startup spun out of gaming clip platform Medal (which rejected a $500M OpenAI acquisition offer), is raising ~$300M at a ~$2B valuation. Backed by Jeff Bezos, Eric Schmidt, Khosla Ventures, and General Catalyst. Trains on 2B gaming videos/year from 10M Medal users. Round follows an $134M seed raised just 8 months prior.
-
-4. **Adobe adds its AI assistant to Premiere, Illustrator and InDesign**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/
-   - Published: 2026-06-18
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/18
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (unique path)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Adobe is expanding its Firefly AI assistant with agentic capabilities into Premiere Pro (sort assets into bins, batch-rename clips, add markers to interview footage), Illustrator (reorganize layers, check for missing fonts), InDesign (apply brand PDF updates across layouts including copy/styling/print-readiness checks), and Frame.io. Agentic tools are in public beta. Firefly integrates with ChatGPT, Claude, and Microsoft Copilot.
+   - Summary: TechCrunch's comprehensive June 20 guide to iOS 27 highlights the AI-driven transformation of the platform, including Siri AI (powered by Google Gemini server-side with custom NVIDIA privacy chips), cross-app context awareness, visual intelligence as a dedicated camera mode, and tab management in Safari.
 
 ## Dropped
-- https://www.blognone.com/node/150930 — Date ambiguous: no explicit publish date in snippet; Microsoft Copilot Cowork GA was June 16, Blognone coverage date unclear
-- https://www.blognone.com/node/150927 — Filter A (>24h): GLM-5.2 announced June 13, 2026 — 5 days old
 
-> Note: 4 items passed both filters this run. Of ~8 candidates evaluated, 1 failed Filter A (GLM-5.2 — 5 days old), 1 dropped due to ambiguous date (Blognone Copilot Cowork), 0 failed Filter B. No Thai-language sources passed both filters on this run (Thai source requirement waived per "when supply allows" clause).
+- https://www.bloomberg.com/news/articles/2026-06-19/lutnick-s-anthropic-crackdown-claims-new-power-over-ai-models — Filter B (dedup): appeared in articles/2026-06-19-brief.md
+- https://www.bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic — Filter B (dedup): appeared in articles/2026-06-19-brief.md
+- https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/ — Filter B (dedup): appeared in articles/2026-06-19-brief.md
+- https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/ — Filter B (dedup): appeared in articles/2026-06-19-brief.md
+- https://www.bloomberg.com/news/articles/2026-06-19/unitedhealth-bets-3-billion-on-ai-to-cut-costs-tame-backlash — Filter B (dedup): appeared in articles/2026-06-19-brief.md
+- https://www.bloomberg.com/news/articles/2026-06-18/meta-strikes-new-ai-computing-deals-with-data-center-firm-crusoe — Filter A (>24h): URL slug /2026-06-18/ is 2 days old
+- OpenAI Partner Network (openai.com, June 14-15) — Filter A (>24h): launched ~6 days ago
+- Pew Research AI sentiment (pewresearch.org, June 17) — Filter A (>24h): published 3 days ago
+- Beartai Siri AI article /1501683/ (June 9) — Filter A (>24h): published 11 days ago
+- Cornell/WARP AI search poisoning research — No trusted-source URL found; available only through aggregators (NeuralBuddies, buildfastwithai) not on trusted-sources.md
+
+> Note: 3 items passed both filters this run. Of ~12 candidates evaluated, 5 failed Filter B (dedup against yesterday's brief), 5+ failed Filter A (older than 24h), and 1 had no trusted-source URL. No Thai-language sources from blognone.com or beartai.com were within the rolling 24h window today.
