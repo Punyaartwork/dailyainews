@@ -1,60 +1,53 @@
-# Sources — 2026-06-19
+# Sources — 2026-06-21
 
-Generated: 2026-06-19 (Asia/Bangkok)
+Generated: 2026-06-21 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-18-brief.md (4 URLs loaded)
+Dedup against: articles/2026-06-20-brief.md (3 URLs loaded)
 
-1. **Nobel Winner John Jumper to Leave Google DeepMind for Anthropic**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic
-   - Published: 2026-06-19
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-19
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com host not present in yesterday's brief at all)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google DeepMind VP John Jumper, who won the 2024 Nobel Prize in Chemistry for AlphaFold, is leaving to join Anthropic. His departure strains Google's efforts to beat rivals in the frontier AI race; Jumper had recently shifted from scientific AI to AI coding work at Google.
-
-2. **Howard Lutnick's Anthropic Crackdown Claims New Power Over AI Models**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-06-19/lutnick-s-anthropic-crackdown-claims-new-power-over-ai-models
-   - Published: 2026-06-19
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-19
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com host not present in yesterday's brief; yesterday's Anthropic story was about the earlier week's events without this legal-precedent framing)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: June 19 analysis shows that US Commerce Secretary Howard Lutnick's June 12 letter ordering Anthropic to bar foreign nationals from Fable 5 and Mythos 5 expands export control law in an unprecedented way — from governing the transfer of technology to governing the mere usage of AI models, creating new legal territory for the entire industry.
-
-3. **Billionaire Ambani Wants AI in Every Call, App, and Home**
+1. **When the Trump administration cracks down on Anthropic, who benefits?**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/
-   - Published: 2026-06-19
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/19
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (domain matches but path differs; this path not in yesterday's brief)
+   - URL: https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/
+   - Published: June 21, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/21
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /2026/06/21/... differs from all June 20 paths in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: At Reliance Industries' annual shareholder meeting (Friday), Mukesh Ambani announced Jio Call Agent — an AI assistant that joins phone calls, identifies up to 10 speakers, transcribes each in their own language, and performs tasks like booking cabs and ordering food. Expected later in 2026 for 500+ million Jio users; five new AI apps supporting 22 Indian languages also announced.
+   - Summary: Analysis of how the Trump administration's export control order on Anthropic's Fable 5 and Mythos 5 models — triggered by a South Korean telecom access incident and Amazon CEO Jassy's concerns — may counterintuitively benefit Anthropic's brand while competitors like OpenAI face complex regulatory dynamics.
 
-4. **UnitedHealth Bets $3 Billion on AI to Cut Costs, Tame Backlash**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-06-19/unitedhealth-bets-3-billion-on-ai-to-cut-costs-tame-backlash
-   - Published: 2026-06-19
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-19
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, not in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: The largest US health insurer plans to invest $3 billion in AI over 2026–2027, projecting a 2-to-1 return from automating manual processes (prior authorization, claims) and improving worker efficiency, while also seeking to address public backlash over its business practices.
-
-5. **The CEO of Allbirds' New AI Biz Has a Plan, But No Employees**
+2. **Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/
-   - Published: 2026-06-19
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/19
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, not in yesterday's brief)
+   - URL: https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/
+   - Published: June 21, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/21
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's iOS 27 article was /2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/ — different path and angle)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Allbirds sold its shoe business for $43M in April, raised $100M from public markets, rebranded as Smartbird, and appointed Nadia Carlsten (former AWS executive, engineering PhD) as CEO. The company is fully pivoting to AI but has no employees yet and has not announced a product vision.
+   - Summary: Apple is weaving AI into existing apps in iOS 27 — bill splitting, one-tap password fix, task automation, Visual Intelligence — rather than requiring users to adopt the new Siri directly; a deep-dive beyond the WWDC overview published yesterday.
+
+3. **ภราดร ป้อง TH-AI Passport ต้องตรวจสอบบนข้อเท็จจริง ก่อนตัดสิน**
+   - Publisher: Thairath
+   - URL: https://www.thairath.co.th/news/politic/2941024
+   - Published: June 21, 2026 (21 มิถุนายน 2569)
+   - FreshnessCheck: ✅ within last 24h via snippet "วันที่ 21 มิถุนายน 2569 นายภราดร..."
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host thairath.co.th not present in yesterday's brief at all)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Thai minister Parador Prisnananthakul defended the controversial 1,621-million-baht TH-AI Passport project on June 21, calling for fact-based evaluation before cancellation; context: a D-Vote poll showed 91–93% of regular AI users oppose the scheme while PM Anutin confirmed it will proceed.
+
+4. **ยศชนันสรุปผลเยือนเนเธอร์แลนด์-เบลเยียม ผนึก IMEC ดันไทยสู่ฮับชิปโฟโตนิกส์**
+   - Publisher: The Standard
+   - URL: https://thestandard.co/yoschanan-imec-thailand-chip-hub/
+   - Published: June 21, 2026 (21 มิถุนายน 2569)
+   - FreshnessCheck: ✅ within last 24h via snippet "วันนี้ (21 มิถุนายน)" in search result
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host thestandard.co not present in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Thai Deputy PM Yoschanan Wongswaddi summarised a visit to the Netherlands and Belgium that secured photonics-chip collaboration with IMEC, positioning Thailand as an AI-compute hub by leveraging existing fiber-optics expertise; AI's demand for faster, light-based computation is the key driver.
 
 ## Dropped
-- https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/ — Filter A (>24h): URL slug 2026/06/16 is 3 days old
-- https://www.blognone.com/node/150923 — Filter A (>24h): confirmed published June 17, 2026 (2 days ago)
-- https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/ — Filter A (>24h): URL slug 2026/06/16 is 3 days old
-- OpenAI/Astral acquisition (openai.com/index/openai-to-acquire-astral/) — Filter A (>24h): announced March 19, 2026; no closing confirmation on trusted sources for June 19
-- beartai.com/read/1501785 (UN AI energy warning) — ambiguous date; no trusted-source snippet timestamp resolvable to today; dropped per "date ambiguous" rule
+- https://www.blognone.com/node/150863 — Filter A (>24h): search confirmed "posted on 9 June 2026" — 12 days old
+- https://www.blognone.com/node/150897 — Filter A (>24h): search snippet confirms "announced June 13, 2026" — 8 days old
+- https://www.blognone.com/node/150927 — Filter A (>24h): search snippet confirms "announced June 12, 2026" — 9 days old
+- https://www.blognone.com/node/150930 — Filter A (>24h): Copilot Cowork GA reached on June 16, 2026 — 5 days old
+- https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/ — Filter A (>24h): URL slug 2026/06/01 — 20 days old
+- https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/ — Filter A (>24h): URL slug 2026/06/19 — 2 days old
+- https://thestandard.co/th-ai-passport-poll-ai-corruption/ — ambiguous publish date (D-Vote poll was June 15, article date unconfirmed for June 21); dropped per date-ambiguous rule
 
-> Note: 5 items passed both filters this run. Of ~10 candidates evaluated, 5 failed Filter A (>24h), 0 failed Filter B.
+> Note: 4 items passed both filters this run. Of 11 candidates evaluated, 7 failed Filter A (>24h), 0 failed Filter B.
