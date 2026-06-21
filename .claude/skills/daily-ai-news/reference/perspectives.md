@@ -1,41 +1,25 @@
-# Perspectives — 2026-06-19
+# Perspectives — 2026-06-21
 
-## 1. John Jumper Nobel laureate ลาออก DeepMind เข้าร่วม Anthropic
+## 1. ใครได้ประโยชน์ เมื่อ Trump แบน Anthropic?
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ผู้ได้รับ Nobel ย้ายจากสถาบันวิจัยชั้นนำอย่าง DeepMind ไปบริษัท startup ที่กำลังเผชิญวิกฤตรัฐบาล แสดงให้เห็นว่า incentive structure ของ Silicon Valley นั้น compelling กว่าที่นักศึกษาหลายคนจินตนาการ — นี่เป็นบทเรียนสำคัญในวิชา sociology of science และ talent economics ของ AI ที่ควรบรรจุในหลักสูตร
+**อาจารย์ (มหาวิทยาลัย):** การที่ภาครัฐออก export control บน AI model weights คือ policy precedent ที่นักเรียนด้าน tech policy ต้องศึกษา — มันเหมือน Cold War export controls บน semiconductor แต่ "สินค้า" ตัวนี้ replicate ได้ง่ายกว่ามาก นักศึกษาควรตั้งคำถามว่า jurisdictional control บน software ทำงานต่างจาก hardware อย่างไร และ effectiveness จริงๆ คืออะไร
+**ผู้เชี่ยวชาญด้าน AI:** จุดสำคัญที่นักวิเคราะห์มองข้ามคือ capability ที่ถูกแบนไม่ unique — GPT-5.5, Claude Opus 4.8 และ Kimi 2.7 ให้ผลใกล้เคียงกันได้ ทำให้การแบน model เฉพาะตัวสร้าง geopolitical signal ได้มากกว่า security benefit จริงๆ
+**โปรแกรมเมอร์มืออาชีพ:** บทเรียนที่ apply ได้ทันที: อย่า single-vendor dependent บน AI provider ไม่ว่าจะใหญ่แค่ไหน — ควร abstract API layer และมี fallback model ที่ test แล้วว่าให้ output คุณภาพพอรับได้ ก่อนที่ production จะพัง
 
-**ผู้เชี่ยวชาญด้าน AI:** Jumper มาพร้อมกับ Andrej Karpathy ที่เพิ่ง join ในเดือนพฤษภาคม ดูเหมือน Anthropic กำลัง assemble research team ระดับ frontier อย่างเร่งด่วน และถ้า Jumper นำ AlphaFold-style structural thinking เข้ามา อาจเห็น biological หรือ scientific AI capabilities จาก Anthropic ในอีก 12-18 เดือน
+## 2. iOS 27 AI ที่ซ่อนอยู่ในแอปเดิม
 
-**โปรแกรมเมอร์มืออาชีพ:** ระยะสั้น ผลกระทบต่อ API ที่คุณใช้อยู่น้อยมาก แต่ระยะกลาง ถ้า Anthropic scale scientific AI tools ออกมา อาจเป็น new API surface สำหรับ bioinformatics, drug discovery, หรือ materials science — ติดตาม research announcements จาก Anthropic ในช่วงปลายปีนี้
+**อาจารย์ (มหาวิทยาลัย):** Apple's approach เป็น textbook example ของ "adoption through familiarity" — ไม่ขอให้คนเรียนรู้ใหม่ แต่ทำสิ่งเดิมให้ฉลาดขึ้น นักเรียน UX/HCI ควรศึกษา design decision นี้เพราะมันอธิบาย why mass adoption เกิดขึ้นเร็วในบางกรณีมากกว่าบางกรณี
+**ผู้เชี่ยวชาญด้าน AI:** Apple betting ว่า "AI as feature embedded in trusted apps" ชนะ "AI as standalone destination" — ถ้าถูก นี่คือ template ที่ enterprise software จะ follow ต่อมาอีกหลายปี ต่างจาก OpenAI ที่ยังสร้าง ChatGPT เป็น destination แยก
+**โปรแกรมเมอร์มืออาชีพ:** iOS 27 App Intents framework และ SiriKit extensions คือ investment ที่คุ้มค่าทันที — ผู้ใช้จะ expect "Siri สั่งงานในแอปของฉันได้" ภายในสิ้นปีนี้ และ apps ที่ไม่รองรับจะเสียเปรียบ App Store discoverability ชัดเจน
 
-## 2. Lutnick ขยายอำนาจ Export Control ครอบคลุม "การใช้" โมเดล AI
+## 3. ภราดรโต้แจง TH-AI Passport
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ legal frontier ที่ชัดเจนที่สุดในปีนี้ — การขยาย export control จาก "การโอนถ่าย" เทคโนโลยีมาสู่ "การใช้" model นั้นกระทบต่อแนวคิด information sovereignty, access to knowledge, และ freedom of research ในระดับโลก ควรสอนควบคู่กันในหลักสูตร law, policy, และ computer science
+**อาจารย์ (มหาวิทยาลัย):** TH-AI Passport เป็น case study ของปัญหา "access ≠ capability" ที่คลาสสิก — รัฐบาลมักคิดว่าการให้ tool = การ upskill แต่ evidence จากทั่วโลกบอกว่า digital literacy programs ที่ได้ผลต้องมี structured curriculum และ practice context ไม่ใช่แค่ subscription
+**ผู้เชี่ยวชาญด้าน AI:** ข้อมูลที่น่าสนใจคือ 75% ของคนไทยใช้ AI อยู่แล้ว ซึ่งบอกว่า barrier ไม่ใช่ access แต่เป็น "quality of use" — โครงการที่ effective กว่าคือ AI mentorship หรือ use-case specific training มากกว่า blanket subscription access
+**โปรแกรมเมอร์มืออาชีพ:** โครงการรัฐบาลขนาด 1,621 ล้านบาทที่ต้องการ implementation partners เป็นโอกาส B2G — ถ้ามี vertical AI solution ช่วย SMEs ใช้ tool ที่รัฐบาลจัดหาให้อย่าง productive ควรพิจารณาพูดคุยกับ DE Ministry ทันที
 
-**ผู้เชี่ยวชาญด้าน AI:** ถ้า precedent นี้ถาวร บริษัท AI ทุกเจ้าที่ให้บริการ API แบบ public จะต้องขอ license เป็นรายประเทศหรือรายบุคคล ซึ่งจะทำลาย global deployment model ของ AI และ accelerate การสร้าง domestic AI models ในทุกประเทศที่ไม่ต้องการพึ่งพาสหรัฐฯ
+## 4. ยศชนันผนึก IMEC ดันไทยสู่ฮับชิปโฟโตนิกส์
 
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าคุณ build product บน Anthropic API และมีผู้ใช้ต่างชาติ ให้อ่าน usage policy update จาก Anthropic สัปดาห์นี้ และ prepare fallback model (Claude 3.x, Gemini, หรือ open source) ที่ test ไว้แล้วจริงๆ ไม่ใช่แค่ document บน paper
-
-## 3. Reliance Jio AI Call Agent สำหรับ 500 ล้านคนในอินเดีย
-
-**อาจารย์ (มหาวิทยาลัย):** Jio Call Agent เป็นกรณีศึกษาชั้นดีของ AI deployment ในบริบท "next billion users" ซึ่งข้อกำหนดต่างจาก US/EU โดยสิ้นเชิง: รองรับ 22 ภาษา, identify multiple speakers — เหมาะสำหรับสอนเรื่อง AI localization, multilingual NLP, และ inclusion ในหลักสูตร AI for Development
-
-**ผู้เชี่ยวชาญด้าน AI:** Potential user base 500M คนนั้นใหญ่กว่า ChatGPT ทั้งหมดในปัจจุบัน และถ้า Jio Call Agent ทำงานจริง Reliance กำลังสร้าง training data loop ที่ massive ในภาษาอินเดียซึ่งยังขาดแคลนใน public datasets — ข้อมูลชุดนี้จะมีค่ามหาศาลสำหรับ future model development
-
-**โปรแกรมเมอร์มืออาชีพ:** เทคนิคที่น่าสนใจคือ real-time speaker diarization (identify 10 speakers) + multilingual ASR ในสายเดียว stack นี้ยากมากในปี 2023 แต่ accessible แล้วในปี 2026 ผ่าน open source เช่น Whisper + pyannote.audio — ถ้ากำลัง build voice applications ให้ศึกษา architecture นี้
-
-## 4. UnitedHealth ลงทุน $3B ใน AI ท่ามกลาง Backlash
-
-**อาจารย์ (มหาวิทยาลัย):** การที่บริษัทประกันสุขภาพที่ตกเป็นจำเลยทางสังคมนำ AI มาเป็นทั้ง cost-cutter และ "shield" ทางการประชาสัมพันธ์นั้นซับซ้อนมาก ควรสอนในหลักสูตร AI ethics ด้าน healthcare ว่า technology ไม่ใช่คำตอบของปัญหา legitimacy ถ้า incentive structure ไม่เปลี่ยน
-
-**ผู้เชี่ยวชาญด้าน AI:** ROI 2:1 นั้น plausible สำหรับ process automation อย่าง prior authorization และ claims processing แต่ต้องระวัง: ถ้า AI ถูก optimize เพื่อ financial outcomes อาจทำให้ denial rate สูงขึ้น — ต้องติดตามว่า UnitedHealth จะ deploy AI อย่างไรและมีกลไก oversight อะไร
-
-**โปรแกรมเมอร์มืออาชีพ:** $3B investment หมายความว่า vendor ecosystem จะเติบโตเร็ว subsidiaries ของ UnitedHealth อย่าง Optum และ Change Healthcare น่าจะเป็น key partners ที่ขยาย API และ data services ถ้าทำงานด้าน healthcare AI นี่คือ timing ที่ดีในการ explore partnership หรือ integration
-
-## 5. Allbirds เปลี่ยนชื่อเป็น Smartbird เดินหน้าสู่ AI เต็มตัว
-
-**อาจารย์ (มหาวิทยาลัย):** Allbirds → Smartbird เป็น case study ที่ดีในแง่ business ethics ของ AI era: การขาย core product ออกไปทั้งหมดและ rebrand เป็น AI company นั้นคือ genuine pivot หรือ "AI-washing" เพื่อ raise ราคา? คำถามนี้มีคุณค่าสอนมากกว่าคำตอบ
-
-**ผู้เชี่ยวชาญด้าน AI:** การ hire อดีต AWS executive แทน founder เดิมบอกว่า strategy น่าจะเน้น infrastructure หรือ enterprise AI มากกว่า consumer product — แต่ยังไม่มีรายละเอียดว่า Smartbird จะทำอะไร; ต้องรอ product announcement ก่อนสรุป
-
-**โปรแกรมเมอร์มืออาชีพ:** ยังไม่มีอะไรที่ต้อง act on ตอนนี้ แต่ติดตาม job postings ของ Smartbird ใน 30–60 วันข้างหน้า เพราะนั่นคือสัญญาณแรกที่บอกว่า product vision คืออะไรจริงๆ และมีโอกาส early hire ใน interesting role หรือไม่
+**อาจารย์ (มหาวิทยาลัย):** AI sovereignty ไม่ได้จบที่ model — ประเทศที่จะ independent จริงต้องควบคุม compute infrastructure ด้วย photonics เป็นทิศทางที่ถูกต้องสำหรับไทยที่ต้องการ leapfrog silicon manufacturing โดยไม่ต้องแข่ง TSMC โดยตรง
+**ผู้เชี่ยวชาญด้าน AI:** IMEC มี IP portfolio สำคัญที่สุดในโลกด้าน semiconductor process R&D ความร่วมมือนี้ไม่ใช่แค่ technology transfer แต่เป็น access สู่ research network ที่จะช่วยไทย develop indigenous capability ใน photonic interconnect ซึ่งเป็น bottleneck จริงของ AI datacenter ในปัจจุบัน
+**โปรแกรมเมอร์มืออาชีพ:** ระยะสั้นไม่ affect daily workflow แต่ถ้าโครงการนี้สำเร็จในระยะ 5–10 ปี ราคา AI compute ในไทยจะลดลงอย่างมีนัยสำคัญ — local AI startups ที่ต้องพึ่ง overseas GPU cloud จะมีทางเลือกใหม่ในประเทศ
