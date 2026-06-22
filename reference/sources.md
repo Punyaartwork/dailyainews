@@ -1,48 +1,61 @@
-# Sources — 2026-06-20
+# Sources — 2026-06-22
 
-Generated: 2026-06-20 (Asia/Bangkok)
+Generated: 2026-06-22 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-19-brief.md (5 URLs loaded)
+Dedup against: articles/2026-06-21-brief.md (4 URLs loaded)
 
-1. **Nobel laureate John Jumper is leaving DeepMind for rival Anthropic**
+1. **Groq ระดมทุน $650M หลัง Nvidia ดูด CEO ไป — pivot สู่ neocloud**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/
-   - Published: 2026-06-20 (URL slug /2026/06/20/)
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/20/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday covered Bloomberg's version at a different URL: bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: John Jumper, Nobel Prize laureate in chemistry who co-created AlphaFold at Google DeepMind, confirmed on Friday he is leaving after "nearly 9 years" to join Anthropic — marking a major talent acquisition as Anthropic nears an IPO at ~$1T valuation.
+   - URL: https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/
+   - Published: 22 June 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/22/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (entirely different path and story)
+   - Verification: Tier 2 — WebSearch snippet (TechCrunch + Bloomberg trusted domains, confirmed June 22)
+   - Summary: Groq confirmed a $650M round led by existing investors Disruptive and Infinitum, pivoting fully to its neocloud business (13 data centers, 5M+ developers) after Nvidia's not-acqui-hire took its founding team.
 
-2. **In the Weights is your new AI-centric vanity search**
+2. **Google DeepMind ลงทุน $75M ใน A24 พัฒนา AI filmmaking tools**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/
-   - Published: 2026-06-20 (URL slug /2026/06/20/ + snippet timestamp 12:41 PM PDT)
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/20/ and snippet timestamp
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not covered yesterday)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Thomas Dimson and Joey Flynn, former OpenAI employees (who joined via Global Illumination acquisition), launched "In the Weights" — a site that measures how well AI models recall a person without using web search, reflecting the shift from Google to LLMs as the primary information source.
+   - URL: https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/
+   - Published: 22 June 2026 (Monday, per snippet "announced on Monday, June 22, 2026")
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/22/ and explicit snippet date
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted domain)
+   - Summary: Google DeepMind invested $75M in indie film studio A24 in a "first-of-its-kind" partnership to build AI filmmaking tools, with DeepMind gaining feedback from leading artists to guide Imagen/Veo development.
 
-3. **Every new iOS 27 feature that's worth knowing about**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/
-   - Published: 2026-06-20 (URL slug /2026/06/20/ + snippet timestamp 8:00 AM PDT)
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/20/ and snippet timestamp
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not covered yesterday)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: TechCrunch's comprehensive June 20 guide to iOS 27 highlights the AI-driven transformation of the platform, including Siri AI (powered by Google Gemini server-side with custom NVIDIA privacy chips), cross-app context awareness, visual intelligence as a dedicated camera mode, and tab management in Safari.
+3. **SpaceX + Reflection AI: Compute Deal $6.3B สำหรับ open-weight AI lab**
+   - Publisher: TechCrunch / Bloomberg
+   - URL: https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/
+   - Published: 22 June 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/22/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (TechCrunch and Bloomberg both confirmed June 22)
+   - Summary: Reflection AI will pay SpaceX $150M/month starting July 1, 2026 through 2029 for Nvidia GB300 access at Colossus 2 in Memphis, TN. Total deal worth up to $6.3B.
+
+4. **หุ้น Alphabet ร่วง 7.2% หลัง John Jumper (โนเบล 2024) ออกจาก DeepMind ไป Anthropic**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-06-22/alphabet-shares-drop-after-second-ai-star-departs-for-a-rival
+   - Published: 22 June 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-22
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (Bloomberg trusted domain, confirmed June 22)
+   - Summary: Alphabet shares fell 7.2% intraday — most since February — after Nobel Prize-winning DeepMind VP John Jumper announced he was joining Anthropic, following Noam Shazeer's departure to OpenAI last week.
+
+5. **Samsung ผนึก OpenAI นำ ChatGPT Enterprise และ Codex ให้พนักงานทั่วโลก**
+   - Publisher: Blognone
+   - URL: https://www.blognone.com/node/150960
+   - Published: 22 June 2026 — 19:11 (confirmed via Exa fetch of Blognone article dateline)
+   - FreshnessCheck: ✅ within last 24h via Blognone article dateline "22 June 2026 - 19:11"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - Verification: Tier 2 — WebSearch snippet (Blognone trusted domain, date confirmed via Exa fetch)
+   - Summary: OpenAI announced its largest-ever enterprise ChatGPT deployment with Samsung, covering all South Korean employees and global Device eXperience staff. Codex is also deployed beyond developers to handle workflow automation for business, marketing, and manufacturing teams.
 
 ## Dropped
+- https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/ — Filter A (>24h): URL slug /2026/06/18/ is 4 days old
+- https://www.bloomberg.com/news/articles/2026-06-18/star-google-researcher-jumps-to-openai-in-coup-for-startup — Filter A (>24h): URL slug 2026-06-18 is 4 days old (Noam Shazeer original announcement)
+- https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/ — Filter A (>24h): URL slug /2026/06/20/ is 2 days old (Jumper original announcement covered June 20)
+- https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/ — Filter A (>24h): June 2, 20 days old
+- https://www.blognone.com/node/150923 — Filter A: date ambiguous (no explicit dateline found in search snippets)
+- https://thestandard.co/government-upskill-civil-servants-digital-ai/ — Filter A: date ambiguous (no explicit dateline found in search snippets)
 
-- https://www.bloomberg.com/news/articles/2026-06-19/lutnick-s-anthropic-crackdown-claims-new-power-over-ai-models — Filter B (dedup): appeared in articles/2026-06-19-brief.md
-- https://www.bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic — Filter B (dedup): appeared in articles/2026-06-19-brief.md
-- https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/ — Filter B (dedup): appeared in articles/2026-06-19-brief.md
-- https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/ — Filter B (dedup): appeared in articles/2026-06-19-brief.md
-- https://www.bloomberg.com/news/articles/2026-06-19/unitedhealth-bets-3-billion-on-ai-to-cut-costs-tame-backlash — Filter B (dedup): appeared in articles/2026-06-19-brief.md
-- https://www.bloomberg.com/news/articles/2026-06-18/meta-strikes-new-ai-computing-deals-with-data-center-firm-crusoe — Filter A (>24h): URL slug /2026-06-18/ is 2 days old
-- OpenAI Partner Network (openai.com, June 14-15) — Filter A (>24h): launched ~6 days ago
-- Pew Research AI sentiment (pewresearch.org, June 17) — Filter A (>24h): published 3 days ago
-- Beartai Siri AI article /1501683/ (June 9) — Filter A (>24h): published 11 days ago
-- Cornell/WARP AI search poisoning research — No trusted-source URL found; available only through aggregators (NeuralBuddies, buildfastwithai) not on trusted-sources.md
-
-> Note: 3 items passed both filters this run. Of ~12 candidates evaluated, 5 failed Filter B (dedup against yesterday's brief), 5+ failed Filter A (older than 24h), and 1 had no trusted-source URL. No Thai-language sources from blognone.com or beartai.com were within the rolling 24h window today.
+> Note: 5 items passed both filters this run. Of 11 candidates evaluated, 4 failed Filter A (>24h), 2 had ambiguous dates (Drop), and 0 failed Filter B. Mix: 4 international + 1 Thai-language source.
