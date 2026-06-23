@@ -1,53 +1,59 @@
-# Sources — 2026-06-21
+# Sources — 2026-06-23
 
-Generated: 2026-06-21 (Asia/Bangkok)
+Generated: 2026-06-23 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-20-brief.md (3 URLs loaded)
+Dedup against: articles/2026-06-22-brief.md (7 URLs loaded)
 
-1. **When the Trump administration cracks down on Anthropic, who benefits?**
+1. **Anthropic's Claude Tag is learning your company, one Slack message at a time**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/
-   - Published: June 21, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/21
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /2026/06/21/... differs from all June 20 paths in yesterday's brief)
+   - URL: https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/
+   - Published: June 23, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/23/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no Anthropic/Slack Claude Tag story in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Analysis of how the Trump administration's export control order on Anthropic's Fable 5 and Mythos 5 models — triggered by a South Korean telecom access incident and Amazon CEO Jassy's concerns — may counterintuitively benefit Anthropic's brand while competitors like OpenAI face complex regulatory dynamics.
+   - Summary: Anthropic launched Claude Tag, an always-on AI teammate for Slack that acts as a persistent virtual employee, available in research preview for Claude Enterprise and Team subscribers running on Opus 4.8; plans to expand beyond Slack confirmed.
 
-2. **Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27**
+2. **Meta debuts new, cheaper smart glasses under its own brand**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/
-   - Published: June 21, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/21
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's iOS 27 article was /2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/ — different path and angle)
+   - URL: https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand/
+   - Published: June 23, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/23/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new product launch; no Meta Glasses story in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Apple is weaving AI into existing apps in iOS 27 — bill splitting, one-tap password fix, task automation, Visual Intelligence — rather than requiring users to adopt the new Siri directly; a deep-dive beyond the WWDC overview published yesterday.
+   - Summary: Meta launched Meta Glasses at $299 with the Muse Spark AI model, featuring live translation in 14 languages and a dedicated Meta AI assistant button, made with EssilorLuxottica without Ray-Ban/Oakley branding.
 
-3. **ภราดร ป้อง TH-AI Passport ต้องตรวจสอบบนข้อเท็จจริง ก่อนตัดสิน**
-   - Publisher: Thairath
-   - URL: https://www.thairath.co.th/news/politic/2941024
-   - Published: June 21, 2026 (21 มิถุนายน 2569)
-   - FreshnessCheck: ✅ within last 24h via snippet "วันที่ 21 มิถุนายน 2569 นายภราดร..."
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host thairath.co.th not present in yesterday's brief at all)
+3. **Abu Dhabi's MGX Raises About $50 Billion to Accelerate AI Deals**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-06-23/abu-dhabi-s-mgx-raises-about-50-billion-to-accelerate-ai-deals
+   - Published: June 23, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-23/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story; no MGX/Abu Dhabi AI fund story in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Thai minister Parador Prisnananthakul defended the controversial 1,621-million-baht TH-AI Passport project on June 21, calling for fact-based evaluation before cancellation; context: a D-Vote poll showed 91–93% of regular AI users oppose the scheme while PM Anutin confirmed it will proceed.
+   - Summary: Abu Dhabi's MGX closed one of the largest AI-dedicated funds ever at ~$50B from sovereign wealth funds, pension funds, and institutional investors; fund has already started deploying capital across frontier models, chip infrastructure, and data centres; holds stakes in OpenAI, Anthropic, and xAI.
 
-4. **ยศชนันสรุปผลเยือนเนเธอร์แลนด์-เบลเยียม ผนึก IMEC ดันไทยสู่ฮับชิปโฟโตนิกส์**
-   - Publisher: The Standard
-   - URL: https://thestandard.co/yoschanan-imec-thailand-chip-hub/
-   - Published: June 21, 2026 (21 มิถุนายน 2569)
-   - FreshnessCheck: ✅ within last 24h via snippet "วันนี้ (21 มิถุนายน)" in search result
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host thestandard.co not present in yesterday's brief)
+4. **Tech Drags on US Stocks as AI Selloff Ripples Across From Asia**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-06-23/us-stock-futures-tumble-as-megacap-tech-rout-hits-asian-peers
+   - Published: June 23, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-23/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story; no global AI selloff story in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Thai Deputy PM Yoschanan Wongswaddi summarised a visit to the Netherlands and Belgium that secured photonics-chip collaboration with IMEC, positioning Thailand as an AI-compute hub by leveraging existing fiber-optics expertise; AI's demand for faster, light-based computation is the key driver.
+   - Summary: A global selloff in AI-linked semiconductor stocks swept from Asia to the US and Europe on June 23 — Nasdaq Composite opened down 2%+, Philadelphia Semiconductor Index plunged 7.9%, SK Hynix fell 12%+ — triggered by sustainability doubts over AI capex and SpaceX's $20B bond announcement.
+
+5. **Google Taps Employee Alumni Network With AI Startup Incubator**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-06-23/google-taps-employee-alumni-network-with-ai-startup-incubator
+   - Published: June 23, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-23/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story; no Google alumni incubator story in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Alphabet launched a 12-week AI startup incubator exclusively for former Google employees through its AI Futures Fund, offering up to $350,000 in Google Cloud/AI credits and up to $100,000 in direct cash funding per startup.
 
 ## Dropped
-- https://www.blognone.com/node/150863 — Filter A (>24h): search confirmed "posted on 9 June 2026" — 12 days old
-- https://www.blognone.com/node/150897 — Filter A (>24h): search snippet confirms "announced June 13, 2026" — 8 days old
-- https://www.blognone.com/node/150927 — Filter A (>24h): search snippet confirms "announced June 12, 2026" — 9 days old
-- https://www.blognone.com/node/150930 — Filter A (>24h): Copilot Cowork GA reached on June 16, 2026 — 5 days old
-- https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/ — Filter A (>24h): URL slug 2026/06/01 — 20 days old
-- https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/ — Filter A (>24h): URL slug 2026/06/19 — 2 days old
-- https://thestandard.co/th-ai-passport-poll-ai-corruption/ — ambiguous publish date (D-Vote poll was June 15, article date unconfirmed for June 21); dropped per date-ambiguous rule
+- https://www.blognone.com/node/150964 — Date ambiguous: no explicit "June 23" timestamp in snippet; story covers same Google DeepMind/A24 event already in yesterday's brief (URL differs, topic identical — dropped for editorial freshness)
+- https://techcrunch.com/2025/06/23/four-months-after-a-3b-valuation-harvey-ai-grows-to-5b/ — Filter A: URL slug shows /2025/06/23/ — published June 23, 2025, not 2026
+- https://www.techradar.com/news/live/claude-down-june-23-2026 — Domain not on trusted-sources.md allow-list
+- SpaceX $20B bond sale — No single standalone trusted-source article with confirmed June 23 URL identified; covered contextually in Bloomberg selloff story (#4)
 
-> Note: 4 items passed both filters this run. Of 11 candidates evaluated, 7 failed Filter A (>24h), 0 failed Filter B.
+> Note: 5 items passed both filters this run. Of ~10 candidates examined, ~2 failed Filter A, ~2 failed trusted-domain or date-ambiguous, ~1 had URL slug from 2025.
