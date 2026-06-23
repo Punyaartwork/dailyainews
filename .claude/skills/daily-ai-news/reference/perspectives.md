@@ -1,25 +1,41 @@
-# Perspectives — 2026-06-21
+# Perspectives — 2026-06-23
 
-## 1. ใครได้ประโยชน์ เมื่อ Trump แบน Anthropic?
+## 1. Anthropic Claude Tag — always-on AI teammate ใน Slack
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ภาครัฐออก export control บน AI model weights คือ policy precedent ที่นักเรียนด้าน tech policy ต้องศึกษา — มันเหมือน Cold War export controls บน semiconductor แต่ "สินค้า" ตัวนี้ replicate ได้ง่ายกว่ามาก นักศึกษาควรตั้งคำถามว่า jurisdictional control บน software ทำงานต่างจาก hardware อย่างไร และ effectiveness จริงๆ คืออะไร
-**ผู้เชี่ยวชาญด้าน AI:** จุดสำคัญที่นักวิเคราะห์มองข้ามคือ capability ที่ถูกแบนไม่ unique — GPT-5.5, Claude Opus 4.8 และ Kimi 2.7 ให้ผลใกล้เคียงกันได้ ทำให้การแบน model เฉพาะตัวสร้าง geopolitical signal ได้มากกว่า security benefit จริงๆ
-**โปรแกรมเมอร์มืออาชีพ:** บทเรียนที่ apply ได้ทันที: อย่า single-vendor dependent บน AI provider ไม่ว่าจะใหญ่แค่ไหน — ควร abstract API layer และมี fallback model ที่ test แล้วว่าให้ output คุณภาพพอรับได้ ก่อนที่ production จะพัง
+**อาจารย์ (มหาวิทยาลัย):** Claude Tag เปลี่ยนโจทย์จาก "AI เป็นเครื่องมือ" เป็น "AI เป็นเพื่อนร่วมทีม" — การที่ AI มี identity คงที่ในองค์กรและจำ context ของบริษัทได้ทำให้ต้องทบทวนการสอนเรื่อง human-AI collaboration โดยเฉพาะการแบ่งเส้น accountability ระหว่างคนและ AI agent ในการตัดสินใจองค์กร
 
-## 2. iOS 27 AI ที่ซ่อนอยู่ในแอปเดิม
+**ผู้เชี่ยวชาญด้าน AI:** ความน่าสนใจคือ Claude Tag ทำงานบน Opus 4.8 แบบ persistent — Anthropic กำลัง bet ว่า agentic behavior บน collaboration platform คือ killer use case ของ frontier model ฟีเจอร์ "ambient" ที่ AI proactively ติดตาม thread ที่ถูกลืมเป็น capability ใหม่ที่ต้องดู alignment risk อย่างใกล้ชิด
 
-**อาจารย์ (มหาวิทยาลัย):** Apple's approach เป็น textbook example ของ "adoption through familiarity" — ไม่ขอให้คนเรียนรู้ใหม่ แต่ทำสิ่งเดิมให้ฉลาดขึ้น นักเรียน UX/HCI ควรศึกษา design decision นี้เพราะมันอธิบาย why mass adoption เกิดขึ้นเร็วในบางกรณีมากกว่าบางกรณี
-**ผู้เชี่ยวชาญด้าน AI:** Apple betting ว่า "AI as feature embedded in trusted apps" ชนะ "AI as standalone destination" — ถ้าถูก นี่คือ template ที่ enterprise software จะ follow ต่อมาอีกหลายปี ต่างจาก OpenAI ที่ยังสร้าง ChatGPT เป็น destination แยก
-**โปรแกรมเมอร์มืออาชีพ:** iOS 27 App Intents framework และ SiriKit extensions คือ investment ที่คุ้มค่าทันที — ผู้ใช้จะ expect "Siri สั่งงานในแอปของฉันได้" ภายในสิ้นปีนี้ และ apps ที่ไม่รองรับจะเสียเปรียบ App Store discoverability ชัดเจน
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับทีม dev ที่ใช้ Slack + GitHub + CI/CD อยู่แล้ว Claude Tag ที่ Anthropic วางแผนขยายไปนอก Slack อาจกลายเป็น glue layer ระหว่าง tools ต่างๆ — ประเมิน workflow ว่ามี "coordination overhead" ตรงไหนที่ AI agent แบบ persistent ช่วยได้ก่อนจะมีคนอื่น adopt ก่อน
 
-## 3. ภราดรโต้แจง TH-AI Passport
+## 2. Meta Glasses — AI wearable พร้อม Muse Spark model, $299
 
-**อาจารย์ (มหาวิทยาลัย):** TH-AI Passport เป็น case study ของปัญหา "access ≠ capability" ที่คลาสสิก — รัฐบาลมักคิดว่าการให้ tool = การ upskill แต่ evidence จากทั่วโลกบอกว่า digital literacy programs ที่ได้ผลต้องมี structured curriculum และ practice context ไม่ใช่แค่ subscription
-**ผู้เชี่ยวชาญด้าน AI:** ข้อมูลที่น่าสนใจคือ 75% ของคนไทยใช้ AI อยู่แล้ว ซึ่งบอกว่า barrier ไม่ใช่ access แต่เป็น "quality of use" — โครงการที่ effective กว่าคือ AI mentorship หรือ use-case specific training มากกว่า blanket subscription access
-**โปรแกรมเมอร์มืออาชีพ:** โครงการรัฐบาลขนาด 1,621 ล้านบาทที่ต้องการ implementation partners เป็นโอกาส B2G — ถ้ามี vertical AI solution ช่วย SMEs ใช้ tool ที่รัฐบาลจัดหาให้อย่าง productive ควรพิจารณาพูดคุยกับ DE Ministry ทันที
+**อาจารย์ (มหาวิทยาลัย):** Meta Glasses ในราคา $299 คือ first real attempt ทำ AI wearable ให้เป็น mass market product — ราคาที่ต่ำกว่า Apple Vision Pro ถึง 10 เท่า ทำให้คำถามด้าน digital divide ระหว่างผู้ที่เข้าถึง ambient AI และผู้ที่ไม่ได้เข้าถึงกลายเป็นประเด็นเร่งด่วนในเชิงนโยบายการศึกษา
 
-## 4. ยศชนันผนึก IMEC ดันไทยสู่ฮับชิปโฟโตนิกส์
+**ผู้เชี่ยวชาญด้าน AI:** Muse Spark model ที่ฝังใน glasses น่าจะเป็น on-device + server hybrid — live translation 14 ภาษาบน form factor ขนาดนี้บอกว่า Meta ทุ่มใน edge inference อย่างจริงจัง ควรจับตาว่า privacy model สำหรับ "AI ที่เห็นทุกสิ่งที่คุณเห็น" จะถูก scrutinize อย่างไรในยุโรปและไทย
 
-**อาจารย์ (มหาวิทยาลัย):** AI sovereignty ไม่ได้จบที่ model — ประเทศที่จะ independent จริงต้องควบคุม compute infrastructure ด้วย photonics เป็นทิศทางที่ถูกต้องสำหรับไทยที่ต้องการ leapfrog silicon manufacturing โดยไม่ต้องแข่ง TSMC โดยตรง
-**ผู้เชี่ยวชาญด้าน AI:** IMEC มี IP portfolio สำคัญที่สุดในโลกด้าน semiconductor process R&D ความร่วมมือนี้ไม่ใช่แค่ technology transfer แต่เป็น access สู่ research network ที่จะช่วยไทย develop indigenous capability ใน photonic interconnect ซึ่งเป็น bottleneck จริงของ AI datacenter ในปัจจุบัน
-**โปรแกรมเมอร์มืออาชีพ:** ระยะสั้นไม่ affect daily workflow แต่ถ้าโครงการนี้สำเร็จในระยะ 5–10 ปี ราคา AI compute ในไทยจะลดลงอย่างมีนัยสำคัญ — local AI startups ที่ต้องพึ่ง overseas GPU cloud จะมีทางเลือกใหม่ในประเทศ
+**โปรแกรมเมอร์มืออาชีพ:** Meta Glasses API ecosystem ยังไม่ชัดเจน แต่ถ้าเปิด platform ให้ third-party apps ทำนองเดียวกับ Ray-Ban Meta นั่นคือ wearable AI platform ที่ developer ควรเตรียมตัว — โดยเฉพาะ use case augmented reality + real-time AI context ที่กำลังเปิดตลาดใหม่
+
+## 3. Abu Dhabi MGX ระดมทุน $50B เพื่อ AI
+
+**อาจารย์ (มหาวิทยาลัย):** การที่กองทุน sovereign wealth จาก Middle East ทุ่มเงิน $50B ใน AI infrastructure เป็น signal สำคัญว่า AI race ไม่ใช่แข่งขันแค่ระดับ Silicon Valley อีกต่อไป — นักศึกษาต้องเข้าใจว่า geopolitics กำลัง reshape ว่าใครเป็นเจ้าของ AI infrastructure ในทศวรรษหน้า
+
+**ผู้เชี่ยวชาญด้าน AI:** MGX ถือหุ้นใน OpenAI, Anthropic และ xAI พร้อมกัน — portfolio bet ที่ไม่เลือกข้าง แต่ซื้อ "เลเยอร์ทั้งหมด" ตั้งแต่ frontier model ถึง data center ถึง chip เป็น strategy ที่ต่างจาก VC ทั่วไป และสะท้อนว่า Abu Dhabi มอง AI เป็น strategic infrastructure ไม่ใช่ technology bet
+
+**โปรแกรมเมอร์มืออาชีพ:** $50B ที่ deploy ไปยัง AI stack หมายถึง compute จะเพิ่มขึ้นในตลาดอย่างมีนัยสำคัญ — ราคา compute ใน Middle East / Global South อาจถูกลงใน 12-18 เดือนข้างหน้า เป็นโอกาสสำหรับทีมที่ต้องการ GPU budget ที่ไม่ใช่ US region
+
+## 4. Global AI tech selloff — Nasdaq/semiconductor ร่วง
+
+**อาจารย์ (มหาวิทยาลัย):** การที่หุ้น semiconductor ร่วง 8-12% ในวันเดียวหลังจากขึ้นมา triple-digit ในปี 2026 เป็นตัวอย่างคลาสสิกของ "narrative correction" ในตลาด — ให้นักศึกษาวิเคราะห์ว่า market ตอบสนองต่อ AI story บนข้อมูลจริงหรือ expectation และ correction นี้เปลี่ยน fundamental ของบริษัทจริงๆ หรือเปล่า
+
+**ผู้เชี่ยวชาญด้าน AI:** SpaceX $20B bond sale ที่ trigger selloff บอกว่าตลาดกังวล capex sustainability — ถ้า compute demand ไม่โตตามที่ forecast ไว้ semiconductor supply chain ที่ขยายตัวอย่างรวดเร็วจะเจอ inventory glut ซึ่งเป็น systemic risk ที่ industry ยังไม่ได้ discuss อย่างเพียงพอ
+
+**โปรแกรมเมอร์มืออาชีพ:** ระยะสั้น selloff แบบนี้ไม่กระทบ API pricing หรือ model availability — แต่ถ้า AI capex investment ชะลอตัวในอีก 6-12 เดือน อาจเห็น cloud provider ระมัดระวัง capacity expansion ซึ่งกระทบ GPU spot availability สำหรับ team ที่ต้องการ burst compute
+
+## 5. Google AI Startup Incubator สำหรับ alumni
+
+**อาจารย์ (มหาวิทยาลัย):** Google ทำ incubator สำหรับอดีตพนักงานเป็น strategy ที่น่าสนใจในเชิงนิเวศวิทยาธุรกิจ — บริษัทใหญ่ "แชร์" talent ออกไปสร้าง startup ecosystem รอบตัวเอง แทนที่จะพยายามจ้างทุกคนไว้ เป็นโมเดลที่น่าศึกษาในบริบท brain drain จาก Big Tech ที่เห็นช่วงนี้
+
+**ผู้เชี่ยวชาญด้าน AI:** $350K ใน Google Cloud credit + $100K cash ต่อ startup เป็น proposition ที่ดึงดูดโดยเฉพาะถ้า use case ต้องการ Vertex AI / Gemini API — แต่ต้องระวัง lock-in เพราะเมื่อ credit หมด switching cost ไปยัง AWS หรือ Azure จะสูงกว่าที่คาดไว้มาก
+
+**โปรแกรมเมอร์มืออาชีพ:** ถ้ารู้จักอดีต Googler ที่กำลัง build AI startup นี่คือ signal ว่า Google กำลัง mobilize alumni network เป็นช่องทาง distribution ใหม่ — worth tracking ว่า company ไหนออกมาจาก cohort แรก เพราะน่าจะได้ deep integration กับ Google infra ที่ทีม external ไม่สามารถ replicate ได้
