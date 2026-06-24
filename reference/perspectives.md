@@ -1,41 +1,41 @@
-# Perspectives — 2026-06-22
+# Perspectives — 2026-06-24
 
-## 1. Groq ระดมทุน $650M หลัง Nvidia ดูด CEO ไป
+## 1. OpenAI เปิดตัวชิป Jalapeño ร่วมกับ Broadcom
 
-**อาจารย์ (มหาวิทยาลัย):** ดีลระหว่าง Groq กับ Nvidia คือกรณีศึกษาใหม่ที่ท้าทายโมเดล M&A ดั้งเดิม — การ license เทคโนโลยีแทนการซื้อกิจการทำให้ Groq ต้องเปลี่ยนทิศทางใหม่ทั้งหมด นักศึกษาควรเรียนรู้ว่า innovation economy สร้าง exit path ที่ซับซ้อนกว่า "startup → ถูกซื้อ → จบ" และบางครั้งการ "ไม่ถูกซื้อ" คือจุดเริ่มต้นของ chapter ใหม่
+**อาจารย์ (มหาวิทยาลัย):** การที่ OpenAI ออก custom chip ของตัวเองเป็นก้าวสู่ vertical integration เต็มรูปแบบ — เหมือนที่ Apple ทำกับ M-chip ทำให้ต้องตั้งคำถามในชั้นเรียนว่า "ใครควบคุม AI stack" ในอีก 5 ปีจะเป็น dynamic ที่ต่างไปอย่างสิ้นเชิงจากวันนี้ และนักศึกษาที่เรียน CS หรือ Business ต้องเข้าใจว่า hardware control คือ moat ที่แท้จริง
 
-**ผู้เชี่ยวชาญด้าน AI:** $650M ที่ Groq ระดมได้หลัง not-acqui-hire บอกว่าตลาด neocloud ยัง attractive แต่ Groq ต้องแข่งกับ xAI Colossus, CoreWeave และ SambaNova ที่มี compute deal อยู่แล้ว — real test คือ margin ใน inference-as-a-service ที่ยังไม่มีใครพิสูจน์ได้ชัดว่าทำกำไรได้จริงในระดับ scale
+**ผู้เชี่ยวชาญด้าน AI:** Jalapeño เป็น inference-specific chip ซึ่งหมายความว่า OpenAI กำลัง optimize ตรงจุดที่ใช้เงินมากที่สุดในการ serve users จริงๆ — 50% cost reduction ถ้าทำได้จริงจะให้ headroom ลด API price กดคู่แข่ง และ reinvest ใน training ต่อไปพร้อมๆ กัน ต้องติดตาม deployment rollout ว่าตัวเลขนี้ hold ใน production ได้จริงแค่ไหน
 
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer ที่ใช้ Groq API อยู่: data center 13 แห่ง + เงินทุนใหม่เป็นสัญญาณบวกที่ latency ต่ำของ Groq จะยังเป็น selling point อีกอย่างน้อย 2-3 ปี ควรเริ่ม benchmark ว่า Groq inference speed ช่วย use case ของคุณได้มากแค่ไหนเมื่อเทียบกับ provider อื่น
+**โปรแกรมเมอร์มืออาชีพ:** ข่าวนี้บอกว่า OpenAI API pricing น่าจะลดลงอีกใน 12-18 เดือนเมื่อ Jalapeño deploy จริง — ถ้าคุณออกแบบ AI product ที่ compute cost เป็น constraint ให้เริ่มคำนวณ business model ใหม่โดยสมมติว่า cost จะลด 30-40% ก่อนที่มันจะเกิดขึ้นจริง
 
-## 2. Google DeepMind ลงทุน $75M ใน A24 พัฒนา AI filmmaking tools
+## 2. Google สูญเสีย AI Researcher ระดับ Top สู่ Anthropic และ OpenAI
 
-**อาจารย์ (มหาวิทยาลัย):** ความร่วมมือนี้เป็น signal ว่า Big Tech เริ่มเปลี่ยนแนวทางจาก "AI สร้างเนื้อหาแทนคน" มาสู่ "AI เป็นเครื่องมือของ artist" ซึ่งเป็นวิธีที่ถูกต้องกว่าในเชิงจริยธรรมและการยอมรับจากสังคม ความแตกต่างนี้ไม่เล็กน้อย — มันเปลี่ยนว่าใครเป็น "ผู้สร้าง" และ AI เป็น "ผู้ช่วย"
+**อาจารย์ (มหาวิทยาลัย):** การสูญเสีย talent ระดับนี้ตั้งคำถามสำคัญในแง่ organizational psychology — ทำไม top researcher ถึงเลือก startup ขนาดเล็กกว่า Google แม้ compensation อาจต่ำกว่า? คำตอบน่าจะอยู่ที่ autonomy, research mission, และ culture ซึ่งเป็นบทเรียนที่องค์กรไทยขนาดใหญ่ควรเรียนรู้ด้วย
 
-**ผู้เชี่ยวชาญด้าน AI:** $75M ดูน้อยสำหรับ research partnership ระดับนี้ แต่สิ่งที่ DeepMind ได้จริงๆ คือ access ไปยัง production pipeline ของ A24 ซึ่งมีคุณค่ามากกว่าเงินในแง่ real-world dataset และ feedback loop สำหรับ fine-tune Imagen/Veo — creative professionals เป็น data source ที่หายาก
+**ผู้เชี่ยวชาญด้าน AI:** Jonas Adler (AI coding) + Alexander Pritzel (model training) ไป Anthropic พร้อมกับ John Jumper ภายในสัปดาห์เดียว — ถ้า Anthropic ใช้ talent เหล่านี้เต็มที่จะสะท้อนออกมาใน Claude รุ่นถัดไปที่กำลัง develop อยู่ ให้จับตา paper output จาก Anthropic ใน 6-12 เดือนข้างหน้าอย่างใกล้ชิด
 
-**โปรแกรมเมอร์มืออาชีพ:** Creative AI tools กำลังกลายเป็น competitive battleground ใหม่ — หลัง Adobe Firefly และ OpenAI Sora แล้ว DeepMind ก็เข้าร่วม race ด้วย first-party data จาก A-list studio ถ้า build tools สำหรับ creative industry ให้เริ่มศึกษา Imagen/Veo API และดูว่า A24 partnership จะ unlock capability อะไรบ้างใน 6 เดือนข้างหน้า
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับคนที่ build บน Gemini API ให้ตรวจสอบ vendor dependency ตอนนี้ — consecutive talent loss อาจทำให้ release cadence ของ Gemini ช้าลง การมี multi-provider architecture (OpenAI + Anthropic fallback) จะช่วย hedge risk นี้ได้
 
-## 3. SpaceX + Reflection AI: Compute Deal $6.3B
+## 3. Tencent ทดสอบ Dayuan AI Agent บน WeCom พัฒนาด้วย DeepSeek V4
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ Reflection AI เลือก SpaceX แทน hyperscaler ดั้งเดิมบอกว่าตลาด compute กำลัง fragment อย่างมีนัยสำคัญ — "ใครควบคุม compute" ไม่ใช่แค่คำถามด้านเทคนิคแต่เป็น geopolitics, energy policy, และ logistics พร้อมกัน นักเรียนควรเรียนรู้ว่า AI infrastructure map กำลังถูกเขียนใหม่โดยบริษัทที่ไม่ใช่ cloud provider ดั้งเดิม
+**อาจารย์ (มหาวิทยาลัย):** Dayuan เป็นตัวอย่างที่ดีของ "context-aware AI" ที่เข้าถึงข้อมูลจริงของ user — group chats, email, calendars — แทนที่จะเป็น general knowledge AI ทำให้เกิดคำถามเชิง ethics ว่าเส้นแบ่งระหว่าง "AI ช่วยงาน" กับ "AI ตรวจสอบพนักงาน" อยู่ที่ไหน และใครมีอำนาจตีความเส้นนั้น
 
-**ผู้เชี่ยวชาญด้าน AI:** $150M/เดือนเปรียบกับ Anthropic ($1.25B/เดือน) แล้วยังต่างกันมาก — แต่ open-weight strategy ของ Reflection ทำให้ compute efficiency ดีกว่าเพราะไม่ต้อง serve consumer inference จำนวนมาก ดีลนี้สมเหตุสมผลในแง่ scale และยิ่งสำคัญเมื่อ Nvidia GB300 เป็น chip ที่ออกแบบมาสำหรับ frontier model training โดยเฉพาะ
+**ผู้เชี่ยวชาญด้าน AI:** การเลือกใช้ DeepSeek V4 แทน Tencent's own model เป็น pragmatic choice — V4 น่าจะ outperform ใน context-heavy enterprise task และบอกว่า Chinese AI ecosystem กำลัง converge ไปหา model ที่ perform ดีที่สุดแทนที่จะ reinvent ทุกอย่างเอง ซึ่งเป็น maturation signal ที่สำคัญ
 
-**โปรแกรมเมอร์มืออาชีพ:** Reflection AI เป็น open-weight ที่มี $2B funding และ compute deal ระดับนี้ — สำหรับทีมที่ต้องการ frontier alternative โดยไม่ lock-in กับ OpenAI หรือ Anthropic นี่คือ name ที่ต้องจำ เมื่อ model ออกมาให้ benchmark จริงจังก่อนผู้อื่น
+**โปรแกรมเมอร์มืออาชีพ:** WeCom มีผู้ใช้ enterprise หลายสิบล้านคน ถ้า Tencent เปิด API ให้ third-party apps integrate กับ Dayuan นั่นคือ distribution channel ใหม่สำหรับ B2B AI tools ที่ target ตลาดจีนและเอเชีย — worth scouting developer documentation เมื่อ Dayuan launch เต็มรูปแบบ
 
-## 4. หุ้น Alphabet ร่วง 7.2% หลัง John Jumper ออกจาก DeepMind ไป Anthropic
+## 4. Qualcomm เปิดตัว Dragonfly C1000 — Meta เซ็นเป็นลูกค้า Data Center รายแรก
 
-**อาจารย์ (มหาวิทยาลัย):** ตลาดหุ้นตอบสนองต่อการออกของ researcher คนเดียวด้วยการร่วง 7% เป็นสัญญาณว่านักลงทุนมองว่า human capital ใน AI lab คือ "สินทรัพย์" ที่ไม่สามารถ depreciate และ replace ได้ง่าย — ตั้งคำถาม institutional knowledge management ในองค์กรขนาดใหญ่ที่ต้องพึ่งพา star researcher
+**อาจารย์ (มหาวิทยาลัย):** Qualcomm เข้า data center market ด้วย Meta เป็น anchor customer บอกว่า AI hardware market กำลัง fragment — Nvidia ไม่ได้ monopolize อีกต่อไป ซึ่งเป็นบทเรียนสำหรับ students เรื่อง platform competition ว่า network effect ของ CUDA ecosystem มีขีดจำกัดเมื่อ customer ใหญ่พอที่จะ bet ทางอื่น
 
-**ผู้เชี่ยวชาญด้าน AI:** John Jumper มา Anthropic พร้อม domain expertise ในทั้ง protein structure prediction (AlphaFold) และ AI coding — การที่ Anthropic ได้เขาคือการ accelerate capability สองด้านพร้อมกัน ซึ่งจะสะท้อนออกมาใน model release ใน 12-18 เดือนข้างหน้า
+**ผู้เชี่ยวชาญด้าน AI:** 250+ core CPU designed for agentic AI workloads บอกว่า Qualcomm เดิมพันว่า agentic inference (orchestration, tool calls, long context) จะเป็น CPU-bound มากกว่า GPU-bound — thesis ที่น่าสนใจและ testable เมื่อ production hardware ออก ถ้าถูก จะ reshape ทั้ง cloud pricing model
 
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับคนที่ build บน Google AI Studio หรือ Gemini API: consecutive departure ของ Shazeer + Jumper ต้องจับตา Gemini roadmap อย่างใกล้ชิด — ถ้าเริ่มเห็นการ delay ใน model release ให้ถือเป็น signal ที่ต้องเตรียม multi-provider fallback ไว้
+**โปรแกรมเมอร์มืออาชีพ:** Meta เป็น anchor customer หมายความว่า Llama models น่าจะ optimize บน Dragonfly ด้วย — ถ้า build AI applications บน Llama หรือ open-weight models ควรติดตาม benchmark บน Dragonfly C1000 เมื่อ production ปี 2028 เพราะ compute economics อาจเปลี่ยนอย่างมีนัยสำคัญ
 
-## 5. Samsung ผนึก OpenAI นำ ChatGPT Enterprise และ Codex ให้พนักงานทั่วโลก
+## 5. บริษัทเริ่ม Scramble ควบคุมค่าใช้จ่าย AI — พนักงาน Overspend จาก Small Tasks
 
-**อาจารย์ (มหาวิทยาลัย):** Samsung คือตัวอย่างคลาสสิกของ Top-Down AI adoption ที่ C-Suite มอง productivity gain จาก AI เป็น competitive necessity แล้ว ไม่ใช่ optional benefit อีกต่อไป — นักเรียนควรศึกษาว่า enterprise adoption pattern นี้จะ cascade ไปยังองค์กรเอเชียอื่นๆ อย่างไร
+**อาจารย์ (มหาวิทยาลัย):** นี่คือ classic "adoption curve" ที่ตำราเรียนพูดถึง — hype → adoption → reality check → optimization นักเรียนควรสังเกตว่า ROI ของ AI tool ไม่ใช่สิ่งที่ "เห็นชัดเจนเสมอ" และการวัด value ของ technology investment ต้องการ rigorous framework ที่ต่างจากแค่การนับ usage frequency
 
-**ผู้เชี่ยวชาญด้าน AI:** ที่น่าสนใจกว่าคือ Codex ถูก reposition จาก "coding tool" เป็น "workflow automation" สำหรับทุกฝ่ายในองค์กร — ถ้าโมเดลนี้ได้ผล TAM ของ OpenAI จะเปลี่ยนไปอย่างมีนัยสำคัญ เพราะ addressable market ขยายจาก developer ไปสู่ทุกพนักงานในองค์กรขนาดใหญ่
+**ผู้เชี่ยวชาญด้าน AI:** ปัญหาไม่ได้อยู่ที่ AI tool แต่อยู่ที่การขาด use-case prioritization — บริษัทที่ไม่กำหนดว่า "AI เหมาะกับงานประเภทไหน" ก่อน deploy จะเจอ scenario นี้เสมอ technical fix อย่าง rate limiting แก้ symptom ไม่ใช่ root cause ซึ่งคือการขาด AI governance framework ที่ชัดเจน
 
-**โปรแกรมเมอร์มืออาชีพ:** อัตราการใช้งาน Codex ใน South Korea พุ่ง 800% นับตั้งแต่กุมภาพันธ์ 2026 — market signal ที่ชัดว่า enterprise AI coding และ automation tool กำลังเติบโตเร็วมากในเอเชีย Samsung deal จะดึงองค์กรอื่นๆ ในภูมิภาคตามมา เป็นโอกาสสำหรับ startup ที่ build enterprise AI workflow tools
+**โปรแกรมเมอร์มืออาชีพ:** ถ้าคุณดูแล AI tooling ในองค์กร ให้ implement cost attribution dashboard ตอนนี้เลย — วัด cost-per-task-type และ outcome-per-dollar ก่อนที่ CFO จะถามเอง ทีมที่มีข้อมูลนี้อยู่แล้วจะมี credibility ในการขอ budget AI ต่อเนื่อง ทีมที่ไม่มีจะถูก cut
