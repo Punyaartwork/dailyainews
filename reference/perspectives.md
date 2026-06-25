@@ -1,41 +1,41 @@
-# Perspectives — 2026-06-24
+# Perspectives — 2026-06-25
 
-## 1. OpenAI เปิดตัวชิป Jalapeño ร่วมกับ Broadcom
+## 1. Anthropic ฟ้อง Alibaba ต่อรัฐสภาสหรัฐว่า "ดูด" ความสามารถ Claude แบบผิดกฎหมาย
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ OpenAI ออก custom chip ของตัวเองเป็นก้าวสู่ vertical integration เต็มรูปแบบ — เหมือนที่ Apple ทำกับ M-chip ทำให้ต้องตั้งคำถามในชั้นเรียนว่า "ใครควบคุม AI stack" ในอีก 5 ปีจะเป็น dynamic ที่ต่างไปอย่างสิ้นเชิงจากวันนี้ และนักศึกษาที่เรียน CS หรือ Business ต้องเข้าใจว่า hardware control คือ moat ที่แท้จริง
+**อาจารย์ (มหาวิทยาลัย):** นี่คือ case study ชั้นเยี่ยมของการแข่งขัน AI ข้ามชาติที่ใช้ช่องโหว่เชิงกฎหมาย — distillation attack ไม่ใช่การ copy code แต่เป็นการ "เรียนรู้จาก output" ซึ่งกฎหมาย IP เดิมไม่ครอบคลุม นักศึกษาควรศึกษาควบคู่กับ EU AI Act และ US AI policy เพื่อเข้าใจว่า regulatory landscape กำลังตามทันปัญหานี้อย่างไร
 
-**ผู้เชี่ยวชาญด้าน AI:** Jalapeño เป็น inference-specific chip ซึ่งหมายความว่า OpenAI กำลัง optimize ตรงจุดที่ใช้เงินมากที่สุดในการ serve users จริงๆ — 50% cost reduction ถ้าทำได้จริงจะให้ headroom ลด API price กดคู่แข่ง และ reinvest ใน training ต่อไปพร้อมๆ กัน ต้องติดตาม deployment rollout ว่าตัวเลขนี้ hold ใน production ได้จริงแค่ไหน
+**ผู้เชี่ยวชาญด้าน AI:** ขนาด 28.8 ล้าน exchange ผ่าน 25,000 บัญชีบ่งชี้ถึงการดำเนินงานระดับองค์กรอย่างเป็นระบบ ไม่ใช่แค่ผู้ใช้ทั่วไป — distillation จาก frontier model คือ practical shortcut สำหรับ lab ที่ต้องการ leapfrog ข้าม compute-intensive pre-training โดยใช้ output-based learning แทน เป็นช่องโหว่ที่ทุก provider ต้องปิดพร้อมกัน
 
-**โปรแกรมเมอร์มืออาชีพ:** ข่าวนี้บอกว่า OpenAI API pricing น่าจะลดลงอีกใน 12-18 เดือนเมื่อ Jalapeño deploy จริง — ถ้าคุณออกแบบ AI product ที่ compute cost เป็น constraint ให้เริ่มคำนวณ business model ใหม่โดยสมมติว่า cost จะลด 30-40% ก่อนที่มันจะเกิดขึ้นจริง
+**โปรแกรมเมอร์มืออาชีพ:** เรื่องนี้จะเร่งให้ provider ใหญ่ทุกรายออก detection system ที่แยกแยะ legitimate API usage จาก adversarial distillation — คาดว่าจะเห็น stricter rate limits, behavioral pattern detection, และอาจมี verification tier ใหม่สำหรับ high-volume API user ภายใน Q3-Q4 2026
 
-## 2. Google สูญเสีย AI Researcher ระดับ Top สู่ Anthropic และ OpenAI
+## 2. Wall Street เริ่มจัดให้ "AI Backlash" เป็น Systemic Risk ต่อ Tech Rally
 
-**อาจารย์ (มหาวิทยาลัย):** การสูญเสีย talent ระดับนี้ตั้งคำถามสำคัญในแง่ organizational psychology — ทำไม top researcher ถึงเลือก startup ขนาดเล็กกว่า Google แม้ compensation อาจต่ำกว่า? คำตอบน่าจะอยู่ที่ autonomy, research mission, และ culture ซึ่งเป็นบทเรียนที่องค์กรไทยขนาดใหญ่ควรเรียนรู้ด้วย
+**อาจารย์ (มหาวิทยาลัย):** Political economy ของ technology adoption บอกเราเสมอว่า disruption ขนาดใหญ่พอจะสร้าง counter-movement เสมอ — Virginia data center tax ไม่ใช่แค่ fiscal policy แต่เป็นสัญญาณว่า externalities ของ AI infrastructure (พลังงาน, น้ำ, ที่ดิน) กำลังถูก internalize เข้าสู่ cost structure ซึ่งนักศึกษาควรศึกษาเป็น case study ของ "technology and society"
 
-**ผู้เชี่ยวชาญด้าน AI:** Jonas Adler (AI coding) + Alexander Pritzel (model training) ไป Anthropic พร้อมกับ John Jumper ภายในสัปดาห์เดียว — ถ้า Anthropic ใช้ talent เหล่านี้เต็มที่จะสะท้อนออกมาใน Claude รุ่นถัดไปที่กำลัง develop อยู่ ให้จับตา paper output จาก Anthropic ใน 6-12 เดือนข้างหน้าอย่างใกล้ชิด
+**ผู้เชี่ยวชาญด้าน AI:** Constraint ที่แท้จริงของ AI scaling ในอีก 3-5 ปีอาจไม่ใช่ algorithmic หรือ data แต่คือ physical infrastructure (power grid, cooling) และ social license (การยอมรับจากชุมชนและรัฐบาลท้องถิ่น) — ทำให้ research ด้าน efficiency เช่นที่ Unconventional AI กำลังทำมีคุณค่า strategic สูงมากในบริบทนี้
 
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับคนที่ build บน Gemini API ให้ตรวจสอบ vendor dependency ตอนนี้ — consecutive talent loss อาจทำให้ release cadence ของ Gemini ช้าลง การมี multi-provider architecture (OpenAI + Anthropic fallback) จะช่วย hedge risk นี้ได้
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า power cost และ regulation เพิ่ม inference cost ของ provider, API pricing จะขยับขึ้นตาม — สิ่งที่ developer ควรทำตอนนี้คือ audit AI call efficiency ในโค้ด: batching, caching, model-size selection per task แทนที่จะ default ไปที่ largest model เสมอ
 
-## 3. Tencent ทดสอบ Dayuan AI Agent บน WeCom พัฒนาด้วย DeepSeek V4
+## 3. อดีต AI Chief ของ Databricks เปิดตัวชิป Oscillator-Based ที่อ้างประหยัดพลังงาน 1,000 เท่า
 
-**อาจารย์ (มหาวิทยาลัย):** Dayuan เป็นตัวอย่างที่ดีของ "context-aware AI" ที่เข้าถึงข้อมูลจริงของ user — group chats, email, calendars — แทนที่จะเป็น general knowledge AI ทำให้เกิดคำถามเชิง ethics ว่าเส้นแบ่งระหว่าง "AI ช่วยงาน" กับ "AI ตรวจสอบพนักงาน" อยู่ที่ไหน และใครมีอำนาจตีความเส้นนั้น
+**อาจารย์ (มหาวิทยาลัย):** การ claim performance ที่ extreme (1,000x) เป็นโอกาสสอนนักศึกษาเรื่อง "extraordinary claims require extraordinary evidence" — oscillator-based computing มี theoretical basis ทางฟิสิกส์ แต่ translation จาก chip design ไปสู่ production deployment สำหรับ LLM เป็น engineering challenge ที่ยังไม่มีใครพิสูจน์ได้ในโลกจริง
 
-**ผู้เชี่ยวชาญด้าน AI:** การเลือกใช้ DeepSeek V4 แทน Tencent's own model เป็น pragmatic choice — V4 น่าจะ outperform ใน context-heavy enterprise task และบอกว่า Chinese AI ecosystem กำลัง converge ไปหา model ที่ perform ดีที่สุดแทนที่จะ reinvent ทุกอย่างเอง ซึ่งเป็น maturation signal ที่สำคัญ
+**ผู้เชี่ยวชาญด้าน AI:** ประเด็นคือ oscillator network ทำ inference ต่างจาก GPU ที่รัน matrix multiplication — ถ้าสถาปัตยกรรมนี้ทำได้แม้แต่ 100x efficiency ใน real workload ก็ถือเป็น paradigm shift ที่บีบ AI hardware industry ให้ re-evaluate ทั้งอุตสาหกรรม เรื่องนี้น่าติดตาม independent benchmark ที่ MLSys หรือ NeurIPS
 
-**โปรแกรมเมอร์มืออาชีพ:** WeCom มีผู้ใช้ enterprise หลายสิบล้านคน ถ้า Tencent เปิด API ให้ third-party apps integrate กับ Dayuan นั่นคือ distribution channel ใหม่สำหรับ B2B AI tools ที่ target ตลาดจีนและเอเชีย — worth scouting developer documentation เมื่อ Dayuan launch เต็มรูปแบบ
+**โปรแกรมเมอร์มืออาชีพ:** Un-0 เป็นแค่ image generation — ยังต้องรอดูว่าสถาปัตยกรรมนี้จะทำ autoregressive text generation (ซึ่งเป็น core ของ LLM inference) ได้จริงหรือไม่ แต่ถ้า Naveen Rao ผู้มีประวัติที่ Databricks กำลัง demo ได้จริง ก็ควรเริ่ม watch บริษัทนี้อย่างใกล้ชิด
 
-## 4. Qualcomm เปิดตัว Dragonfly C1000 — Meta เซ็นเป็นลูกค้า Data Center รายแรก
+## 4. AI ไม่ได้ฆ่างาน Engineer — SignalFire Data ชี้วิศวกรรมคือ Function ที่ Resilient ที่สุด
 
-**อาจารย์ (มหาวิทยาลัย):** Qualcomm เข้า data center market ด้วย Meta เป็น anchor customer บอกว่า AI hardware market กำลัง fragment — Nvidia ไม่ได้ monopolize อีกต่อไป ซึ่งเป็นบทเรียนสำหรับ students เรื่อง platform competition ว่า network effect ของ CUDA ecosystem มีขีดจำกัดเมื่อ customer ใหญ่พอที่จะ bet ทางอื่น
+**อาจารย์ (มหาวิทยาลัย):** นี่คือ empirical evidence ที่ขัดกับ media narrative หลัก — ควรใช้สอนนักศึกษาว่าการวิเคราะห์ workforce ต้องแยก "layoff count" กับ "net hiring trend" เพราะเป็น metric คนละตัว SignalFire ใช้ 80 ล้านบริษัทในฐานข้อมูลซึ่ง robust พอที่จะ draw trend ระดับ economy ได้
 
-**ผู้เชี่ยวชาญด้าน AI:** 250+ core CPU designed for agentic AI workloads บอกว่า Qualcomm เดิมพันว่า agentic inference (orchestration, tool calls, long context) จะเป็น CPU-bound มากกว่า GPU-bound — thesis ที่น่าสนใจและ testable เมื่อ production hardware ออก ถ้าถูก จะ reshape ทั้ง cloud pricing model
+**ผู้เชี่ยวชาญด้าน AI:** Induced demand effect ในงานวิศวกรรมสอดคล้องกับ historical pattern ของ automation — automation ที่เพิ่ม productivity มักทำให้ market expand ในขนาดที่ใหญ่กว่า displacement ที่สูญเสียไป คำถามที่น่าสนใจกว่าคือ distribution เปลี่ยนไปอย่างไร: engineer ที่ไม่ adapt กับ AI tools อาจยังตกงาน แม้ตัวเลขรวมจะดีขึ้น
 
-**โปรแกรมเมอร์มืออาชีพ:** Meta เป็น anchor customer หมายความว่า Llama models น่าจะ optimize บน Dragonfly ด้วย — ถ้า build AI applications บน Llama หรือ open-weight models ควรติดตาม benchmark บน Dragonfly C1000 เมื่อ production ปี 2028 เพราะ compute economics อาจเปลี่ยนอย่างมีนัยสำคัญ
+**โปรแกรมเมอร์มืออาชีพ:** ตัวเลข 55% ของ new hire เป็น engineer บอกว่าบริษัทใหญ่กำลัง double down บน technical talent — ถ้าคุณเป็น engineer ที่กำลังตัดสินใจ upskill หรือ career change ข้อมูลนี้บอกว่า "AI-augmented engineer" คือ career path ที่ sustainable มากกว่า "leaving engineering entirely"
 
-## 5. บริษัทเริ่ม Scramble ควบคุมค่าใช้จ่าย AI — พนักงาน Overspend จาก Small Tasks
+## 5. Apple ข้าม M6 Pro/Max สู่ M7 ที่เน้น On-Device AI โดยเฉพาะ
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ classic "adoption curve" ที่ตำราเรียนพูดถึง — hype → adoption → reality check → optimization นักเรียนควรสังเกตว่า ROI ของ AI tool ไม่ใช่สิ่งที่ "เห็นชัดเจนเสมอ" และการวัด value ของ technology investment ต้องการ rigorous framework ที่ต่างจากแค่การนับ usage frequency
+**อาจารย์ (มหาวิทยาลัย):** Apple's M7 strategy ตั้งคำถามสำคัญเรื่อง "AI sovereignty" ในระดับผู้ใช้ — on-device AI ไม่มี latency จาก network, ไม่ส่งข้อมูลออกไปยัง cloud, และไม่ขึ้นอยู่กับ subscription ซึ่งเป็น design philosophy ที่แตกต่างจาก cloud-first AI อย่างสิ้นเชิง และมีนัยทางนโยบายความเป็นส่วนตัวที่ควรศึกษา
 
-**ผู้เชี่ยวชาญด้าน AI:** ปัญหาไม่ได้อยู่ที่ AI tool แต่อยู่ที่การขาด use-case prioritization — บริษัทที่ไม่กำหนดว่า "AI เหมาะกับงานประเภทไหน" ก่อน deploy จะเจอ scenario นี้เสมอ technical fix อย่าง rate limiting แก้ symptom ไม่ใช่ root cause ซึ่งคือการขาด AI governance framework ที่ชัดเจน
+**ผู้เชี่ยวชาญด้าน AI:** Apple มีข้อได้เปรียบ unique คือควบคุม silicon, OS, และ app ecosystem พร้อมกัน ทำให้ optimize ทั้ง stack เพื่อ on-device inference ได้แบบที่ Android OEM ทำได้ยากกว่ามาก M7 จึงไม่ใช่แค่ chip ที่เร็วขึ้น แต่คือ bet ว่า "local model" จะ displace "cloud call" สำหรับ use case ที่สำคัญที่สุดใน Apple ecosystem
 
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าคุณดูแล AI tooling ในองค์กร ให้ implement cost attribution dashboard ตอนนี้เลย — วัด cost-per-task-type และ outcome-per-dollar ก่อนที่ CFO จะถามเอง ทีมที่มีข้อมูลนี้อยู่แล้วจะมี credibility ในการขอ budget AI ต่อเนื่อง ทีมที่ไม่มีจะถูก cut
+**โปรแกรมเมอร์มืออาชีพ:** Core ML + Apple Neural Engine คือ stack ที่ developer ควรเรียนรู้ตอนนี้ถ้าคิดจะ ship AI feature บน Apple ecosystem — M7 จะสร้าง headroom ที่เพียงพอสำหรับ model 7B parameter หรือใหญ่กว่าให้รัน on-device ด้วย latency ที่ acceptable สำหรับ interactive use case
