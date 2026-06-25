@@ -1,59 +1,65 @@
-# Sources — 2026-06-24
+# Sources — 2026-06-25
 
-Generated: 2026-06-24 (Asia/Bangkok)
+Generated: 2026-06-25 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-23-brief.md (6 URLs loaded)
+Dedup against: articles/2026-06-24-brief.md (6 URLs loaded)
 
-1. **OpenAI เปิดตัวชิป Jalapeño ร่วมกับ Broadcom**
-   - Publisher: TechCrunch / Bloomberg
-   - URL: https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/
-   - Published: 24 June 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/24/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new hardware announcement, not in 2026-06-23 brief)
-   - Verification: Tier 2 — WebSearch snippet (TechCrunch + Bloomberg trusted domains, confirmed June 24; cross-source consistency on chip name Jalapeño and 50% cost savings)
-   - Summary: OpenAI unveiled Jalapeño, its first custom inference chip built with Broadcom, showing ~50% cost savings vs standard AI GPUs. Designed specifically for inference workloads in OpenAI's production systems.
-
-2. **Google สูญเสีย AI Researcher ระดับ Top สู่ Anthropic และ OpenAI**
+1. **Anthropic Accuses Alibaba of 'Illicitly' Accessing AI Models**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic
-   - Published: 24 June 2026
+   - URL: https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models
+   - Published: June 24, 2026
    - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-24
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (today's article covers Jonas Adler & Alexander Pritzel departures — new URL, new individuals, different from 2026-06-23 brief's stock selloff coverage)
-   - Verification: Tier 2 — WebSearch snippet (Bloomberg trusted domain, confirmed June 24; multiple cross-source corroboration including pymnts.com, fortune.com, qz.com)
-   - Summary: Jonas Adler and Alexander Pritzel, key Gemini contributors, are leaving Google for Anthropic. Combined with Nobel laureate John Jumper and Noam Shazeer's departures this week, Google has lost 4+ top AI researchers in days, rattling investors.
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different story/path — yesterday's Bloomberg articles covered OpenAI chip, Google researchers, Tencent, Qualcomm)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Anthropic accused Alibaba of orchestrating a massive distillation attack on Claude, using 28.8 million exchanges through nearly 25,000 fraudulent accounts between April and June 2026 to extract software engineering and agentic reasoning capabilities — the largest known distillation attack on the company.
 
-3. **Tencent ทดสอบ Dayuan AI Agent บน WeCom พัฒนาด้วย DeepSeek V4**
+2. **Wall Street Sees AI Backlash as Rising Risk to Tech-Fueled Rally**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-24/tencent-tests-deepseek-powered-ai-agent-for-wechat-corporate-app
-   - Published: 24 June 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-24
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (Tencent/Dayuan story not in June 23 brief)
-   - Verification: Tier 2 — WebSearch snippet (Bloomberg trusted domain, confirmed June 24; cross-source confirmation from cryptobriefing.com and tradingview.com on same facts)
-   - Summary: Tencent is rolling out Dayuan, a DeepSeek V4-powered AI agent for WeCom, enabling enterprise users to analyze group chats, emails, and calendars to automate daily briefings and reports. Tencent shares jumped 5-6%.
+   - URL: https://www.bloomberg.com/news/articles/2026-06-25/wall-street-sees-ai-backlash-as-rising-risk-to-tech-fueled-rally
+   - Published: June 25, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-25
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host matches but path and story entirely different)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Market strategists are flagging public anger over AI — rising electricity bills, local-government pushback on data centers, and worker displacement fears — as a systemic risk to the tech rally, with Virginia already passing a data center electricity tax and BCA Research warning of a potential AI rally collapse by 2028.
 
-4. **Qualcomm เปิดตัว Dragonfly C1000 — Meta เซ็นเป็นลูกค้า Data Center รายแรก**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-24/qualcomm-announces-new-ai-chips-adds-meta-as-customer
-   - Published: 24 June 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-24
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no Qualcomm coverage in June 23 brief)
-   - Verification: Tier 2 — WebSearch snippet (Bloomberg trusted domain + BusinessWire press release + CNBC all confirmed June 24; strong cross-source consistency on Dragonfly C1000, 250+ cores, Meta as customer)
-   - Summary: Qualcomm unveiled the Dragonfly C1000 (250+ core CPU for agentic AI data centers) and signed Meta as its first major data center customer. Qualcomm raised its 2029 non-handset revenue forecast from $22B to $40B.
-
-5. **บริษัทเริ่ม Scramble ควบคุมค่าใช้จ่าย AI — พนักงาน Overspend จาก Small Tasks**
+3. **Databricks' Former AI Chief Thinks He Can Cut AI's Power Bill by 1,000x**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/
-   - Published: 24 June 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/24/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new trend piece on AI cost management, not in June 23 brief)
-   - Verification: Tier 2 — WebSearch snippet (TechCrunch trusted domain, confirmed June 24)
-   - Summary: Companies that promoted AI tool usage via internal leaderboards are now scrambling to control costs after employees used AI for low-ROI tasks. Firms are rolling out new policies to throttle AI usage and find meaningful ROI metrics.
+   - URL: https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/
+   - Published: June 25, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/25
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path/story entirely)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Naveen Rao, former head of AI at Databricks, unveiled Un-0 — the first model from Unconventional AI — an image-generation system running on an oscillator-based chip architecture that Rao claims will reduce AI inference power consumption by 1,000x vs conventional GPUs. The company has raised $475M at a $4.5B valuation.
+
+4. **AI Was Supposed to Kill Engineering Jobs, But New Data Suggests They're the Most Resilient**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/
+   - Published: June 24, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/06/24
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different story from yesterday's TechCrunch AI budget article)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: SignalFire's analysis of 80M+ employee career paths shows engineering declined just 11% vs a 25% drop in overall tech hiring; engineers now comprise 55% of new hires at major tech companies (up from 46% in 2019), counter to predictions that AI coding tools would eliminate these roles.
+
+5. **Apple to Skip High-End M6 Mac Chips in Favor of AI-Focused M7 Line**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead
+   - Published: June 25, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-25
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host matches but path and story entirely different)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Apple will skip the M6 Pro and M6 Max chips entirely in an unprecedented move, jumping directly to the M7 line designed around major advancements in on-device AI processing. First M7 chips are planned for 2027 Macs; a base M6 will still ship for entry-level machines this year.
 
 ## Dropped
-- https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/ — Filter A (>24h): URL slug /2026/06/22/ is 2 days old
-- https://www.blognone.com/node/150952 — Filter A: Date ambiguous; no explicit June 24 dateline in search snippets
-- https://www.blognone.com/node/150964 — Filter A (>24h): Google/A24 coverage, appears June 22-23 based on earlier search results
-- https://asanify.com/blog/news/ai-job-cut-disclosures-june-24-2026/ — DROP: Domain not on trusted-sources.md allow-list
+- https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/ — Filter A (>24h): URL slug 2026/06/23 is 2 days old
+- https://techcrunch.com/2026/06/23/mark-zuckerberg-wants-meta-to-launch-its-own-prediction-market/ — Filter A (>24h): URL slug 2026/06/23 is 2 days old
+- https://www.bloomberg.com/news/articles/2026-06-23/meta-building-prediction-market-app-that-wouldn-t-wager-money — Filter A (>24h): URL slug 2026-06-23 is 2 days old
+- https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic — Filter B (dedup): appeared in articles/2026-06-24-brief.md
+- https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/ — Filter B (dedup): appeared in articles/2026-06-24-brief.md
+- https://www.bloomberg.com/news/articles/2026-06-24/qualcomm-announces-new-ai-chips-adds-meta-as-customer — Filter B (dedup): appeared in articles/2026-06-24-brief.md
+- https://9to5google.com/2026/06/23/google-alphabet-dow-jones-index/ — Filter A (>24h): announcement was June 23; also not on trusted-sources allow-list
+- https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model — Filter A (>24h): URL slug 2026/06/22 is 3 days old; also not on trusted-sources allow-list
+- https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/ — Filter A (>24h): ban started June 12-13, 12+ days old
 
-> Note: 5 items passed both filters this run. Of 9 candidates evaluated, 2 failed Filter A (>24h), 1 had ambiguous date (dropped), 1 was not on trusted-sources allow-list. Mix: 5 international sources, 0 Thai-language (no confirmed June 24 Thai-source stories with verifiable timestamp evidence).
+> Note: 5 items passed both filters this run. Of 14 candidates examined, 6 failed Filter A (>24h), 3 failed Filter B (dedup against yesterday), 1 failed both A+B, 1 was not on trusted-sources allow-list.
+> Mix: 5 international sources, 0 Thai-language (no confirmed June 25 Thai-source articles with verifiable 24h-fresh timestamps found via WebSearch).
