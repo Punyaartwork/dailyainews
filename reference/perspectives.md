@@ -1,31 +1,31 @@
-# Perspectives — 2026-06-26
+# Perspectives — 2026-06-27
 
-## 1. OpenAI limits GPT-5.6 rollout after government request
+## 1. Asian AI Startups Launch Mythos-like Models as Anthropic's Export Ban Drags On
 
-**อาจารย์ (มหาวิทยาลัย):** การที่รัฐบาลสหรัฐอนุมัติ access "ทีละลูกค้า" สำหรับโมเดล AI ถือเป็นกลไก governance แบบใหม่ที่ไม่มีในประวัติศาสตร์ export control มาก่อน — นักศึกษาควรตั้งคำถามว่าใครคือผู้มีอำนาจตัดสินใจ และ criteria อะไรที่ใช้ approve เพราะนี่คือจุดเริ่มต้นของ AI access policy ที่จะ shape ทศวรรษต่อไป
-**ผู้เชี่ยวชาญด้าน AI:** GPT-5.6 ออกมาเป็น 3 variants (Sol, Terra, Luna) ซึ่งบ่งชี้ว่า OpenAI กำลัง mature ในการ segment market จริงจัง — แต่ precedent ที่รัฐบาลกลายเป็น gatekeeper ของ model release เป็นสัญญาณที่ AI research community ต้องจับตาอย่างใกล้ชิดในแง่ implications ต่อ open science
-**โปรแกรมเมอร์มืออาชีพ:** developer ที่วางแผนใช้ GPT-5.6 ใน product ควร buffer timeline ไว้ล่วงหน้า — "couple of weeks" ในปากของ CEO ที่ต้องรอ government approval มักแปลว่านานกว่านั้น และควรมี fallback model พร้อมเสมอ
+**อาจารย์ (มหาวิทยาลัย):** การที่ 360 และ Sakana AI เปิดตัวโมเดลแข่งขันในช่วงเวลาเดียวกับที่ Anthropic ถูกแบน เป็นตัวอย่าง classic ของ "technology vacuum effect" — เมื่อ supply ด้านหนึ่งถูกจำกัด demand จะ route ไปหา alternative แทนทันที นักศึกษาควรศึกษากรณีนี้ควบคู่กับ history ของ PGP encryption ban และ DVD regional coding
+**ผู้เชี่ยวชาญด้าน AI:** Sakana AI's Fugu claim ที่ว่า "stands shoulder-to-shoulder with Fable 5 and Mythos Preview" จะต้องพิสูจน์ด้วย independent benchmark จริงๆ — marketing copy ≠ capability parity โดยเฉพาะในด้าน safety และ alignment ที่ Anthropic ลงทุนหนักมาก สิ่งที่น่าสนใจกว่าคือ architecture ที่ทีม Sakana ใช้เพื่อ replicate ผลลัพธ์นั้น
+**โปรแกรมเมอร์มืออาชีพ:** Fugu และ Tulongfeng คือ practical reminder ว่า provider diversification ไม่ใช่แค่ best practice แต่เป็น business continuity requirement — ถ้า stack ผูกกับ Anthropic อย่างเดียว วันนี้เห็นชัดแล้วว่า access สามารถถูกตัดได้ทุกเมื่อ สร้าง abstraction layer เป็น priority ไม่ใช่ nice-to-have
 
-## 2. Chinese Hedge Funds Warn the AI 'Super Bubble' Is Ready to Burst
+## 2. Anthropic's Mythos 5 AI Model Cleared by US for Wider Use
 
-**อาจารย์ (มหาวิทยาลัย):** คำเตือนของ Wealspring Asset ที่เปรียบตัวเองกับการ call top ในปี 2007 คือ case study เรื่อง confirmation bias ใน market prediction — ทุกคนที่ call bubble ถูกครั้งเดียวจะถูกจำไปตลอดกาล แต่ประวัติ hit rate รวมก็ต้องตรวจสอบด้วยเสมอก่อนเชื่อ
-**ผู้เชี่ยวชาญด้าน AI:** Shanghai Banxia ระบุว่า "trigger" คือแรงกดดันบน revenue growth ของ Anthropic ซึ่ง identify ได้ถูกต้อง — AI company valuation ผูกกับ expectation ของ exponential revenue ที่ต้องพิสูจน์ด้วยตัวเลขจริงใน earnings call ไม่ใช่ narrative เท่านั้น
-**โปรแกรมเมอร์มืออาชีพ:** bubble แตกหรือไม่ไม่ใช่คำถามเร่งด่วนสำหรับ developer — แต่ถ้า funding environment เปลี่ยน API pricing จะเปลี่ยนตาม ออกแบบ system ให้ switch provider ได้ง่ายและมี cost monitoring ตั้งแต่ตอนนี้
+**อาจารย์ (มหาวิทยาลัย):** กระบวนการ "bilateral negotiation" รายวันระหว่างรัฐบาลและ Anthropic เพื่อยก ban บางส่วนคือ governance model รูปแบบใหม่ที่ไม่มี precedent ชัดเจน — เป็น test case ของ "AI governance through negotiation" ที่นักศึกษา policy ควรศึกษาเทียบกับ pharmaceutical approval processes
+**ผู้เชี่ยวชาญด้าน AI:** ข้อเท็จจริงที่ Fable 5 ยังถูก restrict ขณะที่ Mythos 5 ได้รับ clearance บ่งบอกว่า government กำลัง draw capability threshold บางอย่าง — likely เกี่ยวกับ adversarial robustness หรือ jailbreak resistance ที่รัฐบาลถือว่า "safe enough" สำหรับ 100+ institutions
+**โปรแกรมเมอร์มืออาชีพ:** 100+ US institutions ที่ได้ Mythos 5 คือสัญญาณว่า access กำลังค่อยๆ กลับมา แต่สำหรับ developer นอก US ยังต้องรอ — plan สองทาง: (1) route ผ่าน US-based institution partner (2) ทดสอบ alternatives เช่น Sakana Fugu หรือ Qwen ที่เพิ่งออกในวันเดียวกัน
 
-## 3. AI Investment Surge May Fuel Inflation, IMF Chief Economist Says
+## 3. Apple Vision Pro Exec Paul Meade Is Reportedly Leaving for OpenAI
 
-**อาจารย์ (มหาวิทยาลัย):** Gourinchas กำลังชี้ให้เห็น demand-pull inflation ผ่าน wealth effect ที่มาจาก AI stock valuation — เป็น transmission mechanism ใหม่ที่ไม่ค่อยถูก model ใน macroeconomic textbook ดั้งเดิม และควรนำไปสอนในหลักสูตรเศรษฐศาสตร์ยุคใหม่ควบคู่กับ AI disruption narrative
-**ผู้เชี่ยวชาญด้าน AI:** สิ่งที่ IMF กำลังอธิบายคล้ายกับ Jevons Paradox ในระดับ macro — AI ที่ efficient ทำให้คนร่ำรวยขึ้น แต่ความร่ำรวยนั้น drive demand ที่สูงขึ้นซึ่งสามารถ net-inflate ทั้ง system ได้ แม้ต้นทุนต่อหน่วยของ AI จะลดลงก็ตาม
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า inflation สูงขึ้นจาก wealth effect central bank จะขึ้นดอกเบี้ย กระทบ cost of capital ของ startup และ runway — วางแผน financial model ให้รองรับ higher interest rate environment ที่อาจยืดเยื้อถึงปี 2027
+**อาจารย์ (มหาวิทยาลัย):** การที่ OpenAI ดึงตัวผู้บริหารระดับ VP ที่ดูแล hardware ที่ complex ที่สุดของ Apple บ่งชี้ว่า OpenAI กำลัง seriously ลงทุนในทิศทาง embodied AI และ hardware-native products — เป็น strategic shift ที่ควรถูก analyze ในบริบทของ "AI wars ยุค physical computing" หลัง LLM
+**ผู้เชี่ยวชาญด้าน AI:** Meade นำประสบการณ์ด้าน mixed reality และ smart glasses ที่ rare มากเข้า OpenAI — นัยสำคัญคือ OpenAI กำลังเดิมพันว่า next interaction paradigm หลัง smartphone จะผ่าน spatial/wearable computing ไม่ใช่แค่ browser และ mobile app
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer บน Vision Pro ecosystem — track ทิศทาง OpenAI hardware อย่างใกล้ชิด เพราะถ้า OpenAI launch wearable AI device มักจะมี developer early access program ที่ควรเข้าไปตั้งแต่ต้น
 
-## 4. White House's Ban on Anthropic AI Access May Boost China's Open Source Models
+## 4. Apple, Microsoft Raise iPad, Xbox Prices as AI Demand Drives Costs Higher
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ textbook case ของ unintended consequences ใน digital export control — นโยบายที่ออกมาเพื่อ "ปกป้อง" technology กลับทำให้ alternative ที่ไม่มี restriction น่าสนใจขึ้น เหมือนกับ PGP encryption export ban ในยุค 1990s ที่สุดท้ายก็ไม่ประสบความสำเร็จ
-**ผู้เชี่ยวชาญด้าน AI:** ข้อเท็จจริงที่ว่า Fable 5 capabilities สามารถ "replicate" ได้บน Claude Opus 4.8, Sonnet, และ Kimi 2.7 บ่งชี้ว่า frontier model gap กำลัง narrow เร็วมาก ทำให้ export control มี diminishing returns ทางเทคนิคในระยะเวลาสั้น
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer ใน Southeast Asia: ออกแบบ AI integration ด้วย provider abstraction layer ตั้งแต่ต้น — Kimi, Qwen, Gemini, หรือ open source alternatives คือ practical fallback ถ้า Anthropic ถูก restrict ซ้ำ
+**อาจารย์ (มหาวิทยาลัย):** นี่คือ concrete evidence ของ AI externality ที่ textbook ยังไม่ cover ดีพอ — demand สำหรับ AI chips กำลัง crowd out memory chip supply สำหรับ consumer devices ทำให้ผู้บริโภคทั่วไปที่ไม่ได้ "ใช้ AI" ต้องแบก cost ของ AI boom ผ่าน price increase บน devices ของตัวเอง
+**ผู้เชี่ยวชาญด้าน AI:** Memory chip shortage ที่ Apple/Microsoft ยก blame ให้ AI มีโอกาสเป็น structural issue ไม่ใช่ temporary — DRAM production capacity ต้องใช้เวลา 18-24 เดือนในการขยาย fab ซึ่งหมายความว่า bottleneck จะกระทบ cost structure ของทั้ง industry ในระยะกลาง
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า hardware refresh cycle ของ users ยาวขึ้น ต้องพิจารณา support older devices นานขึ้นและไม่ assume higher RAM/compute บน client devices สำหรับ on-device AI features — เป็น constraint ที่กระทบการออกแบบ AI features บน mobile โดยตรง
 
-## 5. OpenAI Pitches AI Chatbot Ads at Cannes Lions Festival
+## 5. Wall Street Bets Billions on Power Firms as AI Boom Drives IPO Rush
 
-**อาจารย์ (มหาวิทยาลัย):** ChatGPT กำลังเดิน trajectory เดียวกับ Google Search ในยุค 2000s — เริ่มจาก pure utility แล้วค่อยๆ incorporate ad model เพื่อ sustain growth คำถามสำคัญสำหรับนักศึกษาคือ ad-funded AI จะ compromise ความเป็นกลางของ response ได้อย่างไร และใครจะเป็นผู้ audit
-**ผู้เชี่ยวชาญด้าน AI:** OpenAI ยืนยันว่า "ads ไม่มีผลต่อคำตอบ" — แต่นี่คือ claim ที่ต้องการ independent audit อย่างเร่งด่วน เพราะ incentive structure ของ ad-funded LLM มี inherent tension กับ unbiased information retrieval ที่อาจเห็นได้ยากจากภายนอก
-**โปรแกรมเมอร์มืออาชีพ:** ตอนนี้ 17% ของ daily free users เห็น ads — ถ้า product ของคุณ embed ChatGPT สำหรับ free tier ผู้ใช้ ทดสอบว่า ad context injection กระทบ response quality หรือ consistency อย่างไร และพิจารณา paid API ถ้า predictability สำคัญกับ UX
+**อาจารย์ (มหาวิทยาลัย):** IPO rush ของ power infrastructure companies คือ capital market ที่กำลัง price in ว่า AI data center demand จะ sustained และ growing — เป็น market signal ที่ควรถูกวิเคราะห์ควบคู่กับ demand forecasts ของ hyperscalers เพื่อ triangulate ว่า investor optimism นี้ grounded in fundamentals หรือ sentiment
+**ผู้เชี่ยวชาญด้าน AI:** $11.6 billion raised by power infrastructure IPOs คือ indirect measure ของ projected AI compute growth — นักลงทุน serious ไม่ capitalize power companies ในระดับนี้หากไม่เห็น signed contracts หรือ LOIs จาก hyperscalers ล่วงหน้า มันคือ leading indicator ของ AI infrastructure expansion จริงๆ
+**โปรแกรมเมอร์มืออาชีพ:** energy cost คือ major driver ของ API pricing ระยะยาว — ถ้า power capacity scale ได้สำเร็จจะช่วย stabilize inference cost ให้ predictable มากขึ้น แต่ถ้า IPO เหล่านี้ล้มเหลวหรือ capacity expansion ล่าช้า API pricing จะ spike และกระทบ budget planning ของ developer ทุกคน
