@@ -1,58 +1,59 @@
-# Sources — 2026-06-26
+# Sources — 2026-06-27
 
-Generated: 2026-06-26 (Asia/Bangkok)
+Generated: 2026-06-27 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-25-brief.md (5 URLs loaded)
+Dedup against: articles/2026-06-26-brief.md (5 URLs loaded)
 
-1. **OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn't be the norm**
+1. **Asian AI Startups Launch Mythos-like Models as Anthropic's Export Ban Drags On**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/
-   - Published: June 26, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/26/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new article published today, different from yesterday's TechCrunch items)
+   - URL: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/
+   - Published: June 27, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/27/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /2026/06/27/ differs from yesterday's TC path /2026/06/26/)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI is limiting the GPT-5.6 lineup (Sol/Terra/Luna) to "small group of trusted partners" at the Trump administration's request; CEO Sam Altman told staff the government would approve access "customer by customer" during a preview period, with hopes for broader release "couple of weeks later."
+   - Summary: Chinese firm 360 unveiled Tulongfeng and Sakana AI launched Fugu — both positioned as competitive alternatives to Anthropic's Fable 5 and Mythos, emerging in response to the US export ban that blocks non-Americans from accessing Anthropic models.
 
-2. **Chinese Hedge Funds Warn the AI 'Super Bubble' Is Ready to Burst**
+2. **Anthropic's Mythos 5 AI Model Cleared by US for Wider Use**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-26/chinese-hedge-funds-warn-the-ai-super-bubble-is-ready-to-burst
-   - Published: June 26, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-26/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new article today, distinct topic from yesterday's Bloomberg items)
+   - URL: https://www.bloomberg.com/news/articles/2026-06-26/us-allows-trusted-partners-to-use-anthropic-s-mythos-5-ai-model
+   - Published: June 26, 2026 (yesterday — within rolling 24h window)
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-26 (yesterday = ≤24h)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's brief cited /news/newsletters/2026-06-26/white-house-s-ban-on-anthropic-ai-access-..., different path)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Wealspring Asset (Yang Dong, known for calling the 2007 top) labeled AI stocks a "super bubble" with collapse "not far away"; Shanghai Banxia Investment said the "trigger for the AI bubble to burst has already appeared," citing pressure on Anthropic's breakneck revenue growth.
+   - Summary: US approved Anthropic to restore Mythos 5 access for 100+ US institutions after Commerce Secretary Howard Lutnick cited "significant progress" in talks; Fable 5 restrictions remain unchanged.
 
-3. **AI Investment Surge May Fuel Inflation, IMF Chief Economist Says**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-26/beyond-chips-imf-sees-ai-wealth-boom-adding-to-inflation-risks
-   - Published: June 26, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-26/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new article today)
+3. **Apple Vision Pro Exec Paul Meade Is Reportedly Leaving for OpenAI**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/
+   - Published: June 27, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/27/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different host and path)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: IMF chief economist Pierre-Olivier Gourinchas (Washington interview, June 26) warned AI may fuel inflation not just through chip supply costs but through a wealth effect — AI boom valuations in US and South Korean stocks make consumers wealthier and more willing to spend.
+   - Summary: Apple VP Paul Meade, who led development of Vision Pro and AI smart glasses, is leaving to join OpenAI's hardware team — a significant talent acquisition for OpenAI in spatial/wearable computing.
 
-4. **White House's Ban on Anthropic AI Access May Boost China's Open Source Models**
+4. **Apple, Microsoft Raise iPad, Xbox Prices as AI Demand Drives Costs Higher**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/newsletters/2026-06-26/white-house-s-ban-on-anthropic-ai-access-may-boost-china-s-open-source-models
-   - Published: June 26, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-26/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's brief covered Anthropic/Alibaba distillation attack at a different URL; this is a separate Bloomberg newsletter analysis of the foreign-access ban and China open source implications)
+   - URL: https://www.bloomberg.com/news/articles/2026-06-27/soaring-ipad-xbox-prices-reveal-pain-of-memory-chip-mess
+   - Published: June 27, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-27
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: US government ordered Anthropic to suspend Fable 5 and Mythos 5 for all foreign nationals; critics note capabilities can be replicated on Claude Opus 4.8, Sonnet, and Kimi 2.7, making the ban a potential tailwind for China's open source AI ecosystem.
+   - Summary: Apple and Microsoft raised prices on iPads, Macs, and Xbox consoles, citing an unprecedented memory chip shortage driven by surging AI infrastructure demand.
 
-5. **OpenAI Pitches AI Chatbot Ads at Cannes Lions Festival**
+5. **Wall Street Bets Billions on Power Firms as AI Boom Drives IPO Rush**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/newsletters/2026-06-26/openai-pitches-ai-chatbot-ads-at-cannes-lions-festival
-   - Published: June 26, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-26/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new topic, new article today)
+   - URL: https://www.bloomberg.com/news/articles/2026-06-27/wall-street-bets-billions-on-power-firms-as-ai-boom-drives-ipo-rush
+   - Published: June 27, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-27
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI is presenting ChatGPT advertising capabilities to brands and agencies at Cannes Lions; since February 2026, ads serve Free/Go users, and by May 2026 an average of 17% of daily users were being served ads. Paid tiers (Plus, Pro, Business, Enterprise, Education) remain ad-free.
+   - Summary: At least 10 power infrastructure and clean technology companies IPO'd in 2026, raising $11.6 billion — the most on record for the sector — as AI data center demand drives unprecedented investment in energy infrastructure.
 
 ## Dropped
-- xAI Grok 4 (blognone.com/node/147347, beartai.com/tech/it-news/1476616/) — Filter A: URL slugs contain no date; search snippet date not explicit (search AI inferred "June 26" from context, not from timestamp in snippet) — ambiguous → DROP per policy
-- https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/ — Filter A: URL slug /2026/06/25/ = yesterday, within 24h ✅; superseded by more complete June 26 TechCrunch article (story #1) covering the same event with full details
-- Various older stories and non-trusted-source domains examined during research
+- https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures... — Filter A (>24h): article date June 23 (4 days old); also not on trusted-sources.md
+- https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures — Filter A (>24h): article date June 23; also not on trusted-sources.md
+- https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/ — Filter A (>24h): URL slug /2026/06/25/ is 2 days old
+- Thai-language sources (blognone.com, beartai.com, thairath.co.th) — no fresh June 27 articles with verifiable timestamps found in search results for these trusted-source domains
 
-> Note: 5 items passed both filters this run. 0 Thai-language stories passed — no Blognone/Beartai articles had explicit June 26 date evidence verifiable from URL slug or search snippet timestamp.
+> Note: 5 items passed both filters this run. Of ~10 candidates evaluated, ~3 failed Filter A (>24h), ~0 failed Filter B exclusively, ~2 failed trusted-source domain check. No Thai-language sources passed.
