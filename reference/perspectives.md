@@ -1,31 +1,31 @@
-# Perspectives — 2026-06-27
+# Perspectives — 2026-06-28
 
-## 1. Asian AI Startups Launch Mythos-like Models as Anthropic's Export Ban Drags On
+## 1. ออสเตรียล็อบบี้ EU ให้ "Host" Anthropic หนีบ US Export Ban
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ 360 และ Sakana AI เปิดตัวโมเดลแข่งขันในช่วงเวลาเดียวกับที่ Anthropic ถูกแบน เป็นตัวอย่าง classic ของ "technology vacuum effect" — เมื่อ supply ด้านหนึ่งถูกจำกัด demand จะ route ไปหา alternative แทนทันที นักศึกษาควรศึกษากรณีนี้ควบคู่กับ history ของ PGP encryption ban และ DVD regional coding
-**ผู้เชี่ยวชาญด้าน AI:** Sakana AI's Fugu claim ที่ว่า "stands shoulder-to-shoulder with Fable 5 and Mythos Preview" จะต้องพิสูจน์ด้วย independent benchmark จริงๆ — marketing copy ≠ capability parity โดยเฉพาะในด้าน safety และ alignment ที่ Anthropic ลงทุนหนักมาก สิ่งที่น่าสนใจกว่าคือ architecture ที่ทีม Sakana ใช้เพื่อ replicate ผลลัพธ์นั้น
-**โปรแกรมเมอร์มืออาชีพ:** Fugu และ Tulongfeng คือ practical reminder ว่า provider diversification ไม่ใช่แค่ best practice แต่เป็น business continuity requirement — ถ้า stack ผูกกับ Anthropic อย่างเดียว วันนี้เห็นชัดแล้วว่า access สามารถถูกตัดได้ทุกเมื่อ สร้าง abstraction layer เป็น priority ไม่ใช่ nice-to-have
+**อาจารย์ (มหาวิทยาลัย):** ประกาศของออสเตรียเป็น textbook case ของ "digital sovereignty" — EU กำลังเรียนรู้ว่า dependency บน AI ที่พัฒนาและควบคุมโดย single country คือช่องโหว่ทางกลยุทธ์ที่หลีกเลี่ยงไม่ได้ นักศึกษาควรศึกษาเปรียบเทียบกับ GDPR และ EU AI Act ว่า hosting infrastructure ต่างจาก regulatory control อย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** "Host" Anthropic ใน EU ฟังดูดีแต่ทางเทคนิคซับซ้อน — server location ≠ legal jurisdiction ≠ model control Anthropic ยังอยู่ภายใต้ US export control ตราบเท่าที่เป็น US entity แม้ว่า compute จะอยู่ใน Vienna ทางออกที่จริงกว่าคือการ spin out EU legal entity แบบที่บางบริษัทใช้เพื่อ comply กับ China regulations
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Anthropic EU entity เกิดขึ้นจริง developer ภายนอก US จะได้ API endpoints ที่ไม่อยู่ภายใต้ US export restrictions — นั่นคือ potential unblock สำหรับ workloads ที่ถูกตัดไปตั้งแต่ June 2026 ควรเตรียม monitoring สำหรับ announcement นี้และวาง migration path ไว้ล่วงหน้า
 
-## 2. Anthropic's Mythos 5 AI Model Cleared by US for Wider Use
+## 2. Google จำกัด Meta ใช้ Gemini เพราะ Compute ไม่พอ
 
-**อาจารย์ (มหาวิทยาลัย):** กระบวนการ "bilateral negotiation" รายวันระหว่างรัฐบาลและ Anthropic เพื่อยก ban บางส่วนคือ governance model รูปแบบใหม่ที่ไม่มี precedent ชัดเจน — เป็น test case ของ "AI governance through negotiation" ที่นักศึกษา policy ควรศึกษาเทียบกับ pharmaceutical approval processes
-**ผู้เชี่ยวชาญด้าน AI:** ข้อเท็จจริงที่ Fable 5 ยังถูก restrict ขณะที่ Mythos 5 ได้รับ clearance บ่งบอกว่า government กำลัง draw capability threshold บางอย่าง — likely เกี่ยวกับ adversarial robustness หรือ jailbreak resistance ที่รัฐบาลถือว่า "safe enough" สำหรับ 100+ institutions
-**โปรแกรมเมอร์มืออาชีพ:** 100+ US institutions ที่ได้ Mythos 5 คือสัญญาณว่า access กำลังค่อยๆ กลับมา แต่สำหรับ developer นอก US ยังต้องรอ — plan สองทาง: (1) route ผ่าน US-based institution partner (2) ทดสอบ alternatives เช่น Sakana Fugu หรือ Qwen ที่เพิ่งออกในวันเดียวกัน
+**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างจริงของ "compute scarcity" economics — แม้แต่บริษัทขนาด Meta ที่มีทรัพยากรมหาศาลยังถูก cap โดย Google เพราะ TPU/GPU capacity มีจำกัด เหมาะมากสำหรับสอน resource allocation และ priority management ในบริบท AI infrastructure
+**ผู้เชี่ยวชาญด้าน AI:** Google กำลังเผชิญ internal vs. external capacity tension — Gemini training runs, Gemini in Search, Google Cloud enterprise commitments, และ external customers ทั้งหมดดึง compute pool เดียวกัน การที่ Meta ถูก cap บ่งบอกว่า internal demand กำลัง outprioritize external SLAs ซึ่งเป็น warning sign สำหรับ enterprise customers ทุกราย
+**โปรแกรมเมอร์มืออาชีพ:** ออกแบบ fallback logic ตั้งแต่ตอนนี้ — ถ้า primary model ไม่ตอบสนอง ควร degrade ไปใช้ smaller/cheaper model แทน ไม่ใช่ let the request fail Gemini API users ควรอ่าน quota documentation อย่างละเอียดและอย่า assume burst capacity เสมอ
 
-## 3. Apple Vision Pro Exec Paul Meade Is Reportedly Leaving for OpenAI
+## 3. BIS Annual Report เตือน: "AI Bust" คือ Top-Tier Risk ต่อเศรษฐกิจโลก
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ OpenAI ดึงตัวผู้บริหารระดับ VP ที่ดูแล hardware ที่ complex ที่สุดของ Apple บ่งชี้ว่า OpenAI กำลัง seriously ลงทุนในทิศทาง embodied AI และ hardware-native products — เป็น strategic shift ที่ควรถูก analyze ในบริบทของ "AI wars ยุค physical computing" หลัง LLM
-**ผู้เชี่ยวชาญด้าน AI:** Meade นำประสบการณ์ด้าน mixed reality และ smart glasses ที่ rare มากเข้า OpenAI — นัยสำคัญคือ OpenAI กำลังเดิมพันว่า next interaction paradigm หลัง smartphone จะผ่าน spatial/wearable computing ไม่ใช่แค่ browser และ mobile app
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer บน Vision Pro ecosystem — track ทิศทาง OpenAI hardware อย่างใกล้ชิด เพราะถ้า OpenAI launch wearable AI device มักจะมี developer early access program ที่ควรเข้าไปตั้งแต่ต้น
+**อาจารย์ (มหาวิทยาลัย):** BIS Annual Report คือ primary source tier-1 สำหรับ economic policy research — การที่ BIS ระบุ AI bust เป็น "pressure point" ในระดับเดียวกับ inflation และ fiscal stress เป็น signal สำคัญ นักศึกษาเศรษฐศาสตร์ควรอ่านฉบับเต็มและตั้งคำถามว่า AI investment มีลักษณะ bubble ของ dot-com era หรือไม่ และถ้าแตก จะ cascade ออกอย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** BIS ไม่ได้ predict AI crash — แต่ identify transmission mechanism ว่า AI bust จะ amplify ผ่าน off-balance-sheet debt ของ hyperscalers → credit markets → systemic shock ความเสี่ยงไม่ได้อยู่ที่ AI technology ล้มเหลว แต่ที่ financial structure รอบๆ มัน ซึ่ง leverage สูงกว่าที่ balance sheet แสดง
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า VC funding tightens เพราะ AI bust สิ่งที่กระทบ developer ก่อนคือ API pricing เพราะ hyperscalers จะต้อง justify margins มากขึ้น — review AI cost structure ของโปรเจกต์ตอนนี้ หา optimization opportunity ก่อนที่ pricing จะ spike
 
-## 4. Apple, Microsoft Raise iPad, Xbox Prices as AI Demand Drives Costs Higher
+## 4. Firmus + Nvidia ประกาศ Data Center 360 MW ในบาตัม อินโดนีเซีย
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ concrete evidence ของ AI externality ที่ textbook ยังไม่ cover ดีพอ — demand สำหรับ AI chips กำลัง crowd out memory chip supply สำหรับ consumer devices ทำให้ผู้บริโภคทั่วไปที่ไม่ได้ "ใช้ AI" ต้องแบก cost ของ AI boom ผ่าน price increase บน devices ของตัวเอง
-**ผู้เชี่ยวชาญด้าน AI:** Memory chip shortage ที่ Apple/Microsoft ยก blame ให้ AI มีโอกาสเป็น structural issue ไม่ใช่ temporary — DRAM production capacity ต้องใช้เวลา 18-24 เดือนในการขยาย fab ซึ่งหมายความว่า bottleneck จะกระทบ cost structure ของทั้ง industry ในระยะกลาง
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า hardware refresh cycle ของ users ยาวขึ้น ต้องพิจารณา support older devices นานขึ้นและไม่ assume higher RAM/compute บน client devices สำหรับ on-device AI features — เป็น constraint ที่กระทบการออกแบบ AI features บน mobile โดยตรง
+**อาจารย์ (มหาวิทยาลัย):** Batam อยู่ใน Indonesia-Malaysia-Singapore Growth Triangle (IMS-GT) ซึ่งเป็น economic cooperation framework ตั้งแต่ยุค 1990s — การที่ AI data center ขนาดใหญ่เลือก Batam แสดงว่า "proximity to Singapore" กับ "Indonesia cost advantage" คือ combination ที่ตลาดต้องการ เป็น case study ที่ดีของ economic geography ยุค AI
+**ผู้เชี่ยวชาญด้าน AI:** 360 MW Nvidia DSX AI Factory ไม่ใช่ generic data center — DSX คือ Nvidia's integrated AI stack ที่รวม DGX systems, InfiniBand networking, และ NIM software เป็น turnkey AI compute facility การมี facility นี้ใน ASEAN หมายความว่า AI training workloads ไม่จำเป็นต้อง route ผ่าน US/Europe เท่านั้น
+**โปรแกรมเมอร์มืออาชีพ:** Watch for AWS, Google Cloud, Microsoft Azure ที่จะ announce zones ใน Indonesia ตามหลัง — hyperscalers มักตาม power/connectivity infrastructure ไม่ใช่นำก่อน ถ้า application ของคุณ serve ASEAN users ให้ monitor cloud region announcements ในช่วง Q3-Q4 2026 อย่างใกล้ชิด
 
-## 5. Wall Street Bets Billions on Power Firms as AI Boom Drives IPO Rush
+## 5. AI Fever ดัน IPO ฮ่องกง H1 2026 สู่ $44 พันล้านดอลลาร์ สูงสุดในรอบ 5 ปี
 
-**อาจารย์ (มหาวิทยาลัย):** IPO rush ของ power infrastructure companies คือ capital market ที่กำลัง price in ว่า AI data center demand จะ sustained และ growing — เป็น market signal ที่ควรถูกวิเคราะห์ควบคู่กับ demand forecasts ของ hyperscalers เพื่อ triangulate ว่า investor optimism นี้ grounded in fundamentals หรือ sentiment
-**ผู้เชี่ยวชาญด้าน AI:** $11.6 billion raised by power infrastructure IPOs คือ indirect measure ของ projected AI compute growth — นักลงทุน serious ไม่ capitalize power companies ในระดับนี้หากไม่เห็น signed contracts หรือ LOIs จาก hyperscalers ล่วงหน้า มันคือ leading indicator ของ AI infrastructure expansion จริงๆ
-**โปรแกรมเมอร์มืออาชีพ:** energy cost คือ major driver ของ API pricing ระยะยาว — ถ้า power capacity scale ได้สำเร็จจะช่วย stabilize inference cost ให้ predictable มากขึ้น แต่ถ้า IPO เหล่านี้ล้มเหลวหรือ capacity expansion ล่าช้า API pricing จะ spike และกระทบ budget planning ของ developer ทุกคน
+**อาจารย์ (มหาวิทยาลัย):** $44 billion ใน H1 เดียวของ Hong Kong ท้าทาย narrative ว่า AI investment เป็น US-centric — Asian capital markets กำลัง participate อย่างจริงจัง เป็นโอกาสที่ดีที่จะ discuss "AI multipolar world" ว่าแตกต่างจาก semiconductor/software ecosystem ยุคก่อนอย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** สิ่งที่ investor ใน HK buy คือ primarily AI-adjacent infrastructure (power, networking, real estate, finance) ไม่ใช่ frontier model companies โดยตรง เพราะ frontier models ส่วนใหญ่อยู่ใน US/EU ที่ยัง private หรือมี export restrictions นี่คือ "AI premium" ที่ flows ไปใน asset class ที่ไม่ถูก restrict
+**โปรแกรมเมอร์มืออาชีพ:** HK/APAC VC และ PE capital ที่ deploy ในปีนี้จะ look for returns ใน 3-5 ปี — หมายความว่า AI infrastructure bets ที่ทำวันนี้จะ shape โครงสร้างพื้นฐาน AI ใน APAC ในปี 2029-2031 startup ที่ build บน APAC infrastructure กำลัง benefit จาก tailwind นี้
