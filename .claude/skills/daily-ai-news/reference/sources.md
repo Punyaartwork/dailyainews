@@ -1,58 +1,59 @@
-# Sources — 2026-06-29
+# Sources — 2026-06-30
 
-Generated: 2026-06-29 (Asia/Bangkok)
+Generated: 2026-06-30 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-28-brief.md (5 URLs loaded)
+Dedup against: articles/2026-06-29-brief.md (5 URLs loaded)
 
-1. **Gemini's personalized AI image generation is now free for US users**
+1. **Etched เปิดตัวชิป Sohu: $800M ระดมทุน มูลค่า $5B และ $1B ออเดอร์**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/
-   - Published: June 29, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/06/29/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (TechCrunch domain, path entirely new)
+   - URL: https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/
+   - Published: June 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/06/30"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com present in yesterday's brief but this path is entirely new — yesterday's was /geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google opened Gemini's personalized Nano Banana-powered image generation to all eligible US free users, previously limited to paid tiers. Free users receive ~20 images/day at up to 1K resolution, with Gemini drawing on Gmail and Google Photos data to personalize results.
+   - Summary: Nvidia rival Etched emerges from stealth with Sohu chip (transformer-specific inference silicon), $800M raised, $5B valuation, and $1B in signed customer orders. Plans to ship frontier inference clusters to customers this summer.
 
-2. **Google Cloud to Offer Specialist AI Models for Science Research**
+2. **CIA ประกาศปรับโครงสร้างครั้งใหญ่รับ AI**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-29/google-cloud-to-offer-specialist-ai-models-for-science-research
-   - Published: 2026-06-29
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-29/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new path on bloomberg.com)
+   - URL: https://www.bloomberg.com/news/articles/2026-06-30/cia-aims-to-speed-tech-adoption-as-ai-is-rewriting-conflict
+   - Published: June 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-06-30"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com host present yesterday but this path is new)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google Cloud will add SandboxAQ's Large Quantitative Models (AQCat for materials/semiconductor research, AQPotency for drug discovery) to its cloud marketplace, letting researchers combine Gemini with scientific AI trained on numerical data.
+   - Summary: CIA Director John Ratcliffe vows organizational overhaul to accelerate AI and quantum computing adoption, comparing AI capabilities to "digital nuclear weapons" that are "rewriting the reality of conflict."
 
-3. **China Expands AI Education Across All Schools in Xi's Technology Push**
+3. **Schneider Electric เข้าซื้อ Cognite ด้วยมูลค่า $3.1B**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-29/china-pushes-all-school-levels-to-teach-ai-in-xi-s-tech-drive
-   - Published: 2026-06-29
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-29/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new path on bloomberg.com)
+   - URL: https://www.bloomberg.com/news/articles/2026-06-30/schneider-to-buy-industrial-ai-firm-cognite-for-3-1-billion
+   - Published: June 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-06-30"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path unique to today's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: China's State Council mandated AI courses at all elementary and middle schools starting 2026-2027, with 2.5 billion yuan (~$350M) for teaching labs, 120-hour teacher training requirement by 2028, and no standardized AI testing until 2030.
+   - Summary: Schneider Electric acquires 100% of Cognite in a $3.1B all-cash deal to expand its industrial AI and data software capabilities, targeting OT/industrial data management.
 
-4. **German AI Rollout Offers €300 Billion Fix for Worker Shortage**
+4. **เกาหลีใต้ทุ่ม $880B ลงทุน AI/ชิป**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-29/german-ai-rollout-offers-300-billion-fix-for-worker-shortage
-   - Published: 2026-06-29
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-29/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new path on bloomberg.com)
+   - URL: https://www.bloomberg.com/news/articles/2026-06-30/lee-s-880-billion-ai-bet-ties-legacy-to-south-korea-chip-boom
+   - Published: June 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-06-30"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path unique to today's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Germany is deploying AI to address a structural labor shortage requiring 300,000 skilled foreign workers annually; businesses report up to 50% task time reduction from AI adoption; Bloomberg projects €300B economic gain if scaled across the economy.
+   - Summary: South Korea President Lee Jae Myung announces 1,350 trillion won ($880B) AI/chip corporate investment. Samsung and SK Hynix will build four chipmaking plants in the Honam region; Naver and others add 550 trillion won in additional investment.
 
-5. **Millennium Builds AI Lab in Push for Cutting-Edge Products**
+5. **Bank of England เตือน AI Agents อาจทำให้ตลาดเงินพัง**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-29/millennium-builds-ai-lab-in-push-for-cutting-edge-products
-   - Published: 2026-06-29
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-06-29/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new path on bloomberg.com)
+   - URL: https://www.bloomberg.com/news/articles/2026-06-30/boe-s-breeden-warns-ai-agents-risk-triggering-market-meltdowns
+   - Published: June 30, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-06-30"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path unique to today's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Millennium Management is establishing an internal AI lab to evaluate and accelerate access to cutting-edge AI products, collaborate with AI firms, and attract AI talent; lab operational within weeks; ex-Bloomberg quant hired to head AI research.
+   - Summary: BOE Deputy Governor Sarah Breeden warns in Sintra, Portugal that AI trading agents risk "herding" into correlated positions and amplifying market stress; calls for urgent international regulatory coordination.
 
 ## Dropped
-- https://www.blognone.com/node/150998 — Filter A (>24h): underlying event (US government allows Anthropic Mythos 5 for ~100 approved entities) occurred on June 26-27, 2026 per CNBC/Axios; Blognone node URL contains no date slug; event itself falls outside rolling 24h window
-- https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/ — Filter A (>24h): URL slug /2026/06/25/ is 4 days old
-- https://www.bloomberg.com/news/articles/2026-06-26/openai-limits-release-of-new-model-under-pressure-from-us — Filter A (>24h): URL slug /2026-06-26/ is 3 days old
+- https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/ — Not selected (5 stories already secured; June 29 slug is within 24h window but lower impact)
+- https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/ — Filter A (>24h): URL slug /2026/06/28/ is 2 days old
+- https://www.forbes.com/sites/jonmarkman/2026/06/26/anthropic-says-alibaba-used-25000-fake-accounts-to-distill-claude/ — Not on trusted sources list (Forbes); also >24h old
+- https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html — Not on trusted sources list (CNBC); also >24h old
 
-> Note: 5 items passed both filters this run. Of ~10 candidates examined, 3 failed Filter A, 0 failed Filter B.
+> Note: 5 items passed both filters this run. Of candidates reviewed, 2 failed Filter A (>24h), 0 failed Filter B; 2 dropped for not being on trusted-sources list.
