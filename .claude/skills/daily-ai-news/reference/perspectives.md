@@ -1,31 +1,31 @@
-# Perspectives — 2026-06-29
+# Perspectives — 2026-06-30
 
-## 1. Gemini's personalized AI image generation is now free for US users
+## 1. Etched เปิดตัวชิป Sohu: $800M ระดมทุน มูลค่า $5B และ $1B ออเดอร์
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างชัดเจนของ "contextual AI" ที่ควรนำเข้าชั้นเรียน — ระบบที่ใช้ข้อมูล personal context เพื่อลด cognitive load แทนที่ผู้ใช้ต้องอธิบาย preference ทุกครั้ง แต่ต้องสอนนักศึกษาถึง privacy trade-off ที่มาพร้อมกับการให้ AI access ข้อมูลส่วนตัวจาก Gmail และ Google Photos ด้วย
-**ผู้เชี่ยวชาญด้าน AI:** การเปิด personalized image generation ในระดับ mass market คือ real-world test ขนาดใหญ่ว่า personalization จะปรับปรุง output quality ได้จริงหรือไม่ใน population-wide scale — เพราะ personalization ที่ scale ใหญ่มักพบ edge cases และ failure modes ที่ lab testing ไม่สามารถ anticipate ได้
-**โปรแกรมเมอร์มืออาชีพ:** โควต้า 20 ภาพ/วันสำหรับ free tier บ่งชี้ว่า Google กำลัง optimize conversion funnel ไปสู่ paid plans — ควรจับตาว่า personalization context API (Google Photos, Gmail integration) จะเปิดให้ third-party developers access ได้หรือไม่ เพราะนั่นจะเปลี่ยน landscape ของ personal AI apps อย่างมีนัยสำคัญ
+**อาจารย์ (มหาวิทยาลัย):** กรณี Etched คือตัวอย่างคลาสสิกของ application-specific silicon ที่เอาชนะ general-purpose processor ได้เมื่อ workload ใหญ่พอ — ให้นักศึกษาเปรียบเทียบวิวัฒนาการจาก CPU → GPU → ASIC และตั้งคำถามว่าเมื่อใด specialization คุ้มค่าในมุมมอง computer architecture
+**ผู้เชี่ยวชาญด้าน AI:** Sohu ที่ฝัง transformer architecture ลงใน silicon คือ bet ว่า model architecture จะไม่เปลี่ยนเร็วกว่า hardware roadmap — ถ้า attention mechanism ถูก replace ในอีก 2-3 ปี Etched ต้องออก silicon ใหม่ทั้งหมด ซึ่งเป็น existential risk ที่ต้องชั่งน้ำหนักกับ inference cost upside
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Sohu deliver จริง inference cost ต่อ token จะตก — สำหรับ team ที่ scale workload สูง ควร monitor hardware roadmap ของ Etched เพราะ GPU monoculture กำลัง fragment และ portability ระหว่าง inference backends จะกลายเป็น engineering concern จริงในปีหน้า
 
-## 2. Google Cloud to Offer Specialist AI Models for Science Research
+## 2. CIA ปรับโครงสร้างใหญ่รับ AI
 
-**อาจารย์ (มหาวิทยาลัย):** การแยกประเภทระหว่าง Large Language Models กับ Large Quantitative Models คือ lesson สำคัญ — AI ไม่ใช่แค่ "text generation" แต่เป็น paradigm กว้างที่รวม numerical/scientific reasoning ด้วย กรณี SandboxAQ เป็น case study ดีเยี่ยมสำหรับสอนว่า domain-specific data ให้ผลที่ general-purpose models ทำไม่ได้
-**ผู้เชี่ยวชาญด้าน AI:** Strategy ที่ Google ใช้ชาญฉลาดมาก — แทนที่จะพัฒนา domain-specific models ทุกตัวเอง Google bundled SandboxAQ (Alphabet spinout) เข้ากับ Gemini บน Cloud เพื่อสร้าง scientific AI ecosystem โดยไม่ต้องลงทุนสร้าง expertise ใหม่ทั้งหมด
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ developer ที่ทำงานด้าน biotech หรือ materials science — AQCat และ AQPotency บน Google Cloud Marketplace คือ access point ใหม่ที่ lower barrier of entry อย่างมาก เดิมงานประเภทนี้ต้องการทีม computational chemistry เฉพาะทาง ตอนนี้สามารถ experiment ผ่าน cloud API ได้เลย
+**อาจารย์ (มหาวิทยาลัย):** การที่ CIA Director เปรียบ AI กับ "อาวุธนิวเคลียร์ดิจิทัล" เป็น rhetoric ที่นักศึกษาด้านความสัมพันธ์ระหว่างประเทศและ AI ethics ควรวิเคราะห์อย่างรอบคอบ — มันสร้าง geopolitical urgency จริงหรือเป็นเพียง framing ที่ justify งบประมาณ และมีบทเรียนจาก Cold War arms race อะไรที่นำมาเปรียบเทียบได้
+**ผู้เชี่ยวชาญด้าน AI:** CIA ต้องการ AI สำหรับ intelligence analysis ขนาดใหญ่ (OSINT, image recognition, signal processing) ใน classified environments — งาน AI ที่ออกแบบสำหรับ air-gapped, high-security infrastructure แตกต่างจาก cloud deployment อย่างมีนัยสำคัญและยังเป็น open engineering challenge
+**โปรแกรมเมอร์มืออาชีพ:** Defense/intelligence sector กำลัง hire AI engineers แบบ aggressive พร้อม compensation สูง แต่ requires security clearance และงานอยู่ใน proprietary stacks ที่ไม่สามารถ contribute ต่อ open source ได้ — career trade-off ที่ต้องพิจารณาตั้งแต่ต้น
 
-## 3. China Expands AI Education Across All Schools in Xi's Technology Push
+## 3. Schneider Electric เข้าซื้อ Cognite $3.1B
 
-**อาจารย์ (มหาวิทยาลัย):** Policy ระดับ national ที่ mandate AI curriculum ในทุกโรงเรียนคือ structural investment ระยะยาวที่สำคัญที่สุดในการแข่งขัน AI ระหว่างประเทศ — ผลจะเห็นชัดในอีก 10-15 ปีเมื่อ talent pool นี้เข้าสู่ตลาดแรงงาน ไทยควรศึกษา blueprint นี้อย่างจริงจัง
-**ผู้เชี่ยวชาญด้าน AI:** ประเด็นที่ต้อง monitor คือ quality ของ curriculum ไม่ใช่แค่ quantity — mandate ที่ดีบนกระดาษอาจกลายเป็น box-checking exercise ถ้า teachers ขาด competency จริง การกำหนด 120 ชั่วโมง training สำหรับครูถือเป็นสัญญาณที่ดีว่ารัฐบาลเข้าใจ execution challenge นี้
-**โปรแกรมเมอร์มืออาชีพ:** จีนกำลังสร้าง AI talent pipeline ที่จะขับเคลื่อนการพัฒนาในทศวรรษหน้า — สำหรับ developer ใน APAC นี่คือสัญญาณว่า competitive landscape ด้าน AI talent กำลังเปลี่ยน และ EdTech ที่สอน AI literacy ให้โรงเรียนกำลังจะเป็น market ที่ demand สูงมากทั่วภูมิภาค
+**อาจารย์ (มหาวิทยาลัย):** ดีลนี้เป็นตัวอย่างที่ดีของ "build vs. buy" ในยุค AI — Schneider มี domain expertise ด้าน industrial systems แต่ขาด AI talent เพียงพอ ควรให้นักศึกษาวิเคราะห์ว่า M&A กับ organic AI development ให้ ROI แตกต่างกันอย่างไรในบริบทของ enterprise และ timeline ที่แตกต่างกัน
+**ผู้เชี่ยวชาญด้าน AI:** Cognite เชี่ยวชาญ OT data ซึ่งซับซ้อนกว่า IT data มาก (time-series จาก PLCs, SCADA, historian databases) — การ integrate กับ Schneider ecosystem จะสร้าง industrial AI platform ที่มี competitive moat สูงเพราะ operational data นี้หาไม่ได้จากที่อื่น
+**โปรแกรมเมอร์มืออาชีพ:** Industrial AI เป็น niche ที่เติบโตเร็วและ competition น้อยกว่า consumer AI มาก — demand สูงสำหรับ engineer ที่เข้าใจทั้ง OT protocols (Modbus, OPC-UA, MQTT) และ ML pipeline ถ้ากำลังมองหา niche ที่ differentiated นี่คือ direction ที่น่าลงทุน
 
-## 4. German AI Rollout Offers €300 Billion Fix for Worker Shortage
+## 4. เกาหลีใต้ทุ่ม $880B ลงทุน AI/ชิป
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีเยอรมนีเป็น textbook case ของ "substitution vs. augmentation" debate ที่ดีที่สุดที่เห็นในปีนี้ — นี่ไม่ใช่เรื่อง AI แย่งงาน แต่เป็น AI ช่วยให้แรงงานที่มีอยู่น้อยลงทำงานได้มากขึ้น ซึ่งเป็น framing สำคัญสำหรับการสอน policy implications ของ AI
-**ผู้เชี่ยวชาญด้าน AI:** €300 พันล้านเป็นตัวเลข projection ไม่ใช่ measured result — ควรระวัง productivity paradox ที่ technology adoption ระดับ enterprise มักใช้เวลา 10-15 ปีก่อน national GDP statistics จะสะท้อน gains จริง แต่ directionally นี่คือ use case ที่ AI เหมาะที่สุด
-**โปรแกรมเมอร์มืออาชีพ:** วิกฤตแรงงานเยอรมนีเปิด market ใหม่ขนาดใหญ่สำหรับ B2B AI solutions — document processing, invoice automation, และ HR back-office คือ segments ที่ demand สูงแต่ enterprise-grade solutions ยังไม่เพียงพอในตลาด European SME ถ้ากำลัง build B2B SaaS นี่คือ timing ที่ดีมาก
+**อาจารย์ (มหาวิทยาลัย):** ขนาดของ investment นี้เทียบได้กับ Marshall Plan ในสัดส่วนต่อ GDP ของประเทศผู้รับ — เป็น state-led industrial policy ระดับ grand strategy ที่น่านำมาเปรียบเทียบกับ CHIPS Act ของสหรัฐฯ และ Taiwan's TSMC subsidies เพื่อทำความเข้าใจว่า national AI competitiveness ถูกสร้างอย่างไรในยุค geopolitical fragmentation
+**ผู้เชี่ยวชาญด้าน AI:** Samsung และ SK Hynix ครองตลาด HBM (High Bandwidth Memory) ซึ่งคือ chokepoint ของ AI hardware ทั้งโลก — investment นี้ไม่ใช่แค่ domestic play แต่คือ reinforcing global AI supply chain dominance ที่มีผลต่อ GPU availability ของทุกประเทศ
+**โปรแกรมเมอร์มืออาชีพ:** Samsung และ SK Hynix กำลัง hire engineers ทั่วโลกสำหรับ HBM และ advanced packaging — ถ้าทำ hardware-software co-design หรือ memory optimization ตำแหน่งงานใน Korean tech ecosystem กำลัง premium ขึ้น และ APAC developer ควรติดตาม talent movement ที่จะเกิดจาก mega-investment นี้
 
-## 5. Millennium Builds AI Lab in Push for Cutting-Edge Products
+## 5. Bank of England เตือน AI Agents อาจทำให้ตลาดเงินพัง
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ hedge fund ระดับโลกตั้ง AI lab ภายในบ่งชี้ว่า competitive advantage บน Wall Street กำลังถูก redefine โดย AI capability — นี่เป็น signal สำคัญที่ควรสอนในหลักสูตร business และ economics ว่า AI ไม่ใช่แค่ tool แต่เป็น source of competitive differentiation ใหม่
-**ผู้เชี่ยวชาญด้าน AI:** Hedge fund ที่มี proprietary market data มหาศาลและ compute resources จะสามารถ fine-tune AI บน signals ที่ไม่มีใครเข้าถึงได้ — competitive moat จาก in-house AI lab ในบริบทนี้ลึกกว่า consumer industry อย่างมีนัยสำคัญ เพราะ data เป็น secret sauce ที่ซื้อไม่ได้
-**โปรแกรมเมอร์มืออาชีพ:** Millennium กำลัง hire AI talent ตอนนี้ — นี่คือสัญญาณว่า fintech และ quant finance คือ job market ที่กำลัง heat up สำหรับ AI engineers Skills ที่ demand สูงคือ ML engineering ผสม time-series analysis และ domain knowledge ด้าน market microstructure
+**อาจารย์ (มหาวิทยาลัย):** "Herding" ของ AI agents คือปรากฏการณ์ที่คล้าย bank run ในเชิงระบบ — เมื่อทุก agent ใช้ model เดียวกันหรือข้อมูลชุดเดียวกัน การตัดสินใจจะ correlated สูง เป็น systemic risk แบบใหม่ที่ตำราเศรษฐศาสตร์การเงินดั้งเดิมยังไม่ครอบคลุม และเป็นหัวข้อวิจัยเร่งด่วน
+**ผู้เชี่ยวชาญด้าน AI:** Herding เกิดจาก model homogeneity — AI agents ที่ fine-tuned บน datasets เดียวกันจะมี correlated responses แม้ prompt จะต่างกัน ทางออกทางเทคนิค เช่น ensemble diversity และ asynchronous decision-making ยังเป็น open research problem ที่ต้องการ real-world market data ในระดับ regulatory
+**โปรแกรมเมอร์มืออาชีพ:** Regulatory pressure จาก BOE บ่งชี้ว่า EU AI Act-style requirements สำหรับ financial AI กำลังมา — build audit logging, decision diversity metrics และ circuit breaker mechanisms เข้าสู่ trading systems ตั้งแต่ตอนนี้เพื่อรองรับ compliance requirement ในอีก 12-18 เดือน
