@@ -1,62 +1,59 @@
-# Sources — 2026-06-28
+# Sources — 2026-07-01
 
-Generated: 2026-06-28 (Asia/Bangkok)
+Generated: 2026-07-01 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-06-27-brief.md (5 URLs loaded)
+Dedup against: articles/2026-06-30-brief.md (5 URLs loaded)
 
-1. **Austria Lobbies EU to Host Anthropic After US Access Curbs**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs
-   - Published: 2026-06-28
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-28 = TODAY
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (none of yesterday's 5 URLs match this path)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Austrian State Secretary Alexander Pröll wrote to EU Commission VP Henna Virkkunen urging the bloc to explore "strategic establishment and participation of Anthropic within the European Union" to counter US restrictions blocking foreigners from using Fable 5 and Mythos 5.
+1. **Introducing Claude Sonnet 5 — Fable 5 และ Mythos กลับมา**
+   - Publisher: Anthropic
+   - URL: https://www.anthropic.com/news/claude-sonnet-5
+   - Published: June 30–July 1, 2026 (TechCrunch version dated /2026/06/30/; appears in multiple July 1, 2026 aggregators including "AI Today in 5: July 1, 2026, The Anthropic Released Edition")
+   - FreshnessCheck: ✅ within last 24h via snippet "Available everywhere today" + July 1 aggregators; TechCrunch URL /2026/06/30/ = "yesterday" passes Filter A
+   - DedupCheck: ✅ URL https://www.anthropic.com/news/claude-sonnet-5 not in YESTERDAYS_URLS (5 URLs: Etched/TechCrunch, CIA/Bloomberg, Cognite/Bloomberg, South Korea/Bloomberg, BOE/Bloomberg)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED)
+   - Summary: Anthropic launched Claude Sonnet 5, performance close to Opus 4.8 at introductory price $2/M input, $10/M output through August 31, 2026. Now default for Free and Pro plans. Anthropic simultaneously restored Fable 5 and Mythos after an 18-day export control pause triggered June 12.
 
-2. **Google Caps Meta's Use of Gemini AI Models, FT Reports**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-28/google-caps-meta-s-use-of-gemini-ai-financial-times-reports
-   - Published: 2026-06-28
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-28 = TODAY
+2. **Meta Is Planning a Cloud Business to Sell AI Computing Power**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/
+   - Published: 2026-07-01 (URL slug /2026/07/01/)
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/01/
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google placed limits on Meta's access to Gemini AI models because it could not supply the compute capacity Meta demanded — a sign of infrastructure strain between two AI hyperscalers.
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED)
+   - Summary: Meta is developing plans to sell excess AI compute power and models as a cloud service, competing directly with AWS, Azure, and Google Cloud, backed by Zuckerberg's $600B US infrastructure spending plan through 2028.
 
-3. **AI Investment Risks Highlighted as BIS Flags Threats to Global Economy**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-28/ai-bust-risks-ripple-effects-from-growth-to-credit-bis-says
-   - Published: 2026-06-28 (annual report released Sunday)
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-28 = TODAY; snippet confirms "annual report published on Sunday" = June 28
+3. **Cloudflare's New Policy Pushes AI Companies to Pay for Publishers' Content**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/
+   - Published: 2026-07-01 (URL slug /2026/07/01/)
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/01/
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: The Bank for International Settlements flagged an AI investment bust, alongside inflation and fiscal stress, as a major "pressure point" in its annual report, warning of underlying financial vulnerabilities that could amplify any shock.
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED)
+   - Summary: Cloudflare launched "Pay Per Crawl" (evolving to "Pay Per Use"), requiring AI companies to pay publishers when content creates value in AI responses. Starting September 15, 2026, mixed-use crawlers will be blocked by default from ad-serving pages.
 
-4. **AI Startup Firmus to Build Data Center With Nvidia in Indonesia**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-28/ai-startup-firmus-to-build-indonesia-data-center-with-nvidia
-   - Published: 2026-06-28
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-28 = TODAY
+4. **Neocloud Together AI Raises $800M, Leaps to $8.3B Valuation**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/
+   - Published: 2026-07-01 (URL slug /2026/07/01/)
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/01/
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Firmus Technologies announced a 360 MW Nvidia DSX AI Factory campus in Batam, Indonesia — the company's first data center project — expected to secure up to $30 billion in committed offtake agreements over six years.
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED)
+   - Summary: Together AI raised $800M Series C at $8.3B valuation, led by Aramco Ventures with Nvidia and others. The neocloud (GPU cluster rental) company more than doubled its $3.3B Series B valuation from 16 months ago.
 
-5. **AI Fever Powers Hong Kong Share Sales to Five-Year High**
+5. **Google's Power Struggles Are Killing Its AI Mojo**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-06-28/ai-fever-powers-hk-share-sales-through-hurdles-to-five-year-high
-   - Published: 2026-06-28
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-06-28 = TODAY
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Hong Kong IPOs, placements, and block trades raised nearly $44 billion in H1 2026, a 29% year-on-year jump and a five-year high, driven by investor enthusiasm for AI-linked companies despite broader market headwinds.
+   - URL: https://www.bloomberg.com/opinion/articles/2026-07-01/google-s-power-struggles-are-killing-its-ai-mojo
+   - Published: 2026-07-01 (URL slug 2026-07-01)
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-01
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS; prior Google talent articles (2026-06-24) not in yesterday's brief either
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED)
+   - Summary: Bloomberg Opinion argues Google's internal compute-allocation power struggles are hurting its AI momentum, following departures of Transformer co-inventor Noam Shazeer to OpenAI and Nobel laureate John Jumper to Anthropic within 48 hours.
 
 ## Dropped
-- https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/ — Filter A (>24h): URL slug /2026/06/01/ is 27 days old
-- https://www.bloomberg.com/news/articles/2026-06-18/star-google-researcher-jumps-to-openai-in-coup-for-startup — Filter A (>24h): URL slug 2026-06-18 is 10 days old
-- https://www.bloomberg.com/news/articles/2026-06-26/openai-weighs-ipo-in-2027-after-expected-anthropic-public-debut — Filter A (>24h): URL slug 2026-06-26 is 2 days old (outside rolling 24h)
-- https://www.bloomberg.com/news/articles/2026-06-24/qualcomm-confirms-buying-modular-to-help-ai-market-push — Filter A (>24h): URL slug 2026-06-24 is 4 days old
-- https://www.bloomberg.com/news/articles/2026-06-24/alphabet-s-dow-debut-shows-index-headache-in-tech-driven-economy — Filter A (>24h): URL slug 2026-06-24 is 4 days old
-- https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/ — Filter A (>24h): URL slug 2026-06-25 is 3 days old
-- Thai-language sources (blognone.com, beartai.com, thairath.co.th) — no June 28 articles with verifiable timestamps surfaced in search results for these trusted-source domains
+- https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/ — preferred Anthropic primary source per rules ("prefer original publisher over aggregator")
+- https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic — Filter A (>24h): URL slug 2026-06-24 is 7 days old
+- https://www.bloomberg.com/news/articles/2026-07-01/meta-is-building-a-cloud-business-to-sell-excess-ai-compute — same story as #2; TechCrunch version used (Bloomberg as cross-reference)
+- Thai-language sources (blognone.com, beartai.com, thestandard.co): no July 1, 2026 dated articles surfaced in search results
 
-> Note: 5 items passed both filters this run. Of ~12 candidates evaluated, ~7 failed Filter A (>24h), 0 failed Filter B exclusively, ~2 failed trusted-source domain check or date ambiguity. No Thai-language sources confirmed for June 28.
+> Note: 5 items passed both filters this run. Of ~10 candidates evaluated, ~2 failed Filter A, 0 failed Filter B. No Thai-language source confirmed for 2026-07-01.
