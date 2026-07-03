@@ -1,31 +1,31 @@
-# Perspectives — 2026-07-02
+# Perspectives — 2026-07-03
 
-## 1. Microsoft เปิดตัว "Frontier Company" — $2.5B, 6,000 วิศวกร AI ฝังตัวในองค์กรลูกค้า
+## 1. ดัชนีราคา AI Token ร่วง 20% จากจุดสูงสุด
 
-**อาจารย์ (มหาวิทยาลัย):** Microsoft Frontier Company คือการยอมรับโดยปริยายว่า "AI adoption gap" ใหญ่กว่าที่คาด — เทคโนโลยีพร้อมแล้ว แต่องค์กรยังไม่พร้อม นี่คือปัญหา organizational change ไม่ใช่ปัญหาเทคนิค นักศึกษาควรศึกษา case นี้ควบคู่กับ change management theory เพื่อเข้าใจว่า technology adoption ล้มเหลวได้อย่างไรแม้เทคโนโลยีจะดี
-**ผู้เชี่ยวชาญด้าน AI:** Forward-deployed engineering model คือ response ต่อ failure rate ที่สูงของ enterprise AI projects — Microsoft กำลัง bet ว่า embedded human expertise คือ missing ingredient ที่ SaaS ให้ไม่ได้ ข้อสังเกตสำคัญคือ Frontier Company รองรับ AI stack หลากหลาย (OpenAI, Anthropic, open source) ไม่ lock-in เฉพาะ Microsoft models ซึ่งเป็นกลยุทธ์ที่ชาญฉลาดสำหรับ enterprise ที่ต้องการ flexibility
-**โปรแกรมเมอร์มืออาชีพ:** $2.5B เพื่อส่งคน 6,000 คนเข้าหาลูกค้าเป็นสัญญาณว่า Microsoft เห็น demand สูงแต่ supply chain ขาด — talent ที่รู้ทั้ง industry domain และ ML engineering มีน้อยมาก ถ้าคุณพัฒนาทักษะทั้งสองด้านนี้ คุณคือคนที่ market ต้องการมากที่สุดในตอนนี้
+**อาจารย์ (มหาวิทยาลัย):** ดัชนีนี้ควรนำไปสอนในฐานะ empirical test ของ Jevons paradox ในบริบท AI — เมื่อราคาลดลงแต่ total spend ยังเพิ่ม นักศึกษาต้องถามว่า "มูลค่าใครเพิ่มขึ้น และใครเสีย?" เพราะ efficiency gains ไม่ได้กระจายอย่างเท่าเทียม และ incumbents กับ challengers ได้รับผลกระทบต่างกัน
+**ผู้เชี่ยวชาญด้าน AI:** การที่ SDLLMTK ลดลงเกิดจาก model substitution ไปยัง open-weight models และการ optimize inference pipeline ไม่ใช่ demand collapse — แต่ margin pressure ต่อ frontier model providers เป็นเรื่องจริงและจะกดดัน valuation ของบริษัทที่ depends on per-token revenue โดยเฉพาะก่อน IPO
+**โปรแกรมเมอร์มืออาชีพ:** นี่คือสัญญาณที่ดีสำหรับ practitioners: ราคาที่ลดลงหมายความว่า production AI budget ต่อทีมสามารถ scale ได้มากขึ้น แต่ต้องเรียนรู้ model routing — รู้ว่า task ไหนต้องใช้ frontier model และ task ไหนใช้ open-weight ได้ ซึ่งกลายเป็น skill ที่มีมูลค่าสูงขึ้นอย่างรวดเร็ว
 
-## 2. OpenAI เสนอให้รัฐบาลสหรัฐฯ ถือหุ้น 5%
+## 2. ตลาดอุปกรณ์พลังงานสำหรับ AI Factories มูลค่า $220 พันล้าน
 
-**อาจารย์ (มหาวิทยาลัย):** ข้อเสนอนี้ควรวิเคราะห์ผ่านกรอบ "regulatory capture" — เมื่อหน่วยงานที่ควรกำกับดูแลมีผลประโยชน์ทางการเงินตรง แรงจูงใจในการออกกฎที่เข้มข้นลดลง เป็น governance dilemma ที่น่าศึกษาในทุกมิติ ทั้งด้าน political science, economics และ technology policy
-**ผู้เชี่ยวชาญด้าน AI:** ด้านบวก: ถ้ารัฐบาลถือหุ้น 5% ใน AI labs ทุกแห่ง นั่นสร้าง alignment ระหว่าง national interest กับ AI development success — รัฐบาลมีแรงจูงใจส่ง expertise เข้าไปช่วยเรื่อง safety และ security แทนที่จะเป็นแค่ regulator ภายนอก ด้านลบ: concentration of power ใน state-AI complex อาจสร้างปัญหาระยะยาวด้านการแข่งขันและ innovation
-**โปรแกรมเมอร์มืออาชีพ:** ในทางปฏิบัติ ถ้า framework นี้ผ่าน government-backed AI companies อาจได้รับ preferential treatment ใน public sector procurement — สร้าง competitive moat ที่ไม่ได้มาจาก technical superiority แต่จาก political relationship ซึ่งส่งผลต่อ competition landscape ทั้ง industry
+**อาจารย์ (มหาวิทยาลัย):** บทเรียนสำคัญ: AI transformation ไม่ได้จำกัดอยู่ใน software layer — มันกำลัง reshape physical infrastructure ทั้ง supply chain บอกนักศึกษาว่า "AI companies" ที่น่าลงทุนอาจเป็น Schneider Electric ไม่ใช่ OpenAI เสมอไป และ comparative advantage ใน AI era อาจอยู่ที่ hardware ไม่ใช่ algorithm
+**ผู้เชี่ยวชาญด้าน AI:** การเปลี่ยนจาก 480V AC สู่ 800V DC เป็น architectural shift ที่กระทบ cooling, cabling และ safety engineering ทั้งหมด — ทีมที่ออกแบบ AI infrastructure จะต้องทำงานร่วมกับ power systems engineers ใกล้ชิดยิ่งขึ้นอย่างหลีกเลี่ยงไม่ได้ และ ML platform teams ต้อง factor power constraints เข้าใน model deployment decisions
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า plan cloud architecture สำหรับ AI workloads ในระยะยาว ให้ติดตาม 800V DC transition — data centers ที่รองรับ standard ใหม่จะมี PUE ที่ดีกว่า แปลตรงเป็น lower inference cost per token สำหรับ workloads ของคุณ และ cost modeling ในปัจจุบันที่ไม่รวมปัจจัยนี้อาจ underestimate savings ได้มาก
 
-## 3. AI Job Cuts Emerging First in Finance and Tech
+## 3. Zuckerberg ยอมรับ AI Agent Development ช้ากว่าที่คาด
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ empirical evidence แรกๆ ที่ตรงกับ prediction ของ economic theory เรื่อง automation — "labor market adjustment" เกิดผ่าน attrition ก่อน displacement ทำให้ยากต่อการ quantify และมักถูก underestimate ใน policy response เป็น case study ดีสำหรับ course เรื่อง economics of technology
-**ผู้เชี่ยวชาญด้าน AI:** Finance และ tech เป็น early adopter ที่มี high automation readiness — งาน analyst ที่เคยต้องใช้ MBA หลายปีตอนนี้ถูก compress ด้วย AI tools สัญญาณสำคัญคือ "not replacing attrition" ซึ่งเร็วและไร้สื่อ แต่ impact ระยะยาวอาจรุนแรงกว่า layoff wave เดียวเพราะสะสมโดยไม่มีใครรายงาน
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ junior engineers ใน finance/tech: roles ที่เน้น CRUD app development, boilerplate code generation และ routine data pipelines กำลังเสี่ยง ส่วน roles ที่ออกแบบ AI systems, evaluate model output quality หรือ integrate AI กับ business logic ยังมี demand สูง — แต่ต้อง transition ตอนนี้ไม่ใช่เมื่อ role หาย
+**อาจารย์ (มหาวิทยาลัย):** นี่คือ rare primary source สำหรับการสอนเรื่อง AI hype cycle — CEO ของบริษัท AI ชั้นนำยอมรับต่อหน้าพนักงานว่า technology ไม่ได้ deliver ตามที่คาดไว้ นักศึกษาควรวิเคราะห์ gap ระหว่าง "benchmark performance" กับ "real-world deployment success" และตั้งคำถามว่า metrics ใดที่สะท้อน capability จริง
+**ผู้เชี่ยวชาญด้าน AI:** ปัญหาหลักของ agentic AI ไม่ใช่ intelligence แต่เป็น reliability และ error propagation — เมื่อ agent chain ยาวขึ้น ความน่าจะเป็นของ cascading failures เพิ่มขึ้นแบบ exponential ซึ่ง Meta ยังแก้ไม่ได้แม้มีทรัพยากรมหาศาล บทเรียน: engineering robustness ของ agent systems ยากกว่า engineering intelligence หลายเท่า
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับทีมที่กำลัง build agentic systems: ออกแบบ fallback mechanisms และ human review checkpoints ก่อน — อย่า assume ว่า agents จะ reliable พอที่จะ fully autonomous สำหรับ critical workflows ใน 6-12 เดือนข้างหน้า scope เล็กและ reliable ดีกว่า scope ใหญ่และ fragile เสมอ
 
-## 4. MIT Technology Review: Industrial AI เปลี่ยน Energy Sector
+## 4. AI Slop ซ้ำเติมวิกฤตศาลอินเดีย
 
-**อาจารย์ (มหาวิทยาลัย):** บทความนี้เป็นตัวอย่างของ "AI beyond the hype cycle" ที่ดีที่สุด — การใช้ AI จริงๆ ใน safety-critical infrastructure ต้องผ่านกระบวนการ validation ที่เข้มข้นกว่า consumer AI หลายเท่า นักศึกษาควรเรียนรู้ว่า responsible AI deployment ใน high-stakes domains มีความซับซ้อนมากเพียงใด และความแตกต่างระหว่าง "AI ที่พิสูจน์แล้ว" กับ "AI ที่น่าสนใจ" คืออะไร
-**ผู้เชี่ยวชาญด้าน AI:** Woodside case คือตัวอย่างของ AI ที่ ROI วัดได้จริง — ลด unplanned downtime, ปรับปรุง drilling decisions, optimize maintenance schedule บนข้อมูล sensor ที่ proprietary ไม่มีใน public training data industrial AI จึงต้องการ fine-tuning และ domain expertise ลึก แต่ competitive moat ก็สูงตามไปด้วยเพราะไม่ใครจะ replicate data set ของคุณได้
-**โปรแกรมเมอร์มืออาชีพ:** Industrial AI คือ niche ที่ขาด talent มากที่สุด — demand จาก energy, manufacturing, utilities สูงมาก แต่คนที่รู้ทั้ง ML, real-time systems และ process engineering มีน้อย ถ้าต้องการ career ที่ AI ยากจะ disrupt ตัวเอง นี่คือ domain ที่น่า explore มากที่สุดใน 2026
+**อาจารย์ (มหาวิทยาลัย):** กรณีอินเดียเป็น textbook example ของ "automation bias" ในบริบท high-stakes — เมื่อผู้ใช้ trust AI output โดยไม่ verify เพราะระบบเดิม (judicial backlog) ทำให้ review อย่างละเอียดยิ่งยากขึ้น นักศึกษาควรวิเคราะห์ว่า systemic pressure แบบนี้ทำให้ AI errors แพร่กระจายอย่างไรและ regulatory design แบบใดที่ช่วยลดความเสี่ยงได้
+**ผู้เชี่ยวชาญด้าน AI:** การออกแบบ legal AI tools ต้องมี architecture ที่แยก "AI-assisted draft" กับ "verified output" อย่างชัดเจน และต้องมี human-in-the-loop ที่ meaningful — ไม่ใช่ rubber stamp — เพื่อป้องกัน hallucination ที่มี legal consequences; India Supreme Court draft regulations เป็น nuanced framework ที่น่าศึกษาสำหรับ AI governance ใน high-stakes domains อื่นๆ
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า build AI สำหรับ legal หรือ compliance domains: implement citation grounding, RAG over verified document databases และ confidence scoring ที่ surface uncertainty ชัดเจน — "I don't know" ต้องดีกว่า confident wrong answer เสมอ และ hallucination detection เป็น first-class feature ไม่ใช่ afterthought
 
-## 5. Jersey Mike's IPO: AI Hype ถึงจุดอิ่มตัว
+## 5. Z.ai เปิดตัว ZCode บน GLM-5.2
 
-**อาจารย์ (มหาวิทยาลัย):** เอกสาร S-1 เป็น primary source ที่ดีเยี่ยมสำหรับ case study ใน media studies และ corporate communication — การนับจำนวนครั้งที่กล่าวถึง buzzword ใน regulatory filing เปิดเผย intent ของ investor relations team ได้ชัดกว่า press release ใดๆ และยังเป็น quantifiable signal ของ hype cycle ที่นำมาสอนได้จริง
-**ผู้เชี่ยวชาญด้าน AI:** ปรากฏการณ์ Jersey Mike's ไม่ใช่เรื่องใหม่ — ทุก IPO filing ใน dot-com era ใส่คำว่า "internet" ความแตกต่างคือ AI transformation จริงๆ มีอยู่ ทำให้ investor ยากมากขึ้นในการแยก "AI company จริง" กับ "company ที่แค่ใส่ AI ใน S-1" เป็น signal noise problem ที่ market ต้องแก้
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับ builder: นี่คือ market signal ที่ดี — non-tech companies ทุกประเภทกำลัง feel pressure ว่าต้องพูดเรื่อง AI แม้ไม่รู้ว่าจะทำยังไง นั่นคือ opportunity ขนาดใหญ่สำหรับ consulting/implementation ที่ช่วย bridge gap ระหว่าง hype กับ reality โดยเฉพาะถ้า specialize ใน industry domain ที่ชัดเจน
+**อาจารย์ (มหาวิทยาลัย):** ZCode เป็นตัวอย่างของ AI ecosystem ที่ geographically diversified — Chinese AI companies ไม่ได้แค่ follow แต่กำลัง innovate บน interface และ pricing models ที่ต่างออกไป นักศึกษาควรวิเคราะห์ competitive dynamics ของ AI tool market ที่ไม่ได้ dominated แค่ US players และ implications ด้าน geopolitics ของ AI infrastructure
+**ผู้เชี่ยวชาญด้าน AI:** GLM-5.2 เป็น open-weight model ที่น่าจับตา — Z.ai อ้างว่า competitive กับ frontier closed-source models บน coding benchmarks การที่ tool ecosystem สร้างขึ้นบน open-weight models จะเปลี่ยน dynamics ของ vendor lock-in อย่างมีนัย เพราะ users สามารถ self-host และ fine-tune ได้โดยไม่ผ่านผู้ให้บริการเดิม
+**โปรแกรมเมอร์มืออาชีพ:** ZCode น่าทดลองสำหรับ side projects เพราะ trial ฟรี 5 วันค่อนข้างใจดี แต่ต้องพิจารณา data privacy policy ของ Z.ai ก่อนใช้กับ proprietary codebase — โดยเฉพาะเรื่อง data residency สำหรับ Chinese-operated services ซึ่งอาจขัดกับ compliance requirement ขององค์กรในบางประเทศ
