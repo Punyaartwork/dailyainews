@@ -1,19 +1,13 @@
-# Perspectives — 2026-07-04
+# Perspectives — 2026-07-05
 
-## 1. Alibaba Bans Claude Code
+## 1. Amazon ปิดรับลูกค้าใหม่ Mechanical Turk
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้เป็น case study ที่ดีเยี่ยมของ "dual-use technology dilemma" — tracking code ที่ออกแบบมาเพื่อป้องกัน distillation สามารถถูกรับรู้ว่าเป็น spyware ได้พร้อมกัน ชั้นเรียนควรวิเคราะห์ว่า "consent" และ "transparency" ใน developer tools ถูก define อย่างไร และใครมีอำนาจกำหนดมาตรฐานเมื่อ geopolitics เข้ามาเกี่ยวข้อง
-**ผู้เชี่ยวชาญด้าน AI:** การฝัง geographic detection code ใน AI coding tools ที่มี access ต่อ codebase ทั้งองค์กรสร้าง precedent ที่น่ากังวล — มัน normalize การ monitor supply chain โดย vendor และจะ fragment global AI ecosystem ออกเป็น isolated "AI zones" ที่ทำงานร่วมกันได้ยากขึ้น
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าองค์กรของคุณใช้ third-party AI tools ในกระบวนการพัฒนา นี่คือสัญญาณให้ audit ว่า tools เหล่านั้นส่งข้อมูลอะไรกลับ vendor บ้าง และ vendor มี geographic restrictions อะไรที่อาจกระทบ compliance — self-hosted open-source tools คือทางที่ปลอดภัยที่สุดสำหรับ proprietary codebase
+**อาจารย์ (มหาวิทยาลัย):** Mechanical Turk ไม่ใช่แค่บริการ — มันคือโครงสร้างพื้นฐานของ ML research ช่วงทศวรรษ 2010-2020 การปิดตัวสะท้อนว่า automated labeling ถึงจุดที่เพียงพอสำหรับ commodity tasks แล้ว แต่สิ่งที่ต้องสอนนักศึกษาคือ ความแตกต่างระหว่าง "งานที่ auto-label ได้" กับ "งานที่ต้องการ human judgment จริง ๆ" ยังมีอยู่และสำคัญมากขึ้น
+**ผู้เชี่ยวชาญด้าน AI:** สัญญาณที่น่าสนใจคือ Amazon เลือกใช้ SageMaker Ground Truth เป็นทางออก ซึ่งผสม automated labeling กับ human review ในลักษณะ active learning — ไม่ใช่การกำจัดมนุษย์ออกจากกระบวนการ แต่เปลี่ยน interface จาก open marketplace เป็น managed pipeline ที่ควบคุมคุณภาพได้ดีกว่า
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับทีมที่ยังใช้ Mechanical Turk API ใน data annotation workflow: เส้นตาย July 30 ไม่ใช่เวลาเยอะ ให้ audit dependencies ก่อน แล้วค่อยเปรียบเทียบ SageMaker Ground Truth, Scale AI, Labelbox, หรือ Prolific ตามลักษณะงานและงบประมาณ
 
-## 2. Midjourney vs Hollywood Studios
+## 2. AI ครองครึ่งแรกของปี 2026 — Unicorn ใหม่เกือบ 90 ราย
 
-**อาจารย์ (มหาวิทยาลัย):** คดีนี้กำลัง reshape นิยามของ fair use ในยุค generative AI — ประเด็น "ถ้าคุณใช้ AI คุณต้องเปิดเผยมัน" จะกลายเป็นบรรทัดฐานที่ส่งผลต่อกฎหมาย IP ทั่วโลก นักศึกษากฎหมายและ tech ethics ควรติดตามคดีนี้อย่างใกล้ชิด
-**ผู้เชี่ยวชาญด้าน AI:** กลยุทธ์ "discovery warfare" ของ Midjourney ชาญฉลาดแต่มีดาบสองคม: ถ้า studios ใช้ generative AI เพื่อสร้าง similar content argument เรื่อง market harm จะอ่อนแอลง แต่ถ้าพวกเขาพิสูจน์ได้ว่าการใช้ AI ของตัวเอง "distinguish" จาก Midjourney ได้ชัดเจน มันอาจทำให้เส้นแบ่ง fair use เข้มแข็งขึ้นกว่าเดิม
-**โปรแกรมเมอร์มืออาชีพ:** ทุกบริษัทที่ train AI models บน third-party content ควรใช้คดีนี้เป็น reality check สำหรับ data provenance strategy — copyright exposure ไม่ได้จบที่ training data แต่รวมถึง how the model can reproduce protected content และ audit นี้ควรทำก่อนที่ organization จะถูกฟ้อง
-
-## 3. Google Gemini AI Commercial for July 4th
-
-**อาจารย์ (มหาวิทยาลัย):** การที่ Google เลือก July 4 เป็นบริบทสร้าง cultural association ระหว่าง "อุดมการณ์อเมริกัน" กับ "AI tool" — นักศึกษาสาขา media studies ควรวิเคราะห์ว่า techno-nationalism แบบนี้กำหนดวิธีที่ประชาชนรับรู้ AI ในฐานะ neutral tool หรือ political actor อย่างไร
-**ผู้เชี่ยวชาญด้าน AI:** โฆษณานี้ promote "help me visualize" และ meeting notes — ฟีเจอร์ที่ real-world utility ใน professional contexts ยังต้องการการพิสูจน์ เป็น pattern คุ้นเคยของ Google: framing AI ผ่าน aspirational scenarios แทนที่จะแสดง benchmark หรือ actual user workflow improvements
-**โปรแกรมเมอร์มืออาชีพ:** Workspace AI ของ Google กำลังแข่งกับ Microsoft 365 Copilot อย่างเข้มข้น — ถ้าองค์กรยังไม่ lock-in ไปยัง productivity suite ใด ลองทดสอบ Gemini integration ใน Docs/Meet ด้วย real workflows จริงก่อนตัดสินใจ เพราะ marketing campaign ไม่ได้บอกว่าเครื่องมือจะทำงานอย่างไรใน daily operations ของคุณ
+**อาจารย์ (มหาวิทยาลัย):** การที่ OpenAI และ Anthropic รับเม็ดเงิน VC ไป 43% ของอุตสาหกรรม AI ทั้งหมดคือ market concentration ในระดับที่น่าวิเคราะห์ผ่านเลนส์เศรษฐศาสตร์และนโยบาย — เมื่อ compute และ distribution อยู่กับผู้เล่นไม่กี่ราย นักศึกษาต้องเข้าใจว่า innovation landscape ที่เหลือถูก shape อย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** การที่ Promethus ระดมทุน $12B Series B สำหรับ AI engineering automation บ่งชี้ว่าตลาดกำลัง bet ว่า agentic systems สำหรับ software development เป็น category ที่จะใหญ่มาก แต่ risk ที่ต้องติดตามคือว่า valuation สะท้อน revenue จริงหรือยัง หรือยังอยู่ในโหมด "winner takes all" speculation
+**โปรแกรมเมอร์มืออาชีพ:** ดู unicorn list นี้เป็นแผนที่ของ AI tool ecosystem ที่กำลัง mature — ถ้า startups เหล่านี้รอด จะมี tools ใหม่เข้ามาใน workflow ของคุณภายใน 2-3 ปี ถ้าไม่รอดจะมี consolidation ที่ส่งผล lock-in risk; ทดสอบ alternative ก่อน ecosystem settle
