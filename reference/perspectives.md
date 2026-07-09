@@ -1,13 +1,31 @@
-# Perspectives — 2026-07-05
+# Perspectives — 2026-07-09
 
-## 1. Amazon ปิดรับลูกค้าใหม่ Mechanical Turk
+## 1. OpenAI เปิดตัว GPT-5.6 (Sol/Terra/Luna)
 
-**อาจารย์ (มหาวิทยาลัย):** Mechanical Turk ไม่ใช่แค่บริการ — มันคือโครงสร้างพื้นฐานของ ML research ช่วงทศวรรษ 2010-2020 การปิดตัวสะท้อนว่า automated labeling ถึงจุดที่เพียงพอสำหรับ commodity tasks แล้ว แต่สิ่งที่ต้องสอนนักศึกษาคือ ความแตกต่างระหว่าง "งานที่ auto-label ได้" กับ "งานที่ต้องการ human judgment จริง ๆ" ยังมีอยู่และสำคัญมากขึ้น
-**ผู้เชี่ยวชาญด้าน AI:** สัญญาณที่น่าสนใจคือ Amazon เลือกใช้ SageMaker Ground Truth เป็นทางออก ซึ่งผสม automated labeling กับ human review ในลักษณะ active learning — ไม่ใช่การกำจัดมนุษย์ออกจากกระบวนการ แต่เปลี่ยน interface จาก open marketplace เป็น managed pipeline ที่ควบคุมคุณภาพได้ดีกว่า
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับทีมที่ยังใช้ Mechanical Turk API ใน data annotation workflow: เส้นตาย July 30 ไม่ใช่เวลาเยอะ ให้ audit dependencies ก่อน แล้วค่อยเปรียบเทียบ SageMaker Ground Truth, Scale AI, Labelbox, หรือ Prolific ตามลักษณะงานและงบประมาณ
+**อาจารย์ (มหาวิทยาลัย):** การมีโมเดล 3 รุ่นในระบบนิเวศเดียวบ่งชี้ว่า AI เข้าสู่ยุค Product tiering อย่างแท้จริง นักศึกษาต้องเรียนรู้การเลือกโมเดลให้เหมาะกับงานแทนที่จะใช้รุ่นแรงสุดเสมอ
+**ผู้เชี่ยวชาญด้าน AI:** Sol ออกแบบมาสำหรับ Frontier reasoning และ Long-horizon agentic work แต่น่าสังเกตว่าโมเดลนี้ต้องผ่านการตรวจสอบจากรัฐบาลสหรัฐก่อนเผยแพร่ — บ่งชี้ว่า AI safety กำลังกลายเป็น Policy lever จริงๆ
+**โปรแกรมเมอร์มืออาชีพ:** Luna น่าจะเป็นตัวเลือกหลักสำหรับงาน Dev ทั่วไปเพราะเร็วและถูกกว่า ส่วน Sol อาจจำกัดอยู่ในงานวิจัยหรือโปรเจกต์ที่ต้องการความแม่นยำสูงมาก
 
-## 2. AI ครองครึ่งแรกของปี 2026 — Unicorn ใหม่เกือบ 90 ราย
+## 2. OpenAI เปิดตัว ChatGPT Work
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ OpenAI และ Anthropic รับเม็ดเงิน VC ไป 43% ของอุตสาหกรรม AI ทั้งหมดคือ market concentration ในระดับที่น่าวิเคราะห์ผ่านเลนส์เศรษฐศาสตร์และนโยบาย — เมื่อ compute และ distribution อยู่กับผู้เล่นไม่กี่ราย นักศึกษาต้องเข้าใจว่า innovation landscape ที่เหลือถูก shape อย่างไร
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Promethus ระดมทุน $12B Series B สำหรับ AI engineering automation บ่งชี้ว่าตลาดกำลัง bet ว่า agentic systems สำหรับ software development เป็น category ที่จะใหญ่มาก แต่ risk ที่ต้องติดตามคือว่า valuation สะท้อน revenue จริงหรือยัง หรือยังอยู่ในโหมด "winner takes all" speculation
-**โปรแกรมเมอร์มืออาชีพ:** ดู unicorn list นี้เป็นแผนที่ของ AI tool ecosystem ที่กำลัง mature — ถ้า startups เหล่านี้รอด จะมี tools ใหม่เข้ามาใน workflow ของคุณภายใน 2-3 ปี ถ้าไม่รอดจะมี consolidation ที่ส่งผล lock-in risk; ทดสอบ alternative ก่อน ecosystem settle
+**อาจารย์ (มหาวิทยาลัย):** การเปลี่ยนจาก "AI ช่วยงาน" ไปเป็น "AI ทำงาน" คือการเปลี่ยนแปลงเชิงปรัชญาที่สำคัญ นักศึกษาควรพิจารณาตั้งแต่วันนี้ว่าจะวางตำแหน่งทักษะของตัวเองในตลาดแรงงานที่ AI ดำเนินงานอัตโนมัติได้อย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** Long-horizon agentic tasks ต้องการ Context window ขนาดใหญ่และ Tool use ที่เสถียรมาก — ความน่าเชื่อถือในสถานการณ์จริงยังต้องรอการทดสอบในระดับ Production
+**โปรแกรมเมอร์มืออาชีพ:** Dev Team จะต้องทบทวน Integration pattern ใหม่ทั้งหมด จาก "prompt แล้วตรวจ" เป็น "กำหนด Goal แล้วรอ" ซึ่งเปลี่ยนโครงสร้างของ Human oversight ไปโดยสิ้นเชิง
+
+## 3. Anthropic เปิดตัว Claude Reflect
+
+**อาจารย์ (มหาวิทยาลัย):** Claude Reflect ชวนให้คิดถึงมิติ Meta-cognition — การตระหนักรู้ว่าตัวเองพึ่งพา AI อย่างไรและเพื่ออะไร เป็นทักษะสำคัญที่ควรพัฒนาควบคู่กับการใช้ AI
+**ผู้เชี่ยวชาญด้าน AI:** Analytics ลักษณะนี้เป็นกลยุทธ์ Retention ที่ทำให้ผู้ใช้เห็น Value ของ Claude ชัดขึ้น ทว่าน่าสังเกตว่า Data ที่เก็บนั้นจะถูกนำไปใช้อะไรเพิ่มเติมหรือไม่ต้องจับตา
+**โปรแกรมเมอร์มืออาชีพ:** ผู้ใช้ Claude ในงานที่ละเอียดอ่อนควรอ่าน Data policy ให้ครบก่อนเปิดใช้ Claude Reflect เพราะฟีเจอร์นี้บันทึกรูปแบบหัวข้อที่ถาม
+
+## 4. Meta เปิดตัว Muse Spark 1.1
+
+**อาจารย์ (มหาวิทยาลัย):** Muse Spark 1.1 สะท้อนว่า AI Coding กำลังขยายจาก Text-only ไปสู่ Multimodal — นักศึกษา CS ควรฝึกทำงานกับ Context ที่หลากหลาย ไม่ใช่แค่ Code เท่านั้น
+**ผู้เชี่ยวชาญด้าน AI:** Benchmark สาธารณะมักไม่สะท้อน Codebase ขนาดใหญ่ในองค์กร ควรรอผลทดสอบบน Real-world tasks ก่อนสรุปว่า Muse Spark 1.1 สู้กับ Codex หรือ Claude Code ได้ระดับไหน
+**โปรแกรมเมอร์มืออาชีพ:** ตลาด AI Coding ยิ่งแข่งดุขึ้น — OpenAI Codex, Claude Code, Cursor, Windsurf และตอนนี้ Meta ด้วย ข่าวดีคือราคาลดลงและ Performance ดีขึ้นสำหรับ Developer
+
+## 5. Meta Muse Image + Instagram Opt-out
+
+**อาจารย์ (มหาวิทยาลัย):** Opt-out เป็นค่าตั้งต้นที่ไม่เป็นธรรม — ผู้ใช้ทั่วไปมักไม่รู้ว่าต้องออกไปจัดการ Setting เอง กรณีนี้เป็นตัวอย่างดีสำหรับการเรียนรู้เรื่อง Dark patterns และ Design ethics
+**ผู้เชี่ยวชาญด้าน AI:** Instagram มีภาพสาธารณะหลายพันล้านรูป ซึ่งเป็น Training data ชั้นดีที่ทำให้ Meta มีข้อได้เปรียบเชิงข้อมูลอย่างมหาศาล — Data flywheel นี้ยากที่คู่แข่งจะตามได้
+**โปรแกรมเมอร์มืออาชีพ:** Developer ที่สร้างแอปบน Meta API ควรทบทวน Terms อีกครั้ง เพราะ Policy การใช้ Public image อาจมีผลกระทบต่อแอปที่ดึงภาพมาแสดงโดยไม่คาดคิด
