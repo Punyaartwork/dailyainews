@@ -1,49 +1,56 @@
-# Sources — 2026-07-05
+# Sources — 2026-07-09
 
-Generated: 2026-07-05 (Asia/Bangkok)
+Generated: 2026-07-09 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-04-brief.md (4 URLs loaded)
+Dedup against: articles/2026-07-08-brief.md (0 URLs loaded — file not found)
 
-1. **Amazon will stop accepting new customers for Mechanical Turk**
+1. **OpenAI เปิดตัว GPT-5.6 (Sol/Terra/Luna) อย่างเป็นทางการ**
+   - Publisher: OpenAI
+   - URL: https://openai.com/index/gpt-5-6/
+   - Published: July 9, 2026
+   - FreshnessCheck: ✅ within last 24h via snippet "Starting today, July 9, 2026, GPT-5.6 Sol, Terra, and Luna are publicly available"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty — 2026-07-08-brief.md not found)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: OpenAI เปิดตัว GPT-5.6 สามรุ่น ได้แก่ Sol (ทรงพลังที่สุด สำหรับ Frontier reasoning), Terra (สมดุล), และ Luna (เร็วและประหยัดที่สุด) พร้อมใช้งานผ่าน ChatGPT, OpenAI API และ Codex หลังผ่านการตรวจสอบจากรัฐบาลสหรัฐ
+
+2. **OpenAI เปิดตัว ChatGPT Work — AI Agent สำหรับงานในองค์กร**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours
+   - Published: July 9, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-07-09/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: ChatGPT Work รับ Outcome เป็นคำสั่งแล้วทำงานข้ามแอปและไฟล์ได้นานหลายชั่วโมง ผลลัพธ์คือเอกสาร สเปรดชีต Slide หรือแอปเว็บสำเร็จรูป เปิดใช้งานสำหรับ Pro, Enterprise และ Edu ทันที
+
+3. **Anthropic เปิดตัว Claude Reflect ฟีเจอร์ติดตามพฤติกรรมการใช้ AI (เบต้า)**
+   - Publisher: Anthropic
+   - URL: https://www.anthropic.com/news/reflect-with-claude
+   - Published: July 9, 2026
+   - FreshnessCheck: ✅ within last 24h via snippet "July 9, 2026: Anthropic introduced, in beta, a new way to reflect on and refine how you use Claude"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: Claude Reflect ช่วยให้ผู้ใช้ติดตามและวิเคราะห์รูปแบบการใช้งาน Claude ของตัวเอง รวมถึงหัวข้อที่มักถาม ความถี่ และประเภทของงานที่มอบหมาย
+
+4. **Meta เปิดตัว Muse Spark 1.1 โมเดล AI สำหรับ Agentic Coding**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/
-   - Published: July 5, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/05/ and Exa confirmed timestamp 2026-07-05T17:43:36Z
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Amazon Web Services will stop accepting new customers for Mechanical Turk effective July 30, 2026. Existing customers continue unaffected. SageMaker Ground Truth is the recommended successor. The platform was foundational for AI training data labeling since 2005.
+   - URL: https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/
+   - Published: July 9, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/09/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: Meta เปิดตัว Muse Spark 1.1 โมเดล Multimodal ที่ออกแบบสำหรับ Agentic Coding แข่งกับ OpenAI Codex และ Anthropic Claude Code
 
-1b. **AWS ประกาศหยุดรับลูกค้าใหม่บริการ Mechanical Turk** (Thai-language coverage)
+5. **Meta Muse Image สร้างรูปจากโพสต์ Instagram ได้ทันที — ต้อง Opt-out เอง**
    - Publisher: Blognone
-   - URL: https://www.blognone.com/node/151066
-   - Published: July 5, 2026 (inferred — node 151066 > node 151060 which is confirmed July 4, 2026)
-   - FreshnessCheck: ✅ within last 24h via node-sequence inference
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had node/151060, not node/151066)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Thai-language Blognone coverage of the AWS Mechanical Turk closure announcement.
-
-2. **Almost 90 new unicorns minted in H1 2026 — AI leads the surge**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/
-   - Published: July 5, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/05/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: TechCrunch H1 2026 unicorn tracker reports nearly 90 new billion-dollar startups with AI companies dominating. Highlights: Promethus ($12B Series B, AI engineering automation, Jeff Bezos co-founder), Venice AI ($65M Series A). Global VC hit $510B in H1 2026 — OpenAI and Anthropic took 43% of it.
+   - URL: https://www.blognone.com/node/151095
+   - Published: July 8, 2026
+   - FreshnessCheck: ✅ within last 24h via snippet "July 8, 2026" (within rolling 24h window ending July 9 Asia/Bangkok)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty — no 2026-07-08-brief.md found)
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
+   - Summary: Meta Muse Image อ้างอิงบัญชีและโพสต์สาธารณะบน Instagram เพื่อสร้างรูปภาพใหม่ได้ทันทีโดยค่าตั้งต้น ผู้ใช้ที่ไม่ต้องการต้อง Opt-out ด้วยตัวเอง
 
 ## Dropped
-- https://www.anthropic.com/news/claude-science-ai-workbench — Filter A (>24h): announced June 30; Verge coverage 2026-07-03
-- https://openai.com/index/previewing-gpt-5-6-sol/ — Filter A (>24h): Axios confirms original announcement 2026-06-26
-- https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/ — Filter A (>24h): published 2026-07-01
-- https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back — Filter A (>24h): published 2026-07-01
-- https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/ — Filter B (dedup): in articles/2026-07-04-brief.md
-- https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/ — Filter B (dedup): in articles/2026-07-04-brief.md
-- https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/ — Filter B (dedup): in articles/2026-07-04-brief.md
-- GLM-5.2 sources (resultsense, SCMP) — Filter A: URLs dated 2026-07-02 or 2026-07-03; also not trusted domains
-- ByteDance EdgeBench scaling law — Filter A: published 2026-07-02; also not trusted domain
-- China humanlike AI agent rules (SCMP, thenextweb) — not on trusted sources list
-- Anthropic loopholes Chinese firms (via investing.com, banklesstimes) — BanklessTimes dated 2026-07-03; not trusted domain
-- Calcalistech.com/Reuters GLM-5.2 article — published July 5 but domain calcalistech.com not on trusted list; no reuters.com URL found
+- ไม่มีผู้สมัครถูกคัดออก — ทั้ง 5 ผู้สมัครผ่าน Filter A และ Filter B
 
-> Note: 2 items passed both filters this run. Of approximately 15 candidates examined: ~10 failed Filter A (>24h), ~3 failed Filter B (URL in yesterday's brief), ~2 failed trusted-source domain requirement.
+> Note: 5 items passed both filters this run. YESTERDAYS_URLS was empty (articles/2026-07-08-brief.md not found — previous day was skipped).
