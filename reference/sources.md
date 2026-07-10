@@ -1,56 +1,69 @@
-# Sources — 2026-07-09
+# Sources — 2026-07-10
 
-Generated: 2026-07-09 (Asia/Bangkok)
+Generated: 2026-07-10 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-08-brief.md (0 URLs loaded — file not found)
+Dedup against: articles/2026-07-09-brief.md (5 URLs loaded)
 
-1. **OpenAI เปิดตัว GPT-5.6 (Sol/Terra/Luna) อย่างเป็นทางการ**
-   - Publisher: OpenAI
-   - URL: https://openai.com/index/gpt-5-6/
-   - Published: July 9, 2026
-   - FreshnessCheck: ✅ within last 24h via snippet "Starting today, July 9, 2026, GPT-5.6 Sol, Terra, and Luna are publicly available"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty — 2026-07-08-brief.md not found)
-   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
-   - Summary: OpenAI เปิดตัว GPT-5.6 สามรุ่น ได้แก่ Sol (ทรงพลังที่สุด สำหรับ Frontier reasoning), Terra (สมดุล), และ Luna (เร็วและประหยัดที่สุด) พร้อมใช้งานผ่าน ChatGPT, OpenAI API และ Codex หลังผ่านการตรวจสอบจากรัฐบาลสหรัฐ
-
-2. **OpenAI เปิดตัว ChatGPT Work — AI Agent สำหรับงานในองค์กร**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours
-   - Published: July 9, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-07-09/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty)
-   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
-   - Summary: ChatGPT Work รับ Outcome เป็นคำสั่งแล้วทำงานข้ามแอปและไฟล์ได้นานหลายชั่วโมง ผลลัพธ์คือเอกสาร สเปรดชีต Slide หรือแอปเว็บสำเร็จรูป เปิดใช้งานสำหรับ Pro, Enterprise และ Edu ทันที
-
-3. **Anthropic เปิดตัว Claude Reflect ฟีเจอร์ติดตามพฤติกรรมการใช้ AI (เบต้า)**
-   - Publisher: Anthropic
-   - URL: https://www.anthropic.com/news/reflect-with-claude
-   - Published: July 9, 2026
-   - FreshnessCheck: ✅ within last 24h via snippet "July 9, 2026: Anthropic introduced, in beta, a new way to reflect on and refine how you use Claude"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty)
-   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
-   - Summary: Claude Reflect ช่วยให้ผู้ใช้ติดตามและวิเคราะห์รูปแบบการใช้งาน Claude ของตัวเอง รวมถึงหัวข้อที่มักถาม ความถี่ และประเภทของงานที่มอบหมาย
-
-4. **Meta เปิดตัว Muse Spark 1.1 โมเดล AI สำหรับ Agentic Coding**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/
-   - Published: July 9, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/09/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty)
-   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
-   - Summary: Meta เปิดตัว Muse Spark 1.1 โมเดล Multimodal ที่ออกแบบสำหรับ Agentic Coding แข่งกับ OpenAI Codex และ Anthropic Claude Code
-
-5. **Meta Muse Image สร้างรูปจากโพสต์ Instagram ได้ทันที — ต้อง Opt-out เอง**
+1. **Fidji Simo ซีอีโอส่วนแอปพลิเคชันของ OpenAI ประกาศลาออกด้วยเหตุผลด้านสุขภาพ**
    - Publisher: Blognone
-   - URL: https://www.blognone.com/node/151095
-   - Published: July 8, 2026
-   - FreshnessCheck: ✅ within last 24h via snippet "July 8, 2026" (within rolling 24h window ending July 9 Asia/Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (set empty — no 2026-07-08-brief.md found)
-   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED runtime)
-   - Summary: Meta Muse Image อ้างอิงบัญชีและโพสต์สาธารณะบน Instagram เพื่อสร้างรูปภาพใหม่ได้ทันทีโดยค่าตั้งต้น ผู้ใช้ที่ไม่ต้องการต้อง Opt-out ด้วยตัวเอง
+   - URL: https://www.blognone.com/node/151116
+   - Published: 10 July 2026 - 08:00 (Asia/Bangkok) — verbatim from search snippet "By arjin on 10 July 2026 - 08:00"
+   - FreshnessCheck: ✅ within last 24h via page timestamp "By arjin on 10 July 2026 - 08:00"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Blognone URL was node/151095; this is node/151116)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Fidji Simo ผู้บริหาร OpenAI ที่รับผิดชอบแอปพลิเคชันทั้งหมดประกาศลาออกด้วยเหตุผลด้านสุขภาพจากอาการป่วยเรื้อรัง 7 ปี จะเปลี่ยนมารับตำแหน่งที่ปรึกษาพาร์ตไทม์แทน ถือเป็นผู้บริหารลำดับ #2 ของ OpenAI
+
+2. **Big Tech doubles debt load to $350 billion in AI spending spree**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-07-10/big-tech-doubles-debt-load-to-350-billion-in-ai-spending-spree
+   - Published: 2026-07-10 — verbatim from URL slug /2026-07-10/
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-07-10/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had a different Bloomberg article path /2026-07-09/openai-unveils-chatgpt-work-agent...)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Alphabet, Amazon, Meta, Microsoft และ Oracle เพิ่มภาระหนี้รวมเป็น $350 พันล้านในห้าปีเพื่อระดมทุนสำหรับ AI capital expenditure
+
+3. **AI could affect millions in ASEAN as ILO sees no big job cuts**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-07-10/ai-could-affect-millions-in-asean-as-ilo-sees-no-big-job-cuts
+   - Published: 2026-07-10 — verbatim from URL slug /2026-07-10/
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-07-10/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no ASEAN/ILO story covered yesterday)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: ILO ประเมินแรงงานราว 80 ล้านคนในอาเซียนอยู่ในกลุ่มเสี่ยงได้รับผลกระทบจาก AI แต่ไม่คาดว่าจะมีการตกงานหมู่ในระยะใกล้ เนื่องจาก AI ทำหน้าที่เสริมมากกว่าทดแทน
+
+4. **Malaysia's Anwar to Debut an AI Double That Sounds Just Like Him**
+   - Publisher: Bloomberg Technology
+   - URL: https://www.bloomberg.com/news/articles/2026-07-10/malaysia-s-anwar-to-debut-an-ai-double-that-sounds-just-like-him
+   - Published: 2026-07-10 — verbatim from URL slug /2026-07-10/
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-07-10/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, no Malaysia AI coverage yesterday)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: นายกรัฐมนตรีมาเลเซีย อันวาร์ อิบราฮิม กำลังจะเปิดตัว AI voice double สำหรับสื่อสารกับประชาชน เป็นหนึ่งในผู้นำประเทศคนแรกในโลกที่ใช้ Synthetic persona อย่างเป็นทางการ
+
+5. **Meta เปิดตัว Muse Spark 1.1, AI เน้นการควบคุมคอมพิวเตอร์และเขียนโค้ด เปิดขาย API ครั้งแรกแต่ไม่ขายคนไทย**
+   - Publisher: Blognone
+   - URL: https://www.blognone.com/node/151114
+   - Published: 10 July 2026 - 00:13 (Asia/Bangkok) — verbatim from search snippet "By lew on 10 July 2026 - 00:13"
+   - FreshnessCheck: ✅ within last 24h via page timestamp "By lew on 10 July 2026 - 00:13"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Meta Muse Spark story was at techcrunch.com/2026/07/09/meta-enters-...; this is a different URL with new API pricing and Thai market restriction details)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Meta เปิดขาย Muse Spark 1.1 แบบ API ราคา $1.25/$4.25 ต่อล้าน token ผ่าน Meta Model API แต่ยังไม่รองรับผู้ใช้ในไทย โมเดลเน้น Computer use และ Coding
 
 ## Dropped
-- ไม่มีผู้สมัครถูกคัดออก — ทั้ง 5 ผู้สมัครผ่าน Filter A และ Filter B
 
-> Note: 5 items passed both filters this run. YESTERDAYS_URLS was empty (articles/2026-07-08-brief.md not found — previous day was skipped).
+- https://openai.com/index/gpt-5-6/ — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
+- https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
+- https://www.anthropic.com/news/reflect-with-claude — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
+- https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/ — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
+- https://www.blognone.com/node/151095 — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
+- https://openai.com/index/introducing-gpt-live/ — Filter A (>24h): published 2026-07-08 (2 days ago)
+- https://www.anthropic.com/research/off-switch-dual-use — Filter A (>24h): published 2026-07-08
+- https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/ — Filter A (>24h): "2 days ago" (~2026-07-08)
+- https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/ — Filter A (>24h): published 2026-07-08
+- https://www.beartai.com/read/1502738/ — Filter A: timestamp ambiguous/not surfaced in search results
+- https://www.blognone.com/node/151115 (OpenAI ChatGPT Work) — deprioritized: topic covered in yesterday's brief (#2), replaced by higher-editorial-value stories
+- https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/ — replaced by Blognone stories with confirmed July 10 timestamps
+- https://www.anthropic.com/news/ust-claude — replaced by Blognone stories with confirmed July 10 timestamps
+
+> Note: 7+ items passed both filters this run. Selected top 5 prioritising editorial diversity and Thai-source balance. Of approximately 25 candidates evaluated, ~8 failed Filter A (>24h or ambiguous timestamp), 5 failed Filter B (in YESTERDAYS_URLS). 2 Thai-language sources (Blognone) confirmed with explicit July 10, 2026 timestamps.
