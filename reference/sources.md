@@ -1,69 +1,59 @@
-# Sources — 2026-07-10
+# Sources — 2026-07-11
 
-Generated: 2026-07-10 (Asia/Bangkok)
+Generated: 2026-07-11 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-09-brief.md (5 URLs loaded)
+Dedup against: articles/2026-07-10-brief.md (5 URLs loaded)
 
-1. **Fidji Simo ซีอีโอส่วนแอปพลิเคชันของ OpenAI ประกาศลาออกด้วยเหตุผลด้านสุขภาพ**
+1. **Apple sues OpenAI over alleged trade secret theft**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/
+   - Published: July 10, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/10/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com not present in yesterday's brief at all)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Apple filed a federal lawsuit alleging OpenAI systematically stole trade secrets via its recruiting pipeline. Chief Hardware Officer Tang Tan is named as directing recruits to bring Apple confidential documents to job interviews; engineer Chang Liu allegedly downloaded Apple technical docs on a company laptop before leaving for OpenAI.
+
+2. **SK Hynix raises $26.5B in the biggest foreign IPO in US history**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/
+   - Published: 2026-07-10T17:17:12Z
+   - FreshnessCheck: ✅ within last 24h via Exa-confirmed timestamp 2026-07-10T17:17:12Z and URL slug /2026/07/10/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com not in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet + Exa fetch confirms date/headline
+   - Summary: South Korean memory chipmaker SK Hynix priced ADRs at $149, raising $26.5 billion in its Nasdaq debut — the largest foreign IPO in US history. Stock opened +13–14%. SK Hynix holds ~60% of the HBM market, making it the critical supplier for Nvidia AI GPUs. Proceeds fund new fabs in South Korea and EUV equipment.
+
+3. **OpenAI bets on families as ChatGPT goes deeper into households**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/
+   - Published: 2026-07-11T14:13:00Z
+   - FreshnessCheck: ✅ within last 24h via Exa-confirmed timestamp 2026-07-11T14:13:00Z (published TODAY)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not in yesterday's brief)
+   - Verification: Tier 2 — WebSearch snippet + Exa fetch confirms date/headline/content
+   - Summary: OpenAI is hiring a dedicated product manager for families, caregivers, and older adults. Sensor Tower data shows ChatGPT's 35+ user share rose from 26% to 31% in Q2 while the 18–24 share declined from 34% to 29%. Nearly 1 in 4 US parent smartphone users used ChatGPT in Q2, up from 16% a year earlier.
+
+4. **Instagram ยอมถอยแล้ว ยกเลิกฟีเจอร์สร้างคอนเทนต์ AI จากบัญชีพับลิก หลังกระแสตอบรับเป็นทางลบ**
    - Publisher: Blognone
-   - URL: https://www.blognone.com/node/151116
-   - Published: 10 July 2026 - 08:00 (Asia/Bangkok) — verbatim from search snippet "By arjin on 10 July 2026 - 08:00"
-   - FreshnessCheck: ✅ within last 24h via page timestamp "By arjin on 10 July 2026 - 08:00"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Blognone URL was node/151095; this is node/151116)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Fidji Simo ผู้บริหาร OpenAI ที่รับผิดชอบแอปพลิเคชันทั้งหมดประกาศลาออกด้วยเหตุผลด้านสุขภาพจากอาการป่วยเรื้อรัง 7 ปี จะเปลี่ยนมารับตำแหน่งที่ปรึกษาพาร์ตไทม์แทน ถือเป็นผู้บริหารลำดับ #2 ของ OpenAI
+   - URL: https://www.blognone.com/node/151122
+   - Published: 11 July 2026 - 11:33 (Asia/Bangkok)
+   - FreshnessCheck: ✅ within last 24h via Exa fetch confirming "By arjin on 11 July 2026 - 11:33"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had node/151116 and node/151114; this is node/151122)
+   - Verification: Tier 2 — WebSearch snippet + Exa fetch confirms date/headline/full content
+   - Summary: Meta launched an Instagram feature using Muse Image letting any Meta AI user generate content referencing public accounts via @-mentions (opt-out by default). Creative organizations and actors attacked the feature as violating rights; Meta pulled it the same day.
 
-2. **Big Tech doubles debt load to $350 billion in AI spending spree**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-10/big-tech-doubles-debt-load-to-350-billion-in-ai-spending-spree
-   - Published: 2026-07-10 — verbatim from URL slug /2026-07-10/
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-07-10/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had a different Bloomberg article path /2026-07-09/openai-unveils-chatgpt-work-agent...)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Alphabet, Amazon, Meta, Microsoft และ Oracle เพิ่มภาระหนี้รวมเป็น $350 พันล้านในห้าปีเพื่อระดมทุนสำหรับ AI capital expenditure
-
-3. **AI could affect millions in ASEAN as ILO sees no big job cuts**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-10/ai-could-affect-millions-in-asean-as-ilo-sees-no-big-job-cuts
-   - Published: 2026-07-10 — verbatim from URL slug /2026-07-10/
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-07-10/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no ASEAN/ILO story covered yesterday)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: ILO ประเมินแรงงานราว 80 ล้านคนในอาเซียนอยู่ในกลุ่มเสี่ยงได้รับผลกระทบจาก AI แต่ไม่คาดว่าจะมีการตกงานหมู่ในระยะใกล้ เนื่องจาก AI ทำหน้าที่เสริมมากกว่าทดแทน
-
-4. **Malaysia's Anwar to Debut an AI Double That Sounds Just Like Him**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-10/malaysia-s-anwar-to-debut-an-ai-double-that-sounds-just-like-him
-   - Published: 2026-07-10 — verbatim from URL slug /2026-07-10/
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-07-10/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, no Malaysia AI coverage yesterday)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: นายกรัฐมนตรีมาเลเซีย อันวาร์ อิบราฮิม กำลังจะเปิดตัว AI voice double สำหรับสื่อสารกับประชาชน เป็นหนึ่งในผู้นำประเทศคนแรกในโลกที่ใช้ Synthetic persona อย่างเป็นทางการ
-
-5. **Meta เปิดตัว Muse Spark 1.1, AI เน้นการควบคุมคอมพิวเตอร์และเขียนโค้ด เปิดขาย API ครั้งแรกแต่ไม่ขายคนไทย**
+5. **Notion ออกแอปแยก Notion Agents บน iOS ไว้เรียกใช้ผู้ช่วย AI โดยเฉพาะ**
    - Publisher: Blognone
-   - URL: https://www.blognone.com/node/151114
-   - Published: 10 July 2026 - 00:13 (Asia/Bangkok) — verbatim from search snippet "By lew on 10 July 2026 - 00:13"
-   - FreshnessCheck: ✅ within last 24h via page timestamp "By lew on 10 July 2026 - 00:13"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Meta Muse Spark story was at techcrunch.com/2026/07/09/meta-enters-...; this is a different URL with new API pricing and Thai market restriction details)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Meta เปิดขาย Muse Spark 1.1 แบบ API ราคา $1.25/$4.25 ต่อล้าน token ผ่าน Meta Model API แต่ยังไม่รองรับผู้ใช้ในไทย โมเดลเน้น Computer use และ Coding
+   - URL: https://www.blognone.com/node/151126
+   - Published: 11 July 2026 - 20:49 (Asia/Bangkok)
+   - FreshnessCheck: ✅ within last 24h via Exa fetch confirming "By arjin on 11 July 2026 - 20:49"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (node/151126 not in yesterday's 5 URLs)
+   - Verification: Tier 2 — WebSearch snippet + Exa fetch confirms date/headline/full content
+   - Summary: Notion launched Notion Agents, a standalone iOS app acting as a dedicated AI assistant that answers questions from the user's Notion docs, databases, and projects. Accepts text, voice, and image input. User can choose between GPT, Claude, and Gemini as the underlying model.
 
 ## Dropped
+- https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours — Filter A (>24h): URL slug /2026-07-09/ is 2 days before July 11
+- https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/ — Filter A (>24h): published 2026-07-09
+- Marc Andreessen / Fed task force (multiple sources) — Filter A (>24h): all coverage dated 2026-07-09; also not on trusted-source domains
+- Various sources from non-trusted domains (aitoolsrecap.com, cryptointegrat.com, asanify.com) — not on trusted-sources.md allow-list
 
-- https://openai.com/index/gpt-5-6/ — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
-- https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
-- https://www.anthropic.com/news/reflect-with-claude — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
-- https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/ — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
-- https://www.blognone.com/node/151095 — Filter B (dedup): URL appeared in articles/2026-07-09-brief.md
-- https://openai.com/index/introducing-gpt-live/ — Filter A (>24h): published 2026-07-08 (2 days ago)
-- https://www.anthropic.com/research/off-switch-dual-use — Filter A (>24h): published 2026-07-08
-- https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/ — Filter A (>24h): "2 days ago" (~2026-07-08)
-- https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/ — Filter A (>24h): published 2026-07-08
-- https://www.beartai.com/read/1502738/ — Filter A: timestamp ambiguous/not surfaced in search results
-- https://www.blognone.com/node/151115 (OpenAI ChatGPT Work) — deprioritized: topic covered in yesterday's brief (#2), replaced by higher-editorial-value stories
-- https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/ — replaced by Blognone stories with confirmed July 10 timestamps
-- https://www.anthropic.com/news/ust-claude — replaced by Blognone stories with confirmed July 10 timestamps
-
-> Note: 7+ items passed both filters this run. Selected top 5 prioritising editorial diversity and Thai-source balance. Of approximately 25 candidates evaluated, ~8 failed Filter A (>24h or ambiguous timestamp), 5 failed Filter B (in YESTERDAYS_URLS). 2 Thai-language sources (Blognone) confirmed with explicit July 10, 2026 timestamps.
+> Note: 5 items passed both filters this run. Of approximately 12 candidates examined, 3 failed Filter A (>24h slug/timestamp), 0 failed Filter B (all had URLs distinct from yesterday's 5). Several others were from non-trusted source domains and excluded at the allow-list stage.
