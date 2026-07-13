@@ -1,31 +1,31 @@
-# Perspectives — 2026-07-11
+# Perspectives — 2026-07-13
 
-## 1. Apple ฟ้อง OpenAI ขโมยความลับทางการค้า
+## 1. คดี Apple-OpenAI กำลังทำให้แผน Hardware ของ OpenAI สั่นคลอน
 
-**อาจารย์ (มหาวิทยาลัย):** คดีนี้เป็นกรณีตัวอย่างชั้นดีสำหรับสอนเรื่อง Trade secret law ในยุค AI race — นักศึกษาควรเข้าใจว่าความรู้ที่ "อยู่ในหัว" กับเอกสารลับที่ถ่ายโอนออกมาเป็นคนละเรื่อง และ AI recruitment war กำลังทำให้เส้นแบ่งนี้เลือนรางมากขึ้นเรื่อยๆ
-**ผู้เชี่ยวชาญด้าน AI:** การที่ OpenAI มี Chief Hardware Officer และเน้น On-device AI บ่งชี้ว่า Edge AI เป็น Strategic frontier ถัดไป ผลพวงทางกฎหมายของคดีนี้อาจบังคับให้ AI companies ทั้งอุตสาหกรรมต้องเพิ่ม Trade secret firewall ในกระบวนการ Hiring
-**โปรแกรมเมอร์มืออาชีพ:** ทุกคนที่ย้ายจาก Big Tech มา AI startup ควรทบทวน NDA และ IP assignment agreement อีกครั้ง — คดีนี้พิสูจน์ว่าบริษัทเดิมพร้อมฟ้อง และระบบ Digital forensics ตรวจหลักฐานการดาวน์โหลดไฟล์ได้แม้นานหลายเดือน
+**อาจารย์ (มหาวิทยาลัย):** กรณีนี้สอนเรื่อง IP ในยุค AI race ได้อย่างชัดเจน — ความรู้ที่พนักงานนำติดตัวเมื่อย้ายงานไม่ใช่แค่ประสบการณ์ส่วนตัว แต่ยังรวมถึงสิ่งที่กฎหมายอาจมองว่าเป็น trade secret ของนายจ้างเดิม นักเรียน CS ทุกคนต้องเข้าใจเรื่องนี้ก่อนทำงานจริง
+**ผู้เชี่ยวชาญด้าน AI:** ความน่ากลัวของคดีนี้ไม่ใช่จำนวน 400 คนที่ย้ายงาน แต่คือ allegation ที่ว่า OpenAI ใช้ checklist เพื่อสอนพนักงานใหม่ให้เลี่ยงระบบ security ของ Apple — ถ้าพิสูจน์ได้ มันคือ coordinated corporate espionage ที่ต่างจาก talent mobility ปกติอย่างสิ้นเชิง
+**โปรแกรมเมอร์มืออาชีพ:** developer ที่ย้ายงานจาก Big Tech ต้องตรวจสอบ employment agreement ของตัวเองก่อน เพราะ "ความรู้ในหัว" กับ "เอกสารที่ download มา" มีเส้นแบ่งทางกฎหมายที่ชัดเจน — คดีนี้เป็นหลักฐานว่า forensics ดิจิทัลตรวจพบการดาวน์โหลดได้แม้ผ่านมาหลายเดือน
 
-## 2. SK Hynix IPO $26.5 พันล้าน สูงสุดในประวัติศาสตร์
+## 2. TSMC ทำรายได้ Q2/2026 ทุบสถิติ 36%
 
-**อาจารย์ (มหาวิทยาลัย):** IPO นี้เป็นตัวอย่างของ "AI infrastructure as a macro signal" — การที่นักลงทุนสหรัฐยอมจ่าย premium ให้บริษัทชิปเกาหลีบ่งชี้ว่าตลาดกำหนดราคา AI boom ในระดับ hardware layer ไม่ใช่แค่ software หรือ model
-**ผู้เชี่ยวชาญด้าน AI:** SK Hynix ครอง 60% HBM market share หมายความว่า bottleneck ของ AI training scale ในระยะ 2-3 ปีข้างหน้าอยู่ที่ supply chain นี้โดยตรง หากโรงงานใหม่เปิดได้ตามแผน compute cost จะลดลงเร็วกว่าที่ตลาดคาด
-**โปรแกรมเมอร์มืออาชีพ:** API pricing ของทุก AI provider ผูกกับ HBM cost ทางอ้อม — ถ้า SK Hynix ขยาย capacity ได้ตามแผน token cost ของ frontier models จะลดลง เปิด Use case ใหม่ที่ตอนนี้ยัง cost-prohibitive อยู่
+**อาจารย์ (มหาวิทยาลัย):** ตัวเลขของ TSMC สะท้อน S-curve ของ AI infrastructure ที่ยังอยู่ในช่วงต้น — เมื่อ market cap ใกล้ $2 ล้านล้าน การเติบโต 36% ในไตรมาสเดียวยังคงเป็นเรื่องน่าตื่นตะลึง และแสดงว่า AI compute demand ยังไม่ถึง inflection point ของการชะลอ
+**ผู้เชี่ยวชาญด้าน AI:** การที่ N3 sold out ไม่ใช่แค่ข่าวดีสำหรับ TSMC — มันคือ bottleneck ที่ควบคุมว่าบริษัทไหนสามารถ scale โมเดลและ inference ได้เร็วแค่ไหน บริษัทที่จอง compute ไว้ล่วงหน้าจะได้เปรียบเชิงแข่งขันมหาศาลในปีหน้า
+**โปรแกรมเมอร์มืออาชีพ:** เมื่อชิปขาดแคลน API cost จะไม่ลดตาม economy of scale ปกติ ดังนั้นทักษะที่ valuable ที่สุดตอนนี้คือ prompt engineering ที่ลด tokens ต่อ request ได้โดยไม่เสียคุณภาพ
 
-## 3. OpenAI มุ่งสู่ตลาดครัวเรือน
+## 3. สีจิ้นผิงปรากฏตัวในงาน WAIC เป็นครั้งแรก
 
-**อาจารย์ (มหาวิทยาลัย):** งานวิจัยที่พบว่าผู้ปกครองประเมิน AI usage ของลูกต่ำกว่าความเป็นจริงถึง 11 percentage points เป็นสัญญาณให้โรงเรียนเร่ง AI literacy ตั้งแต่ระดับประถม ไม่ใช่รอให้มหาวิทยาลัยจัดการ
-**ผู้เชี่ยวชาญด้าน AI:** การมี dedicated PM สำหรับ Family segment จะสร้าง product surface ที่มี Safety constraints เข้มงวดกว่า consumer product ทั่วไป และน่าจับตาว่า Parental controls ที่ OpenAI พัฒนาจะ shape industry standard สำหรับ AI for children หรือไม่
-**โปรแกรมเมอร์มืออาชีพ:** Age-verification และ Parental consent API กำลังจะกลายเป็น requirement ใหม่สำหรับ consumer AI apps — ออกแบบ Architecture ให้รองรับ age-gating ตั้งแต่ตอนนี้ดีกว่าต้อง retrofit ภายหลัง
+**อาจารย์ (มหาวิทยาลัย):** การที่ผู้นำสูงสุดของประเทศปรากฏตัวในงาน AI conference ไม่ใช่เรื่องปกติ — นักเรียนต้องเข้าใจว่า AI กำลังกลายเป็น geopolitical asset ในระดับเดียวกับ nuclear technology หรือ space programs ของยุคก่อน ซึ่งมีผลต่อ career path ใน AI มากกว่าที่คิด
+**ผู้เชี่ยวชาญด้าน AI:** การ debut ของ Xi ที่ WAIC จะ signal ทรัพยากรของรัฐจีนที่จะไหลเข้าสู่ AI ecosystem — หมายถึงทั้ง funding, talent pipeline จากมหาวิทยาลัย, และ regulatory environment ที่สนับสนุน AI development ในประเทศโดยเฉพาะ
+**โปรแกรมเมอร์มืออาชีพ:** ต้องติดตามนโยบายที่จะออกมาจาก WAIC เพราะนโยบายจีนมักส่งผลต่อ open-source releases, model availability, และ API access restrictions ที่กระทบ dev stack ทั่วโลก
 
-## 4. Instagram ถอนฟีเจอร์ AI สร้างคอนเทนต์จากบัญชีสาธารณะ
+## 4. วอชิงตันถกเถียงห้ามจีน Distill โมเดล AI สหรัฐ
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้สอนเรื่อง Default settings ethics ได้ดีเยี่ยม — การเลือก opt-out แทน opt-in เป็นการ externalize cost ไปยังผู้ใช้ที่ไม่ได้ขอ ซึ่งขัดกับหลัก Informed consent โดยสิ้นเชิง
-**ผู้เชี่ยวชาญด้าน AI:** ความเร็วในการถอนฟีเจอร์ชี้ว่า Meta ประเมิน Social blowback ต่ำเกินไปในช่วง Product review — ทีม AI Ethics ต้องทำงานคู่ขนานกับ Product launch ไม่ใช่ตาม
-**โปรแกรมเมอร์มืออาชีพ:** Default permission model สำหรับ Generative AI ที่ใช้ User content ต้องเป็น opt-in เสมอ — เรียนรู้จากกรณีนี้ก่อน Ship ฟีเจอร์ใดที่แตะ User-generated content
+**อาจารย์ (มหาวิทยาลัย):** Distillation เป็น edge case น่าสอนมากเพราะอยู่ในพื้นที่สีเทา — มันต่างจากการลอกเฉลยเพราะใช้เฉพาะ output ที่เปิดเผย ไม่ใช่ weights ลับ แต่ก็ต่างจากการเรียนรู้ปกติที่ใช้ความเข้าใจ ไม่ใช่ behavioral imitation
+**ผู้เชี่ยวชาญด้าน AI:** Distillation เป็นเทคนิค ML มาตรฐานที่กำลังถูก politicize — ผลลัพธ์น่าจะเป็น API terms ที่เข้มงวดขึ้นและ technical controls เช่น output watermarking มากกว่าการแบนตรงๆ ที่ enforce ยาก
+**โปรแกรมเมอร์มืออาชีพ:** ถ้ารัฐบาลสหรัฐจำกัด API access จริง workflow ที่ใช้ frontier APIs สำหรับ synthetic data generation อาจต้องปรับตัว — ตอนนี้คือเวลาที่ดีในการ diversify ไปยัง open-source models สำหรับ data pipelines ที่ไม่ critical
 
-## 5. Notion Agents แอปแยก iOS
+## 5. งานวิจัยเตือน AI อาจทำให้ทักษะการคิดเสื่อมลง
 
-**อาจารย์ (มหาวิทยาลัย):** Notion Agents เป็นตัวอย่างของ "Agentic layer on top of knowledge base" ที่นักศึกษาควรเข้าใจเป็น design pattern ที่จะเห็นบ่อยขึ้นเรื่อยๆ — ความรู้อยู่ใน Notion, Agent อยู่บน top, ผู้ใช้ interact ผ่าน Natural language
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Notion รองรับ GPT, Claude, และ Gemini พร้อมกันโดยผู้ใช้เลือกได้บ่งบอกทิศทาง — "Model-agnostic orchestration" จะเป็น competitive differentiator สำหรับ productivity tools ในปีหน้า
-**โปรแกรมเมอร์มืออาชีพ:** Standalone app สำหรับ Agent mode แยกจากแอปหลักเป็น UX pattern ที่น่าจับตา — ตรวจสอบว่า Notion Agents มี webhook หรือ event trigger ให้ใช้หรือไม่ เพราะจะเปลี่ยนวิธี Build Notion-native automation อย่างมีนัยสำคัญ
+**อาจารย์ (มหาวิทยาลัย):** นี่คือความกังวลสำคัญที่สุดในวงการการศึกษา — หากนักเรียน delegate การเขียน การคิด และการแก้ปัญหาให้ AI ทั้งหมด กระบวนการ "productive struggle" ที่จำเป็นต่อการสร้างความเข้าใจลึกจะหายไป ต้องออกแบบ AI ให้เป็น Socratic partner ไม่ใช่ answer machine
+**ผู้เชี่ยวชาญด้าน AI:** งานวิจัยนี้ชี้ไปที่ gap ใน AI design — เราออกแบบโมเดลให้ helpful มากที่สุด แต่ไม่ได้ optimize สำหรับ "ช่วยในแบบที่ทำให้มนุษย์เก่งขึ้น" คำถามนี้กำลังจะกลายเป็นส่วนสำคัญของ AI safety research ในปีต่อๆ ไป
+**โปรแกรมเมอร์มืออาชีพ:** สังเกตได้ว่า developer บางคนไม่สามารถ debug โดยไม่ใช้ AI ได้อีกต่อไป — นั่นเป็นปัญหาเพราะ AI มักพลาดใน edge cases ที่คนที่เข้าใจ fundamentals จะจับได้ทันที การ code review โดยไม่มี AI ช่วยยังคงสำคัญ
