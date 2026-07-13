@@ -1,59 +1,60 @@
-# Sources — 2026-07-11
+# Sources — 2026-07-13
 
-Generated: 2026-07-11 (Asia/Bangkok)
+Generated: 2026-07-13 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-10-brief.md (5 URLs loaded)
+Dedup against: articles/2026-07-12-brief.md (5 URLs loaded)
 
-1. **Apple sues OpenAI over alleged trade secret theft**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/
-   - Published: July 10, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/10/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com not present in yesterday's brief at all)
+1. **How Apple's Lawsuit Threatens to Disrupt OpenAI's Bid to Rival the iPhone**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-07-13/how-apple-s-lawsuit-threatens-to-disrupt-openai-s-bid-to-rival-the-iphone
+   - Published: July 13, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-13
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had bloomberg.com paths /openai-meta-spacexai, /zhipu, /apple-s-chip-plans, /funds-fret; this /how-apple-s-lawsuit-threatens path is new)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Apple filed a federal lawsuit alleging OpenAI systematically stole trade secrets via its recruiting pipeline. Chief Hardware Officer Tang Tan is named as directing recruits to bring Apple confidential documents to job interviews; engineer Chang Liu allegedly downloaded Apple technical docs on a company laptop before leaving for OpenAI.
+   - Summary: Apple's trade secret lawsuit is already disrupting OpenAI's hardware ambitions by squeezing recruiting and creating legal drag before any court ruling; 400+ former Apple employees now work at OpenAI, including Chief Hardware Officer Tang Tan.
 
-2. **SK Hynix raises $26.5B in the biggest foreign IPO in US history**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/
-   - Published: 2026-07-10T17:17:12Z
-   - FreshnessCheck: ✅ within last 24h via Exa-confirmed timestamp 2026-07-10T17:17:12Z and URL slug /2026/07/10/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com not in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet + Exa fetch confirms date/headline
-   - Summary: South Korean memory chipmaker SK Hynix priced ADRs at $149, raising $26.5 billion in its Nasdaq debut — the largest foreign IPO in US history. Stock opened +13–14%. SK Hynix holds ~60% of the HBM market, making it the critical supplier for Nvidia AI GPUs. Proceeds fund new fabs in South Korea and EUV equipment.
-
-3. **OpenAI bets on families as ChatGPT goes deeper into households**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/
-   - Published: 2026-07-11T14:13:00Z
-   - FreshnessCheck: ✅ within last 24h via Exa-confirmed timestamp 2026-07-11T14:13:00Z (published TODAY)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet + Exa fetch confirms date/headline/content
-   - Summary: OpenAI is hiring a dedicated product manager for families, caregivers, and older adults. Sensor Tower data shows ChatGPT's 35+ user share rose from 26% to 31% in Q2 while the 18–24 share declined from 34% to 29%. Nearly 1 in 4 US parent smartphone users used ChatGPT in Q2, up from 16% a year earlier.
-
-4. **Instagram ยอมถอยแล้ว ยกเลิกฟีเจอร์สร้างคอนเทนต์ AI จากบัญชีพับลิก หลังกระแสตอบรับเป็นทางลบ**
+2. **TSMC มีรายได้ในไตรมาส 2/2026 เพิ่มขึ้น 36% จากปีก่อน เป็นสถิติใหม่อีกไตรมาส**
    - Publisher: Blognone
-   - URL: https://www.blognone.com/node/151122
-   - Published: 11 July 2026 - 11:33 (Asia/Bangkok)
-   - FreshnessCheck: ✅ within last 24h via Exa fetch confirming "By arjin on 11 July 2026 - 11:33"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had node/151116 and node/151114; this is node/151122)
-   - Verification: Tier 2 — WebSearch snippet + Exa fetch confirms date/headline/full content
-   - Summary: Meta launched an Instagram feature using Muse Image letting any Meta AI user generate content referencing public accounts via @-mentions (opt-out by default). Creative organizations and actors attacked the feature as violating rights; Meta pulled it the same day.
+   - URL: https://www.blognone.com/node/151138
+   - Published: July 13, 2026
+   - FreshnessCheck: ✅ within last 24h via TSMC official SEC filing dated 2026-07-13 (tsm-revenue20260713.htm); Blognone covered same-day
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (blognone.com domain not in yesterday's 5 URLs at all)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: TSMC reported Q2/2026 revenue of NT$1.27 trillion, up 36% YoY, beating guidance; June revenue surged 67.9% to a record NT$442.7 billion; N3 process node is sold out for the year from AI chip demand.
 
-5. **Notion ออกแอปแยก Notion Agents บน iOS ไว้เรียกใช้ผู้ช่วย AI โดยเฉพาะ**
-   - Publisher: Blognone
-   - URL: https://www.blognone.com/node/151126
-   - Published: 11 July 2026 - 20:49 (Asia/Bangkok)
-   - FreshnessCheck: ✅ within last 24h via Exa fetch confirming "By arjin on 11 July 2026 - 20:49"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (node/151126 not in yesterday's 5 URLs)
-   - Verification: Tier 2 — WebSearch snippet + Exa fetch confirms date/headline/full content
-   - Summary: Notion launched Notion Agents, a standalone iOS app acting as a dedicated AI assistant that answers questions from the user's Notion docs, databases, and projects. Accepts text, voice, and image input. User can choose between GPT, Claude, and Gemini as the underlying model.
+3. **Xi to Debut at China's Flagship AI Summit as US Rivalry Heats Up**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-07-13/xi-to-debut-at-china-s-flagship-ai-summit-as-us-rivalry-heats-up
+   - Published: July 13, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-13
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /xi-to-debut not in any of yesterday's four Bloomberg paths)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: President Xi Jinping will make his first-ever appearance at the World Artificial Intelligence Conference (WAIC) in Shanghai as the three-day event opens Friday, signaling Beijing's top-level commitment to AI leadership amid intensifying US-China rivalry.
+
+4. **Washington Is Looking to Keep China From Training Its AI on US Models**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-07-13/anthropic-openai-warnings-prompt-distillation-debate-in-dc
+   - Published: July 13, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-13
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /anthropic-openai-warnings not in any of yesterday's Bloomberg paths)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Anthropic and OpenAI are warning US policymakers that Chinese AI firms are using "distillation" — training on US model outputs — as a key competitive strategy; Washington is beginning to debate restrictions on this practice.
+
+5. **Researchers Raise Concerns That AI May Atrophy Human Skills**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/newsletters/2026-07-13/ai-risks-never-skilling-new-research-on-loss-of-critical-thinking-skills
+   - Published: July 13, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-13
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /news/newsletters/... distinct from all yesterday's /news/articles/... Bloomberg paths)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: New research raises concerns that relying on AI for cognitive tasks before developing those skills may cause "never-skilling" — atrophying human critical thinking and problem-solving capacity.
 
 ## Dropped
-- https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours — Filter A (>24h): URL slug /2026-07-09/ is 2 days before July 11
-- https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/ — Filter A (>24h): published 2026-07-09
-- Marc Andreessen / Fed task force (multiple sources) — Filter A (>24h): all coverage dated 2026-07-09; also not on trusted-source domains
-- Various sources from non-trusted domains (aitoolsrecap.com, cryptointegrat.com, asanify.com) — not on trusted-sources.md allow-list
+- https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/ — Filter A (>24h): URL slug /2026/07/10/ is 3 days old
+- https://www.bloomberg.com/news/articles/2026-07-08/china-to-let-ai-firms-buy-nvidia-h200-chips-information-says — Filter A (>24h): URL slug 2026-07-08 is 5 days old
+- https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/ — Filter A (>24h): URL slug /2026/07/08/ is 5 days old
+- https://www.anthropic.com/news/expanding-project-glasswing — Filter A (>24h): CNBC coverage dated June 2, 2026 (41 days old)
+- https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/ — Valid (Jul 13), not selected: same topic as story #1, excluded for topical diversity
 
-> Note: 5 items passed both filters this run. Of approximately 12 candidates examined, 3 failed Filter A (>24h slug/timestamp), 0 failed Filter B (all had URLs distinct from yesterday's 5). Several others were from non-trusted source domains and excluded at the allow-list stage.
+> Note: 5 items passed both filters this run. Of approximately 13 candidates examined, 4 failed Filter A (published >24h ago), 0 failed Filter B (all had URLs distinct from yesterday's 5), 1 was valid but not selected for topical diversity.
