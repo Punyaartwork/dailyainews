@@ -1,63 +1,60 @@
-# Sources — 2026-07-12
+# Sources — 2026-07-14
 
-Generated: 2026-07-12 (Asia/Bangkok)
-Runtime: WEBFETCH_BLOCKED
+Generated: 2026-07-14 (Asia/Bangkok)
+Runtime: WEBFETCH_BLOCKED (standard WebFetch 403; Exa web_fetch used for body confirmation where available)
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-11-brief.md (5 URLs loaded)
+Dedup against: articles/2026-07-13-brief.md (5 URLs loaded)
 
-1. **OpenAI, Meta, SpaceXAI Compete for More Cost-Efficient AI Models**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-12/openai-meta-spacexai-compete-for-more-cost-efficient-ai-models
-   - Published: 2026-07-12
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-12
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (bloomberg.com path entirely new; no Bloomberg URLs in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI released GPT-5.6 in three variants (Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per million tokens), Meta released Muse Spark 1.1 ($1.25–$4.25), and SpaceXAI released Grok 4.5 ($2–$6) — all three positioning cost efficiency as the primary battleground. Sol scored 84.3% on Terminal-Bench 2.1 vs. Muse Spark 1.1's 69.2%.
+1. **Anthropic Launches Claude for Teachers**
+   - Publisher: Anthropic
+   - URL: https://www.anthropic.com/news/claude-for-teachers
+   - Published: Jul 14, 2026
+   - FreshnessCheck: ✅ within last 24h via Exa fetch of anthropic.com/news listing dated "Jul 14, 2026" and article body confirmation
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (domain not in yesterday's set at this path)
+   - Verification: Tier 1 (Exa) — full article body retrieved confirming July 14, 2026 date and headline
+   - Summary: Anthropic is offering verified K-12 educators in the US free access to premium Claude capabilities, a teaching-skills library, and evidence-based curricula mapped to academic standards in all 50 states; data will not be used to train models.
 
-2. **Zhipu's Chinese Founder Says Frontier AI Should Stay Open to All**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-12/zhipu-s-chinese-founder-says-frontier-ai-should-stay-open-to-all
-   - Published: 2026-07-12
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-12
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no Zhipu/GLM coverage in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Zhipu AI co-founder argued that frontier AI should remain broadly accessible, not controlled by select individuals. The company released GLM-5.2 under an open-source license free to download and commercialize, entering the debate over AI openness vs. safety.
-
-3. **TechCrunch Mobility: A Robotaxi Ultimatum**
+2. **The Real AI Race May No Longer Be at the Frontier**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/
-   - Published: 2026-07-12
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/07/12
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new URL; no Waymo/NHTSA story in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: NHTSA issued an ultimatum to autonomous vehicle companies demanding safety solutions by month's end after Waymo robotaxis lost power during July 4 traffic gridlock in San Francisco. The Uber–Waymo partnership in Phoenix has ended.
+   - URL: https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/
+   - Published: July 14, 2026 at 7:24 AM PDT
+   - FreshnessCheck: ✅ within last 24h via Exa-fetched article byline "7:24 AM PDT · July 14, 2026"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com path entirely new from yesterday's set)
+   - Verification: Tier 1 (Exa) — full article body retrieved
+   - Summary: Chinese open-weight models account for 41% of Hugging Face downloads this spring, surpassing US models; the top six most-used models on OpenRouter are all Chinese open models from Tencent, Xiaomi, DeepSeek, MiniMax, and Z.ai.
 
-4. **Apple's M6, M7 and M8 Chips Show How AI Is Reshaping the Company**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro
-   - Published: 2026-07-12
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-12
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no Apple chip roadmap coverage in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Bloomberg reveals Apple's updated Mac chip roadmap where AI requirements now drive the design of M6, M7 (Pro/Max/Ultra), and M8 generations, making Neural Engine capacity the primary optimization target rather than general-purpose compute.
+3. **OpenAI's First Device Will Be a Movable, Screenless Speaker**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion
+   - Published: July 14, 2026 (URL path-confirmed)
+   - FreshnessCheck: ✅ within last 24h via URL date path "2026-07-14" and multiple secondary search results all citing "Bloomberg, July 14, 2026"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from yesterday's Bloomberg articles)
+   - Verification: Tier 2 — WebSearch snippet from trusted domain bloomberg.com; Exa fetch timed out (CRAWL_LIVECRAWL_TIMEOUT); date confirmed by URL slug and secondary search corroboration
+   - Summary: OpenAI's debut consumer hardware is a mobile, screenless smart speaker with camera and sensors designed as an AI companion that controls smart-home devices, plays media, answers questions, and accesses ChatGPT.
 
-5. **Funds Fret Over $4.4 Trillion AI Trio's Grip on Emerging Markets**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-12/funds-fret-over-4-4-trillion-ai-trio-s-grip-on-emerging-markets
-   - Published: 2026-07-12
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-12
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no emerging-market AI concentration coverage in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Three AI-adjacent technology stocks worth a combined $4.4 trillion dominate emerging-market index performance. JPMorgan Asset Management and GMO are rotating away from the AI mega-caps toward gaming, energy, and other EM sectors.
+4. **AI Infrastructure Spending May Outpace Past Tech Booms, BIS Warns**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-07-14/ai-investment-race-could-turn-debt-fueled-boom-to-bust-bis-says
+   - Published: July 14, 2026 at 12:00 PM UTC
+   - FreshnessCheck: ✅ within last 24h via Exa-fetched article byline "July 14, 2026 at 12:00 PM UTC"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from yesterday's Bloomberg articles)
+   - Verification: Tier 1 (Exa) — full article body retrieved
+   - Summary: The Bank for International Settlements warns the AI infrastructure buildout is on track to surpass past tech booms that ended in severe market disruptions; hyperscalers are set to spend $5.8 trillion on computing capacity by 2030, with debt-financed expansion raising systemic financial risk.
+
+5. **OpenAI Asks Judge to Sanction xAI Over Lawsuit**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-07-14/openai-s-feud-with-xai-carries-on-as-apple-secrets-fight-revs-up
+   - Published: July 14, 2026 at 1:47 AM UTC
+   - FreshnessCheck: ✅ within last 24h via Exa-fetched article byline "July 14, 2026 at 1:47 AM UTC"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from yesterday's Bloomberg articles)
+   - Verification: Tier 1 (Exa) — full article body retrieved
+   - Summary: OpenAI filed a motion asking a judge to rule that xAI's trade-secret lawsuit "should never have been filed" and seeks to recover more than $1 million in legal fees from Elon Musk's company, filed hours after xAI announced it would appeal its repeatedly dismissed claims.
 
 ## Dropped
-- https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/ — Filter A (>24h): URL slug 2026/07/09 is 3 days old
-- https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/ — Filter A (>24h): URL slug 2026/07/09 is 3 days old
-- https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/ — Filter A (>24h): URL slug 2026/07/08 is 4 days old
-- https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/ — Filter A (>24h) + Filter B (dedup): July 10 slug; appeared in articles/2026-07-11-brief.md
-- https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/ — Filter A (>24h) + Filter B: July 10 slug; in yesterday's brief
-- https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/ — Filter A (>24h): June 24 slug, 18 days old
-- https://www.bloomberg.com/news/articles/2026-07-08/meta-to-build-first-data-center-in-canada-expanding-global-fleet — Filter A (>24h): URL slug 2026-07-08, 4 days old
-- Blognone (node 151127+): not yet indexed in search results at run time
+- https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/ — Not selected (within 24h, passed dedup, body confirmed; displaced by 5 stories with stronger primary-source weight)
+- https://www.bloomberg.com/news/articles/2026-07-14/finland-s-nestai-builds-sovereign-ai-tools-for-europe-militaries — Not selected (niche/regional story; displaced by 5 primary-impact selections)
+- Anthropic $10M Canada research (exact slug unknown) — Not selected (article body not confirmed; slug guessed incorrectly; listing-only evidence insufficient for Tier 1)
+- OpenAI "agentic era" listing entry (slug unknown) — Not selected (article body not confirmed; slug unknown)
+- https://www.bloomberg.com/news/articles/2026-07-14/nebius-to-sell-1-billion-in-ai-capacity-to-startup-reflection — Not selected (infrastructure/financing; displaced by 5 primary-impact selections)
 
-> Note: 5 items passed both filters this run. Of ~15 candidates reviewed, ~9 failed Filter A (timestamp >24h), 2 failed both Filter A and Filter B. Thai-language sources from today: 0 confirmed — Blognone articles with node numbers >151126 not yet indexed by search engines at run time; no beartai or thairath articles with confirmed July 12 timestamps found via search.
+> Note: 10 candidates found, all passed both Filter A and Filter B. 5 selected, 5 dropped (not due to filter failure — displaced by selection cap). 0 failed Filter A, 0 failed Filter B. Thai-language sources: 0 confirmed for 2026-07-14 — no Blognone, Beartai, or Thairath articles with confirmed July 14 timestamps found.
