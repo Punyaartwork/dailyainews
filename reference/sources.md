@@ -1,60 +1,60 @@
-# Sources — 2026-07-13
+# Sources — 2026-07-15
 
-Generated: 2026-07-13 (Asia/Bangkok)
+Generated: 2026-07-15 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-12-brief.md (5 URLs loaded)
+Dedup against: articles/2026-07-14-brief.md (5 URLs loaded)
 
-1. **How Apple's Lawsuit Threatens to Disrupt OpenAI's Bid to Rival the iPhone**
+1. **Thinking Machines Amps Up Its Bet Against One-Size-Fits-All AI With Its First Open Model, Inkling**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/
+   - Published: July 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/15/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (domain techcrunch.com not present in yesterday's 5 URLs; path is entirely new)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Thinking Machines Lab (founded by former OpenAI CTO Mira Murati) released Inkling, its first in-house AI model, as an open-weight model. Unlike flagship models from OpenAI, Anthropic, or Google, external developers can download and modify Inkling directly.
+
+2. **Apple Intelligence Approved for Launch in China with Alibaba's Qwen AI**
+   - Publisher: TechCrunch / Bloomberg
+   - URL: https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/
+   - Published: July 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/15/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /apple-intelligence-approved-for-launch-in-china not in any of yesterday's 5 URLs)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: China's Cyberspace Administration approved Apple Intelligence for release in China, with Alibaba's Qwen AI integrated into iOS/iPadOS/macOS for Chinese users. Baidu is also working with Apple on AI features; Alibaba shares surged ~5% on the announcement.
+
+3. **China's New AI Crackdown on Virtual Companions Leaves Heartbreak Behind**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-13/how-apple-s-lawsuit-threatens-to-disrupt-openai-s-bid-to-rival-the-iphone
-   - Published: July 13, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-13
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday had bloomberg.com paths /openai-meta-spacexai, /zhipu, /apple-s-chip-plans, /funds-fret; this /how-apple-s-lawsuit-threatens path is new)
+   - URL: https://www.bloomberg.com/news/articles/2026-07-14/beijing-diktat-leaves-chinese-with-virtual-ai-lovers-heartbroken
+   - Published: July 14, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-14 (within rolling 24h from 2026-07-15 Asia/Bangkok)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /beijing-diktat-leaves-chinese-with-virtual-ai-lovers-heartbroken not in any of yesterday's 5 Bloomberg paths)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Apple's trade secret lawsuit is already disrupting OpenAI's hardware ambitions by squeezing recruiting and creating legal drag before any court ruling; 400+ former Apple employees now work at OpenAI, including Chief Hardware Officer Tang Tan.
+   - Summary: China's new AI regulation took effect July 15, requiring platforms to restrict anthropomorphic AI companions. ByteDance's Doubao shut down its custom AI persona feature; Alibaba Qwen and Tencent Yuanbao issued similar alerts, affecting millions of users who had formed emotional connections with AI companions.
 
-2. **TSMC มีรายได้ในไตรมาส 2/2026 เพิ่มขึ้น 36% จากปีก่อน เป็นสถิติใหม่อีกไตรมาส**
-   - Publisher: Blognone
-   - URL: https://www.blognone.com/node/151138
-   - Published: July 13, 2026
-   - FreshnessCheck: ✅ within last 24h via TSMC official SEC filing dated 2026-07-13 (tsm-revenue20260713.htm); Blognone covered same-day
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (blognone.com domain not in yesterday's 5 URLs at all)
+4. **Hack Suggests AI Music Generator Suno Scraped YouTube for Training Data**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/
+   - Published: July 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/15/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, distinct from all 5 of yesterday's URLs)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: TSMC reported Q2/2026 revenue of NT$1.27 trillion, up 36% YoY, beating guidance; June revenue surged 67.9% to a record NT$442.7 billion; N3 process node is sold out for the year from AI chip demand.
+   - Summary: AI music generator Suno was hacked via a supply chain attack in November; source code allegedly shows Suno scraped decades of audio from YouTube Music, Deezer, Genius, stock music libraries, and podcast RSS feeds for AI training data.
 
-3. **Xi to Debut at China's Flagship AI Summit as US Rivalry Heats Up**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-13/xi-to-debut-at-china-s-flagship-ai-summit-as-us-rivalry-heats-up
-   - Published: July 13, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-13
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /xi-to-debut not in any of yesterday's four Bloomberg paths)
+5. **OpenAI Releases a $230 Keyboard for Codex Amid Hardware Legal Battle**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/
+   - Published: July 15, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/15/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, distinct from all 5 of yesterday's URLs)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: President Xi Jinping will make his first-ever appearance at the World Artificial Intelligence Conference (WAIC) in Shanghai as the three-day event opens Friday, signaling Beijing's top-level commitment to AI leadership amid intensifying US-China rivalry.
-
-4. **Washington Is Looking to Keep China From Training Its AI on US Models**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-13/anthropic-openai-warnings-prompt-distillation-debate-in-dc
-   - Published: July 13, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-13
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /anthropic-openai-warnings not in any of yesterday's Bloomberg paths)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Anthropic and OpenAI are warning US policymakers that Chinese AI firms are using "distillation" — training on US model outputs — as a key competitive strategy; Washington is beginning to debate restrictions on this practice.
-
-5. **Researchers Raise Concerns That AI May Atrophy Human Skills**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/newsletters/2026-07-13/ai-risks-never-skilling-new-research-on-loss-of-critical-thinking-skills
-   - Published: July 13, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-13
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /news/newsletters/... distinct from all yesterday's /news/articles/... Bloomberg paths)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: New research raises concerns that relying on AI for cognitive tasks before developing those skills may cause "never-skilling" — atrophying human critical thinking and problem-solving capacity.
+   - Summary: OpenAI entered the hardware market with a $230 light-up keyboard designed to pair with its AI coding assistant Codex, even as it remains embroiled in Apple's trade secrets lawsuit over its hardware ambitions.
 
 ## Dropped
-- https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/ — Filter A (>24h): URL slug /2026/07/10/ is 3 days old
-- https://www.bloomberg.com/news/articles/2026-07-08/china-to-let-ai-firms-buy-nvidia-h200-chips-information-says — Filter A (>24h): URL slug 2026-07-08 is 5 days old
-- https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/ — Filter A (>24h): URL slug /2026/07/08/ is 5 days old
-- https://www.anthropic.com/news/expanding-project-glasswing — Filter A (>24h): CNBC coverage dated June 2, 2026 (41 days old)
-- https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/ — Valid (Jul 13), not selected: same topic as story #1, excluded for topical diversity
+- https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/ — Filter A (>24h): published May 19, 2026, nearly 2 months ago
+- https://www.bloomberg.com/news/articles/2026-06-28/samsung-sk-reportedly-to-invest-1-3-trillion-over-10-years — Filter A (>24h): published June 28, 2026, over 2 weeks ago
+- https://www.bloomberg.com/news/articles/2026-07-13/tsmc-sales-surge-36-in-fresh-sign-of-ai-spending-momentum — Filter A (>24h): published July 13, 2026, ~2 days ago
+- https://futureoflife.org/ai-safety-index-summer-2026/ — Filter A (>24h): report released July 7–8, 2026, ~8 days ago; domain also not on trusted-sources.md
+- https://www.bloomberg.com/news/articles/2026-07-15/china-party-mouthpiece-warns-against-iron-curtain-in-world-ai — Valid (Jul 15) but not selected; 5 stories already filled from higher-priority items
 
-> Note: 5 items passed both filters this run. Of approximately 13 candidates examined, 4 failed Filter A (published >24h ago), 0 failed Filter B (all had URLs distinct from yesterday's 5), 1 was valid but not selected for topical diversity.
+> Note: 5 items passed both filters this run. Of approximately 12 candidates examined, 4 failed Filter A (>24h), 0 failed Filter B, 3 valid were not selected due to count cap or domain not on trusted list.
