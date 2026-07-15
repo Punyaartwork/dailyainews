@@ -1,31 +1,31 @@
-# Perspectives — 2026-07-13
+# Perspectives — 2026-07-15
 
-## 1. คดี Apple-OpenAI กำลังทำให้แผน Hardware ของ OpenAI สั่นคลอน
+## 1. Thinking Machines Lab ปล่อยโมเดล Inkling แบบ Open-Weight ตัวแรก
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้สอนเรื่อง IP ในยุค AI race ได้อย่างชัดเจน — ความรู้ที่พนักงานนำติดตัวเมื่อย้ายงานไม่ใช่แค่ประสบการณ์ส่วนตัว แต่ยังรวมถึงสิ่งที่กฎหมายอาจมองว่าเป็น trade secret ของนายจ้างเดิม นักเรียน CS ทุกคนต้องเข้าใจเรื่องนี้ก่อนทำงานจริง
-**ผู้เชี่ยวชาญด้าน AI:** ความน่ากลัวของคดีนี้ไม่ใช่จำนวน 400 คนที่ย้ายงาน แต่คือ allegation ที่ว่า OpenAI ใช้ checklist เพื่อสอนพนักงานใหม่ให้เลี่ยงระบบ security ของ Apple — ถ้าพิสูจน์ได้ มันคือ coordinated corporate espionage ที่ต่างจาก talent mobility ปกติอย่างสิ้นเชิง
-**โปรแกรมเมอร์มืออาชีพ:** developer ที่ย้ายงานจาก Big Tech ต้องตรวจสอบ employment agreement ของตัวเองก่อน เพราะ "ความรู้ในหัว" กับ "เอกสารที่ download มา" มีเส้นแบ่งทางกฎหมายที่ชัดเจน — คดีนี้เป็นหลักฐานว่า forensics ดิจิทัลตรวจพบการดาวน์โหลดได้แม้ผ่านมาหลายเดือน
+**อาจารย์ (มหาวิทยาลัย):** การที่ Mira Murati เลือก open-weight แทน closed API เป็นการ bet บน trust — บทเรียนที่ควรสอนคือ openness สร้าง ecosystem ที่ทำให้ผู้ใช้ไม่ถูก lock-in กับ vendor เดียว ซึ่งเป็นสิ่งที่นักศึกษาต้องเข้าใจเมื่อออกแบบระบบ AI จริง
+**ผู้เชี่ยวชาญด้าน AI:** คำถามสำคัญคือ Inkling อยู่ที่ benchmark ไหนเมื่อเทียบกับ Llama 4, DeepSeek V3, และ Qwen 3 ซึ่งเป็น open-weight models ที่ dominate ตลาดอยู่ตอนนี้ — ชื่อ Mira Murati และ ex-OpenAI branding มีน้ำหนักทาง narrative แต่ weight file ที่ดาวน์โหลดได้จะบอกความจริงเอง
+**โปรแกรมเมอร์มืออาชีพ:** open-weight หมายความว่าเราสามารถ fine-tune, quantize, และ self-host ได้ — ถ้า Inkling มี capability ที่ competitive แม้แต่บางส่วน มันเป็น candidate ที่น่าสนใจสำหรับ use case ที่ต้องการ data privacy หรือ inference cost ต่ำ
 
-## 2. TSMC ทำรายได้ Q2/2026 ทุบสถิติ 36%
+## 2. Apple Intelligence ได้รับไฟเขียวในจีน ผ่าน Alibaba Qwen และ Baidu
 
-**อาจารย์ (มหาวิทยาลัย):** ตัวเลขของ TSMC สะท้อน S-curve ของ AI infrastructure ที่ยังอยู่ในช่วงต้น — เมื่อ market cap ใกล้ $2 ล้านล้าน การเติบโต 36% ในไตรมาสเดียวยังคงเป็นเรื่องน่าตื่นตะลึง และแสดงว่า AI compute demand ยังไม่ถึง inflection point ของการชะลอ
-**ผู้เชี่ยวชาญด้าน AI:** การที่ N3 sold out ไม่ใช่แค่ข่าวดีสำหรับ TSMC — มันคือ bottleneck ที่ควบคุมว่าบริษัทไหนสามารถ scale โมเดลและ inference ได้เร็วแค่ไหน บริษัทที่จอง compute ไว้ล่วงหน้าจะได้เปรียบเชิงแข่งขันมหาศาลในปีหน้า
-**โปรแกรมเมอร์มืออาชีพ:** เมื่อชิปขาดแคลน API cost จะไม่ลดตาม economy of scale ปกติ ดังนั้นทักษะที่ valuable ที่สุดตอนนี้คือ prompt engineering ที่ลด tokens ต่อ request ได้โดยไม่เสียคุณภาพ
+**อาจารย์ (มหาวิทยาลัย):** กรณีนี้เป็น case study ที่ดีมากเรื่อง market localization ของ AI — Apple ไม่สามารถใช้ ChatGPT หรือ Claude ในจีนได้ จึงต้องหา local partner ซึ่งสะท้อน regulatory reality ที่นักศึกษาที่จะทำงานในตลาด global ต้องเข้าใจ
+**ผู้เชี่ยวชาญด้าน AI:** การที่ Alibaba Qwen ได้เป็น default AI ใน iPhone สำหรับตลาดจีนเป็น distribution win ขนาดใหญ่ที่สุดของ Chinese AI ที่เราเห็นมา — มันหมายถึง Qwen จะถูก test โดยผู้ใช้ระดับ mass market ซึ่งจะ accelerate feedback loop และ improvement ในอัตราที่เร็วกว่า research environment
+**โปรแกรมเมอร์มืออาชีพ:** developer ที่ build iOS apps สำหรับตลาดจีนต้องเตรียม integrate กับ Qwen API แทน OpenAI API อาจต้องดูแล dual code path สำหรับ region detection และ model selection ซึ่งเพิ่ม complexity แต่ก็เป็นสิ่งที่หลีกเลี่ยงไม่ได้สำหรับ global apps
 
-## 3. สีจิ้นผิงปรากฏตัวในงาน WAIC เป็นครั้งแรก
+## 3. จีนบังคับใช้กฎ AI companion วันที่ 15 ก.ค.: แพลตฟอร์มปิดฟีเจอร์ virtual personas
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ผู้นำสูงสุดของประเทศปรากฏตัวในงาน AI conference ไม่ใช่เรื่องปกติ — นักเรียนต้องเข้าใจว่า AI กำลังกลายเป็น geopolitical asset ในระดับเดียวกับ nuclear technology หรือ space programs ของยุคก่อน ซึ่งมีผลต่อ career path ใน AI มากกว่าที่คิด
-**ผู้เชี่ยวชาญด้าน AI:** การ debut ของ Xi ที่ WAIC จะ signal ทรัพยากรของรัฐจีนที่จะไหลเข้าสู่ AI ecosystem — หมายถึงทั้ง funding, talent pipeline จากมหาวิทยาลัย, และ regulatory environment ที่สนับสนุน AI development ในประเทศโดยเฉพาะ
-**โปรแกรมเมอร์มืออาชีพ:** ต้องติดตามนโยบายที่จะออกมาจาก WAIC เพราะนโยบายจีนมักส่งผลต่อ open-source releases, model availability, และ API access restrictions ที่กระทบ dev stack ทั่วโลก
+**อาจารย์ (มหาวิทยาลัย):** นี่คือ regulation ตัวแรกในโลกที่ address ปัญหา "parasocial relationship กับ AI" อย่างจริงจัง — การที่ Beijing กังวลเรื่องผู้เยาว์ถูก AI companion "ชักจูง" เป็นสัญญาณที่ให้นักนโยบายทุกประเทศต้องเริ่ม debate เรื่องนี้
+**ผู้เชี่ยวชาญด้าน AI:** ความน่ากังวลไม่ใช่การปิด feature แต่คือ precedent — ถ้าจีน regulate ความ "เหมือนมนุษย์" ของ AI ได้ ประเทศอื่นจะตามมา และ design space ของ AI companion products จะแคบลงอย่างมีนัยสำคัญทั่วโลก
+**โปรแกรมเมอร์มืออาชีพ:** ทีมที่พัฒนา character AI หรือ AI companion ต้องเริ่ม design สำหรับ "regulatory mode" ตั้งแต่ต้น — feature toggle สำหรับปิด anthropomorphic behaviors ตาม jurisdiction ควรเป็น architectural requirement ไม่ใช่ afterthought
 
-## 4. วอชิงตันถกเถียงห้ามจีน Distill โมเดล AI สหรัฐ
+## 4. แฮกเกอร์เปิดเผยซอร์สโค้ด Suno พร้อมหลักฐานการขูด YouTube สำหรับฝึก AI
 
-**อาจารย์ (มหาวิทยาลัย):** Distillation เป็น edge case น่าสอนมากเพราะอยู่ในพื้นที่สีเทา — มันต่างจากการลอกเฉลยเพราะใช้เฉพาะ output ที่เปิดเผย ไม่ใช่ weights ลับ แต่ก็ต่างจากการเรียนรู้ปกติที่ใช้ความเข้าใจ ไม่ใช่ behavioral imitation
-**ผู้เชี่ยวชาญด้าน AI:** Distillation เป็นเทคนิค ML มาตรฐานที่กำลังถูก politicize — ผลลัพธ์น่าจะเป็น API terms ที่เข้มงวดขึ้นและ technical controls เช่น output watermarking มากกว่าการแบนตรงๆ ที่ enforce ยาก
-**โปรแกรมเมอร์มืออาชีพ:** ถ้ารัฐบาลสหรัฐจำกัด API access จริง workflow ที่ใช้ frontier APIs สำหรับ synthetic data generation อาจต้องปรับตัว — ตอนนี้คือเวลาที่ดีในการ diversify ไปยัง open-source models สำหรับ data pipelines ที่ไม่ critical
+**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างที่ชัดเจนที่สุดที่เราเคยเห็นว่า "training data" ของ AI มาจากไหน — แม้ข้อมูลจะมาจากการแฮก ไม่ใช่การ audit อิสระ แต่มันเปิด debate ที่สำคัญมากเรื่อง consent และ copyright ใน AI training ที่นักศึกษาต้องเข้าใจ
+**ผู้เชี่ยวชาญด้าน AI:** ปัญหาไม่ใช่แค่ copyright — การที่ Suno อาจใช้ audio จาก podcast RSS และ stock libraries หมายความว่ามี content creator ที่คิดว่าตัวเองออก license ให้ podcast platform แต่กลายมาเป็น training data ของ AI music generator โดยไม่รู้ตัว
+**โปรแกรมเมอร์มืออาชีพ:** หลังจาก breach นี้จะมี legal และ compliance pressure เพิ่มขึ้นสำหรับทุก AI product ที่ใช้ data จาก third-party sources — ตอนนี้คือเวลาที่ต้องทำ audit ว่า training pipeline ของตัวเองมี provenance documentation ที่ชัดเจนหรือไม่
 
-## 5. งานวิจัยเตือน AI อาจทำให้ทักษะการคิดเสื่อมลง
+## 5. OpenAI เปิดตัว Keyboard $230 สำหรับ Codex ท่ามกลางคดีความด้าน Hardware
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือความกังวลสำคัญที่สุดในวงการการศึกษา — หากนักเรียน delegate การเขียน การคิด และการแก้ปัญหาให้ AI ทั้งหมด กระบวนการ "productive struggle" ที่จำเป็นต่อการสร้างความเข้าใจลึกจะหายไป ต้องออกแบบ AI ให้เป็น Socratic partner ไม่ใช่ answer machine
-**ผู้เชี่ยวชาญด้าน AI:** งานวิจัยนี้ชี้ไปที่ gap ใน AI design — เราออกแบบโมเดลให้ helpful มากที่สุด แต่ไม่ได้ optimize สำหรับ "ช่วยในแบบที่ทำให้มนุษย์เก่งขึ้น" คำถามนี้กำลังจะกลายเป็นส่วนสำคัญของ AI safety research ในปีต่อๆ ไป
-**โปรแกรมเมอร์มืออาชีพ:** สังเกตได้ว่า developer บางคนไม่สามารถ debug โดยไม่ใช้ AI ได้อีกต่อไป — นั่นเป็นปัญหาเพราะ AI มักพลาดใน edge cases ที่คนที่เข้าใจ fundamentals จะจับได้ทันที การ code review โดยไม่มี AI ช่วยยังคงสำคัญ
+**อาจารย์ (มหาวิทยาลัย):** การที่ OpenAI เลือก keyboard เป็น hardware ชิ้นแรกแทนที่จะเป็น consumer device ที่ซับซ้อนกว่า คือ signal ที่น่าสนใจ — มันบอกว่า developer เป็น beachhead market ที่ OpenAI มั่นใจที่สุด ซึ่ง consistent กับ strategy ของ Codex API ที่ทำรายได้มหาศาล
+**ผู้เชี่ยวชาญด้าน AI:** keyboard เป็น form factor ที่ดูธรรมดา แต่อาจเป็น Trojan horse สำหรับ ambient hardware play — ถ้า OpenAI ฝัง local model processing ไว้ใน device มันเปลี่ยน latency และ privacy equation ของ AI coding assistance อย่างสิ้นเชิง
+**โปรแกรมเมอร์มืออาชีพ:** $230 คือราคาที่ professional developer จ่ายได้ แต่มันต้องพิสูจน์ว่าทำให้ Codex ดีขึ้นจริงเมื่อเทียบกับ keyboard ทั่วไปบวกกับ API subscription — ถ้า key bindings และ LED feedback ทำให้ workflow เร็วขึ้นอย่างมีนัยสำคัญ มันอาจเป็น peripheral ที่ justify ราคาได้
