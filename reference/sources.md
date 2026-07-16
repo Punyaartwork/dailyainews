@@ -1,60 +1,58 @@
-# Sources — 2026-07-15
+# Sources — 2026-07-16
 
-Generated: 2026-07-15 (Asia/Bangkok)
+Generated: 2026-07-16 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-14-brief.md (5 URLs loaded)
+Dedup against: articles/2026-07-15-brief.md (5 URLs loaded)
 
-1. **Thinking Machines Amps Up Its Bet Against One-Size-Fits-All AI With Its First Open Model, Inkling**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/
-   - Published: July 15, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/15/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (domain techcrunch.com not present in yesterday's 5 URLs; path is entirely new)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Thinking Machines Lab (founded by former OpenAI CTO Mira Murati) released Inkling, its first in-house AI model, as an open-weight model. Unlike flagship models from OpenAI, Anthropic, or Google, external developers can download and modify Inkling directly.
-
-2. **Apple Intelligence Approved for Launch in China with Alibaba's Qwen AI**
-   - Publisher: TechCrunch / Bloomberg
-   - URL: https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/
-   - Published: July 15, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/15/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /apple-intelligence-approved-for-launch-in-china not in any of yesterday's 5 URLs)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: China's Cyberspace Administration approved Apple Intelligence for release in China, with Alibaba's Qwen AI integrated into iOS/iPadOS/macOS for Chinese users. Baidu is also working with Apple on AI features; Alibaba shares surged ~5% on the announcement.
-
-3. **China's New AI Crackdown on Virtual Companions Leaves Heartbreak Behind**
+1. **China-Led AI Group Adds Global South Nations to Challenge US Influence**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-14/beijing-diktat-leaves-chinese-with-virtual-ai-lovers-heartbroken
-   - Published: July 14, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-14 (within rolling 24h from 2026-07-15 Asia/Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path /beijing-diktat-leaves-chinese-with-virtual-ai-lovers-heartbroken not in any of yesterday's 5 Bloomberg paths)
+   - URL: https://www.bloomberg.com/news/articles/2026-07-16/china-led-ai-body-enlists-global-south-states-to-rival-us
+   - Published: 2026-07-16
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-16
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host matches but path is entirely new)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: China's new AI regulation took effect July 15, requiring platforms to restrict anthropomorphic AI companions. ByteDance's Doubao shut down its custom AI persona feature; Alibaba Qwen and Tencent Yuanbao issued similar alerts, affecting millions of users who had formed emotional connections with AI companions.
+   - Summary: 29 countries including Russia, Brazil, Venezuela, and members across Africa (10) and Asia (12) signed an agreement to establish the World Artificial Intelligence Cooperation Organization (WAICO), headquartered in Shanghai. The signing coincided with the annual World Artificial Intelligence Conference, where Xi Jinping is expected to outline Beijing's vision for global AI governance.
 
-4. **Hack Suggests AI Music Generator Suno Scraped YouTube for Training Data**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/
-   - Published: July 15, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/15/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, distinct from all 5 of yesterday's URLs)
+2. **Google Must Give Gemini Rivals Equal Access to Android System, EU Says**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-07-16/google-must-give-gemini-rivals-equal-access-to-android-system-eu-says
+   - Published: 2026-07-16
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-16
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (entirely new path)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: AI music generator Suno was hacked via a supply chain attack in November; source code allegedly shows Suno scraped decades of audio from YouTube Music, Deezer, Genius, stock music libraries, and podcast RSS feeds for AI training data.
+   - Summary: The EU under the Digital Markets Act ordered Google to open 11 Android features to rival AI assistants (ChatGPT, Claude, Perplexity), enabling voice-command activation comparable to "hey Google" for Gemini. Implementation: voice access by July 2027, search data sharing with competitors by January 2027. Google's Kent Walker objected, citing privacy and security risks.
 
-5. **OpenAI Releases a $230 Keyboard for Codex Amid Hardware Legal Battle**
+3. **Moonshot's upcoming Kimi 3 is expected to close the gap with Anthropic's Opus 4.8**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/
-   - Published: July 15, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/07/15/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, distinct from all 5 of yesterday's URLs)
+   - URL: https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/
+   - Published: 2026-07-16
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/07/16
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (entirely new path)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI entered the hardware market with a $230 light-up keyboard designed to pair with its AI coding assistant Codex, even as it remains embroiled in Apple's trade secrets lawsuit over its hardware ambitions.
+   - Summary: Chinese startup Moonshot AI's Kimi K3 (2–3 trillion parameters, open-weight) is expected to match or surpass Anthropic's Opus 4.8 on mainstream benchmarks, releasing "within days." Analysts say Chinese frontier models are closing the historical 8–12 month gap behind US models. Anthropic plans to raise Opus 4.8 prices in September; Kimi K3 is estimated at roughly one-third the cost.
+
+4. **Anthropic and OpenAI Tools Transform the Profession of Coding**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/features/2026-07-16/anthropic-and-openai-tools-transform-the-profession-of-coding
+   - Published: 2026-07-16
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-16
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (entirely new path)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Anthropic's head of Claude Code Boris Cherny reports that 100% of code across the company is now AI-generated; an OpenAI researcher says he no longer writes any code manually. Anthropic is on track for ~$47 billion annualized revenue and reportedly profitable in 2026, driven by Claude Code and enterprise adoption.
+
+5. **Google's AI Mode now lets you link and interact with select apps**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/
+   - Published: 2026-07-16
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/07/16
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (entirely new path)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Google AI Mode's Connected Apps feature launched today for US users, integrating Instacart (grocery cart), Canva (design banners), and YouTube Music (playlists) directly within Google's conversational search. Positions Google to compete with ChatGPT and Claude's existing app-integration ecosystems.
 
 ## Dropped
-- https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/ — Filter A (>24h): published May 19, 2026, nearly 2 months ago
-- https://www.bloomberg.com/news/articles/2026-06-28/samsung-sk-reportedly-to-invest-1-3-trillion-over-10-years — Filter A (>24h): published June 28, 2026, over 2 weeks ago
-- https://www.bloomberg.com/news/articles/2026-07-13/tsmc-sales-surge-36-in-fresh-sign-of-ai-spending-momentum — Filter A (>24h): published July 13, 2026, ~2 days ago
-- https://futureoflife.org/ai-safety-index-summer-2026/ — Filter A (>24h): report released July 7–8, 2026, ~8 days ago; domain also not on trusted-sources.md
-- https://www.bloomberg.com/news/articles/2026-07-15/china-party-mouthpiece-warns-against-iron-curtain-in-world-ai — Valid (Jul 15) but not selected; 5 stories already filled from higher-priority items
+- https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/ — Apparent duplicate/repost of yesterday's story (identical title to techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/); same event, no new information in snippet.
+- Blognone candidates — No July 16 articles with explicit, parseable timestamps surfaced in search results. All returned results were dated July 3–11. Dropped under Filter A (date not resolvable to July 16).
+- Beartai candidates — No July 16 articles with explicit timestamps found. Returned results lacked dateable slugs. Dropped under Filter A.
 
-> Note: 5 items passed both filters this run. Of approximately 12 candidates examined, 4 failed Filter A (>24h), 0 failed Filter B, 3 valid were not selected due to count cap or domain not on trusted list.
+> Note: 5 items passed both filters this run. Of candidates examined, ~6 failed Filter A (Blognone/Beartai — date not parseable to July 16), 1 dropped as apparent duplicate (Apple Intelligence TechCrunch July 16).
