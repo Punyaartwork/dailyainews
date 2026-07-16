@@ -1,31 +1,31 @@
-# Perspectives — 2026-07-15
+# Perspectives — 2026-07-16
 
-## 1. Thinking Machines Lab ปล่อยโมเดล Inkling แบบ Open-Weight ตัวแรก
+## 1. China-Led AI Group Adds Global South Nations (WAICO)
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ Mira Murati เลือก open-weight แทน closed API เป็นการ bet บน trust — บทเรียนที่ควรสอนคือ openness สร้าง ecosystem ที่ทำให้ผู้ใช้ไม่ถูก lock-in กับ vendor เดียว ซึ่งเป็นสิ่งที่นักศึกษาต้องเข้าใจเมื่อออกแบบระบบ AI จริง
-**ผู้เชี่ยวชาญด้าน AI:** คำถามสำคัญคือ Inkling อยู่ที่ benchmark ไหนเมื่อเทียบกับ Llama 4, DeepSeek V3, และ Qwen 3 ซึ่งเป็น open-weight models ที่ dominate ตลาดอยู่ตอนนี้ — ชื่อ Mira Murati และ ex-OpenAI branding มีน้ำหนักทาง narrative แต่ weight file ที่ดาวน์โหลดได้จะบอกความจริงเอง
-**โปรแกรมเมอร์มืออาชีพ:** open-weight หมายความว่าเราสามารถ fine-tune, quantize, และ self-host ได้ — ถ้า Inkling มี capability ที่ competitive แม้แต่บางส่วน มันเป็น candidate ที่น่าสนใจสำหรับ use case ที่ต้องการ data privacy หรือ inference cost ต่ำ
+**อาจารย์ (มหาวิทยาลัย):** WAICO เป็น case study สำคัญเรื่อง AI governance ในโลกแบบพหุขั้ว — นักศึกษาควรเข้าใจว่า "กฎ AI" ไม่ใช่เรื่องเทคนิคเพียงอย่างเดียว แต่เป็นเกมอำนาจภูมิรัฐศาสตร์ที่กำหนดว่าประเทศไหนจะ shape ค่านิยมของ AI โลก
+**ผู้เชี่ยวชาญด้าน AI:** 29 ประเทศ Global South ที่เข้าร่วมไม่ใช่ผู้นำด้านการพัฒนา AI แต่เป็นตลาดเป้าหมายที่ใหญ่ที่สุด การที่จีนดึงพวกเขาเข้ามาก่อนที่ Western standards จะ set คือ strategic move ที่ชาญฉลาด — กฎของ WAICO จะ influence deployment standards ใน markets เหล่านี้โดยตรง
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า product ของคุณ target ตลาด MENA, Africa หรือ Southeast Asia ให้เริ่ม monitor ว่า WAICO จะออก technical standards หรือ compliance requirements อะไรบ้าง เพราะมันจะกลายเป็น regulatory layer ใหม่ที่ต้องจัดการ — ไม่ใช่แค่ geopolitics อีกต่อไป
 
-## 2. Apple Intelligence ได้รับไฟเขียวในจีน ผ่าน Alibaba Qwen และ Baidu
+## 2. EU Orders Google to Open Android to Rival AI Assistants
 
-**อาจารย์ (มหาวิทยาลัย):** กรณีนี้เป็น case study ที่ดีมากเรื่อง market localization ของ AI — Apple ไม่สามารถใช้ ChatGPT หรือ Claude ในจีนได้ จึงต้องหา local partner ซึ่งสะท้อน regulatory reality ที่นักศึกษาที่จะทำงานในตลาด global ต้องเข้าใจ
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Alibaba Qwen ได้เป็น default AI ใน iPhone สำหรับตลาดจีนเป็น distribution win ขนาดใหญ่ที่สุดของ Chinese AI ที่เราเห็นมา — มันหมายถึง Qwen จะถูก test โดยผู้ใช้ระดับ mass market ซึ่งจะ accelerate feedback loop และ improvement ในอัตราที่เร็วกว่า research environment
-**โปรแกรมเมอร์มืออาชีพ:** developer ที่ build iOS apps สำหรับตลาดจีนต้องเตรียม integrate กับ Qwen API แทน OpenAI API อาจต้องดูแล dual code path สำหรับ region detection และ model selection ซึ่งเพิ่ม complexity แต่ก็เป็นสิ่งที่หลีกเลี่ยงไม่ได้สำหรับ global apps
+**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างคลาสสิกของ antitrust enforcement ในยุค platform economy — DMA บังคับ interoperability ซึ่งต่างจาก open source และนักศึกษาควรเข้าใจว่า regulators เลือก lever นี้เพราะอะไรและมันจะ reshape competitive landscape อย่างไร
+**ผู้เชี่ยวชาญด้าน AI:** การที่ Claude และ ChatGPT จะเข้าถึง voice command infrastructure ได้เท่า Gemini เป็น structural change สำคัญ — ปัจจุบัน Gemini ได้เปรียบจาก deep OS integration ที่คู่แข่งทำไม่ได้ ถ้า DMA enforce จริง competitive landscape บน Android จะเปลี่ยนไปมาก
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า building AI assistant ที่ต้องการ voice-command entry point บน Android นี่คือ regulatory tailwind จริง — timeline คือ July 2027 ยังมีเวลาเตรียม API integration และ UX flow สำหรับ "alternative assistant" discovery
 
-## 3. จีนบังคับใช้กฎ AI companion วันที่ 15 ก.ค.: แพลตฟอร์มปิดฟีเจอร์ virtual personas
+## 3. Moonshot Kimi K3 vs Anthropic Opus 4.8
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือ regulation ตัวแรกในโลกที่ address ปัญหา "parasocial relationship กับ AI" อย่างจริงจัง — การที่ Beijing กังวลเรื่องผู้เยาว์ถูก AI companion "ชักจูง" เป็นสัญญาณที่ให้นักนโยบายทุกประเทศต้องเริ่ม debate เรื่องนี้
-**ผู้เชี่ยวชาญด้าน AI:** ความน่ากังวลไม่ใช่การปิด feature แต่คือ precedent — ถ้าจีน regulate ความ "เหมือนมนุษย์" ของ AI ได้ ประเทศอื่นจะตามมา และ design space ของ AI companion products จะแคบลงอย่างมีนัยสำคัญทั่วโลก
-**โปรแกรมเมอร์มืออาชีพ:** ทีมที่พัฒนา character AI หรือ AI companion ต้องเริ่ม design สำหรับ "regulatory mode" ตั้งแต่ต้น — feature toggle สำหรับปิด anthropomorphic behaviors ตาม jurisdiction ควรเป็น architectural requirement ไม่ใช่ afterthought
+**อาจารย์ (มหาวิทยาลัย):** Kimi K3 เป็นหลักฐานว่า "AI gap" ระหว่างจีนกับสหรัฐฯ กำลังแคบลงอย่างมีนัยสำคัญ — ข้อสมมติที่ว่าจีนตามหลัง 8–12 เดือนกำลังถูก challenge และมี implications ชัดเจนสำหรับ geopolitics, research funding และ career planning ของนักศึกษา AI
+**ผู้เชี่ยวชาญด้าน AI:** 2–3 trillion parameters เป็นตัวเลขที่ใหญ่ แต่ parameter count ไม่ใช่ performance proxy ที่ดีอีกต่อไป — สิ่งที่ต้องรอดูคือ benchmark ที่ Moonshot เลือก report และว่า open-weight release จะให้ access แค่ inference weights หรือ training details ด้วย
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Kimi K3 deliver ตาม hype และ cost ถูกกว่า Opus 4.8 สามเท่า มันจะเป็น strong candidate สำหรับ production workloads ที่ cost-sensitive — เตรียม benchmark ด้วย use case ของตัวเองทันทีที่ weight ออก
 
-## 4. แฮกเกอร์เปิดเผยซอร์สโค้ด Suno พร้อมหลักฐานการขูด YouTube สำหรับฝึก AI
+## 4. AI Transforms Software Engineering (Anthropic + OpenAI)
 
-**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างที่ชัดเจนที่สุดที่เราเคยเห็นว่า "training data" ของ AI มาจากไหน — แม้ข้อมูลจะมาจากการแฮก ไม่ใช่การ audit อิสระ แต่มันเปิด debate ที่สำคัญมากเรื่อง consent และ copyright ใน AI training ที่นักศึกษาต้องเข้าใจ
-**ผู้เชี่ยวชาญด้าน AI:** ปัญหาไม่ใช่แค่ copyright — การที่ Suno อาจใช้ audio จาก podcast RSS และ stock libraries หมายความว่ามี content creator ที่คิดว่าตัวเองออก license ให้ podcast platform แต่กลายมาเป็น training data ของ AI music generator โดยไม่รู้ตัว
-**โปรแกรมเมอร์มืออาชีพ:** หลังจาก breach นี้จะมี legal และ compliance pressure เพิ่มขึ้นสำหรับทุก AI product ที่ใช้ data จาก third-party sources — ตอนนี้คือเวลาที่ต้องทำ audit ว่า training pipeline ของตัวเองมี provenance documentation ที่ชัดเจนหรือไม่
+**อาจารย์ (มหาวิทยาลัย):** 100% AI-generated code ที่ Anthropic เป็นสัญญาณที่ต้องนำมาพูดในชั้นเรียน CS อย่างตรงไปตรงมา — ไม่ใช่เพื่อสร้างความกลัว แต่เพราะ curriculum ที่ไม่สอน AI-assisted development จะผลิตบัณฑิตที่ไม่พร้อมสำหรับ industry
+**ผู้เชี่ยวชาญด้าน AI:** Bloomberg report นี้น่าเชื่อถือเพราะ cite ตัวเลขจาก Boris Cherny (head of Claude Code) โดยตรง — ที่น่าสนใจไม่ใช่ว่า AI เขียน code ได้ แต่ว่า frontier labs ใช้ AI tools ของตัวเองอย่าง intensive ซึ่งสร้าง flywheel ระหว่าง product development กับ internal dogfooding
+**โปรแกรมเมอร์มืออาชีพ:** Anthropic บน track $47 billion ARR และรายงานว่า profitable — validate ว่า enterprise AI adoption เป็น real revenue story ไม่ใช่ venture hype ทักษะ AI-assisted engineering กำลังกลายเป็น baseline ที่ทุก engineer ต้องมีในเร็วๆ นี้
 
-## 5. OpenAI เปิดตัว Keyboard $230 สำหรับ Codex ท่ามกลางคดีความด้าน Hardware
+## 5. Google AI Mode Connected Apps Launch
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ OpenAI เลือก keyboard เป็น hardware ชิ้นแรกแทนที่จะเป็น consumer device ที่ซับซ้อนกว่า คือ signal ที่น่าสนใจ — มันบอกว่า developer เป็น beachhead market ที่ OpenAI มั่นใจที่สุด ซึ่ง consistent กับ strategy ของ Codex API ที่ทำรายได้มหาศาล
-**ผู้เชี่ยวชาญด้าน AI:** keyboard เป็น form factor ที่ดูธรรมดา แต่อาจเป็น Trojan horse สำหรับ ambient hardware play — ถ้า OpenAI ฝัง local model processing ไว้ใน device มันเปลี่ยน latency และ privacy equation ของ AI coding assistance อย่างสิ้นเชิง
-**โปรแกรมเมอร์มืออาชีพ:** $230 คือราคาที่ professional developer จ่ายได้ แต่มันต้องพิสูจน์ว่าทำให้ Codex ดีขึ้นจริงเมื่อเทียบกับ keyboard ทั่วไปบวกกับ API subscription — ถ้า key bindings และ LED feedback ทำให้ workflow เร็วขึ้นอย่างมีนัยสำคัญ มันอาจเป็น peripheral ที่ justify ราคาได้
+**อาจารย์ (มหาวิทยาลัย):** Connected Apps ใน AI Mode สะท้อน shift จาก "search เพื่อหาข้อมูล" ไปเป็น "AI สั่งทำสิ่งต่างๆ แทนคุณ" — นักศึกษาควรเข้าใจ concept ของ agentic AI ที่ execute actions และผลกระทบต่อ UX design, privacy, และ data ownership
+**ผู้เชี่ยวชาญด้าน AI:** Google กำลัง catch up กับ ChatGPT และ Claude ที่มี app integrations มาก่อน แต่ Google มี advantage จาก Gemini ที่ live บน ecosystem เดียวกับ Android, Gmail และ Docs — future integrations ที่ deeper จึงทำได้ง่ายกว่า
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า product คุณ fit Connected Apps model ให้ apply เข้า Google AI Mode program ตอนนี้ — early integrations มักได้ prominent placement ก่อนที่ partner list จะยาวเกินไป
