@@ -1,31 +1,25 @@
-# Perspectives — 2026-07-14
+# Perspectives — 2026-07-18
 
-## 1. Anthropic เปิดตัว Claude for Teachers
+## 1. Moonshot's Kimi Upends Conventional Wisdom on US Lead Over China
 
-**อาจารย์ (มหาวิทยาลัย):** การที่ Anthropic ใช้ academic standards ทุก 50 รัฐเป็น anchor แทน open-ended chatbot เป็นจุดเปลี่ยนสำคัญ — มันบ่งบอกว่าเราสามารถออกแบบ AI ให้เสริมหลักสูตรที่มีโครงสร้างได้ ไม่ใช่แค่ replace การสอนแบบเดิม
-**ผู้เชี่ยวชาญด้าน AI:** policy "ไม่ใช้ข้อมูลครูฝึกโมเดล" เป็น differentiator ที่สำคัญในตลาด EdTech ที่กังวลเรื่อง privacy มาก และ Anthropic กำลัง bet ว่า trust เป็นสินทรัพย์ระยะยาวที่มีค่ากว่าการ train บน classroom data
-**โปรแกรมเมอร์มืออาชีพ:** การ integrate กับ ASSISTments และ Brisk Teaching แสดงว่า Anthropic เข้าใจว่าโรงเรียนไม่ได้ switch tools ทั้งระบบ — การ plug เข้า existing workflow มักเป็น adoption path ที่เร็วกว่า greenfield deployment
+**อาจารย์ (มหาวิทยาลัย):** Kimi K3 เป็น case study ชั้นเยี่ยมเรื่อง "compute advantage fallacy" — ความเชื่อว่า US lead อยู่ที่ hardware access ถูกท้าทายเมื่อ MoE architecture ช่วยให้ train model ขนาดใหญ่ได้ efficient กว่าที่คาด นักศึกษาควรเรียนรู้ว่า benchmark score ไม่ใช่ตัวชี้วัดเดียวของ AI leadership — cost, openness, และ ecosystem ก็สำคัญไม่แพ้กัน
+**ผู้เชี่ยวชาญด้าน AI:** open-weight model ที่ scale ระดับนี้จะเร่ง fine-tuning ecosystem ที่หลากหลายมากขึ้น แต่ benchmark ที่ Moonshot เลือก report มักไม่ตรงกับ production workloads — ต้อง evaluate บน use case ของตัวเองก่อนตัดสินใจ adopt; ระวัง MoE active parameter ที่ต่ำกว่า total parameter จริงๆ มาก
+**โปรแกรมเมอร์มืออาชีพ:** weights เปิดวันที่ 27 กรกฎาคม — ต้องเตรียม GPU budget ล่วงหน้า; model ขนาดนี้ต้องการ cluster ใหญ่ แต่ quantized version น่าจะตามมาเร็ว; สำหรับ production ให้ดู cost-per-token เปรียบกับ frontier APIs ก่อนตัดสินใจ self-host
 
-## 2. Open Models จีนครอง Hugging Face และ OpenRouter
+## 2. China Dismisses Claim that It Illicitly Extracts Foreign AI Tech
 
-**อาจารย์ (มหาวิทยาลัย):** ถ้านักศึกษาของเราออกไปทำงานและต้องใช้ DeepSeek หรือ Z.ai เป็นประจำ แต่หลักสูตรสอนแค่ GPT-4 และ Claude นั่นคือ gap ใหญ่ — ถึงเวลาต้องสอน model evaluation skills ข้ามแพลตฟอร์ม
-**ผู้เชี่ยวชาญด้าน AI:** 41% downloads บน Hugging Face เป็นตัวเลขที่น่าตื่นตะลึง — มันบ่งชี้ว่า open-weight models จีนไม่ใช่แค่ alternative สำหรับคนที่อยากประหยัดเงิน แต่กลายเป็น default choice สำหรับ production teams จำนวนมาก
-**โปรแกรมเมอร์มืออาชีพ:** OpenRouter top 6 เป็น Chinese models ทั้งหมดหมายความว่า latency, pricing, และ quality ของพวกนี้ผ่านการ vote ด้วยการใช้งานจริงแล้ว — การไม่ evaluate เลยตอนนี้เป็น technical debt ที่สะสมอยู่
+**อาจารย์ (มหาวิทยาลัย):** Distillation เป็น legal/ethical grey area ที่เหมาะสำหรับสอนมาก — ไม่ใช่การ "โจรกรรม" แบบตรง แต่เป็น exploit API ที่ไม่ได้ออกแบบสำหรับ training use case นั้น การถกเถียงนี้จะส่งผลต่อ AI IP law ในทศวรรษหน้าอย่างแน่นอน
+**ผู้เชี่ยวชาญด้าน AI:** US labs กำลัง push technical countermeasures — rate limiting เข้มงวดขึ้น, output watermarking, fingerprinting — เพื่อ detect distillation attacks; เป็น technical arms race ที่จะส่งผลต่อ API pricing และ access policy ในอนาคต
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า build system ที่ log LLM outputs สำหรับ training ต้องตรวจ ToS ของ API ที่ใช้ทันที — กรณี Alibaba ที่ถูก ban จาก Anthropic Claude เป็น signal ที่ชัดว่า enforcement เข้มขึ้น
 
-## 3. OpenAI เตรียมเปิดตัว Hardware ชิ้นแรก: ลำโพงไร้หน้าจอ
+## 3. China Joins Rush to Rethink the Smartphone for the AI Era
 
-**อาจารย์ (มหาวิทยาลัย):** อุปกรณ์ที่ "เข้าใจสภาพแวดล้อม" ผ่านกล้องและเซนเซอร์ในบ้านนำคำถามจริยธรรมใหม่เข้ามา — ขอบเขต consent และ data retention ในพื้นที่ส่วนตัวจะต้องเป็นส่วนหนึ่งของการสอน AI literacy
-**ผู้เชี่ยวชาญด้าน AI:** การเลือก ambient/voice form factor เป็นการหลีกเลี่ยงสมรภูมิ smartphone โดยตรง และถ้า OpenAI สามารถ deliver multimodal contextual awareness ที่เหนือกว่า Alexa ได้จริง นี่คือ product category ใหม่จริงๆ
-**โปรแกรมเมอร์มืออาชีพ:** สิ่งที่ developer ควรจับตาคือ whether OpenAI จะเปิด API บน hardware นี้ — ถ้าเปิด มันคือ distribution channel ใหม่; ถ้าปิด มันคือ walled garden ที่ lock users อีกชั้นหนึ่ง
+**อาจารย์ (มหาวิทยาลัย):** "Agentic smartphone" แทน "app smartphone" เป็น paradigm shift ที่นักศึกษา HCI และ mobile computing ต้องติดตาม — model ของ app silo กำลังถูกแทนด้วย agent ที่ทำงาน cross-app ได้อย่าง autonomous
+**ผู้เชี่ยวชาญด้าน AI:** on-device + cloud hybrid architecture ที่ NaviX Ultra ใช้เป็น tradeoff ที่น่าสนใจ — on-device model จัดการ frequent tasks ที่ต้องการ low latency, cloud model รับ heavy lifting; นี่คือ deployment pattern ที่จะ mainstream ใน 2–3 ปีข้างหน้า
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า build mobile apps ต้องเริ่ม track agentic OS API ของ Doubao และคู่แข่ง — เมื่อ agentic layer กลายเป็น OS-level feature, deep link แบบเดิมจะไม่เพียงพออีกต่อไป; ดู developer docs ของ ByteDance Doubao ล่วงหน้า
 
-## 4. BIS เตือน AI Infrastructure Spending อาจนำไปสู่ Boom-Bust Cycle
+## 4. Anthropic เจรจาขอเช่าศูนย์ข้อมูลของ Meta
 
-**อาจารย์ (มหาวิทยาลัย):** BIS report นี้เป็น teaching material ชั้นเยี่ยมสำหรับวิชา technology economics — มันเชื่อมโยง semiconductor demand, hyperscaler debt, และ financial systemic risk ในลักษณะที่นักศึกษาไม่ค่อยได้เห็นในตำราเรียนมาตรฐาน
-**ผู้เชี่ยวชาญด้าน AI:** $5.8 ล้านล้านใน 4 ปีไม่มีประวัติศาสตร์เทียบได้ — ถ้า compute เป็น bottleneck ของ AGI timeline hyperscalers กำลัง bet ว่า ROI จะมาทันเวลา แต่ถ้า economic slowdown เกิดขึ้นก่อน cascade อาจรุนแรงมาก
-**โปรแกรมเมอร์มืออาชีพ:** สำหรับนักพัฒนาทั่วไป สิ่งที่ควรทำตอนนี้คือ lock-in pricing agreements กับ cloud providers ในช่วงที่ยังมีการแข่งขัน เพราะถ้า market consolidates หลัง correction การต่อรองจะยากขึ้นมาก
-
-## 5. OpenAI ฟ้องกลับ xAI — ขอให้ศาลลงโทษและคืนค่าทนาย
-
-**อาจารย์ (มหาวิทยาลัย):** นักศึกษาควรเรียนรู้ว่า IP law ในยุค AI มีความซับซ้อนสูง — การฟ้องร้องระหว่าง frontier labs กำลังสร้าง precedent ที่ศาลยังไม่มีคำตัดสินชัดเจน และมันจะ shape อนาคตของ open research
-**ผู้เชี่ยวชาญด้าน AI:** การที่ OpenAI ขอ sanctions หมายความว่าพวกเขาประเมินว่ามีโอกาสสูงที่จะชนะทั้ง case และ fees — นี่คือ confidence signal ที่บ่งบอกว่า legal team เชื่อว่า evidence support ฝ่ายตัวเองอย่างชัดเจน
-**โปรแกรมเมอร์มืออาชีพ:** pattern ของ litigation ระหว่าง AI labs จะส่งผลต่อว่า training methods, distillation, และ knowledge transfer ถูก regulate อย่างไร — ถ้า OpenAI ชนะ xAI อาจสร้าง chilling effect ต่อ competitive AI development ทั่วทั้ง industry
+**อาจารย์ (มหาวิทยาลัย):** Anthropic ที่เจรจาเช่า compute จาก Meta เป็น example ที่ดีของ "coopetition" — สองบริษัทที่แข่งกันใน LLM market แต่ต้องร่วมมือเพราะ compute cost สูงเกินไปสำหรับผู้เล่นรายเดียว นี่คือ industrial economics ที่นักศึกษาควรวิเคราะห์
+**ผู้เชี่ยวชาญด้าน AI:** deal นี้ถ้าเกิดขึ้นจะเป็น signal ว่า Anthropic diversify จาก Amazon AWS และ Google Cloud; Meta MTIA 400 custom chip vs standard Nvidia GPU สำหรับ Anthropic's workloads จะเป็น benchmark ที่น่าจับตา — custom silicon ไม่ได้ match Nvidia เสมอไปสำหรับทุก use case
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า Meta เข้าสู่ cloud computing market จริงจะเพิ่ม supply ใน inference infrastructure — potential for cheaper inference options สำหรับ developer; เฝ้าดู Meta developer API announcement ใน H2 2026
