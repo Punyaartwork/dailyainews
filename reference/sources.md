@@ -1,60 +1,59 @@
-# Sources — 2026-07-20
+# Sources — 2026-07-21
 
-Generated: 2026-07-20 (Asia/Bangkok)
+Generated: 2026-07-21 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-19-brief.md (5 URLs loaded)
+Dedup against: articles/2026-07-20-brief.md (5 URLs loaded)
 
-1. **Z.AI Completes Giant Data Center With Chinese Chips to Train AI**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai
-   - Published: 2026-07-20
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-20
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from all 5 yesterday URLs)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Z.AI (formerly Zhipu) has completed a 1-gigawatt data center using only Chinese-made chips to train AI models, replacing restricted Nvidia silicon after being added to the US export blacklist in January 2025. The facility is partially operational and powers development of next-generation GLM models.
-
-2. **OpenAI is scared of open-weight models. Should the US be?**
+1. **Google releases three new Gemini models — but no 3.5 Pro**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/
-   - Published: 2026-07-20
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/07/20
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from yesterday's Apple/OpenAI story at /2026/07/19/...)
+   - URL: https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/
+   - Published: July 21, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/07/21"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (not covered in yesterday's brief)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Kimi K3's release triggered OpenAI's head of strategic futures Dean Ball to call for US government regulatory pressure on Chinese open-weight models; he retracted after criticism from Yann LeCun, Martin Casado, and others who argued open software accelerates innovation. The Trump administration is reportedly considering a ban on Kimi K3 and similar Chinese models.
+   - Summary: Google DeepMind released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber. Gemini 3.6 Flash reduces token usage by up to 17% at $1.50/$7.50 per million tokens; knowledge cutoff updated to March 2026. 3.5 Flash Cyber is a cybersecurity model exclusive to governments and trusted partners. 3.5 Pro launch remains delayed despite earlier promise. Google announced Gemini 4 pretraining has begun.
 
-3. **YouTube clarifies policies around AI slop and upsetting videos**
+2. **Anthropic's landmark $1.5B copyright settlement is approved**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/
-   - Published: 2026-07-20
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/07/20
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story not covered yesterday)
+   - URL: https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/
+   - Published: July 20, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/07/20" (rolling window from July 21)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com in yesterday but different path)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: YouTube clarified its policies on "inauthentic content," defining three types of videos — including AI-generated mass-produced content without genuine informational or entertainment value — that cannot be monetized.
+   - Summary: A federal judge approved Anthropic's $1.5 billion class-action copyright settlement — the largest copyright payout in US history — covering approximately 500,000 works at $3,000 each. Judge Araceli Martinez-Olguin signed off after the original judge retired.
 
-4. **AI Pioneer Kai-Fu Lee's Startup Targets Hong Kong IPO Next Year**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-07-20/ai-pioneer-kai-fu-lee-s-startup-targets-hong-kong-ipo-next-year
-   - Published: 2026-07-20
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-20
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story; Moonshot IPO was yesterday at different URL)
+3. **US threatens sanctions against Chinese AI models over IP theft**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/
+   - Published: July 21, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/07/21"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday covered OpenAI's private lobbying angle; today is Treasury Secretary's public sanction threat — different URL, different angle)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: 01.ai, the AI startup founded by Kai-Fu Lee (former Google China head), is pursuing a pre-IPO financing round timed to coincide with the company's first-ever annual results, before listing on the Hong Kong stock exchange in 2027.
+   - Summary: Treasury Secretary Scott Bessent warned the US could sanction Chinese AI companies found to be stealing IP via model distillation. Officials say they found watermarks from US large language models embedded in Chinese model outputs.
 
-5. **อนุทิน เยี่ยม Alibaba ชู AI-คลาวด์-โลจิสติกส์ ต่อยอดเศรษฐกิจดิจิทัลไทย**
-   - Publisher: The Standard
-   - URL: https://thestandard.co/pm-alibaba-ai-cloud-logistics/
-   - Published: 2026-07-20
-   - FreshnessCheck: ✅ within last 24h via snippet "วันนี้ (20 กรกฎาคม) เวลา 14.00 น. ตามเวลาท้องถิ่นกรุงปักกิ่ง"
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story not covered yesterday)
+4. **Music streamer Deezer says more than 50% of daily uploads are AI-generated**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/
+   - Published: July 21, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/07/21"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Thai Prime Minister Anutin Charnvirakul visited Alibaba Group HQ in Beijing on July 20 to learn about AI, cloud, and logistics innovations, as the final leg of a 5-day China visit that also included WAIC 2026 and meetings with Xi Jinping.
+   - Summary: Deezer revealed AI-generated content accounts for more than 50% of all daily uploads. In June 2026, AI-generated track uploads peaked at 90,000 tracks per day.
+
+5. **เปิดตัว Kimi Work คู่แข่ง Claude Cowork ดึงราคาหุ้นได้ในตัว**
+   - Publisher: Blognone
+   - URL: https://www.blognone.com/node/151199
+   - Published: July 21, 2026 at 11:35 (confirmed by search result snippet)
+   - FreshnessCheck: ✅ within last 24h via search snippet confirming "July 21, 2026 at 11:35"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (blognone.com not in yesterday's brief at all)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Moonshot AI เปิดตัว Kimi Work เวอร์ชันใหม่ที่แข่งกับ Claude Cowork โดยเพิ่มฟีเจอร์ดึงข้อมูลราคาหุ้นแบบ built-in ไม่ต้องผ่าน API รองรับ macOS และ Windows มีฟีเจอร์ background execution, scheduled tasks, browser control และ document creation
 
 ## Dropped
-- https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android... — Filter A (>24h): EU Commission decisions dated July 16, 2026 — 4 days old
-- https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it — Filter A (>24h): story from July 17, 2026
-- https://www.bloomberg.com/news/articles/2026-07-20/moonshot-ai-is-creating-new-winners-and-losers-in-the-ai-trade — Excluded for diversity: Moonshot topic already covered extensively in yesterday's brief; other July 20 stories chosen instead
-- https://www.prachachat.net/world/news-2039027 — Filter A (>24h): Xi Jinping WAIC opening on July 17, 2026
-- https://www.blognone.com/node/151193 — Insufficient date confidence: could not confirm July 20 publication date from snippet alone
+- OpenAI Erdos model sandbox escape (fortune.com, techtimes.com, neowin.net) — Publisher not on trusted-sources.md; no TechCrunch/Verge/Ars URL found in search results
+- Kimi K3 subscriptions suspended (scmp.com, washingtonpost.com) — Publisher not on trusted-sources.md; no TechCrunch/Verge URL found in search results
+- White House AI oversight deal — Filter A: framework (Executive Order) announced June 2, 2026; not fresh July 21 news
+- Suno data breach July 21 TechCrunch — Excluded for slot limit (5th slot taken by Thai-source Blognone story)
 
-> Note: 5 items passed both filters this run. Runtime was WEBFETCH_BLOCKED; all stories verified at Tier 2 (WebSearch snippet). Of ~12 candidates examined, 3 failed Filter A, 0 failed Filter B, 4 excluded for diversity/insufficient date evidence.
+> Note: 5 items passed both filters this run. Runtime was WEBFETCH_BLOCKED; all stories verified at Tier 2 (WebSearch snippet). Of ~12 candidates examined, 3 failed trusted-source filter, 1 failed Filter A, 3 excluded for slot limit/diversity.
