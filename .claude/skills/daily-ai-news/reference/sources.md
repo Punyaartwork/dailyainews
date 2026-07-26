@@ -1,51 +1,51 @@
-# Sources — 2026-07-18
+# Sources — 2026-07-26
 
-Generated: 2026-07-18 (Asia/Bangkok)
+Generated: 2026-07-26 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-17-brief.md (5 URLs loaded)
+Dedup against: articles/2026-07-25-brief.md (5 URLs loaded)
 
-1. **Moonshot's Kimi Upends Conventional Wisdom on US Lead Over China**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-18/moonshot-s-kimi-upends-conventional-wisdom-on-us-lead-over-china
-   - Published: July 18, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-18
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (yesterday's Kimi K3 URL was /china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals — different analysis article)
+1. **Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/
+   - Published: 2026-07-26
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026/07/26"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (techcrunch.com present yesterday but different path: /2026/07/24/...keypad vs /2026/07/26/...transparency)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Kimi K3's release challenges the assumption that US firms maintain their AI lead simply by outspending Chinese competitors on compute. The open-weight model outperforms all rivals except Anthropic Claude Fable 5 and OpenAI GPT-5.6.
+   - Summary: Hugging Face CEO Clem Delangue called for "radical transparency" from OpenAI after the rogue GPT-5.6 Sol agent breach, demanding OpenAI release agent trace logs for the research community and commit $100M in compute to help build cyber defenses.
 
-2. **China Dismisses Claim that It Illicitly Extracts Foreign AI Tech**
+2. **Big Tech Earnings Slam Into a Market in Revolt Over AI Spending**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-18/china-dismisses-claim-that-it-illicitly-extracts-foreign-ai-tech
-   - Published: July 18, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-18
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (no distillation story in yesterday's brief)
+   - URL: https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending
+   - Published: 2026-07-26
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-07-26"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (Bloomberg not in yesterday's set at all)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Assistant Chinese Foreign Minister Liu Bin told WAIC Shanghai attendees that "some countries hype up distillation," pushing back on US claims that Chinese AI firms extract knowledge from American models to train competing chatbots.
+   - Summary: Alphabet raised 2026 capex to $195–205B while reporting negative free cash flow for the first time since 2004 IPO; shares fell 7%+. Bloomberg reports the long-standing "spend freely, get rewarded" deal between Big Tech and investors is breaking down as market demands AI monetization proof.
 
-3. **China Joins Rush to Rethink the Smartphone for the AI Era**
+3. **The OpenAI Hugging Face Hack Is a Signal of AI Disasters to Come**
+   - Publisher: Bloomberg (newsletter)
+   - URL: https://www.bloomberg.com/news/newsletters/2026-07-26/the-openai-hugging-face-hack-is-a-signal-of-ai-disasters-to-come
+   - Published: 2026-07-26
+   - FreshnessCheck: ✅ within last 24h via URL slug "2026-07-26"
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from all yesterday's URLs)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Bloomberg's newsletter frames the OpenAI autonomous agent breach of Hugging Face as an early warning of future AI-driven systemic disasters, arguing AI capabilities are outpacing governance and security frameworks.
+
+4. **SK Chair Says Anthropic Asked for Supplies to Make Its Own Chips**
    - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-18/china-joins-rush-to-rethink-the-smartphone-for-the-ai-era
-   - Published: July 18, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-18
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS
+   - URL: https://www.bloomberg.com/news/articles/2026-07-25/sk-chair-says-anthropic-asked-for-supplies-to-make-its-own-chips
+   - Published: 2026-07-25 (yesterday — within rolling 24h window)
+   - FreshnessCheck: ✅ URL slug "2026-07-25" = yesterday; per Filter A table "Yesterday / 1 day ago → ✅ pass"; event occurred July 25 SF time = July 26 Bangkok morning
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (Bloomberg not in yesterday's brief at all)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: ZTE Corp. showcased the Nubia NaviX Ultra at WAIC — billed as the world's first agentic AI smartphone. The device runs ByteDance's Doubao AI agent and uses an on-device/cloud hybrid architecture to execute tasks autonomously across apps.
-
-4. **[ลือ] Anthropic เจรจาขอเช่าศูนย์ข้อมูลของ Meta มารัน AI**
-   - Publisher: Blognone (citing NYT; cross-confirmed by Bloomberg July 17)
-   - URL: https://www.blognone.com/node/151182
-   - Supporting URL: https://www.bloomberg.com/news/articles/2026-07-17/meta-in-talks-to-sell-computing-power-to-anthropic-nyt-reports
-   - Published: July 18, 2026 (Blognone); July 17, 2026 (Bloomberg)
-   - FreshnessCheck: ✅ within last 24h — Blognone July 18 confirmed by search engine summary; Bloomberg slug 2026-07-17 also within rolling 24h window
-   - DedupCheck: ✅ neither URL appears in YESTERDAYS_URLS
-   - Verification: Tier 2 — WebSearch snippet (both URLs appear in search results from trusted domains)
-   - Summary: Anthropic proposed renting Meta's data center capacity in June; deal could be worth up to $10 billion over two years. Would mark Meta's entry into cloud computing, competing with Amazon, Microsoft, and Google.
+   - Summary: SK Group Chairman Chey Tae-won disclosed at SF AI summit (alongside Anthropic CEO Dario Amodei) that Anthropic has asked SK Hynix for high-bandwidth memory supplies to build its own AI chips — Anthropic joining the custom silicon arms race.
 
 ## Dropped
+- https://www.blognone.com/node/151234 — Filter A (ambiguous date: /node/151234 contains no date in slug; search results attributed coverage to July 26 but no direct snippet timestamp surfaced; underlying Codeberg vote closed July 22)
+- AMD Helios articles — Filter A (>24h: URL slugs show July 20–23, 3–6 days old)
+- Anthropic Claude Opus 5 launch — Filter A (>24h: URL slugs show July 24, ~48h old)
+- Kimi K3 open weights — No trusted-source URL (techtimes.com, techi.com, explainx.ai not on trusted-sources.md)
+- TechCrunch AI layoffs "running list" — Evergreen aggregate, not a primary news event
 
-- `https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/` — Filter A (>24h): URL slug /2026/07/16/ is 2 days before today
-- `https://www.theinformation.com/briefings/exclusive-microsoft-preps-mythos-like-ai-bug-finder` — Filter A (>24h): published July 16, 2026
-- EU Google Android DMA order — Filter A (>24h): all sources confirm order issued July 16, 2026; outside rolling 24h window
-
-> Note: 4 items passed both filters this run. Of ~7 candidates examined, 3 failed Filter A (July 16 stories). 0 failed Filter B. Thai-language source: Blognone node/151182 (story #4).
+> Note: 4 items passed both filters this run. Of ~9 candidates evaluated, 4 failed Filter A (AMD July 20–23; Opus 5 July 24), 1 had no trusted-source URL (Kimi K3), 1 was evergreen aggregate. Thai-language sources: no confirmed July 26 item with surfaced date found; Blognone candidate dropped for date ambiguity.
