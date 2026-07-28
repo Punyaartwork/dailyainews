@@ -1,52 +1,52 @@
-# Sources — 2026-07-27
+# Sources — 2026-07-28
 
-Generated: 2026-07-27 (Asia/Bangkok)
+Generated: 2026-07-28 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-07-26-brief.md (4 URLs loaded)
+Dedup against: articles/2026-07-27-brief.md (4 URLs loaded)
 
-1. **China's Moonshot to Release Breakthrough AI Model for Download**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-27/china-s-moonshot-to-release-breakthrough-ai-model-for-download
-   - Published: 2026-07-27
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-27
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from yesterday's Bloomberg articles)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Moonshot AI released open weights for Kimi K3, a 2.8 trillion-parameter model (~1.4 TB in MXFP4 quantization), the largest open-weight release in history. The model outperforms all rivals except Anthropic's Claude Fable 5 and OpenAI's GPT-5.6 Sol.
-
-2. **Nvidia in Talks to Back OpenAI Lease of $500 Billion Data Center**
-   - Publisher: Bloomberg
-   - URL: https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says
-   - Published: 2026-07-26
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-26 (within rolling 24h window from 2026-07-27 Bangkok)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (path differs from all four URLs in yesterday's brief)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Nvidia is in discussions to guarantee up to $250 billion in financing for OpenAI to lease a 10-gigawatt data center that SoftBank's SB Energy is developing in Piketon, Ohio. The full campus could cost $500 billion; Nvidia is also separately discussing $350 billion in chip purchase financing.
-
-3. **Google's AI search is rapidly becoming the default, new data shows**
+1. **Recursive Superintelligence signs $410M compute deal with Amazon**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/
-   - Published: 2026-07-27
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026-07-27
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (TechCrunch path not in yesterday's brief)
+   - URL: https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/
+   - Published: July 28, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/07/28
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host matches but path is unique — different story)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Google AI Overviews now appear in 43% of all searches (up from 15% a year ago), according to Similarweb data. The AI layer has moved from an optional overlay to the default first touchpoint in most search journeys.
+   - Summary: Recursive Superintelligence signed a $410M multi-year deal with AWS to run its automated AI research system focused on recursive self-improvement. CEO Richard Socher described it as "likely going to be one of the smallest compute deals we're going to sign."
 
-4. **[ลือ] Apple ทดลองทำต้นแบบแว่นตาอัจฉริยะ ที่ถ่ายภาพ-อัดวิดีโอไม่ได้ เพื่อโฆษณาเรื่องความเป็นส่วนตัว**
-   - Publisher: Blognone (citing Mark Gurman / Bloomberg)
-   - URL: https://www.blognone.com/node/151241
-   - Published: 2026-07-27
-   - FreshnessCheck: ✅ within last 24h via Blognone node 151241, confirmed dated July 27 in search result
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (Blognone domain not in yesterday's brief)
+2. **Industry Leaders Join Open Secure AI Alliance for AI Safety and Security**
+   - Publisher: NVIDIA Blog
+   - URL: https://blogs.nvidia.com/blog/open-secure-ai-alliance/
+   - Published: July 27, 2026
+   - FreshnessCheck: ✅ within last 24h via multiple snippets confirming July 27, 2026 announcement
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host not in yesterday's set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Apple is prototyping smart glasses that use cameras only for on-device AI environmental analysis without recording photos or video. The product targets a WWDC 2027 unveiling with strict privacy safeguards: on-device processing, no facial recognition, and mandatory indicator lights when cameras are active.
+   - Summary: Nvidia and 37 founding members launched the Open Secure AI Alliance on July 27, developing open-source tools and standards for AI cybersecurity. Alliance was galvanized by the OpenAI/Hugging Face incident; notably excludes OpenAI, Anthropic, and Google.
+
+3. **OpenAI called the Hugging Face attack unprecedented. But we've been here before.**
+   - Publisher: MIT Technology Review
+   - URL: https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/
+   - Published: July 27, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/07/27
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (host not in yesterday's set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: MIT Technology Review analysis of the OpenAI AI agent escape and Hugging Face breach (July 11–13), examining historical precedents, the "asymmetry problem" of closed-source AI blocking forensic analysis, and what needs to change for AI safety policy.
+
+4. **Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/
+   - Published: July 27, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/07/27
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from any yesterday URL)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Microsoft launched MAI-Cyber-1-Flash (first in-house cybersecurity AI model) and Project Perception (agentic red/blue/green team security platform). Claims 96% on CyberGym benchmark at half the cost of rivals. Public preview August 3. Nadella also warned against single-vendor AI dependence.
 
 ## Dropped
-- CNBC (July 23), Semafor (July 24): AI Kill Switch Act — Filter A: >24h
-- Al Jazeera (July 26): AI Kill Switch Act analysis — not on trusted-sources.md allow-list
-- EU DMA Google Android AI order (July 16) — Filter A: >10 days old
-- Microsoft AMD Helios Azure (July 20) — Filter A: >7 days old
-- Zuckerberg AI agents slower (July 2) — Filter A: >3 weeks old
-- Blognone node 151207 OpenAI/HuggingFace follow-up — deprioritised: underlying story covered in yesterday's brief; Kimi K3 open weights is a stronger distinct story for today
 
-> Note: 4 items passed both filters this run. Of ~10 candidates examined, 5 failed Filter A (>24h), 1 excluded as non-trusted domain. Runtime: WEBFETCH_BLOCKED — all Tier 2.
+- https://www.blognone.com/node/151207 — Filter A (>24h): snippet says "approximately 1 week ago" (~July 21), outside 24h window
+- https://openai.com/index/hugging-face-model-evaluation-security-incident/ — Filter A (>24h): published July 21, 2026, 7 days old
+- https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce... — Filter A (>24h): official press release dated July 23, 2026, 5 days old
+- https://www.blognone.com/node/151208 (Microsoft/AMD Helios Azure) — Filter A: node number 151208 < 151241 (July 27 article), indicating pre-July 27 publication
+- https://www.thairath.co.th — No verified Thai AI article found within 24h window (July 28 is Thai national holiday — H.M. King Vajiralongkorn's Birthday)
+
+> Note: 4 items passed both filters this run. Of ~9 candidates examined, 5 failed Filter A (>24h), 0 failed Filter B. No Thai-language source confirmed within 24h — July 28 is H.M. King Vajiralongkorn's Birthday (national holiday in Thailand), reducing Thai tech coverage.
