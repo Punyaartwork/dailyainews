@@ -1,25 +1,31 @@
-# Perspectives — 2026-08-02
+# Perspectives — 2026-08-03
 
-## 1. Google DeepMind เปิดตัว Gemini Robotics ER 2: AI สั่งการหุ่นยนต์หลายตัวพร้อมกันได้แล้ว
+## 1. Alibaba's Qwen3.8-Max AI Model Claims Benchmark Scores Rivaling Anthropic
 
-**อาจารย์ (มหาวิทยาลัย):** Gemini Robotics ER 2 เป็น case study ที่สอนได้ชัดว่า embodied AI ไม่ใช่แค่เรื่อง model ที่ฉลาดขึ้น แต่คือการเชื่อม perception → planning → physical action ในกรอบเดียว ให้นักศึกษาเปรียบเทียบ multi-robot coordination ของ ER 2 กับ single-agent robotics systems ของปี 2024 เพื่อวัดว่า complexity เพิ่มขึ้นระดับไหนจริงๆ
-**ผู้เชี่ยวชาญด้าน AI:** น่าสังเกตว่า Google ใช้ Gemini 3.5 Flash ไม่ใช่รุ่นที่ใหญ่กว่า — แสดงว่า latency และ inference cost ใน real-time robotics ยังคือ constraint ที่กดดัน production deployment อยู่จริง ความสามารถเรียก external tools ระหว่างงานเป็นก้าวที่น่าสนใจ แต่ failure mode ของ tool call ในสภาพแวดล้อมทางกายภาพยังต้องพิสูจน์จากการใช้จริง
-**โปรแกรมเมอร์มืออาชีพ:** เปิดผ่าน Gemini API แล้วตอนนี้ — ถ้าทีมมี robotics hardware อยู่แล้วหรือกำลัง evaluate นี่คือเวลา prototype ก่อนที่ ecosystem จะ mature และ pricing เปลี่ยน การที่โมเดลแปลง plain language instruction เป็น steps เองช่วยลด prompt engineering overhead ใน industrial automation ได้มาก
+**อาจารย์ (มหาวิทยาลัย):** MoE architecture ที่ activate เพียง 95B params จาก 2.4T คือ concept สำคัญที่ต้องสอนนักศึกษา — เพราะมันทำให้ scale ของ frontier model เชื่อมกับ deployment cost จริงใน production ได้; open-source weights สัปดาห์หน้าหมายความว่า class project บน Qwen3.8-Max ทำได้จริงถ้า lab มี multi-GPU cluster
+**ผู้เชี่ยวชาญด้าน AI:** IFBench gap (82.8 vs 63.5) น่าสนใจมากกว่า PaperBench — instruction-following ตรงกับ real agentic workload มากกว่า paper replication tasks; แต่ benchmark ที่ vendor เลือกเองมักเลือกมาเพื่อแสดงจุดแข็ง รอ third-party evaluation บน task ที่ไม่ใช่ vendor-curated ก่อนใช้เป็นฐานตัดสินใจ production
+**โปรแกรมเมอร์มืออาชีพ:** 95B active params คือตัวเลขที่ต้องแปลเป็น GPU requirement จริง — บน A100 80GB อาจ run single-GPU ได้ แต่ถ้าต้องการ throughput สำหรับ production API ต้องคำนวณ KV cache และ batch size ก่อน; ราคา QwenCloud เทียบกับ Anthropic API คือ data point ที่ดูก่อน open-source weights ออก
 
-## 2. AI สร้างตลาดแรงงาน 2 ความเร็วในสหราชอาณาจักร
+## 2. White House เรียก OpenAI, Anthropic, Google ถกกรอบทดสอบ AI แบบ Voluntary
 
-**อาจารย์ (มหาวิทยาลัย):** ข้อมูลนี้ยืนยัน "skill-biased technological change" ที่นักเศรษฐศาสตร์พูดถึงมา 30 ปี แต่ AI ทำให้ cycle สั้นลงมากจน curriculum การศึกษาที่ไม่ปรับรับ AI tools จะผลิต graduates ที่ตกอยู่ฝั่ง "ลดลงสองหลัก" ทันที ไม่ใช่ 10 ปีข้างหน้า
-**ผู้เชี่ยวชาญด้าน AI:** ที่น่าสนใจคือ developer jobs ฟื้นตัวด้วยตำแหน่ง senior ไม่ใช่ junior — แสดงว่า AI tools เพิ่ม productivity ของคนที่รู้อยู่แล้ว แต่ลด entry point สำหรับ beginner ตลาดกำลัง price ว่า "judgment + AI proficiency" มีค่า แต่ "execution without AI context" ราคาลดลงแล้ว
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าคุณอยู่ในกลุ่ม senior dev ที่ AI tools ช่วยงานได้ demand ของคุณกำลังขึ้น แต่ถ้าอยู่ใน white-collar อื่น (accounting, marketing) และยังไม่ integrate AI tools เข้างานประจำ ตัวเลขจาก UK นี้คือ signal ที่ต้องรีบ act ไม่ใช่รอดู
+**อาจารย์ (มหาวิทยาลัย):** "Voluntary framework" ที่รัฐไม่เปิดเผยเนื้อหาคือ case study governance ที่ดีมาก — นักศึกษาควรถามว่า accountability อยู่ที่ไหน และ "opt-in" ที่ไม่มีผลกระทบสำหรับคนที่ไม่เข้าร่วมคือ governance จริงหรือแค่ PR
+**ผู้เชี่ยวชาญด้าน AI:** 30-day pre-release access สั้นมากสำหรับ safety evaluation ที่มีความหมาย — แต่ถ้า government ใช้มันสร้าง internal capability ประเมิน risk ของ frontier models ก็คือ starting point ที่ดีกว่าไม่มีอะไร; น่าติดตามว่าจะมี technical team ภายในที่ทำ eval ได้จริงหรือเปล่า
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า employer อยู่ใน government contracting หรือ regulated industry — การที่ vendor opt-in/out จาก framework นี้อาจกลายเป็น procurement criteria; ควรถาม AI vendor ตอนนี้ว่า participate ไหมก่อนที่จะเป็น requirement อย่างเป็นทางการ
 
-## 3. Sam Altman โปรโมต ChatGPT เป็น "เพื่อนเลี้ยงลูก" — ถูก Ratio บน X
+## 3. AI Skills มีค่ากว่า MBA — 86% ของ Finance Executives เชื่อ
 
-**อาจารย์ (มหาวิทยาลัย):** ratio ที่ Altman ได้รับแสดง asymmetry ระหว่าง "ความสามารถของเทคโนโลยี" กับ "สิ่งที่สังคมรู้สึกว่าควร delegate ให้ AI" — เรื่องการเลี้ยงลูกสัมผัสกับ core value ของครอบครัวที่คนรู้สึก protective มากเป็นพิเศษ นักศึกษาควรเรียน case นี้เป็น technology adoption boundary ว่าทำไม feature ที่ทำได้กับ feature ที่ควรทำถึงไม่ใช่เรื่องเดียวกัน
-**ผู้เชี่ยวชาญด้าน AI:** ปัญหาไม่ใช่ความสามารถของ ChatGPT — personalized morning podcast สำหรับเด็กทำได้ดีจริงๆ ปัญหาคือ framing ว่า AI มา "ทำแทน" interaction ของพ่อแม่กับลูก ซึ่ง end user research และ messaging review ควรจับ signal นี้ได้ก่อน launch pitch เช่นนี้
-**โปรแกรมเมอร์มืออาชีพ:** นี่คือ product positioning lesson ที่แพงมาก — feature เดียวกันถ้า pitch ว่า "เครื่องมือช่วยพ่อแม่เตรียม content น่าสนใจสำหรับเด็ก" reaction จะต่างกันโดยสิ้นเชิง คำว่า "companion" กับ "tool" สร้าง user backlash ต่างกันมาก แม้ code เบื้องหลังจะเหมือนกัน — apply ได้กับทุก AI product ที่ชน personal/family domain
+**อาจารย์ (มหาวิทยาลัย):** ตัวเลข 86% นี้ควรแยก "AI proficiency" ออกมาก่อนใช้ — ถ้า PwC หมายถึง ability to use AI tools ก็ต่างจาก ability to build AI systems มาก; business schools ที่ปรับ curriculum แล้วควรระบุชัดว่าสอนระดับไหน ไม่ใช่แค่ใส่ "AI" ใน course name
+**ผู้เชี่ยวชาญด้าน AI:** สิ่งที่ finance employer อาจหมายถึง "AI training" คือ combination ของ data literacy + prompt engineering + การรู้ว่าจะใช้ AI ใน workflow finance ตรงไหน — ซึ่งไม่ใช่ deep ML แต่คือ judgment layer ที่ AI specialist ต้องช่วย enable ให้กับ domain experts
+**โปรแกรมเมอร์มืออาชีพ:** ถ้าทำงานใน fintech หรือ finance-adjacent — นี่คือ green light ให้สร้าง AI tools สำหรับ finance users โดยตรง ตลาดบอกชัดว่า demand มี และ employer กำลัง invest ใน AI talent มากกว่า traditional credential
 
-## 4. AI Is Power and America's Lead Over China Is Shrinking
+## 4. Amazon: ลูกค้าเปลี่ยนจาก Training ไป Inference — โอกาส "Massive" ที่กำลังเริ่ม
 
-**อาจารย์ (มหาวิทยาลัย):** Bloomberg framing AI เป็น "power" ไม่ต่างจาก nuclear capability หรือ oil reserves — นักศึกษา international relations ควรวิเคราะห์ว่า AI power แตกต่างจาก hard power แบบดั้งเดิมอย่างไร และ "shrinking lead" วัดจากอะไรกันแน่ (model benchmark? deployment scale? semiconductor access? inference cost?)
-**ผู้เชี่ยวชาญด้าน AI:** ช่องว่างที่แคบลงน่าจะเป็นผลรวมของหลายปัจจัยพร้อมกัน: Chinese open-source models ที่แข่งขันได้, US export controls ที่ push China ให้ accelerate domestic chip production, และ inference efficiency ที่ทำให้ raw hardware gap สำคัญน้อยลง ทั้งสามอย่างเกิดในช่วงเดียวกัน
-**โปรแกรมเมอร์มืออาชีพ:** นัยปฏิบัติ — ถ้าทีมใช้ Chinese open-source models (เช่น Qwen, DeepSeek) ต้องเช็ค compliance กับ US export regulations และ data residency requirements ของ client โดยเฉพาะถ้า build สำหรับ government หรือ defense-adjacent sector ก่อน Q4
+**อาจารย์ (มหาวิทยาลัย):** Shift จาก R&D-mode ไป production-mode นี้คือจุดที่ AI เริ่มส่งผลต่อ GDP จริง ไม่ใช่แค่ benchmark paper — นักเรียนด้าน economics ควรศึกษา $220B capex ของ Amazon เป็น case study ว่า investment cycle ของ enabling technology ทำงานยังไงก่อน productivity gain ปรากฏในสถิติ
+**ผู้เชี่ยวชาญด้าน AI:** inference shift นี้หมายความว่า hardware ที่เหมาะสมกำลังเปลี่ยน — training ต้องการ HBM bandwidth สูง (H100/H200) แต่ inference ที่ latency-sensitive ต้องการ memory capacity และ cost per token ต่ำ; Amazon ที่ลงทุน $220B กำลัง bet ว่า Trainium และ Inferentia chips จะ competitive กับ NVIDIA ในตลาดนี้
+**โปรแกรมเมอร์มืออาชีพ:** production shift แปลว่า SLA, cost per 1M tokens, และ autoscaling ของ inference endpoint จะเป็น conversation กับ PM มากขึ้น — ควรเตรียม benchmark ทั้ง latency และ cost บน AWS/GCP/Azure inference เทียบกัน ก่อน lock-in สถาปัตยกรรมระยะยาว
+
+## 5. Apple ซ่อม Siri ได้แล้ว แต่ทำไมรู้สึก Anticlimactic?
+
+**อาจารย์ (มหาวิทยาลัย):** TechCrunch article นี้เป็น example ที่ดีของ "expectation gap" ใน tech product — feature จริงอาจดีกว่า 2 ปีที่แล้ว แต่ตลาดเปรียบเทียบกับ ChatGPT ที่มี 2 ปีเพื่อ iterate ให้ mature; นักศึกษา PM และ marketing ควรอ่าน case นี้เรื่อง timing และ narrative management
+**ผู้เชี่ยวชาญด้าน AI:** สิ่งที่ยังไม่ชัดคือ on-device vs. cloud trade-off ของ Siri ใหม่ — personal context awareness ที่ดีต้องการข้อมูลจาก device แต่ world knowledge ต้องการ cloud; ว่า Apple handle privacy boundary ตรงนี้ยังไง จะกำหนดว่า feature จะ survive scrutiny จาก privacy advocates ไหม
+**โปรแกรมเมอร์มืออาชีพ:** iOS 27 personal context API คือ surface ใหม่ที่น่าสนใจ — app ที่ integrate Siri context ได้ก่อน full release จะได้ editorial featuring ใน App Store; เริ่ม review Apple developer docs บน Siri Extensions ตอนนี้ก่อน GA เพื่อ ship พร้อม iOS 27
