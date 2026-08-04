@@ -1,31 +1,31 @@
-# Perspectives — 2026-08-03
+# Perspectives — 2026-08-04
 
-## 1. Alibaba's Qwen3.8-Max AI Model Claims Benchmark Scores Rivaling Anthropic
+## 1. China's AI Blitz Creates 'Death Zone' for Rival US Model Makers
 
-**อาจารย์ (มหาวิทยาลัย):** MoE architecture ที่ activate เพียง 95B params จาก 2.4T คือ concept สำคัญที่ต้องสอนนักศึกษา — เพราะมันทำให้ scale ของ frontier model เชื่อมกับ deployment cost จริงใน production ได้; open-source weights สัปดาห์หน้าหมายความว่า class project บน Qwen3.8-Max ทำได้จริงถ้า lab มี multi-GPU cluster
-**ผู้เชี่ยวชาญด้าน AI:** IFBench gap (82.8 vs 63.5) น่าสนใจมากกว่า PaperBench — instruction-following ตรงกับ real agentic workload มากกว่า paper replication tasks; แต่ benchmark ที่ vendor เลือกเองมักเลือกมาเพื่อแสดงจุดแข็ง รอ third-party evaluation บน task ที่ไม่ใช่ vendor-curated ก่อนใช้เป็นฐานตัดสินใจ production
-**โปรแกรมเมอร์มืออาชีพ:** 95B active params คือตัวเลขที่ต้องแปลเป็น GPU requirement จริง — บน A100 80GB อาจ run single-GPU ได้ แต่ถ้าต้องการ throughput สำหรับ production API ต้องคำนวณ KV cache และ batch size ก่อน; ราคา QwenCloud เทียบกับ Anthropic API คือ data point ที่ดูก่อน open-source weights ออก
+**อาจารย์ (มหาวิทยาลัย):** "Cascade" ของ Chinese AI นี้คือ case study ที่ดีสำหรับ policy และ geopolitics of technology — นักศึกษาควรวิเคราะห์ว่า chip export controls ที่มีต้นทุนทางการเมืองสูงกลับไม่สามารถหยุดยั้ง frontier AI development ได้อย่างที่ตั้งใจไว้; ยุคที่ US จะ lead โดยไม่มีคู่แข่งจริงใน AI กำลังสิ้นสุด
+**ผู้เชี่ยวชาญด้าน AI:** "Death zone" ที่ Bloomberg บรรยายคือ benchmark overlap region ที่ end-user ไม่สามารถแยกแยะ output quality ได้ — บริษัทที่ไม่มี pricing moat หรือ ecosystem lock-in จะถูก commoditize อย่างรวดเร็ว; DeepSeek V4 Flash และ Kimi K3 เป็นของจริงที่ต้องทดสอบ ไม่ใช่แค่ FUD
+**โปรแกรมเมอร์มืออาชีพ:** ถ้า architecture ของ system ผูกกับ provider เดียวโดยไม่มี abstraction layer — ถึงเวลา refactor; Chinese models หลายตัวมี API compatible กับ OpenAI schema ซึ่งทำให้ migration cost ต่ำกว่าที่คิด โดยเฉพาะสำหรับ workload ที่ไม่ต้องการ cutting-edge reasoning
 
-## 2. White House เรียก OpenAI, Anthropic, Google ถกกรอบทดสอบ AI แบบ Voluntary
+## 2. AI Is Replacing HR Tasks Across Corporate America
 
-**อาจารย์ (มหาวิทยาลัย):** "Voluntary framework" ที่รัฐไม่เปิดเผยเนื้อหาคือ case study governance ที่ดีมาก — นักศึกษาควรถามว่า accountability อยู่ที่ไหน และ "opt-in" ที่ไม่มีผลกระทบสำหรับคนที่ไม่เข้าร่วมคือ governance จริงหรือแค่ PR
-**ผู้เชี่ยวชาญด้าน AI:** 30-day pre-release access สั้นมากสำหรับ safety evaluation ที่มีความหมาย — แต่ถ้า government ใช้มันสร้าง internal capability ประเมิน risk ของ frontier models ก็คือ starting point ที่ดีกว่าไม่มีอะไร; น่าติดตามว่าจะมี technical team ภายในที่ทำ eval ได้จริงหรือเปล่า
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า employer อยู่ใน government contracting หรือ regulated industry — การที่ vendor opt-in/out จาก framework นี้อาจกลายเป็น procurement criteria; ควรถาม AI vendor ตอนนี้ว่า participate ไหมก่อนที่จะเป็น requirement อย่างเป็นทางการ
+**อาจารย์ (มหาวิทยาลัย):** 85% automation ของ recruitment screening ภายใน 2 ปีคือตัวเลขที่ต้องนำไปสอนในหลักสูตร Labor Economics และ Business ทันที — ไม่ใช่แค่เพิ่ม AI elective แต่คือการถามว่า value proposition ของ HR degree กำลังเปลี่ยนไปเป็นอะไร และสถาบันการศึกษาจะตอบสนองยังไง
+**ผู้เชี่ยวชาญด้าน AI:** การ automate HR ไม่ได้แปลว่าตัดคนออกทั้งหมด แต่ ratio ของ HR staff ต่อพนักงานทั้งหมดกำลังลดลง — งานที่เหลืออยู่จะเป็น judgment-heavy ที่ต้องการ domain expertise ควบคู่กับ AI literacy; ควรเตือนว่า AI screening ที่ไม่ได้รับการ audit อาจสร้าง bias ที่ขยายตัว
+**โปรแกรมเมอร์มืออาชีพ:** HR automation คือ market ที่กำลัง mature อย่างรวดเร็ว — จุดที่ยัง underserved คือ explainability ของ screening decisions เพราะ employer ต้องการ audit trail ทางกฎหมายมากกว่า black-box score; compliance layer นี้คือ moat ที่สร้างได้จริง
 
-## 3. AI Skills มีค่ากว่า MBA — 86% ของ Finance Executives เชื่อ
+## 3. Nvidia, Dell Back AI Cloud Startup Volta at $2.4 Billion Value
 
-**อาจารย์ (มหาวิทยาลัย):** ตัวเลข 86% นี้ควรแยก "AI proficiency" ออกมาก่อนใช้ — ถ้า PwC หมายถึง ability to use AI tools ก็ต่างจาก ability to build AI systems มาก; business schools ที่ปรับ curriculum แล้วควรระบุชัดว่าสอนระดับไหน ไม่ใช่แค่ใส่ "AI" ใน course name
-**ผู้เชี่ยวชาญด้าน AI:** สิ่งที่ finance employer อาจหมายถึง "AI training" คือ combination ของ data literacy + prompt engineering + การรู้ว่าจะใช้ AI ใน workflow finance ตรงไหน — ซึ่งไม่ใช่ deep ML แต่คือ judgment layer ที่ AI specialist ต้องช่วย enable ให้กับ domain experts
-**โปรแกรมเมอร์มืออาชีพ:** ถ้าทำงานใน fintech หรือ finance-adjacent — นี่คือ green light ให้สร้าง AI tools สำหรับ finance users โดยตรง ตลาดบอกชัดว่า demand มี และ employer กำลัง invest ใน AI talent มากกว่า traditional credential
+**อาจารย์ (มหาวิทยาลัย):** Volta model เป็น example ที่น่าสนใจของ financial engineering ในวงการ AI infrastructure — การ securitize compute access คล้าย REIT ในอสังหาริมทรัพย์; นักศึกษาด้านการเงินควรศึกษาว่า $5B debt financing ที่ back ด้วย $10B contract มี risk profile ยังไงในช่วง AI capex cycle
+**ผู้เชี่ยวชาญด้าน AI:** การที่ Anthropic lock compute ล่วงหน้า 6 ปีคือสัญญาณที่แข็งแกร่งว่า team infrastructure ของพวกเขามั่นใจใน demand growth ระยะยาว — $10B ใน 6 ปีเท่ากับ ~$1.67B/ปีซึ่งสูงกว่า run rate ปัจจุบันอย่างมาก หมายความว่าพวกเขาคาด scale ขึ้นอย่างมีนัยสำคัญจนถึงปี 2032
+**โปรแกรมเมอร์มืออาชีพ:** Volta เป็น alternative ที่น่าจับตาเพราะ backing จาก Nvidia (chip maker) และ Dell (hardware OEM) — ถ้า Anthropic เป็นลูกค้าหลัก Volta น่าจะ optimize infrastructure สำหรับ Claude workload โดยเฉพาะ; ราคาและ SLA ที่ออกมาน่าจะแข่งได้กับ AWS/Azure
 
-## 4. Amazon: ลูกค้าเปลี่ยนจาก Training ไป Inference — โอกาส "Massive" ที่กำลังเริ่ม
+## 4. Apple Says More Ex-Employees May Have Taken Confidential Data to OpenAI
 
-**อาจารย์ (มหาวิทยาลัย):** Shift จาก R&D-mode ไป production-mode นี้คือจุดที่ AI เริ่มส่งผลต่อ GDP จริง ไม่ใช่แค่ benchmark paper — นักเรียนด้าน economics ควรศึกษา $220B capex ของ Amazon เป็น case study ว่า investment cycle ของ enabling technology ทำงานยังไงก่อน productivity gain ปรากฏในสถิติ
-**ผู้เชี่ยวชาญด้าน AI:** inference shift นี้หมายความว่า hardware ที่เหมาะสมกำลังเปลี่ยน — training ต้องการ HBM bandwidth สูง (H100/H200) แต่ inference ที่ latency-sensitive ต้องการ memory capacity และ cost per token ต่ำ; Amazon ที่ลงทุน $220B กำลัง bet ว่า Trainium และ Inferentia chips จะ competitive กับ NVIDIA ในตลาดนี้
-**โปรแกรมเมอร์มืออาชีพ:** production shift แปลว่า SLA, cost per 1M tokens, และ autoscaling ของ inference endpoint จะเป็น conversation กับ PM มากขึ้น — ควรเตรียม benchmark ทั้ง latency และ cost บน AWS/GCP/Azure inference เทียบกัน ก่อน lock-in สถาปัตยกรรมระยะยาว
+**อาจารย์ (มหาวิทยาลัย):** คดีนี้คือ case study ที่ดีสำหรับ IP law และ talent mobility ใน tech industry — นักศึกษากฎหมายและ business ethics ควรวิเคราะห์ว่า preliminary injunction ที่ Apple ขอมีนัยยะอะไรต่อ competitive dynamics ใน AI ecosystem ถ้าสำเร็จ
+**ผู้เชี่ยวชาญด้าน AI:** io (บริษัท device ของ Jony Ive ที่เชื่อมกับ OpenAI) อยู่ใน scope การสอบสวนด้วย — ถ้า Apple ได้ injunction หยุด OpenAI/io จาก device development จะ delay Apple AI device roadmap ของ Sam Altman อย่างมีนัยสำคัญและกระทบ timeline ทั้ง agentic hardware sector
+**โปรแกรมเมอร์มืออาชีพ:** บทเรียนปฏิบัติจากคดีนี้คือ screenshots และ files ใดๆ เกี่ยวกับ unreleased product ถือเป็น trade secret ไม่ว่าจะเก็บไว้ที่ไหน — review exit policy และ data handling ของตัวเองก่อนออกจาก company ที่มี IP สำคัญ โดยเฉพาะถ้าย้ายไป AI company
 
-## 5. Apple ซ่อม Siri ได้แล้ว แต่ทำไมรู้สึก Anticlimactic?
+## 5. NAB Tests AI Agents in Plan to Deploy Tech to Banking Customers
 
-**อาจารย์ (มหาวิทยาลัย):** TechCrunch article นี้เป็น example ที่ดีของ "expectation gap" ใน tech product — feature จริงอาจดีกว่า 2 ปีที่แล้ว แต่ตลาดเปรียบเทียบกับ ChatGPT ที่มี 2 ปีเพื่อ iterate ให้ mature; นักศึกษา PM และ marketing ควรอ่าน case นี้เรื่อง timing และ narrative management
-**ผู้เชี่ยวชาญด้าน AI:** สิ่งที่ยังไม่ชัดคือ on-device vs. cloud trade-off ของ Siri ใหม่ — personal context awareness ที่ดีต้องการข้อมูลจาก device แต่ world knowledge ต้องการ cloud; ว่า Apple handle privacy boundary ตรงนี้ยังไง จะกำหนดว่า feature จะ survive scrutiny จาก privacy advocates ไหม
-**โปรแกรมเมอร์มืออาชีพ:** iOS 27 personal context API คือ surface ใหม่ที่น่าสนใจ — app ที่ integrate Siri context ได้ก่อน full release จะได้ editorial featuring ใน App Store; เริ่ม review Apple developer docs บน Siri Extensions ตอนนี้ก่อน GA เพื่อ ship พร้อม iOS 27
+**อาจารย์ (มหาวิทยาลัย):** NAB case นี้เป็น early signal ของ agentic AI adoption ใน regulated financial services — นักศึกษา FinTech และ RegTech ควรวิเคราะห์ว่า challenges ที่ NAB ระบุ (security guardrails, what agents can and cannot do) สะท้อน regulatory requirements ใน banking sector ยังไง
+**ผู้เชี่ยวชาญด้าน AI:** อุปสรรคหลักของ agentic AI ใน banking ไม่ใช่เรื่องโมเดล แต่เป็น authorization framework — "agent ทำอะไรได้แทนลูกค้าได้บ้าง?" ต้องมี explicit consent model, reversibility mechanism, และ audit trail ที่ regulators ยอมรับ; ปัจจุบันยังไม่มี standard ที่ชัดเจนและ NAB กำลัง explore นี้เป็นรายแรก
+**โปรแกรมเมอร์มืออาชีพ:** NAB ranking 34th ใน global bank AI maturity index แต่เป็น early mover ใน agentic banking สำหรับ Asia-Pacific — ถ้า build fintech tools สำหรับภูมิภาคนี้จะมี demand ชัดเจนสำหรับ agentic interface, consent management, และ audit logging ระดับ bank-grade
