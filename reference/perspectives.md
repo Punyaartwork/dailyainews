@@ -1,31 +1,31 @@
-# Perspectives — 2026-08-04
+# Perspectives — 2026-08-05
 
-## 1. China's AI Blitz Creates 'Death Zone' for Rival US Model Makers
+## 1. Google DeepMind: Demis Hassabis ก้าวลงจาก CEO สู่ Chairman และ Alphabet's Chief Scientist
 
-**อาจารย์ (มหาวิทยาลัย):** "Cascade" ของ Chinese AI นี้คือ case study ที่ดีสำหรับ policy และ geopolitics of technology — นักศึกษาควรวิเคราะห์ว่า chip export controls ที่มีต้นทุนทางการเมืองสูงกลับไม่สามารถหยุดยั้ง frontier AI development ได้อย่างที่ตั้งใจไว้; ยุคที่ US จะ lead โดยไม่มีคู่แข่งจริงใน AI กำลังสิ้นสุด
-**ผู้เชี่ยวชาญด้าน AI:** "Death zone" ที่ Bloomberg บรรยายคือ benchmark overlap region ที่ end-user ไม่สามารถแยกแยะ output quality ได้ — บริษัทที่ไม่มี pricing moat หรือ ecosystem lock-in จะถูก commoditize อย่างรวดเร็ว; DeepSeek V4 Flash และ Kimi K3 เป็นของจริงที่ต้องทดสอบ ไม่ใช่แค่ FUD
-**โปรแกรมเมอร์มืออาชีพ:** ถ้า architecture ของ system ผูกกับ provider เดียวโดยไม่มี abstraction layer — ถึงเวลา refactor; Chinese models หลายตัวมี API compatible กับ OpenAI schema ซึ่งทำให้ migration cost ต่ำกว่าที่คิด โดยเฉพาะสำหรับ workload ที่ไม่ต้องการ cutting-edge reasoning
+**อาจารย์ (มหาวิทยาลัย):** การเปลี่ยนผ่านครั้งนี้เป็น case study คลาสสิกของ "founder transition" ที่ควรเรียนรู้ — การสร้างตำแหน่ง "Alphabet's Chief Scientist" เป็นกลไกที่ Alphabet ใช้รักษา founder vision ไว้ในองค์กรขนาดใหญ่โดยไม่ขัดขวาง execution ใน operational layer; เปรียบได้กับ Steve Jobs กลับสู่บทบาท product visionary ที่ Apple
+**ผู้เชี่ยวชาญด้าน AI:** Koray Kavukcuoglu เป็นสถาปนิกของ Gemini architecture จริงๆ — การขึ้นมานำ DeepMind อย่างเป็นทางการน่าจะหมายถึง product velocity ที่เพิ่มขึ้น; Hassabis ในบทบาท "Alphabet's Chief Scientist" มี leverage เหนือ AI strategy ทั้งองค์กร ซึ่งอาจมีอำนาจมากกว่าการเป็น CEO ของ unit เดียว
+**โปรแกรมเมอร์มืออาชีพ:** ในทางปฏิบัติ ควรเริ่มติดตาม Kavukcuoglu แทน Hassabis สำหรับ Gemini API technical roadmap; Jeff Dean's departure ลบ institutional memory สำคัญออกจาก Google Research — ควรจับตาว่า research priorities จะ shift อย่างไรในไตรมาสถัดไป
 
-## 2. AI Is Replacing HR Tasks Across Corporate America
+## 2. Anthropic ประกาศสร้างทีมออกแบบชิป AI ของตัวเอง
 
-**อาจารย์ (มหาวิทยาลัย):** 85% automation ของ recruitment screening ภายใน 2 ปีคือตัวเลขที่ต้องนำไปสอนในหลักสูตร Labor Economics และ Business ทันที — ไม่ใช่แค่เพิ่ม AI elective แต่คือการถามว่า value proposition ของ HR degree กำลังเปลี่ยนไปเป็นอะไร และสถาบันการศึกษาจะตอบสนองยังไง
-**ผู้เชี่ยวชาญด้าน AI:** การ automate HR ไม่ได้แปลว่าตัดคนออกทั้งหมด แต่ ratio ของ HR staff ต่อพนักงานทั้งหมดกำลังลดลง — งานที่เหลืออยู่จะเป็น judgment-heavy ที่ต้องการ domain expertise ควบคู่กับ AI literacy; ควรเตือนว่า AI screening ที่ไม่ได้รับการ audit อาจสร้าง bias ที่ขยายตัว
-**โปรแกรมเมอร์มืออาชีพ:** HR automation คือ market ที่กำลัง mature อย่างรวดเร็ว — จุดที่ยัง underserved คือ explainability ของ screening decisions เพราะ employer ต้องการ audit trail ทางกฎหมายมากกว่า black-box score; compliance layer นี้คือ moat ที่สร้างได้จริง
+**อาจารย์ (มหาวิทยาลัย):** นี่คือตัวอย่างของ vertical integration strategy ในยุค AI — เหมือน Apple ที่ควบคุม silicon เพื่อ competitive advantage ที่คู่แข่งไม่สามารถ replicate ได้ง่ายๆ ผ่าน software อย่างเดียว; ควรใช้เป็น case study เรื่อง make-vs-buy decision ใน technology strategy
+**ผู้เชี่ยวชาญด้าน AI:** จุดสำคัญคือ "co-design" ระหว่างชิปและโมเดลพร้อมกัน ซึ่งต่างจากการ optimize โมเดลให้รันบน off-the-shelf GPU — ถ้าทำได้จริง efficiency gain จะมากกว่า software optimization อย่างมีนัยสำคัญ; Samsung partnership จะเป็นตัวกำหนดว่า timeline ความพร้อมจะเป็นอย่างไร
+**โปรแกรมเมอร์มืออาชีพ:** ผลที่คาดได้ในระยะกลาง (2–3 ปี) คือ inference cost ของ Claude ที่ถูกลงและ latency ที่น้อยลง ซึ่งดีสำหรับ high-volume use cases; ระหว่างนี้ Anthropic ยังคงใช้ AWS, Google, NVIDIA และ AMD ควบคู่กัน ไม่มี disruption ต่อ Claude API ในระยะสั้น
 
-## 3. Nvidia, Dell Back AI Cloud Startup Volta at $2.4 Billion Value
+## 3. White House ยกเว้น Chinese Open-Weight AI จากกรอบทดสอบความปลอดภัยของสหรัฐฯ
 
-**อาจารย์ (มหาวิทยาลัย):** Volta model เป็น example ที่น่าสนใจของ financial engineering ในวงการ AI infrastructure — การ securitize compute access คล้าย REIT ในอสังหาริมทรัพย์; นักศึกษาด้านการเงินควรศึกษาว่า $5B debt financing ที่ back ด้วย $10B contract มี risk profile ยังไงในช่วง AI capex cycle
-**ผู้เชี่ยวชาญด้าน AI:** การที่ Anthropic lock compute ล่วงหน้า 6 ปีคือสัญญาณที่แข็งแกร่งว่า team infrastructure ของพวกเขามั่นใจใน demand growth ระยะยาว — $10B ใน 6 ปีเท่ากับ ~$1.67B/ปีซึ่งสูงกว่า run rate ปัจจุบันอย่างมาก หมายความว่าพวกเขาคาด scale ขึ้นอย่างมีนัยสำคัญจนถึงปี 2032
-**โปรแกรมเมอร์มืออาชีพ:** Volta เป็น alternative ที่น่าจับตาเพราะ backing จาก Nvidia (chip maker) และ Dell (hardware OEM) — ถ้า Anthropic เป็นลูกค้าหลัก Volta น่าจะ optimize infrastructure สำหรับ Claude workload โดยเฉพาะ; ราคาและ SLA ที่ออกมาน่าจะแข่งได้กับ AWS/Azure
+**อาจารย์ (มหาวิทยาลัย):** การตัดสินใจนี้สะท้อนความตึงเครียดระหว่าง innovation policy และ national security — การยกเว้น open-weight models สร้าง regulatory blind spot ที่สำคัญและอาจส่งผลระยะยาวต่อ AI governance framework ทั่วโลก ควรเป็น case study เรื่อง regulatory trade-offs
+**ผู้เชี่ยวชาญด้าน AI:** ปัญหาหลักคือ open-weight models สามารถ fine-tune ได้ต่างกันมากขึ้นอยู่กับเจตนา — safety evaluation ควรดูที่ capability ceiling ไม่ใช่แค่ base weights; นโยบายนี้ทำให้รัฐบาลขาดข้อมูลสำคัญในการ track ว่า Chinese AI capabilities อยู่ที่ระดับไหนจริงๆ เมื่อ Z.ai's GLM-5.2 อยู่ห่างจาก frontier US models เพียงไม่กี่เดือน
+**โปรแกรมเมอร์มืออาชีพ:** ในทางปฏิบัติ นโยบายนี้หมายความว่า Chinese open-weight models (GLM, Qwen, DeepSeek ฯลฯ) ยังคงเป็น option ที่ถูกกฎหมายสำหรับ commercial use ในสหรัฐฯ โดยไม่มี compliance barrier เพิ่มเติม — ยังคุ้มค่าที่จะ benchmark cost/performance ต่อไป
 
-## 4. Apple Says More Ex-Employees May Have Taken Confidential Data to OpenAI
+## 4. Yann LeCun ร่วมก่อตั้ง 224 Ventures กองทุน AI ระยะเริ่มต้นมูลค่า $100M+
 
-**อาจารย์ (มหาวิทยาลัย):** คดีนี้คือ case study ที่ดีสำหรับ IP law และ talent mobility ใน tech industry — นักศึกษากฎหมายและ business ethics ควรวิเคราะห์ว่า preliminary injunction ที่ Apple ขอมีนัยยะอะไรต่อ competitive dynamics ใน AI ecosystem ถ้าสำเร็จ
-**ผู้เชี่ยวชาญด้าน AI:** io (บริษัท device ของ Jony Ive ที่เชื่อมกับ OpenAI) อยู่ใน scope การสอบสวนด้วย — ถ้า Apple ได้ injunction หยุด OpenAI/io จาก device development จะ delay Apple AI device roadmap ของ Sam Altman อย่างมีนัยสำคัญและกระทบ timeline ทั้ง agentic hardware sector
-**โปรแกรมเมอร์มืออาชีพ:** บทเรียนปฏิบัติจากคดีนี้คือ screenshots และ files ใดๆ เกี่ยวกับ unreleased product ถือเป็น trade secret ไม่ว่าจะเก็บไว้ที่ไหน — review exit policy และ data handling ของตัวเองก่อนออกจาก company ที่มี IP สำคัญ โดยเฉพาะถ้าย้ายไป AI company
+**อาจารย์ (มหาวิทยาลัย):** การที่นักวิจัยระดับ frontier เปลี่ยน role มาเป็น capital allocator คือสัญญาณที่น่าสนใจ — พวกเขามักเห็น research gap ที่ market ยังไม่ address และใช้เงินเพื่อ fund research direction ที่พวกเขาเชื่อ; ควรวิเคราะห์ว่า "godfather" ของ deep learning เชื่อในทิศทางไหน
+**ผู้เชี่ยวชาญด้าน AI:** LeCun ยังคงยืนยัน "world model" architecture เป็นทางไปข้างหน้า ต่างจากกระแสหลัก LLM — ดังนั้นบริษัทที่ 224 Ventures เลือกจะสะท้อน thesis นั้น และเป็น signal ที่ดีสำหรับ embodied AI, robotics และ foundation models ที่ไม่ใช่ transformer-only
+**โปรแกรมเมอร์มืออาชีพ:** สำหรับ startup founders ใน early-stage AI — การมี LeCun และ Vinyals (Gemini co-lead) ใน cap table เป็น credibility signal ที่แข็งแกร่งมากสำหรับ downstream fundraising; จับตาบริษัทแรกที่ 224 Ventures เปิดเผยใน portfolio
 
-## 5. NAB Tests AI Agents in Plan to Deploy Tech to Banking Customers
+## 5. Shopify: AI Search ช่วยขยายตลาด ไม่ใช่กิน Google
 
-**อาจารย์ (มหาวิทยาลัย):** NAB case นี้เป็น early signal ของ agentic AI adoption ใน regulated financial services — นักศึกษา FinTech และ RegTech ควรวิเคราะห์ว่า challenges ที่ NAB ระบุ (security guardrails, what agents can and cannot do) สะท้อน regulatory requirements ใน banking sector ยังไง
-**ผู้เชี่ยวชาญด้าน AI:** อุปสรรคหลักของ agentic AI ใน banking ไม่ใช่เรื่องโมเดล แต่เป็น authorization framework — "agent ทำอะไรได้แทนลูกค้าได้บ้าง?" ต้องมี explicit consent model, reversibility mechanism, และ audit trail ที่ regulators ยอมรับ; ปัจจุบันยังไม่มี standard ที่ชัดเจนและ NAB กำลัง explore นี้เป็นรายแรก
-**โปรแกรมเมอร์มืออาชีพ:** NAB ranking 34th ใน global bank AI maturity index แต่เป็น early mover ใน agentic banking สำหรับ Asia-Pacific — ถ้า build fintech tools สำหรับภูมิภาคนี้จะมี demand ชัดเจนสำหรับ agentic interface, consent management, และ audit logging ระดับ bank-grade
+**อาจารย์ (มหาวิทยาลัย):** ข้อมูล Q2 ของ Shopify เป็นหลักฐานเชิงประจักษ์ที่พิสูจน์ "complement vs. substitute" theory ของ platform markets — ควรใช้เป็น data point ในการสอนเรื่อง market expansion เทียบกับ market substitution ในยุค AI
+**ผู้เชี่ยวชาญด้าน AI:** ตัวเลข "75% นอก top 100 categories" เป็น signal สำคัญว่า AI search unlock latent demand — products ที่ keyword-based search ค้นหาได้ยาก แต่ conversational AI เข้าใจ intent ได้; นี่คือ fundamental advantage ที่ยาก replicate ด้วย SEO แบบเดิม
+**โปรแกรมเมอร์มืออาชีพ:** ลงทุนใน AI discoverability ตอนนี้: structured data (schema.org), llms.txt, conversational product descriptions ที่ตอบ intent แทน keyword — ก่อนที่จะกลายเป็น commodity เหมือน SEO ในทศวรรษที่แล้ว; new buyer rate ที่ 2x จาก AI channels คือ business case ที่ชัดเจน
