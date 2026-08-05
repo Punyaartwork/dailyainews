@@ -1,59 +1,56 @@
-# Sources — 2026-08-04
+# Sources — 2026-08-05
 
-Generated: 2026-08-04 (Asia/Bangkok)
+Generated: 2026-08-05 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-08-03-brief.md (5 URLs loaded)
+Dedup against: articles/2026-08-04-brief.md (5 URLs loaded)
 
-1. **China's AI Blitz Creates 'Death Zone' for Rival US Model Makers**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-08-04/china-s-ai-blitz-creates-death-zone-for-rival-us-model-makers
-   - Published: August 4, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-08-04/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different URL from yesterday's Alibaba-specific article /alibaba-drops-another-china-ai-model-...)
+1. **Google DeepMind's Hassabis Moves to Chairman Role in Leadership Reshuffle**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-08-05/google-deepmind-boss-hassabis-moves-to-chair-role-in-shakeup
+   - Published: 2026-08-05
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-08-05/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from all August 4 Bloomberg articles)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: A cascade of Chinese AI model launches (Alibaba Qwen3.8-Max, Moonshot AI Kimi K3, ByteDance Seedance 2.5, DeepSeek V4 Flash) is narrowing the gap with US AI labs across reasoning, coding, and complex tasks. Bloomberg describes this as a "death zone" for rivals without frontier capability or pricing moats; US chip sanctions appear insufficient to slow China's AI progress.
+   - Summary: Demis Hassabis steps down as CEO of Google DeepMind to become Chairman and Alphabet's Chief Scientist (new title); Koray Kavukcuoglu becomes SVP of DeepMind; Jeff Dean departs to launch a startup.
 
-2. **AI Is Replacing HR Tasks Across Corporate America**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-08-04/ai-is-replacing-hr-tasks-across-corporate-america
-   - Published: August 4, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-08-04/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new topic)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: At an HR conference of 20,000 attendees in Orlando, SHRM's president warned that "the livelihoods of 6.7 million people globally who practice HR are in danger." SHRM data projects 85% of recruitment screening and 90% of benefits administration will be automated between 2025–2027; 62% of organizations already deploying AI somewhere.
-
-3. **Nvidia, Dell Back AI Cloud Startup Volta at $2.4 Billion Value**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-08-04/nvidia-dell-back-ai-cloud-startup-volta-at-2-4-billion-value
-   - Published: August 4, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-08-04/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new company, new story)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: Volta Infra Holdings raised $300M in venture funding (co-led by a16z and Altimeter) plus $5B in debt financing, valued at $2.4B, with Nvidia and Michael Dell participating. Bloomberg identified the undisclosed $10B, 6-year cloud computing contract as Anthropic.
-
-4. **Apple Says More Ex-Employees May Have Taken Confidential Data to OpenAI**
+2. **Anthropic is hiring an AI chip design team**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/
-   - Published: August 4, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026/08/04/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new court filing, new development)
+   - URL: https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/
+   - Published: 2026-08-05
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/08/05/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (different path from yesterday's TechCrunch Apple article)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: Apple's expanded trade secrets investigation named 11 additional former employees beyond the original defendants; seeking a preliminary injunction to stop OpenAI from developing AI devices using Apple IP. Court filing cited screenshots of confidential Apple product documents taken before OpenAI job interviews, and multiple former Apple employees contacting Apple to return retained work devices.
+   - Summary: Anthropic building in-house silicon team to co-design custom AI chips and Claude models; seeking semiconductor engineers at salaries up to $485,000; Samsung scouted as potential manufacturing partner.
 
-5. **NAB Tests AI Agents in Plan to Deploy Tech to Banking Customers**
-   - Publisher: Bloomberg Technology
-   - URL: https://www.bloomberg.com/news/articles/2026-08-04/nab-tests-ai-agents-in-plan-to-deploy-tech-to-banking-customers
-   - Published: August 4, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug /2026-08-04/
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new company, new sector)
+3. **China's Open-Weight Models to Be Spared US Tests, US Firms Told**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-08-05/china-s-open-weight-models-to-be-spared-us-tests-us-firms-told
+   - Published: 2026-08-05
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-08-05/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story, no related URL in August 4 set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: National Australia Bank's technology chief announced plans to test security and operational guardrails of an agentic AI platform, aiming to let AI agents interact with bank systems on behalf of customers. NAB is currently using agentic AI for internal operations; this is the first time NAB has publicly outlined these plans.
+   - Summary: White House exempts Chinese open-weight AI models from Trump administration's safety testing framework; decision communicated at a closed-door Washington meeting with OpenAI, Anthropic, and Google. Chinese models (GLM-5.2) are described as only months behind US frontier models in key capability benchmarks.
+
+4. **Yann LeCun Joins New AI Investing Firm 224 Ventures**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-08-05/yann-lecun-joins-new-ai-investing-firm-224-ventures
+   - Published: 2026-08-05
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026-08-05/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Former Meta Chief AI Scientist joins 224 Ventures alongside Google DeepMind's Oriol Vinyals (Gemini technical co-lead); fund launches with $100M+ AUM; $1–5M check sizes targeting early-stage foundation models, infrastructure, robotics, and enterprise AI.
+
+5. **Shopify says AI search is driving more traffic and sales, not replacing Google**
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/
+   - Published: 2026-08-05
+   - FreshnessCheck: ✅ within last 24h via URL slug /2026/08/05/
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (new story)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Shopify Q2 2026 revenue $3.6B (+34% YoY); AI-driven traffic and orders tripled YoY; 75% of AI purchases outside top 100 categories; new buyer order rates from AI channels twice that of traditional channels; AI described as complement to Google search, not replacement.
 
 ## Dropped
-- https://openai.com/index/chatgpt-for-academic-researchers/ — Filter A (>24h): published July 29–30, 2026, more than 24h before August 4
-- https://x.ai/news/grok-voice-think-fast-2 — Filter A (>24h): published July 29, 2026; also x.ai not on trusted-sources.md
-- https://www.blognone.com/node/151180 — Filter A (>24h): EU-Google Android AI order from July 16–17, 2026
-- https://www.bloomberg.com/news/articles/2026-08-03/alibaba-drops-another-china-ai-model-with-breakthrough-performance — Filter B (dedup): same URL covered in 2026-08-03 brief
+- https://www.bloomberg.com/news/articles/2026-08-04/amd-sales-outlook-disappoints-investors-after-ai-fueled-rally — Filter A: URL slug /2026-08-04/ is yesterday, outside rolling 24h window
 
-> Note: 5 items passed both filters this run. Of ~9 candidates evaluated, 3 failed Filter A (>24h old), 1 failed Filter B (in yesterday's brief). No Thai-language source with a verified August 4, 2026 timestamp found — all Blognone articles in search results predate August 4. Mix: 4 Bloomberg, 1 TechCrunch (all international).
+> Note: 5 items passed both filters this run. Of ~9 candidates evaluated, 1 failed Filter A (AMD story, dated August 4). No candidates failed Filter B — all August 5 URLs are distinct from yesterday's 5 URLs. No Thai-language source with a verified August 5, 2026 timestamp confirmed in search results; mix is 3 Bloomberg + 2 TechCrunch (all international).
