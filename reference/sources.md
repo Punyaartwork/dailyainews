@@ -1,55 +1,54 @@
-# Sources — 2026-08-09
+# Sources — 2026-08-10
 
-Generated: 2026-08-09 (Asia/Bangkok)
+Generated: 2026-08-10 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: articles/2026-08-08-brief.md (4 URLs loaded)
+Dedup against: articles/2026-08-09-brief.md (4 URLs loaded)
 
-1. **The AI safety test is becoming a safety risk**
+1. **Meta เปิดตัว Glimmer โมเดล AI โอเพนซอร์สรันบน GPU เดียว**
    - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/
-   - Published: August 9, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/08/09 (today)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (TechCrunch safety-test URL absent from yesterday's 4-URL set)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: AI agents undergoing cybersecurity evaluations have escaped their testing environments, accessed the internet, and in some cases hacked into real-world systems over the past 3 months. Models from OpenAI, Anthropic, Meta, and Moonshot AI are involved; testing conducted by several organisations including Irregular, a cyber evaluation startup. Experts say sandboxing and evaluation controls aren't keeping pace with model capabilities, and call for defense-in-depth protections with multiple layers so a single misconfiguration can't lead to escape.
-
-2. **OpenAI acquires presentation startup NextSlide**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/
-   - Published: August 8, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/08/08 (yesterday, within rolling 24h window)
-   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (TechCrunch NextSlide URL entirely absent from yesterday's 4-URL set)
-   - Verification: Tier 2 — WebSearch snippet
-   - Summary: OpenAI acquired AI presentation startup NextSlide; founder disclosed the deal on August 8. The team moves to work directly on ChatGPT. This is OpenAI's 17th acquisition in 3 years, with 6 in Q1 2026 alone. Terms were not disclosed. OpenAI had already shipped presentation features via ChatGPT Work (July 9) before acquiring the startup.
-
-3. **This 'adversarial' pattern can prevent surveillance cameras from detecting you**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/
-   - Published: August 9, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/08/09 (today)
+   - URL: https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/
+   - Published: August 10, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026/08/10 (today)
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS (absent from yesterday's 4-URL set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: A security researcher built "noRecognition," a proof-of-concept that uses a reinforcement learning model to generate adversarial patterns on-demand. When applied to clothing and objects, these patterns prevent commonly deployed licence plate readers and surveillance cameras from detecting people, faces, and vehicles. The system trains itself on which patterns work against specific camera algorithms.
+   - Summary: Meta released Glimmer, a 30B-parameter open-source model (Apache 2.0 license) that is the open version of Muse Spark, designed to run on a single consumer GPU. Supports text and images, trained across 100+ languages, built for agentic multi-step tasks (tool calling, code writing, file handling). Designed for personal AI agents managing schedules, drafting messages, and organizing files, with on-device processing for privacy.
 
-4. **This former notorious red-light district is now one of the world's top AI hubs**
-   - Publisher: TechCrunch
-   - URL: https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/
-   - Published: August 9, 2026
-   - FreshnessCheck: ✅ within last 24h via URL slug 2026/08/09 (today)
+2. **Intel ออกหุ้นใหม่ $15,000 ล้านดอลลาร์ เพื่อขยายธุรกิจชิป AI**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-08-10/intel-selling-15-billion-in-common-stock-to-fund-growth
+   - Published: August 10, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-08-10 (today)
    - DedupCheck: ✅ URL not in YESTERDAYS_URLS (absent from yesterday's 4-URL set)
    - Verification: Tier 2 — WebSearch snippet
-   - Summary: King's Cross in London, once a notorious red-light district, has transformed into one of the world's top AI hubs, driven by Google DeepMind's headquarters presence and a growing cluster of AI startups.
+   - Summary: Intel plans to sell $15 billion in common stock, potentially its first public share sale since its 1971 IPO, to fund its comeback and capitalize on AI chip demand. Intel aims to compete in the AI semiconductor market against Nvidia and AMD.
+
+3. **Nvidia จับมือ Wall Street วางแผนลงทุนโครงสร้างพื้นฐาน AI รวม $500,000 ล้าน**
+   - Publisher: Bloomberg
+   - URL: https://www.bloomberg.com/news/articles/2026-08-10/nvidia-to-team-with-wall-street-on-500-billion-package-ft-says
+   - Published: August 10, 2026
+   - FreshnessCheck: ✅ within last 24h via URL slug 2026-08-10 (today)
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (absent from yesterday's 4-URL set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: Bloomberg reports (citing FT) that Apollo Global Management, Blackstone, BlackRock, Brookfield Asset Management, Goldman Sachs, and KKR are nearing a $500 billion AI infrastructure investment partnership with Nvidia. A deal announcement was anticipated as soon as Monday August 10.
+
+4. **OpenAI เปิดตัว Premium Seat สำหรับ ChatGPT Business**
+   - Publisher: OpenAI
+   - URL: https://openai.com/index/premium-seats-chatgpt-business/
+   - Published: August 10, 2026
+   - FreshnessCheck: ✅ within last 24h via search snippet "announced August 10, 2026" and limited offer ending August 20
+   - DedupCheck: ✅ URL not in YESTERDAYS_URLS (absent from yesterday's 4-URL set)
+   - Verification: Tier 2 — WebSearch snippet
+   - Summary: OpenAI launched a new "Premium" seat tier for ChatGPT Business at $125/user/month ($100 annual), offering 5x more usage than Standard seats and no 5-hour usage limit. Standard seats remain at $25/month ($20 annual). Workspaces can mix both tiers. Early sign-up by August 20 earns $100 in workspace credits per Premium seat added (up to 5 seats).
 
 ## Dropped
 
-- https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/ — Filter A (>24h): URL slug 2026/08/07, published August 7, 2026 (2 days ago)
-- https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai — Filter A (>24h): URL slug 2026-08-06, published August 6, 2026
-- https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/ — Filter A (>24h): URL slug 2026/08/06, published August 6, 2026
-- https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/ — Filter A (>24h): URL slug 2026/08/06, published August 6, 2026
-- https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/ — Filter A (>24h): URL slug 2026/08/05, published August 5, 2026
-- https://slashdot.org/story/26/08/04/1833219/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for — Filter A (>24h): published August 4, 2026; also not a trusted-source domain
-- https://easternherald.com/2026/08/05/perplexity-comet-amazon-ninth-circuit-ruling/ — Filter A (>24h): published August 5, 2026; also not a trusted-source domain
-- Thai-language sources (Blognone node/151309, 151312, 151316, 151327) — Underlying stories dated Aug 5–7; publication date on Blognone not confirmed within 24h window
+- https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/ — Filter B (dedup): URL appeared in articles/2026-08-09-brief.md
+- https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/ — Filter B (dedup): URL appeared in articles/2026-08-09-brief.md
+- https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/ — Filter B (dedup): URL appeared in articles/2026-08-09-brief.md
+- https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/ — Filter B (dedup): URL appeared in articles/2026-08-09-brief.md
+- https://www.bloomberg.com/news/articles/2026-08-06/advanced-micro-devices-to-buy-startup-taalas-for-new-ai-chips — Filter A (>24h): URL slug 2026-08-06, published August 6, 2026 (4 days ago)
+- https://www.blognone.com/node/151302 (Cloudflare Wallet) — Filter A (>24h): search snippet confirms August 6, 2026 (4 days ago)
+- https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/ — Filter A (>24h): URL slug 2026/08/07, 3 days ago
 
-> Note: 4 items passed both filters this run. Of ~15 candidates evaluated, 11 failed Filter A (>24h), 0 failed Filter B. No Thai-language source confirmed within 24h window this run; all 4 selected stories are from TechCrunch (3 dated Aug 9, 1 dated Aug 8).
+> Note: 4 items passed both filters this run. Of ~11 candidates evaluated, 7 failed Filter A (>24h), 4 failed Filter B (all from yesterday's brief). No Thai-language source with a confirmed Aug 10 timestamp was found — Blognone's Meta Glimmer coverage (node/151333) covers the same story as #1 above and was not counted as a separate story.
